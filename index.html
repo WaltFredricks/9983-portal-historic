@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css">
+    <script src="https://cdn.jsdelivr.net/npm/steganography.js"></script>
 </head>
 <body>
     <!-- Splash Screen -->
@@ -15,7 +16,7 @@
         <div class="splash-content warning-text">
             <h1>Welcome to the 9983 Portal</h1>
             <p>
-                This system is protected under intergalactic law. Unauthorized access is strictly prohibited and will result in immediate action.
+                This system is protected under intergalactic law. Unauthorized access is strictly prohibited and will result in immediate vaporization.
             </p>
             <br />
             <button class="splash-button" id="enter-button">Enter</button>
@@ -24,7 +25,7 @@
 
     <!-- Big Red Floating Button (DEPLOY 44) -->
     <button id="deploy-button" style="display: none;" class="deploy-button">
-        <span>DEPLOY 44</span>
+        <span>DEPLOY 44te</span>
     </button>
 
     <!-- Status Window -->
@@ -67,10 +68,16 @@
             <form id="stego-form">
                 <label for="stego-password">Password:</label>
                 <input type="password" id="stego-password" class="form-control" required>
-                <label for="stego-message">Message:</label>
+                <br />
+                <br />
+                <label for="stego-message">Message:</label>               
                 <textarea id="stego-message" class="form-control" rows="3" required></textarea>
+                <br />
+                <br />
                 <label for="stego-upload">Upload Image:</label>
                 <input type="file" id="stego-upload" class="form-control" accept="image/*" required>
+                <br />
+                <br />
                 <button type="button" id="encrypt-button" class="btn btn-success">Encrypt & Save</button>
                 <button type="button" id="decrypt-button" class="btn btn-warning">Decrypt</button>
             </form>
@@ -200,5 +207,6 @@
             ircWindow.scrollTop = ircWindow.scrollHeight;
         }
     </script>
+
 </body>
 </html>
