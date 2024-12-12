@@ -167,7 +167,7 @@
         }).addTo(map);
 
         // Fetch locations from locs.json and add them to the map
-        fetch('./locs.json')
+        fetch('https://waltfredricks.github.io/locs.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
