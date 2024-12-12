@@ -2,33 +2,99 @@
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <script>
-        L_NO_TOUCH = false;
-        L_DISABLE_3D = false;
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splash Screen</title>
     <style>
+        /* General Reset */
         html, body {
-            width: 100%;
-            height: 100%;
             margin: 0;
             padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
         }
 
+        /* Splash Screen Styling */
+        .splash-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: url('patriotic.webp') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .splash-content {
+            max-width: 80%;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+        }
+
+            .splash-content h1 {
+                font-size: 2.5em;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            .splash-content p {
+                font-size: 1.2em;
+                line-height: 1.5em;
+            }
+
+        .splash-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #ff0000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+
+            .splash-button:hover {
+                background-color: #cc0000;
+            }
+
         #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
+            display: none; /* Hidden until the splash screen is dismissed */
+            width: 100%;
+            height: 100%;
         }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splash">
+        <div class="splash-content">
+            <h1>Intergalactic Warning</h1>
+            <p>
+                This system is protected by the Intergalactic Treaty of 2137. Unauthorized access, misuse, or tampering with this system
+                constitutes a violation of intergalactic law and will be met with severe consequences.
+            </p>
+            <button class="splash-button" onclick="dismissSplash()">Acknowledge</button>
+        </div>
+    </div>
+
+    <!-- Map (Hidden by default) -->
     <div id="map"></div>
+
     <script>
-        // Initialize the map and set view to a default location
+        // Dismiss the splash screen and show the map
+        function dismissSplash() {
+            document.getElementById('splash').style.display = 'none';
+            document.getElementById('map').style.display = 'block';
+        }
+
+        // Initialize the map when splash screen is dismissed
         var map = L.map('map').setView([39.8283, -98.5795], 5);
 
         // Adding OpenStreetMap tiles
@@ -36,53 +102,6 @@
             attribution: 'Octal Security Inc.',
             maxZoom: 18
         }).addTo(map);
-
-        // Define custom icons for different POI types
-        function getCustomIcon(type) {
-            let iconUrl;
-            switch (type) {
-                case "army":
-                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/42c949ce277ff0c3b6b24416935b117c.png'; // Army icon (Rifle)
-                    break;
-                case "police":
-                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/c90d3b2ec235df2ab47e9c5d6a01e069.png'; // Police icon (Shield)
-                    break;
-                case "native":
-                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/4da4933bf240621a4ccc60fde8faf75c.png'; // Native American icon (poi)
-                    break;
-                default:
-                    iconUrl = 'https://cdn-icons-png.flaticon.com/512/149/149060.png'; // Default
-            }
-
-            return L.icon({
-                iconUrl: iconUrl,
-                iconSize: [16, 16], // Icon size in pixels
-                iconAnchor: [8, 16], // Anchor the icon at its base
-                popupAnchor: [0, -32] // Offset for the popup
-            });
-        }
-
-        // Fetch locations from locs.json and add them to the map
-        fetch('\locs.json')
-            .then(response => response.json())
-            .then(locations => {
-                // Iterate over each location and add a styled marker to the map
-                locations.forEach(function (loc) {
-                    const customIcon = getCustomIcon(loc.type);
-
-                    // Add marker with custom icon
-                    const marker = L.marker([loc.lat, loc.lon], { icon: customIcon }).addTo(map);
-
-                    // Bind popup with location details
-                    marker.bindPopup(`
-                            <div style="font-size: 14px;">
-                                <strong>${loc.name}</strong><br>
-                                ${loc.address}
-                            </div>
-                        `);
-                });
-            })
-            .catch(error => console.error('Error loading locations:', error));
     </script>
 </body>
 </html>
