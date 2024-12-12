@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,11 +12,12 @@
 <body>
     <!-- Splash Screen -->
     <div class="splash-screen" id="splash">
-        <div class="splash-content">
+        <div class="splash-content warning-text">
             <h1>Welcome to the 9983 Portal</h1>
             <p>
                 This system is protected under intergalactic law. Unauthorized access is strictly prohibited and will result in immediate action.
             </p>
+                <br />
             <button class="splash-button" id="enter-button">Enter</button>
         </div>
     </div>
@@ -40,7 +41,7 @@
                 <label for="stego-password">Password:</label>
                 <input type="password" id="stego-password" class="form-control" required>
                 <label for="stego-message">Message:</label>
-                <textarea id="stego-message" class="form-control" rows="3" required></textarea>a
+                <textarea id="stego-message" class="form-control" rows="3" required></textarea>
                 <label for="stego-upload">Upload Image:</label>
                 <input type="file" id="stego-upload" class="form-control" accept="image/*" required>
                 <button type="button" id="encrypt-button" class="btn btn-success">Encrypt & Save</button>

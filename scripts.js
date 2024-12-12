@@ -29,7 +29,6 @@ fetch('https://waltfredricks.github.io/locs.json')
     .then(locations => {
         const bounds = [];
         locations.forEach(loc => {
-            // Choose the appropriate icon based on the type field
             let icon;
             switch (loc.type.toLowerCase()) {
                 case 'army':
@@ -42,16 +41,15 @@ fetch('https://waltfredricks.github.io/locs.json')
                     icon = createIcon('https://home.army.mil/imcom/cache/thumbnails/4da4933bf240621a4ccc60fde8faf75c.png'); // Native icon
                     break;
                 default:
-                    icon = L.icon({ // Default Leaflet marker
+                    icon = L.icon({
                         iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
-                        iconSize: [25, 41],
-                        iconAnchor: [12, 41],
+                        iconSize: [16, 16],
+                        iconAnchor: [8, 8],
                         popupAnchor: [1, -34],
                         shadowSize: [41, 41]
                     });
             }
 
-            // Add marker with custom icon
             const marker = L.marker([loc.lat, loc.lon], { icon: icon }).addTo(map);
             marker.bindPopup(`
                 <div style="font-size: 14px;">
@@ -69,189 +67,53 @@ fetch('https://waltfredricks.github.io/locs.json')
     })
     .catch(error => console.error('Error fetching locations:', error));
 
-// Show the modal
-function showModal() {
+// Event Listeners for buttons
+document.getElementById('enter-button').addEventListener('click', dismissSplash);
+document.getElementById('flowchart-button').addEventListener('click', toggleFlowchartModal);
+document.getElementById('backstory-button').addEventListener('click', toggleBackstoryModal);
+document.getElementById('stego-button').addEventListener('click', toggleStegoModal);
+
+// Toggle Modal Functionality
+function toggleFlowchartModal() {
     const modal = document.getElementById('modal');
-    const modalImage = document.getElementById('modal-image');
-
-    modalImage.src = './org.png';
-    modalImage.onerror = () => {
-        modalImage.alt = 'Image not available';
-    };
-
-    if (modal) {
-        modal.style.display = 'flex';
+    if (modal.style.display === 'flex') {
+        modal.style.display = 'none'; // Close if open
+    } else {
+        modal.style.display = 'flex'; // Open if closed
+        document.getElementById('modal-image').src = './org.png';
     }
 }
 
-// Hide the modal
-function hideModal() {
+function toggleBackstoryModal() {
     const modal = document.getElementById('modal');
-    if (modal) {
-        modal.style.display = 'none';
+    if (modal.style.display === 'flex') {
+        modal.style.display = 'none'; // Close if open
+    } else {
+        modal.style.display = 'flex'; // Open if closed
+        document.getElementById('modal-image').src = './backstory.png';
     }
 }
 
-// Dismiss the splash screen
+function toggleStegoModal() {
+    const modal = document.getElementById('stego-modal');
+    if (modal.style.display === 'flex') {
+        modal.style.display = 'none'; // Close if open
+    } else {
+        modal.style.display = 'flex'; // Open if closed
+    }
+}
+
+// Close Modal on Click (outside the modal)
+document.querySelectorAll('.modal-close').forEach(closeButton => {
+    closeButton.addEventListener('click', function () {
+        const modal = closeButton.closest('.modal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+
+// Dismiss splash screen
 function dismissSplash() {
-    const splash = document.getElementById('splash');
-    if (splash) {
-        splash.style.display = 'none';
-    }
+    document.getElementById('splash').style.display = 'none';
 }
-
-// Show the Organizational Flowchart modal
-function showFlowchartModal() {
-    const modal = document.getElementById('modal');
-    const modalImage = document.getElementById('modal-image');
-
-    modalImage.src = './org.png';
-    modalImage.onerror = () => {
-        modalImage.alt = 'Image not available';
-    };
-
-    if (modal) {
-        modal.style.display = 'flex';
-    }
-}
-
-// Show the Operational Backstory modal
-function showBackstoryModal() {
-    const modal = document.getElementById('modal');
-    const modalImage = document.getElementById('modal-image');
-
-    modalImage.src = './backstory.png';
-    modalImage.onerror = () => {
-        modalImage.alt = 'Image not available';
-    };
-
-    if (modal) {
-        modal.style.display = 'flex';
-    }
-}
-
-// Show the Steganography modal
-function showStegoModal() {
-    const stegoModal = document.getElementById('stego-modal');
-    if (stegoModal) {
-        stegoModal.style.display = 'flex';
-    }
-}
-
-// Hide the Steganography modal
-function hideStegoModal() {
-    const stegoModal = document.getElementById('stego-modal');
-    if (stegoModal) {
-        stegoModal.style.display = 'none';
-    }
-}
-
-// Steganography: Encrypt and Save
-function encryptStego() {
-    const password = document.getElementById('stego-password').value;
-    const message = document.getElementById('stego-message').value;
-    const fileInput = document.getElementById('stego-upload');
-    const file = fileInput.files[0];
-
-    if (!file || !password || !message) {
-        alert('Please fill in all fields and upload an image.');
-        return;
-    }
-
-    const reader = new FileReader();
-    reader.onload = () => {
-        const img = new Image();
-        img.onload = () => {
-            const canvas = document.createElement('canvas');
-            canvas.width = img.width;
-            canvas.height = img.height;
-            const ctx = canvas.getContext('2d');
-            ctx.drawImage(img, 0, 0);
-
-            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-            const encryptedMessage = CryptoJS.AES.encrypt(message, password).toString();
-
-            try {
-                encodeMessageInImage(imageData, encryptedMessage);
-                ctx.putImageData(imageData, 0, 0);
-                const link = document.createElement('a');
-                link.download = 'encoded_image.png';
-                link.href = canvas.toDataURL('image/png');
-                link.click();
-            } catch (err) {
-                alert(`Error: ${err.message}`);
-            }
-        };
-        img.src = reader.result;
-    };
-    reader.readAsDataURL(file);
-}
-
-// Steganography: Decrypt
-function decryptStego() {
-    const password = document.getElementById('stego-password').value;
-    const fileInput = document.getElementById('stego-upload');
-    const file = fileInput.files[0];
-
-    if (!file || !password) {
-        alert('Please upload an image and enter the password.');
-        return;
-    }
-
-    const reader = new FileReader();
-    reader.onload = () => {
-        const img = new Image();
-        img.onload = () => {
-            const canvas = document.createElement('canvas');
-            canvas.width = img.width;
-            canvas.height = img.height;
-            const ctx = canvas.getContext('2d');
-            ctx.drawImage(img, 0, 0);
-
-            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-            const encryptedMessage = decodeMessageFromImage(imageData);
-            const decryptedMessage = CryptoJS.AES.decrypt(encryptedMessage, password).toString(CryptoJS.enc.Utf8);
-
-            if (decryptedMessage) {
-                alert(`Decrypted Message: ${decryptedMessage}`);
-            } else {
-                alert('Incorrect password or no message found.');
-            }
-        };
-        img.src = reader.result;
-    };
-    reader.readAsDataURL(file);
-}
-
-// Utility to encode a message in image data
-function encodeMessageInImage(imageData, message) {
-    const binaryMessage = Array.from(message)
-        .map(char => char.charCodeAt(0).toString(2).padStart(8, '0'))
-        .join('');
-    if (binaryMessage.length > imageData.data.length / 4) {
-        throw new Error('Message is too long to encode in this image.');
-    }
-
-    for (let i = 0; i < binaryMessage.length; i++) {
-        const byteIndex = i * 4;
-        imageData.data[byteIndex] = (imageData.data[byteIndex] & ~1) | parseInt(binaryMessage[i]);
-    }
-}
-
-// Utility to decode a message from image data
-function decodeMessageFromImage(imageData) {
-    const binaryMessage = [];
-    for (let i = 0; i < imageData.data.length; i += 4) {
-        binaryMessage.push(imageData.data[i] & 1);
-    }
-
-    const binaryChunks = binaryMessage.join('').match(/.{1,8}/g);
-    return binaryChunks.map(chunk => String.fromCharCode(parseInt(chunk, 2))).join('').replace(/\0/g, '');
-}
-
-// Event Listeners
-document.querySelector('.splash-button').addEventListener('click', dismissSplash);
-document.querySelector('.modal-close').addEventListener('click', hideModal);
-document.getElementById('stego-button').addEventListener('click', showStegoModal);
-document.getElementById('encrypt-button').addEventListener('click', encryptStego);
-document.getElementById('decrypt-button').addEventListener('click', decryptStego);
