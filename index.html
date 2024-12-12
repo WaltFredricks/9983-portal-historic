@@ -19,6 +19,60 @@
             height: 100%;
         }
 
+        /* Splash Screen Styling */
+        .splash-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('./patriotic.webp') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+
+        .splash-content {
+            max-width: 80%;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+        }
+
+            .splash-content h1 {
+                font-size: 2.5em;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            .splash-content p {
+                font-size: 1.2em;
+                line-height: 1.5em;
+            }
+
+        .splash-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #ff0000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+
+            .splash-button:hover {
+                background-color: #cc0000;
+            }
+
         /* Modal Styling */
         .modal {
             display: none;
@@ -35,22 +89,23 @@
 
         .modal-content {
             position: relative;
-            max-width: 80%;
-            max-height: 80%;
+            width: 80%; /* Constrain the modal width */
+            height: 80%; /* Constrain the modal height */
             background: white;
             padding: 10px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            overflow: hidden; /* Ensures content doesn't overflow */
+            overflow: hidden; /* Prevent content overflow */
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
             .modal-content img {
-                max-width: 100%;
-                max-height: 100%;
-                object-fit: contain; /* Ensures the image fits within the modal without distortion */
+                width: 100%; /* Image width adapts to modal width */
+                height: auto; /* Preserve aspect ratio */
+                max-height: 100%; /* Ensure it doesn't exceed modal height */
+                object-fit: contain; /* Ensure image fits within modal without distortion */
                 display: block;
             }
 
@@ -79,6 +134,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splash">
+        <div class="splash-content">
+            <h1>Welcome to the 9983 Portal</h1>
+            <p>
+                This system is protected under intergalactic law. Unauthorized access is strictly prohibited and will result in immediate action.
+            </p>
+            <button class="splash-button" onclick="dismissSplash()">Enter</button>
+        </div>
+    </div>
+
     <!-- Map -->
     <div id="map"></div>
 
@@ -134,6 +200,14 @@
             const modal = document.getElementById('modal');
             if (modal) {
                 modal.style.display = 'none';
+            }
+        }
+
+        // Dismiss the splash screen
+        function dismissSplash() {
+            const splash = document.getElementById('splash');
+            if (splash) {
+                splash.style.display = 'none';
             }
         }
     </script>
