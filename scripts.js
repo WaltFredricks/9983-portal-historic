@@ -115,19 +115,28 @@ document.querySelectorAll('.modal-close').forEach(closeButton => {
 
 // Dismiss splash screen
 function dismissSplash() {
-    document.getElementById('splash').style.display = 'none';
+    
+    const splash = document.getElementById('splash');
+    if (splash) splash.style.display = 'none';
+    
 }
 // Event listener for the "OK" button on the splash screen
 document.getElementById('enter-button').addEventListener('click', function () {
     // Hide the splash screen
-    document.getElementById('splash').style.display = 'none';
+    
+    const splash = document.getElementById('splash');
+    if (splash) splash.style.display = 'none';
+    
 
     // Show the "DEPLOY 44" button
     document.getElementById('deploy-button').style.display = 'block';
 });
 
 // Handle the "DEPLOY 44" button click (deploy weapon or trigger action)
-document.getElementById('deploy-button').addEventListener('click', function () {
+
+    const deployButton = document.getElementById('deploy-button');
+    if (deployButton) deployButton.addEventListener('click', function () {
+    
     alert("Deploying 44te... SLA 2 hour. Current ETA 33min!");
     // Here you can add the actual deployment logic or an animation
 });
