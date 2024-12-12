@@ -89,23 +89,23 @@
 
         .modal-content {
             position: relative;
-            width: 80%; /* Constrain the modal width */
-            height: 80%; /* Constrain the modal height */
+            width: 80%;
+            height: 80%;
             background: white;
             padding: 10px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            overflow: hidden; /* Prevent content overflow */
+            overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
             .modal-content img {
-                width: 100%; /* Image width adapts to modal width */
-                height: auto; /* Preserve aspect ratio */
-                max-height: 100%; /* Ensure it doesn't exceed modal height */
-                object-fit: contain; /* Ensure image fits within modal without distortion */
+                width: 100%;
+                height: auto;
+                max-height: 100%;
+                object-fit: contain;
                 display: block;
             }
 
@@ -152,13 +152,13 @@
     <div class="modal" id="modal">
         <div class="modal-content">
             <span class="modal-close" onclick="hideModal()">&times;</span>
-            <img src="./org.png" alt="Organizational Flowchart" />
+            <img id="modal-image" src="" alt="Organizational Flowchart" />
         </div>
     </div>
 
     <script>
         // Initialize the map
-        var map = L.map('map').setView([39.8283, -98.5795], 5);
+        var map = L.map('map');
 
         // Adding OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -175,6 +175,7 @@
                 return response.json();
             })
             .then(locations => {
+                const bounds = [];
                 locations.forEach(loc => {
                     const marker = L.marker([loc.lat, loc.lon]).addTo(map);
                     marker.bindPopup(`
@@ -183,13 +184,26 @@
                                 ${loc.address}
                             </div>
                         `);
+                    bounds.push([loc.lat, loc.lon]);
                 });
+                if (bounds.length) {
+                    map.fitBounds(bounds);
+                } else {
+                    map.setView([39.8283, -98.5795], 5); // Default view
+                }
             })
             .catch(error => console.error('Error fetching locations:', error));
 
         // Show the modal
         function showModal() {
             const modal = document.getElementById('modal');
+            const modalImage = document.getElementById('modal-image');
+
+            modalImage.src = './org.png';
+            modalImage.onerror = () => {
+                modalImage.alt = 'Image not available';
+            };
+
             if (modal) {
                 modal.style.display = 'flex';
             }

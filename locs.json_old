@@ -1,4 +1,4 @@
-[{
+﻿{
   "name": "Fort Novosel",
   "address": "6000 Novosel Street, Fort Novosel, AL",
   "lat": 31.3595,
@@ -406,4 +406,4 @@
             { "name": "Ysleta del Sur Pueblo", "address": "Texas", "lat": 29.5230, "lon": -98.1750, "type": "native" },
             { "name": "Yurok Reservation", "address": "California", "lat": 41.7390, "lon": -124.0170, "type": "native" },
             { "name": "Zia Pueblo", "address": "New Mexico", "lat": 35.1400, "lon": -106.3060, "type": "native" },
-            { "name": "Zuni Reservation", "address": "Arizona, New Mexico", "lat": 35.2300, "lon": -108.57, "type": "native" }]
+            { "name": "Zuni Reservation", "address": "Arizona, New Mexico", "lat": 35.2300, "lon": -108.57, "type": "native" }
