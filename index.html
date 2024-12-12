@@ -89,17 +89,61 @@
         </div>
     </div>
 
+    <!-- New Modal for AI Report Builder -->
+    <div class="modal" id="ai-report-modal">
+        <div class="modal-content">
+            <span class="modal-close" role="button" aria-label="Close Modal">&times;</span>
+            <h4>AI Report Builder</h4>
+            <form id="ai-report-form">
+                <label for="report-name">Name:</label>
+                <input type="text" id="report-name" placeholder="Full Name" required><br>
+
+                <label for="report-dob">Date of Birth:</label>
+                <input type="date" id="report-dob" required><br>
+
+                <label for="report-eye-color">Eye Color:</label>
+                <input type="text" id="report-eye-color" placeholder="Eye Color" required><br>
+
+                <label for="report-hair-color">Hair Color:</label>
+                <input type="text" id="report-hair-color" placeholder="Hair Color" required><br>
+
+                <label for="report-height">Height:</label>
+                <input type="text" id="report-height" placeholder="Height (e.g., 6ft)" required><br>
+
+                <label for="report-weight">Weight:</label>
+                <input type="text" id="report-weight" placeholder="Weight (e.g., 180 lbs)" required><br>
+
+                <label for="report-address">Address:</label>
+                <textarea id="report-address" placeholder="Full Address" rows="3" required></textarea><br>
+
+                <label for="report-summary">Incident Summary:</label>
+                <textarea id="report-summary" placeholder="Brief summary of the incident" rows="5" required></textarea><br>
+
+                <label for="report-notes">Additional Notes:</label>
+                <textarea id="report-notes" placeholder="Any additional notes or observations" rows="5"></textarea><br>
+
+                <button type="submit" id="submit-report">Generate Report</button>
+            </form>
+        </div>
+    </div>
+
     <!-- Floating Buttons -->
     <button class="floating-button" id="flowchart-button" style="right: 20px; bottom: 120px;">Organizational Flowchart</button>
     <button class="floating-button backstory-button" id="backstory-button" style="right: 20px; bottom: 60px;">Operational Backstory</button>
     <button class="floating-button stego-button" id="stego-button" style="right: 20px; bottom: 180px;">Image Steganography</button>
     <button class="floating-button" id="chat-button" style="right: 20px; bottom: 240px;">Chat Interface</button>
+    <button class="floating-button" id="sdr-button" style="right: 20px; bottom: 300px;">Redhawk SDR</button>
+    <button class="floating-button" id="ai-report-button" style="right: 20px; bottom: 360px;">AI Report Builder</button>
 
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="./scripts.js" defer></script>
     <script>
         document.getElementById('chat-button').addEventListener('click', () => {
             document.getElementById('chat-modal').style.display = 'block';
+        });
+
+        document.getElementById('ai-report-button').addEventListener('click', () => {
+            document.getElementById('ai-report-modal').style.display = 'block';
         });
 
         document.querySelectorAll('.modal-close').forEach(button => {
