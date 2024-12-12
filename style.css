@@ -187,7 +187,7 @@ body, html {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    width: 80%; /* Within the modal's right constraint */
+    /*width: 80%;  Within the modal's right constraint */
     max-width: 400px;
 }
 
