@@ -130,7 +130,128 @@ function showBackstoryModal() {
     }
 }
 
+// Show the Steganography modal
+function showStegoModal() {
+    const stegoModal = document.getElementById('stego-modal');
+    if (stegoModal) {
+        stegoModal.style.display = 'flex';
+    }
+}
+
+// Hide the Steganography modal
+function hideStegoModal() {
+    const stegoModal = document.getElementById('stego-modal');
+    if (stegoModal) {
+        stegoModal.style.display = 'none';
+    }
+}
+
+// Steganography: Encrypt and Save
+function encryptStego() {
+    const password = document.getElementById('stego-password').value;
+    const message = document.getElementById('stego-message').value;
+    const fileInput = document.getElementById('stego-upload');
+    const file = fileInput.files[0];
+
+    if (!file || !password || !message) {
+        alert('Please fill in all fields and upload an image.');
+        return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = () => {
+        const img = new Image();
+        img.onload = () => {
+            const canvas = document.createElement('canvas');
+            canvas.width = img.width;
+            canvas.height = img.height;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0);
+
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const encryptedMessage = CryptoJS.AES.encrypt(message, password).toString();
+
+            try {
+                encodeMessageInImage(imageData, encryptedMessage);
+                ctx.putImageData(imageData, 0, 0);
+                const link = document.createElement('a');
+                link.download = 'encoded_image.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            } catch (err) {
+                alert(`Error: ${err.message}`);
+            }
+        };
+        img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+}
+
+// Steganography: Decrypt
+function decryptStego() {
+    const password = document.getElementById('stego-password').value;
+    const fileInput = document.getElementById('stego-upload');
+    const file = fileInput.files[0];
+
+    if (!file || !password) {
+        alert('Please upload an image and enter the password.');
+        return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = () => {
+        const img = new Image();
+        img.onload = () => {
+            const canvas = document.createElement('canvas');
+            canvas.width = img.width;
+            canvas.height = img.height;
+            const ctx = canvas.getContext('2d');
+            ctx.drawImage(img, 0, 0);
+
+            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const encryptedMessage = decodeMessageFromImage(imageData);
+            const decryptedMessage = CryptoJS.AES.decrypt(encryptedMessage, password).toString(CryptoJS.enc.Utf8);
+
+            if (decryptedMessage) {
+                alert(`Decrypted Message: ${decryptedMessage}`);
+            } else {
+                alert('Incorrect password or no message found.');
+            }
+        };
+        img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+}
+
+// Utility to encode a message in image data
+function encodeMessageInImage(imageData, message) {
+    const binaryMessage = Array.from(message)
+        .map(char => char.charCodeAt(0).toString(2).padStart(8, '0'))
+        .join('');
+    if (binaryMessage.length > imageData.data.length / 4) {
+        throw new Error('Message is too long to encode in this image.');
+    }
+
+    for (let i = 0; i < binaryMessage.length; i++) {
+        const byteIndex = i * 4;
+        imageData.data[byteIndex] = (imageData.data[byteIndex] & ~1) | parseInt(binaryMessage[i]);
+    }
+}
+
+// Utility to decode a message from image data
+function decodeMessageFromImage(imageData) {
+    const binaryMessage = [];
+    for (let i = 0; i < imageData.data.length; i += 4) {
+        binaryMessage.push(imageData.data[i] & 1);
+    }
+
+    const binaryChunks = binaryMessage.join('').match(/.{1,8}/g);
+    return binaryChunks.map(chunk => String.fromCharCode(parseInt(chunk, 2))).join('').replace(/\0/g, '');
+}
 
 // Event Listeners
 document.querySelector('.splash-button').addEventListener('click', dismissSplash);
 document.querySelector('.modal-close').addEventListener('click', hideModal);
+document.getElementById('stego-button').addEventListener('click', showStegoModal);
+document.getElementById('encrypt-button').addEventListener('click', encryptStego);
+document.getElementById('decrypt-button').addEventListener('click', decryptStego);
