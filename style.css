@@ -176,7 +176,7 @@ body, html {
     right: 33%;
     width: 33%;  /* Constrained to the right third of the screen */
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    /*background: rgba(0, 0, 0, 0.8);*/
     justify-content: center;
     align-items: center;
     z-index: 1100;
