@@ -1,10 +1,4 @@
-﻿{
-  "name": "Fort Novosel",
-  "address": "6000 Novosel Street, Fort Novosel, AL",
-  "lat": 31.3595,
-  "lon": -85.6779,
-  "type": "army"
-},
+﻿            {  "name": "Fort Novosel",  "address": "6000 Novosel Street, Fort Novosel, AL",  "lat": 31.3595,  "lon": -85.6779,  "type": "army"},
             { "name": "Fort Wainwright", "address": "1060 Gaffney Road, Fort Wainwright, AK", "lat": 64.845, "lon": -147.727, "type": "army" },
             { "name": "Fort Huachuca", "address": "2837 Boyd Avenue, Fort Huachuca, AZ", "lat": 31.6022, "lon": -110.3433, "type": "army" },
             { "name": "Fort Chaffee", "address": "Building 1370, Fort Chaffee, AR 72905", "lat": 35.4136, "lon": -94.0938, "type": "army" },
