@@ -29,9 +29,9 @@ fetch('https://waltfredricks.github.io/locs.json')
     .then(locations => {
         const bounds = [];
         locations.forEach(loc => {
-            // Choose the appropriate icon based on the entity type
+            // Choose the appropriate icon based on the type field
             let icon;
-            switch (loc.entity.toLowerCase()) {
+            switch (loc.type.toLowerCase()) {
                 case 'army':
                     icon = createIcon('https://home.army.mil/imcom/cache/thumbnails/42c949ce277ff0c3b6b24416935b117c.png'); // Army icon
                     break;
