@@ -21,7 +21,7 @@
             align-items: center;
             width: 100%;
             height: 100%;
-            background: url('patriotic.webp') no-repeat center center;
+            background: url('./patriotic.webp') no-repeat center center;
             background-size: cover;
             text-align: center;
             color: white;
@@ -70,6 +70,8 @@
             height: 100%;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
 </head>
 <body>
     <!-- Splash Screen -->
@@ -92,16 +94,17 @@
         function dismissSplash() {
             document.getElementById('splash').style.display = 'none';
             document.getElementById('map').style.display = 'block';
+
+            try {
+                var map = L.map('map').setView([39.8283, -98.5795], 5);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: 'Octal Security Inc.',
+                    maxZoom: 18
+                }).addTo(map);
+            } catch (error) {
+                console.error('Error initializing the map:', error);
+            }
         }
-
-        // Initialize the map when splash screen is dismissed
-        var map = L.map('map').setView([39.8283, -98.5795], 5);
-
-        // Adding OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: 'Octal Security Inc.',
-            maxZoom: 18
-        }).addTo(map);
     </script>
 </body>
 </html>
