@@ -443,27 +443,47 @@
             { "name": "Zuni Reservation", "address": "Arizona, New Mexico", "lat": 35.2300, "lon": -108.57, "type": "native" }
         ];
 
-        // Function to determine marker color based on type
-        function getIconColor(type) {
+        // Define custom icons for different POI types
+        function getCustomIcon(type) {
+            let iconUrl;
             switch (type) {
-                case "army": return 'green';
-                case "police": return 'blue';
-                case "native": return 'yellow';
-                default: return 'red';
+                case "army":
+                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/42c949ce277ff0c3b6b24416935b117c.png'; // Army icon (Rifle)
+                    break;
+                case "police":
+                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/c90d3b2ec235df2ab47e9c5d6a01e069.png'; // Police icon (Shield)
+                    break;
+                case "native":
+                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/4da4933bf240621a4ccc60fde8faf75c.png'; // Native American icon (poi)
+                    break;
+                default:
+                    iconUrl = 'https://cdn-icons-png.flaticon.com/512/149/149060.png'; // Default 
             }
+
+            return L.icon({
+                iconUrl: iconUrl,
+                iconSize: [16, 16], // Icon size in pixels
+                iconAnchor: [8, 16], // Anchor the icon at its base
+                popupAnchor: [0, -32] // Offset for the popup
+            });
         }
 
-        // Iterate over each location and add a marker to the map
+        // Iterate over each location and add a styled marker to the map
         locations.forEach(function (loc) {
-            var iconColor = getIconColor(loc.type);
-            var marker = L.marker([loc.lat, loc.lon], {
-                icon: L.divIcon({
-                    className: 'custom-icon',
-                    html: `<div style="background-color:${iconColor}; width:15px; height:15px; border-radius:50%; border: 1px solid #fff;"></div>`
-                })
-            }).addTo(map);
-            marker.bindPopup(`<b>${loc.name}</b><br>${loc.address}`);
+            const customIcon = getCustomIcon(loc.type);
+
+            // Add marker with custom icon
+            const marker = L.marker([loc.lat, loc.lon], { icon: customIcon }).addTo(map);
+
+            // Bind popup with location details
+            marker.bindPopup(`
+        <div style="font-size: 14px;">
+            <strong>${loc.name}</strong><br>
+            ${loc.address}
+        </div>
+    `);
         });
+
     </script>
 </body>
 </html>
