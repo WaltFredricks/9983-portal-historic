@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Splash Screen with Map, JSON, and Floating Button</title>
+    <title>Map with Organizational Flowchart</title>
     <style>
         /* General Reset */
         html, body {
@@ -14,85 +14,10 @@
             font-family: 'Arial', sans-serif;
         }
 
-        /* Splash Screen Styling */
-        .splash-screen {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: url('./patriotic.webp') no-repeat center center;
-            background-size: cover;
-            text-align: center;
-            color: white;
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
-            z-index: 1000;
-        }
-
-        .splash-content {
-            max-width: 80%;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            border: 2px solid #ffffff;
-            border-radius: 10px;
-        }
-
-            .splash-content h1 {
-                font-size: 2.5em;
-                margin-bottom: 10px;
-                text-transform: uppercase;
-            }
-
-            .splash-content p {
-                font-size: 1.2em;
-                line-height: 1.5em;
-            }
-
-        .splash-button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            color: white;
-            background-color: #ff0000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-transform: uppercase;
-            transition: background-color 0.3s;
-        }
-
-            .splash-button:hover {
-                background-color: #cc0000;
-            }
-
         #map {
             width: 100%;
             height: 100%;
         }
-
-        /* Floating Button */
-        .floating-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            color: white;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s;
-            z-index: 1002; /* Ensure visibility above other elements */
-        }
-
-            .floating-button:hover {
-                background-color: #0056b3;
-            }
 
         /* Modal Styling */
         .modal {
@@ -105,7 +30,7 @@
             background: rgba(0, 0, 0, 0.8);
             justify-content: center;
             align-items: center;
-            z-index: 1001;
+            z-index: 1000;
         }
 
         .modal-content {
@@ -150,23 +75,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
 </head>
 <body>
-    <!-- Splash Screen -->
-    <div class="splash-screen" id="splash">
-        <div class="splash-content">
-            <h1>Intergalactic Warning</h1>
-            <p>
-                This system is protected by the Intergalactic Treaty of 2137. Unauthorized access, misuse, or tampering with this system
-                constitutes a violation of intergalactic law and will be met with severe consequences.
-            </p>
-            <button class="splash-button" onclick="dismissSplash()">Acknowledge</button>
-        </div>
-    </div>
-
     <!-- Map -->
     <div id="map"></div>
-
-    <!-- Floating Button -->
-    <button class="floating-button" onclick="showModal()">Organizational Flowchart</button>
 
     <!-- Modal -->
     <div class="modal" id="modal">
@@ -182,7 +92,7 @@
 
         // Adding OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: 'Octal Security Inc.',
+            attribution: 'Octal Security Inc. | <a href="#" onclick="showModal()" style="color: blue; text-decoration: underline;">Organizational Flowchart</a>',
             maxZoom: 18
         }).addTo(map);
 
@@ -206,14 +116,6 @@
                 });
             })
             .catch(error => console.error('Error fetching locations:', error));
-
-        // Dismiss the splash screen
-        function dismissSplash() {
-            const splash = document.getElementById('splash');
-            if (splash) {
-                splash.style.display = 'none';
-            }
-        }
 
         // Show the modal
         function showModal() {
