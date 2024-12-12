@@ -3,134 +3,10 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="9983 Portal - Secure System" />
     <title>9983 Portal</title>
-    <style>
-        /* General Reset */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            font-family: 'Arial', sans-serif;
-        }
-
-        #map {
-            width: 100%;
-            height: 100%;
-        }
-
-        /* Splash Screen Styling */
-        .splash-screen {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: url('./patriotic.webp') no-repeat center center;
-            background-size: cover;
-            text-align: center;
-            color: white;
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
-            z-index: 1000;
-        }
-
-        .splash-content {
-            max-width: 80%;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            border: 2px solid #ffffff;
-            border-radius: 10px;
-        }
-
-            .splash-content h1 {
-                font-size: 2.5em;
-                margin-bottom: 10px;
-                text-transform: uppercase;
-            }
-
-            .splash-content p {
-                font-size: 1.2em;
-                line-height: 1.5em;
-            }
-
-        .splash-button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1em;
-            color: white;
-            background-color: #ff0000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-transform: uppercase;
-            transition: background-color 0.3s;
-        }
-
-            .splash-button:hover {
-                background-color: #cc0000;
-            }
-
-        /* Modal Styling */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        .modal-content {
-            position: relative;
-            width: 80%;
-            height: 80%;
-            background: white;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-            .modal-content img {
-                width: 100%;
-                height: auto;
-                max-height: 100%;
-                object-fit: contain;
-                display: block;
-            }
-
-        .modal-close {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #333;
-            cursor: pointer;
-            background: #fff;
-            border: 1px solid #ccc;
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            line-height: 30px;
-        }
-
-            .modal-close:hover {
-                background: #ccc;
-            }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
 </head>
 <body>
@@ -141,7 +17,7 @@
             <p>
                 This system is protected under intergalactic law. Unauthorized access is strictly prohibited and will result in immediate action.
             </p>
-            <button class="splash-button" onclick="dismissSplash()">Enter</button>
+            <button class="splash-button">Enter</button>
         </div>
     </div>
 
@@ -151,79 +27,12 @@
     <!-- Modal -->
     <div class="modal" id="modal">
         <div class="modal-content">
-            <span class="modal-close" onclick="hideModal()">&times;</span>
+            <span class="modal-close" role="button" aria-label="Close Modal">&times;</span>
             <img id="modal-image" src="" alt="Organizational Flowchart" />
         </div>
     </div>
 
-    <script>
-        // Initialize the map
-        var map = L.map('map');
-
-        // Adding OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: 'Octal Security Inc. | <a href="#" onclick="showModal()" style="color: blue; text-decoration: underline;">Organizational Flowchart</a>',
-            maxZoom: 18
-        }).addTo(map);
-
-        // Fetch locations from locs.json and add them to the map
-        fetch('https://waltfredricks.github.io/locs.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(locations => {
-                const bounds = [];
-                locations.forEach(loc => {
-                    const marker = L.marker([loc.lat, loc.lon]).addTo(map);
-                    marker.bindPopup(`
-                            <div style="font-size: 14px;">
-                                <strong>${loc.name}</strong><br>
-                                ${loc.address}
-                            </div>
-                        `);
-                    bounds.push([loc.lat, loc.lon]);
-                });
-                if (bounds.length) {
-                    map.fitBounds(bounds);
-                } else {
-                    map.setView([39.8283, -98.5795], 5); // Default view
-                }
-            })
-            .catch(error => console.error('Error fetching locations:', error));
-
-        // Show the modal
-        function showModal() {
-            const modal = document.getElementById('modal');
-            const modalImage = document.getElementById('modal-image');
-
-            modalImage.src = './org.png';
-            modalImage.onerror = () => {
-                modalImage.alt = 'Image not available';
-            };
-
-            if (modal) {
-                modal.style.display = 'flex';
-            }
-        }
-
-        // Hide the modal
-        function hideModal() {
-            const modal = document.getElementById('modal');
-            if (modal) {
-                modal.style.display = 'none';
-            }
-        }
-
-        // Dismiss the splash screen
-        function dismissSplash() {
-            const splash = document.getElementById('splash');
-            if (splash) {
-                splash.style.display = 'none';
-            }
-        }
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="scripts.js" defer></script>
 </body>
 </html>

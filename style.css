@@ -1,0 +1,129 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Shared Styles */
+.border-rounded {
+    border-radius: 10px;
+}
+
+/* Splash Screen Styling */
+.splash-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./patriotic.webp') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.splash-content {
+    max-width: 80%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #ffffff;
+    @apply border-rounded;
+}
+
+    .splash-content h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .splash-content p {
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+.splash-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    @apply border-rounded;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+    .splash-button:hover {
+        background-color: #cc0000;
+    }
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background: white;
+    padding: 10px;
+    @apply border-rounded;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .modal-content img {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #ccc;
+    @apply border-rounded;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+    .modal-close:hover {
+        background: #ccc;
+    }
+
+#map {
+    width: 100%;
+    height: 100%;
+}
