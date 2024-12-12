@@ -130,3 +130,36 @@ html, body {
     position: relative; /* Default stacking context for the map */
     z-index: 0; /* Lower than modal */
 }
+/* Floating Button Styles */
+.floating-button {
+    position: fixed;
+    right: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: #007bff; /* Pretty blue */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 2000; /* Ensures it floats above other elements */
+}
+
+    /* Hover effect for buttons */
+    .floating-button:hover {
+        background-color: #0056b3; /* Darker blue for hover */
+    }
+
+/* Positioning the second button */
+.backstory-button {
+    bottom: 90px; /* Adjust to stack above the first button */
+}
+
+.floating-button:not(.backstory-button) {
+    bottom: 20px; /* Default position for the first button */
+}

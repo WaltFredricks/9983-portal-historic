@@ -34,5 +34,16 @@
 
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="scripts.js" defer></script>
+
+    <div id="map"></div>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="hideModal()">&times;</span>
+            <img id="modal-image" src="" alt="Organizational Flowchart" />
+        </div>
+    </div>
+    <button class="floating-button" onclick="showFlowchartModal()">Organizational Flowchart</button>
+    <button class="floating-button backstory-button" onclick="showBackstoryModal()">Operational Backstory</button>
+
 </body>
 </html>

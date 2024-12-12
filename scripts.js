@@ -100,6 +100,37 @@ function dismissSplash() {
     }
 }
 
+// Show the Organizational Flowchart modal
+function showFlowchartModal() {
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modal-image');
+
+    modalImage.src = './org.png';
+    modalImage.onerror = () => {
+        modalImage.alt = 'Image not available';
+    };
+
+    if (modal) {
+        modal.style.display = 'flex';
+    }
+}
+
+// Show the Operational Backstory modal
+function showBackstoryModal() {
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modal-image');
+
+    modalImage.src = './backstory.png';
+    modalImage.onerror = () => {
+        modalImage.alt = 'Image not available';
+    };
+
+    if (modal) {
+        modal.style.display = 'flex';
+    }
+}
+
+
 // Event Listeners
 document.querySelector('.splash-button').addEventListener('click', dismissSplash);
 document.querySelector('.modal-close').addEventListener('click', hideModal);
