@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Splash Screen with Map</title>
+    <title>Splash Screen with Map, JSON, and Floating Button</title>
     <style>
         /* General Reset */
         html, body {
@@ -72,6 +72,78 @@
             width: 100%;
             height: 100%;
         }
+
+        /* Floating Button */
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+
+            .floating-button:hover {
+                background-color: #0056b3;
+            }
+
+        /* Modal Styling */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+        }
+
+        .modal-content {
+            position: relative;
+            max-width: 80%;
+            max-height: 80%;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+            .modal-content img {
+                max-width: 100%;
+                max-height: 100%;
+                display: block;
+                margin: auto;
+            }
+
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+            .modal-close:hover {
+                background: #ccc;
+            }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
@@ -92,6 +164,17 @@
     <!-- Map -->
     <div id="map"></div>
 
+    <!-- Floating Button -->
+    <button class="floating-button" onclick="showModal()">Organizational Flowchart</button>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="hideModal()">&times;</span>
+            <img src="./org.png" alt="Organizational Flowchart" />
+        </div>
+    </div>
+
     <script>
         // Initialize the map
         var map = L.map('map').setView([39.8283, -98.5795], 5);
@@ -102,11 +185,48 @@
             maxZoom: 18
         }).addTo(map);
 
+        // Fetch locations from locs.json and add them to the map
+        fetch('./locs.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(locations => {
+                locations.forEach(loc => {
+                    const marker = L.marker([loc.lat, loc.lon]).addTo(map);
+                    marker.bindPopup(`
+                            <div style="font-size: 14px;">
+                                <strong>${loc.name}</strong><br>
+                                ${loc.address}
+                            </div>
+                        `);
+                });
+            })
+            .catch(error => console.error('Error fetching locations:', error));
+
         // Dismiss the splash screen
         function dismissSplash() {
             const splash = document.getElementById('splash');
             if (splash) {
                 splash.style.display = 'none';
+            }
+        }
+
+        // Show the modal
+        function showModal() {
+            const modal = document.getElementById('modal');
+            if (modal) {
+                modal.style.display = 'flex';
+            }
+        }
+
+        // Hide the modal
+        function hideModal() {
+            const modal = document.getElementById('modal');
+            if (modal) {
+                modal.style.display = 'none';
             }
         }
     </script>
