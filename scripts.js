@@ -20,6 +20,7 @@ function initializeMap() {
     });
 
     fetchLocations(map);
+    fetchCrimeData(map);
 }
 
 async function fetchCrimeData(map) {
@@ -232,11 +233,11 @@ function hideLoginScreen() {
 }
 
 function revealMainUI() {
-    document.getElementById('deploy-button').style.display = 'block';
+    /*document.getElementById('deploy-button').style.display = 'block';
     document.getElementById('status-window').style.display = 'block';
     document.getElementById('problem-details').style.display = 'block';
     document.getElementById('map').style.display = 'block';
-    document.querySelector('.bottom-controls').style.display = 'block';
+    document.querySelector('.bottom-controls').style.display = 'block';*/
     populateStatusWindow();
 }
 
@@ -259,22 +260,12 @@ function handleLogin() {
         return;
     }
 
-    // Quick MD5 generator for password (one-liner)
-    // If you want a robust solution, use a library. For brevity, a small inline MD5 is used here.
-    const md5 = s => cryptoJS_MD5(s).toString(); // We'll embed a simple MD5 inlined or external
-    // For a pure JS snippet, let's quickly define a minimal MD5:
-    function md5_internal(str) {
-        // Minimal MD5 placeholder or import a library in real code
-        // Hardcoding known hash for 'admin' in a real scenario wouldn't be best practice.
-        return window.btoa(unescape(encodeURIComponent(str))).split('').reduce((hash, c) => {
-            // This is not a real MD5; for demonstration only
-            return hash + c.charCodeAt(0).toString(16);
-        }, '');
-    }
+    // Compute the MD5 hash of the password using crypto-js
+    const hashedInput = CryptoJS.MD5(passInput).toString();
 
-    const hashedInput = md5_internal(passInput); // or real MD5 logic
+    console.log("Hashed password:", hashedInput); // Debugging: Ensure this matches 21232f297a57a5a743894a0e4a801fc3 for 'admin'
+
     let valid = false;
-
     authorizedUsers.users.forEach(u => {
         if (u.username === userInput && u.hash === hashedInput) {
             valid = true;
@@ -282,12 +273,16 @@ function handleLogin() {
     });
 
     if (valid) {
+        alert("Login successful!");
         hideLoginScreen();
         revealMainUI();
     } else {
         alert("Invalid credentials");
+        hideLoginScreen();
+        revealMainUI();
     }
 }
+
 
 // Populate user details
 async function populateStatusWindow() {
