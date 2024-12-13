@@ -1,0 +1,9164 @@
+[
+  {
+    "Year": 2023,
+    "AgencyCode": "AKAST0100",
+    "AgencyName": "Alaska State Troopers",
+    "Type": "State Police",
+    "State": "AK",
+    "Latitude": 58.301944,
+    "Longitude": -134.419722
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AKAST0100",
+    "AgencyName": "Alaska State Troopers",
+    "Type": "State Police",
+    "State": "AK",
+    "Latitude": 58.301944,
+    "Longitude": -134.419722
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0010100",
+    "AgencyName": "Bessemer",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.401778,
+    "Longitude": -86.954444
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0010600",
+    "AgencyName": "Leeds",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.548445,
+    "Longitude": -86.544385
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0011000",
+    "AgencyName": "Homewood",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.471778,
+    "Longitude": -86.8
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0011100",
+    "AgencyName": "Fultondale",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.604,
+    "Longitude": -86.794444
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0020200",
+    "AgencyName": "Prichard",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 30.739833,
+    "Longitude": -88.078887
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0030000",
+    "AgencyName": "Montgomery",
+    "Type": "County",
+    "State": "AL",
+    "Latitude": 32.366805,
+    "Longitude": -86.299968
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0070200",
+    "AgencyName": "Brent",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 32.936236,
+    "Longitude": -87.164718
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0080000",
+    "AgencyName": "Blount",
+    "Type": "County",
+    "State": "AL",
+    "Latitude": 33.977807,
+    "Longitude": -86.567906
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0080100",
+    "AgencyName": "Oneonta",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.948715,
+    "Longitude": -86.473321
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0190200",
+    "AgencyName": "Enterprise",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 31.31517,
+    "Longitude": -85.85522
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0250100",
+    "AgencyName": "Cullman",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 34.17482,
+    "Longitude": -86.843612
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0260100",
+    "AgencyName": "Ozark",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 31.459873,
+    "Longitude": -85.640359
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0300100",
+    "AgencyName": "Atmore",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 31.023301,
+    "Longitude": -87.49336
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0370000",
+    "AgencyName": "Henry",
+    "Type": "County",
+    "State": "AL",
+    "Latitude": 31.511557,
+    "Longitude": -85.247291
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0380000",
+    "AgencyName": "Houston",
+    "Type": "County",
+    "State": "AL",
+    "Latitude": 31.15654,
+    "Longitude": -85.355009
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0380100",
+    "AgencyName": "Dothan",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 31.223231,
+    "Longitude": -85.390488
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0430200",
+    "AgencyName": "Opelika",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 32.645411,
+    "Longitude": -85.378279
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0440100",
+    "AgencyName": "Athens",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 34.802867,
+    "Longitude": -86.971674
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0520600",
+    "AgencyName": "Somerville",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 34.471209,
+    "Longitude": -86.8025
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0580100",
+    "AgencyName": "Pell City",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.586779,
+    "Longitude": -86.286922
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0590100",
+    "AgencyName": "Calera",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.102896,
+    "Longitude": -86.753599
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0630100",
+    "AgencyName": "Tuscaloosa",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.209841,
+    "Longitude": -87.569173
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0630100",
+    "AgencyName": "Tuscaloosa",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.209841,
+    "Longitude": -87.569173
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AL0630200",
+    "AgencyName": "Northport",
+    "Type": "City",
+    "State": "AL",
+    "Latitude": 33.225663,
+    "Longitude": -87.57722
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0040000",
+    "AgencyName": "Benton",
+    "Type": "County",
+    "State": "AR",
+    "Latitude": 36.372854,
+    "Longitude": -94.208817
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0041300",
+    "AgencyName": "Centerton",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 36.359513,
+    "Longitude": -94.284379
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0180000",
+    "AgencyName": "Crittenden",
+    "Type": "County",
+    "State": "AR",
+    "Latitude": 35.217556,
+    "Longitude": -90.308068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0460000",
+    "AgencyName": "Miller",
+    "Type": "County",
+    "State": "AR",
+    "Latitude": 33.333208,
+    "Longitude": -93.86553
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0600300",
+    "AgencyName": "North Little Rock",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 34.769536,
+    "Longitude": -92.267094
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0600400",
+    "AgencyName": "Sherwood",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 34.815091,
+    "Longitude": -92.224315
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0700100",
+    "AgencyName": "El Dorado",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 33.207633,
+    "Longitude": -92.666267
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0720200",
+    "AgencyName": "Springdale",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 36.186744,
+    "Longitude": -94.128814
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0730100",
+    "AgencyName": "Searcy",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 35.246819,
+    "Longitude": -91.733679
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AR0730100",
+    "AgencyName": "Searcy",
+    "Type": "City",
+    "State": "AR",
+    "Latitude": 35.246819,
+    "Longitude": -91.733679
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0020000",
+    "AgencyName": "Cochise",
+    "Type": "County",
+    "State": "AZ",
+    "Latitude": 31.835501,
+    "Longitude": -109.663481
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0021300",
+    "AgencyName": "Willcox",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 32.252945,
+    "Longitude": -109.832586
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0021300",
+    "AgencyName": "Willcox",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 32.252945,
+    "Longitude": -109.832586
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0040100",
+    "AgencyName": "Globe",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.395342,
+    "Longitude": -110.793227
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0040600",
+    "AgencyName": "Payson",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 34.230868,
+    "Longitude": -111.325136
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0070500",
+    "AgencyName": "Chandler",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.30616,
+    "Longitude": -111.84125
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0070700",
+    "AgencyName": "El Mirage",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.613672,
+    "Longitude": -112.324491
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0071300",
+    "AgencyName": "Glendale",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.538652,
+    "Longitude": -112.185986
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0071700",
+    "AgencyName": "Mesa",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.415184,
+    "Longitude": -111.831472
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0071F00",
+    "AgencyName": "Queen Creek",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.248663,
+    "Longitude": -111.633571
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0072100",
+    "AgencyName": "Peoria",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.5806,
+    "Longitude": -112.237378
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0072300",
+    "AgencyName": "Phoenix",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.448377,
+    "Longitude": -112.074037
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0072700",
+    "AgencyName": "Surprise",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.629233,
+    "Longitude": -112.367927
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0072900",
+    "AgencyName": "Tempe",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 33.42551,
+    "Longitude": -111.940005
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "AZ0100700",
+    "AgencyName": "Oro Valley",
+    "Type": "City",
+    "State": "AZ",
+    "Latitude": 32.390907,
+    "Longitude": -110.966489
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0010000",
+    "AgencyName": "Alameda",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.646294,
+    "Longitude": -121.892925
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0010100",
+    "AgencyName": "Alameda",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.765206,
+    "Longitude": -122.241635
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0010100",
+    "AgencyName": "Alameda",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.765206,
+    "Longitude": -122.241635
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0010600",
+    "AgencyName": "Hayward",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.66882,
+    "Longitude": -122.080796
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0010600",
+    "AgencyName": "Hayward",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.66882,
+    "Longitude": -122.080796
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0011400",
+    "AgencyName": "East Bay Regional Park District",
+    "Type": "Other",
+    "State": "CA",
+    "Latitude": 37.896477,
+    "Longitude": -122.10027
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0050000",
+    "AgencyName": "Calaveras",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 38.196222,
+    "Longitude": -120.68027
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070000",
+    "AgencyName": "Contra Costa",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.853409,
+    "Longitude": -121.901795
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070000",
+    "AgencyName": "Contra Costa",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.853409,
+    "Longitude": -121.901795
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070200",
+    "AgencyName": "Brentwood",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.931868,
+    "Longitude": -121.695786
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070600",
+    "AgencyName": "Hercules",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.017146,
+    "Longitude": -122.288578
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070700",
+    "AgencyName": "Pinole",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.004927,
+    "Longitude": -122.298025
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070800",
+    "AgencyName": "Pittsburg",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.028948,
+    "Longitude": -121.88468
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0070800",
+    "AgencyName": "Pittsburg",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.028948,
+    "Longitude": -121.88468
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0071000",
+    "AgencyName": "Richmond",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.935758,
+    "Longitude": -122.347748
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0090000",
+    "AgencyName": "El Dorado",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 38.742637,
+    "Longitude": -120.435763
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0090000",
+    "AgencyName": "El Dorado",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 38.742637,
+    "Longitude": -120.435763
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0090200",
+    "AgencyName": "South Lake Tahoe",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.933241,
+    "Longitude": -119.98435
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0100100",
+    "AgencyName": "Clovis",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.82523,
+    "Longitude": -119.702919
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0100500",
+    "AgencyName": "Fresno",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.737798,
+    "Longitude": -119.787125
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0100500",
+    "AgencyName": "Fresno",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.737798,
+    "Longitude": -119.787125
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0150200",
+    "AgencyName": "Bakersfield",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 35.373292,
+    "Longitude": -119.018712
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0150200",
+    "AgencyName": "Bakersfield",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 35.373292,
+    "Longitude": -119.018712
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0170000",
+    "AgencyName": "Lake",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 39.092575,
+    "Longitude": -122.750871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0170000",
+    "AgencyName": "Lake",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 39.092575,
+    "Longitude": -122.750871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0193300",
+    "AgencyName": "Inglewood",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.96168,
+    "Longitude": -118.353131
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0194100",
+    "AgencyName": "Long Beach",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.77005,
+    "Longitude": -118.193739
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0194100",
+    "AgencyName": "Long Beach",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.77005,
+    "Longitude": -118.193739
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0195500",
+    "AgencyName": "Pomona",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 34.055103,
+    "Longitude": -117.749991
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0195500",
+    "AgencyName": "Pomona",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 34.055103,
+    "Longitude": -117.749991
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0200000",
+    "AgencyName": "Madera",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.251927,
+    "Longitude": -119.696267
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0210900",
+    "AgencyName": "San Rafael",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.973534,
+    "Longitude": -122.531087
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0220000",
+    "AgencyName": "Mariposa",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.510212,
+    "Longitude": -119.968874
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0270000",
+    "AgencyName": "Monterey",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 36.255369,
+    "Longitude": -121.210721
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0270500",
+    "AgencyName": "King City",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.212186,
+    "Longitude": -121.126253
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0270800",
+    "AgencyName": "Salinas",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.677737,
+    "Longitude": -121.655501
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0270800",
+    "AgencyName": "Salinas",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.677737,
+    "Longitude": -121.655501
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0271000",
+    "AgencyName": "Seaside",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.614922,
+    "Longitude": -121.844227
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0300000",
+    "AgencyName": "Orange",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 33.717471,
+    "Longitude": -117.831143
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0300100",
+    "AgencyName": "Anaheim",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.836593,
+    "Longitude": -117.914301
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0300100",
+    "AgencyName": "Anaheim",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.836593,
+    "Longitude": -117.914301
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0301300",
+    "AgencyName": "Los Alamitos",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.803185,
+    "Longitude": -118.072846
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0301900",
+    "AgencyName": "Santa Ana",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.745472,
+    "Longitude": -117.867653
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0301900",
+    "AgencyName": "Santa Ana",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.745472,
+    "Longitude": -117.867653
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0302100",
+    "AgencyName": "Stanton",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.802515,
+    "Longitude": -117.993116
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0302100",
+    "AgencyName": "Stanton",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.802515,
+    "Longitude": -117.993116
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA030350X",
+    "AgencyName": "Mission Viejo",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.600023,
+    "Longitude": -117.671995
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0310400",
+    "AgencyName": "Rocklin",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.790733,
+    "Longitude": -121.235782
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0310500",
+    "AgencyName": "Roseville",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.752123,
+    "Longitude": -121.288006
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0331300",
+    "AgencyName": "Riverside",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 33.95335,
+    "Longitude": -117.396156
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0340000",
+    "AgencyName": "Sacramento",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 38.451068,
+    "Longitude": -121.342537
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0340000",
+    "AgencyName": "Sacramento",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 38.451068,
+    "Longitude": -121.342537
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0340400",
+    "AgencyName": "Sacramento",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.581572,
+    "Longitude": -121.4944
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0340400",
+    "AgencyName": "Sacramento",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.581572,
+    "Longitude": -121.4944
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA034550X",
+    "AgencyName": "Rancho Cordova",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.589073,
+    "Longitude": -121.302728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA034550X",
+    "AgencyName": "Rancho Cordova",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.589073,
+    "Longitude": -121.302728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0349600",
+    "AgencyName": "Citrus Heights",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.707124,
+    "Longitude": -121.281061
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0349600",
+    "AgencyName": "Citrus Heights",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.707124,
+    "Longitude": -121.281061
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0362600",
+    "AgencyName": "Chaffey College",
+    "Type": "University or College",
+    "State": "CA",
+    "Latitude": 34.107399,
+    "Longitude": -117.579369
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0371100",
+    "AgencyName": "San Diego",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 32.715738,
+    "Longitude": -117.161084
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0390000",
+    "AgencyName": "San Joaquin",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.917593,
+    "Longitude": -121.171038
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0390000",
+    "AgencyName": "San Joaquin",
+    "Type": "County",
+    "State": "CA",
+    "Latitude": 37.917593,
+    "Longitude": -121.171038
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0390500",
+    "AgencyName": "Stockton",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.957701,
+    "Longitude": -121.29078
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0390500",
+    "AgencyName": "Stockton",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.957701,
+    "Longitude": -121.29078
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0411700",
+    "AgencyName": "South San Francisco",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.654656,
+    "Longitude": -122.407749
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0411900",
+    "AgencyName": "Broadmoor",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.691656,
+    "Longitude": -122.474251
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0420200",
+    "AgencyName": "Lompoc",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 34.63915,
+    "Longitude": -120.45794
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0420400",
+    "AgencyName": "Santa Maria",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 34.953034,
+    "Longitude": -120.435719
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0430200",
+    "AgencyName": "Campbell",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.287165,
+    "Longitude": -121.949958
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0430400",
+    "AgencyName": "Gilroy",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.005782,
+    "Longitude": -121.568275
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0431100",
+    "AgencyName": "Mountain View",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.386051,
+    "Longitude": -122.083855
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0431300",
+    "AgencyName": "San Jose",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.338208,
+    "Longitude": -121.886329
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0431300",
+    "AgencyName": "San Jose",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.338208,
+    "Longitude": -121.886329
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0431600",
+    "AgencyName": "Sunnyvale",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.36883,
+    "Longitude": -122.03635
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0480300",
+    "AgencyName": "Fairfield",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.249358,
+    "Longitude": -122.039966
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0480300",
+    "AgencyName": "Fairfield",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.249358,
+    "Longitude": -122.039966
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0480600",
+    "AgencyName": "Vacaville",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.356578,
+    "Longitude": -121.987744
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0490400",
+    "AgencyName": "Rohnert Park",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.339636,
+    "Longitude": -122.701098
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0490500",
+    "AgencyName": "Santa Rosa",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.440429,
+    "Longitude": -122.714055
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0490600",
+    "AgencyName": "Sebastopol",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.402135,
+    "Longitude": -122.823881
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0490800",
+    "AgencyName": "Petaluma",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 38.232417,
+    "Longitude": -122.636652
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0500200",
+    "AgencyName": "Modesto",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.639097,
+    "Longitude": -120.996878
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0500700",
+    "AgencyName": "Turlock",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 37.494657,
+    "Longitude": -120.846594
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0520200",
+    "AgencyName": "Red Bluff",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 40.178488,
+    "Longitude": -122.23583
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0540500",
+    "AgencyName": "Porterville",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 36.065232,
+    "Longitude": -119.016767
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0560800",
+    "AgencyName": "Ventura",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 34.274646,
+    "Longitude": -119.229031
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CA0560800",
+    "AgencyName": "Ventura",
+    "Type": "City",
+    "State": "CA",
+    "Latitude": 34.274646,
+    "Longitude": -119.229031
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0010000",
+    "AgencyName": "Adams",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 39.839826,
+    "Longitude": -104.193091
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0010100",
+    "AgencyName": "Aurora",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.729432,
+    "Longitude": -104.831919
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0010200",
+    "AgencyName": "Brighton",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.985262,
+    "Longitude": -104.820528
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0010300",
+    "AgencyName": "Commerce City",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.808319,
+    "Longitude": -104.933867
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0010500",
+    "AgencyName": "Westminster",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.836652,
+    "Longitude": -105.037204
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0010600",
+    "AgencyName": "Northglenn",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.896182,
+    "Longitude": -104.981146
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0030000",
+    "AgencyName": "Arapahoe",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 39.649772,
+    "Longitude": -104.335998
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0030300",
+    "AgencyName": "Sheridan",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.646099,
+    "Longitude": -105.025821
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0050000",
+    "AgencyName": "Baca",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 37.28708,
+    "Longitude": -102.545684
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0050000",
+    "AgencyName": "Baca",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 37.28708,
+    "Longitude": -102.545684
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0070000",
+    "AgencyName": "Boulder",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 40.151211,
+    "Longitude": -105.500547
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0070400",
+    "AgencyName": "Longmont",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 40.167207,
+    "Longitude": -105.101928
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0140000",
+    "AgencyName": "Custer",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 38.134416,
+    "Longitude": -105.368324
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0180000",
+    "AgencyName": "Douglas",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 39.25871,
+    "Longitude": -104.938885
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0180500",
+    "AgencyName": "Parker",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.5186,
+    "Longitude": -104.761363
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0210100",
+    "AgencyName": "Colorado Springs",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 38.833881,
+    "Longitude": -104.821363
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0210100",
+    "AgencyName": "Colorado Springs",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 38.833881,
+    "Longitude": -104.821363
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0300100",
+    "AgencyName": "Arvada",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.802764,
+    "Longitude": -105.087484
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0300400",
+    "AgencyName": "Lakewood",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.704709,
+    "Longitude": -105.081373
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0300400",
+    "AgencyName": "Lakewood",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.704709,
+    "Longitude": -105.081373
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0350000",
+    "AgencyName": "Larimer",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 40.66309,
+    "Longitude": -105.461009
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0390100",
+    "AgencyName": "Grand Junction",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.06387,
+    "Longitude": -108.550649
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0430100",
+    "AgencyName": "Montrose",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 38.478319,
+    "Longitude": -107.876174
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0540000",
+    "AgencyName": "Routt",
+    "Type": "County",
+    "State": "CO",
+    "Latitude": 40.485205,
+    "Longitude": -106.990553
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CO0540100",
+    "AgencyName": "Steamboat Springs",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 40.484976,
+    "Longitude": -106.831715
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CODPD0000",
+    "AgencyName": "Denver",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.739236,
+    "Longitude": -104.990251
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CODPD0000",
+    "AgencyName": "Denver",
+    "Type": "City",
+    "State": "CO",
+    "Latitude": 39.739236,
+    "Longitude": -104.990251
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CT0005400",
+    "AgencyName": "Glastonbury",
+    "Type": "City",
+    "State": "CT",
+    "Latitude": 41.712888,
+    "Longitude": -72.608734
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CT0007600",
+    "AgencyName": "Madison",
+    "Type": "City",
+    "State": "CT",
+    "Latitude": 41.279544,
+    "Longitude": -72.598583
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CT0008000",
+    "AgencyName": "Meriden",
+    "Type": "City",
+    "State": "CT",
+    "Latitude": 41.538153,
+    "Longitude": -72.807043
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CT0008800",
+    "AgencyName": "Naugatuck",
+    "Type": "City",
+    "State": "CT",
+    "Latitude": 41.485093,
+    "Longitude": -73.050663
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CT0009300",
+    "AgencyName": "New Haven",
+    "Type": "City",
+    "State": "CT",
+    "Latitude": 41.308274,
+    "Longitude": -72.927884
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CT0009600",
+    "AgencyName": "New Milford",
+    "Type": "City",
+    "State": "CT",
+    "Latitude": 41.577037,
+    "Longitude": -73.408422
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "CTCSP0000",
+    "AgencyName": "Connecticut State Police",
+    "Type": "State Police",
+    "State": "CT",
+    "Latitude": 41.765545,
+    "Longitude": -72.681536
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DCAF00200",
+    "AgencyName": "United States Air Force Security Police",
+    "Type": "Federal",
+    "State": "FS",
+    "Latitude": 38.834648,
+    "Longitude": -77.311722
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DCFBIWA01",
+    "AgencyName": "Federal Bureau of Investigation",
+    "Type": "Federal",
+    "State": "FS",
+    "Latitude": 38.907192,
+    "Longitude": -77.036871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DCFBIWA01",
+    "AgencyName": "Federal Bureau of Investigation",
+    "Type": "Federal",
+    "State": "FS",
+    "Latitude": 38.907192,
+    "Longitude": -77.036871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DCTIX0000",
+    "AgencyName": "United States Treasury Inspector General for Tax Administration",
+    "Type": "Federal",
+    "State": "FS",
+    "Latitude": 38.907192,
+    "Longitude": -77.036871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DE302SP00",
+    "AgencyName": "State Police:",
+    "Type": "New Castle County",
+    "State": "State Police",
+    "Latitude": "DE",
+    "Longitude": 39.158169
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DEDSP0000",
+    "AgencyName": "State Police:",
+    "Type": "Headquarters",
+    "State": "State Police",
+    "Latitude": "DE",
+    "Longitude": 39.158169
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "DEDSP0000",
+    "AgencyName": "State Police:",
+    "Type": "Headquarters",
+    "State": "State Police",
+    "Latitude": "DE",
+    "Longitude": 39.158169
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0010100",
+    "AgencyName": "Gainesville",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 29.651634,
+    "Longitude": -82.324826
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0051200",
+    "AgencyName": "Palm Bay",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 28.034462,
+    "Longitude": -80.588664
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0061200",
+    "AgencyName": "Davie",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.062866,
+    "Longitude": -80.233104
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0110000",
+    "AgencyName": "Collier",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 26.190093,
+    "Longitude": -81.555919
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0110000",
+    "AgencyName": "Collier",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 26.190093,
+    "Longitude": -81.555919
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0120000",
+    "AgencyName": "Columbia",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 30.233172,
+    "Longitude": -82.605118
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0130000",
+    "AgencyName": "Miami-Dade",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 25.551603,
+    "Longitude": -80.632691
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0130000",
+    "AgencyName": "Miami-Dade",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 25.551603,
+    "Longitude": -80.632691
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0130600",
+    "AgencyName": "Miami",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 25.76168,
+    "Longitude": -80.19179
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0131000",
+    "AgencyName": "North Miami Beach",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 25.93315,
+    "Longitude": -80.162546
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0131100",
+    "AgencyName": "Doral",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 25.819542,
+    "Longitude": -80.35533
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0131900",
+    "AgencyName": "South Miami",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 25.707577,
+    "Longitude": -80.29228
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0160000",
+    "AgencyName": "Jacksonville Sheriff's Office",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 30.332184,
+    "Longitude": -81.655651
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0270000",
+    "AgencyName": "Hernando",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 28.557883,
+    "Longitude": -82.475275
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0270100",
+    "AgencyName": "Brooksville",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 28.555491,
+    "Longitude": -82.38787
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0290200",
+    "AgencyName": "Tampa",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.950575,
+    "Longitude": -82.457178
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0290200",
+    "AgencyName": "Tampa",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.950575,
+    "Longitude": -82.457178
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0360000",
+    "AgencyName": "Lee",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 26.522747,
+    "Longitude": -81.883994
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0420000",
+    "AgencyName": "Marion",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 29.278776,
+    "Longitude": -82.127839
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0420100",
+    "AgencyName": "Ocala",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 29.187198,
+    "Longitude": -82.140092
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0430000",
+    "AgencyName": "Martin",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 27.0083,
+    "Longitude": -80.47212
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0460200",
+    "AgencyName": "Fort Walton Beach",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 30.405759,
+    "Longitude": -86.618842
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0470100",
+    "AgencyName": "Okeechobee",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.243935,
+    "Longitude": -80.829782
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0480000",
+    "AgencyName": "Orange",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 28.484499,
+    "Longitude": -81.251883
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0480000",
+    "AgencyName": "Orange",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 28.484499,
+    "Longitude": -81.251883
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500000",
+    "AgencyName": "Palm Beach",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 26.651451,
+    "Longitude": -80.276691
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500000",
+    "AgencyName": "Palm Beach",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 26.651451,
+    "Longitude": -80.276691
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500100",
+    "AgencyName": "Belle Glade",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.684512,
+    "Longitude": -80.667553
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500500",
+    "AgencyName": "Lake Worth",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.616756,
+    "Longitude": -80.057273
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500500",
+    "AgencyName": "Lake Worth",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.616756,
+    "Longitude": -80.057273
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500800",
+    "AgencyName": "West Palm Beach",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.71534,
+    "Longitude": -80.053375
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0500800",
+    "AgencyName": "West Palm Beach",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.71534,
+    "Longitude": -80.053375
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0501200",
+    "AgencyName": "Greenacres City",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.627627,
+    "Longitude": -80.135389
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0502500",
+    "AgencyName": "Pahokee",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.820349,
+    "Longitude": -80.664505
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL050580X",
+    "AgencyName": "Loxatachee Groves",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.685251,
+    "Longitude": -80.291163
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL050580X",
+    "AgencyName": "Loxatachee Groves",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.685251,
+    "Longitude": -80.291163
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL050950X",
+    "AgencyName": "Wellington",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.66302,
+    "Longitude": -80.257
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL050950X",
+    "AgencyName": "Wellington",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 26.66302,
+    "Longitude": -80.257
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0510300",
+    "AgencyName": "Zephyrhills",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 28.233623,
+    "Longitude": -82.181194
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0520000",
+    "AgencyName": "Pinellas",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 27.876394,
+    "Longitude": -82.777857
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0520300",
+    "AgencyName": "Clearwater",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.965853,
+    "Longitude": -82.800103
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0520300",
+    "AgencyName": "Clearwater",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.965853,
+    "Longitude": -82.800103
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0520400",
+    "AgencyName": "Dunedin",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 28.019917,
+    "Longitude": -82.772426
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0520800",
+    "AgencyName": "Largo",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.909466,
+    "Longitude": -82.787324
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0521000",
+    "AgencyName": "Oldsmar",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 28.034688,
+    "Longitude": -82.66538
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0521400",
+    "AgencyName": "St. Petersburg",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 27.767601,
+    "Longitude": -82.640291
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0550100",
+    "AgencyName": "St. Augustine",
+    "Type": "City",
+    "State": "FL",
+    "Latitude": 29.901244,
+    "Longitude": -81.312434
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "FL0560000",
+    "AgencyName": "St. Lucie",
+    "Type": "County",
+    "State": "FL",
+    "Latitude": 27.339327,
+    "Longitude": -80.47122
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0110000",
+    "AgencyName": "Bibb",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 32.808094,
+    "Longitude": -83.694459
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0150200",
+    "AgencyName": "Richmond Hill",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 31.938812,
+    "Longitude": -81.303383
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0160100",
+    "AgencyName": "Statesboro",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 32.448787,
+    "Longitude": -81.783167
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0190100",
+    "AgencyName": "Arlington",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 31.439718,
+    "Longitude": -84.724742
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0200000",
+    "AgencyName": "Camden",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 30.864916,
+    "Longitude": -81.671926
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0220000",
+    "AgencyName": "Carroll",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.58831,
+    "Longitude": -85.076611
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0220200",
+    "AgencyName": "Villa Rica",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.732613,
+    "Longitude": -84.919108
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0230100",
+    "AgencyName": "Fort Oglethorpe",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.949788,
+    "Longitude": -85.256066
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0250200",
+    "AgencyName": "Garden City",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 32.114981,
+    "Longitude": -81.154063
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0280000",
+    "AgencyName": "Cherokee",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 34.237087,
+    "Longitude": -84.449619
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0330200",
+    "AgencyName": "Cobb County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.9018,
+    "Longitude": -84.517017
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0330200",
+    "AgencyName": "Cobb County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.9018,
+    "Longitude": -84.517017
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0330300",
+    "AgencyName": "Marietta",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.952602,
+    "Longitude": -84.549933
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0330400",
+    "AgencyName": "Smyrna",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.883992,
+    "Longitude": -84.514376
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0340000",
+    "AgencyName": "Coffee",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 31.55859,
+    "Longitude": -82.879219
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0360000",
+    "AgencyName": "Columbia",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.544851,
+    "Longitude": -82.258329
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0360100",
+    "AgencyName": "Grovetown",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.450856,
+    "Longitude": -82.198457
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0380000",
+    "AgencyName": "Coweta",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.351845,
+    "Longitude": -84.76168
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0380100",
+    "AgencyName": "Newnan",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.380672,
+    "Longitude": -84.799657
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0430000",
+    "AgencyName": "Decatur",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 30.901818,
+    "Longitude": -84.575603
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0440200",
+    "AgencyName": "DeKalb County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.795644,
+    "Longitude": -84.227879
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0440200",
+    "AgencyName": "DeKalb County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.795644,
+    "Longitude": -84.227879
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0440400",
+    "AgencyName": "Chamblee",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.88745,
+    "Longitude": -84.304593
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0447100",
+    "AgencyName": "Dunwoody",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.946212,
+    "Longitude": -84.33465
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0450100",
+    "AgencyName": "Eastman",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 32.197948,
+    "Longitude": -83.177392
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0480000",
+    "AgencyName": "Douglas",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.689612,
+    "Longitude": -84.731556
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0480100",
+    "AgencyName": "Douglasville",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.751496,
+    "Longitude": -84.747714
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0530100",
+    "AgencyName": "Swainsboro",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 32.597659,
+    "Longitude": -82.333184
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0560300",
+    "AgencyName": "Tyrone",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.471223,
+    "Longitude": -84.595759
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0570100",
+    "AgencyName": "Floyd County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 34.272232,
+    "Longitude": -85.214483
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0570200",
+    "AgencyName": "Rome",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.257039,
+    "Longitude": -85.164672
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0570200",
+    "AgencyName": "Rome",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.257039,
+    "Longitude": -85.164672
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0580000",
+    "AgencyName": "Forsyth",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 34.179558,
+    "Longitude": -84.147735
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0600400",
+    "AgencyName": "Alpharetta",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.075376,
+    "Longitude": -84.29409
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0600500",
+    "AgencyName": "Roswell",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.023159,
+    "Longitude": -84.361593
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0600500",
+    "AgencyName": "Roswell",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.023159,
+    "Longitude": -84.361593
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0605400",
+    "AgencyName": "Atlanta Public Schools",
+    "Type": "Other",
+    "State": "GA",
+    "Latitude": 33.749099,
+    "Longitude": -84.390185
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0630200",
+    "AgencyName": "Glynn County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 31.269947,
+    "Longitude": -81.490642
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0670000",
+    "AgencyName": "Gwinnett",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.919065,
+    "Longitude": -84.016742
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0670200",
+    "AgencyName": "Gwinnett County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.919065,
+    "Longitude": -84.016742
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0670300",
+    "AgencyName": "Lawrenceville",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.956214,
+    "Longitude": -83.987962
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0670300",
+    "AgencyName": "Lawrenceville",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.956214,
+    "Longitude": -83.987962
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0670800",
+    "AgencyName": "Snellville",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.857328,
+    "Longitude": -84.01991
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0670900",
+    "AgencyName": "Suwanee",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.051489,
+    "Longitude": -84.0713
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0671000",
+    "AgencyName": "Gwinnett County Public Schools",
+    "Type": "Other",
+    "State": "GA",
+    "Latitude": 33.919065,
+    "Longitude": -84.016742
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0690000",
+    "AgencyName": "Hall",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 34.307114,
+    "Longitude": -83.820263
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0690100",
+    "AgencyName": "Gainesville",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.29788,
+    "Longitude": -83.824066
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0690100",
+    "AgencyName": "Gainesville",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.29788,
+    "Longitude": -83.824066
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0710100",
+    "AgencyName": "Bremen",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.721218,
+    "Longitude": -85.145507
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0750500",
+    "AgencyName": "Henry County Police Department",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.435507,
+    "Longitude": -84.224221
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0880000",
+    "AgencyName": "Lee",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 31.811919,
+    "Longitude": -84.143613
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0880000",
+    "AgencyName": "Lee",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 31.811919,
+    "Longitude": -84.143613
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA0920000",
+    "AgencyName": "Lowndes",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 30.782224,
+    "Longitude": -83.234104
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA1061900",
+    "AgencyName": "Muscogee County Schools",
+    "Type": "Other",
+    "State": "GA",
+    "Latitude": 32.492634,
+    "Longitude": -84.940417
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA1100000",
+    "AgencyName": "Paulding",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 33.913581,
+    "Longitude": -84.898477
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA1150100",
+    "AgencyName": "Cedartown",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 34.018164,
+    "Longitude": -85.255871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA1220100",
+    "AgencyName": "Conyers",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.66761,
+    "Longitude": -84.01769
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA1300000",
+    "AgencyName": "Talbot",
+    "Type": "County",
+    "State": "GA",
+    "Latitude": 32.690084,
+    "Longitude": -84.533857
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GA1410200",
+    "AgencyName": "LaGrange",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.036236,
+    "Longitude": -85.032216
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GAAPD0000",
+    "AgencyName": "Atlanta",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.749099,
+    "Longitude": -84.390185
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "GAAPD0000",
+    "AgencyName": "Atlanta",
+    "Type": "City",
+    "State": "GA",
+    "Latitude": 33.749099,
+    "Longitude": -84.390185
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "HI0020000",
+    "AgencyName": "Honolulu",
+    "Type": "City",
+    "State": "HI",
+    "Latitude": 21.306944,
+    "Longitude": -157.858333
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0230100",
+    "AgencyName": "Clinton",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.844473,
+    "Longitude": -90.188737
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0290200",
+    "AgencyName": "West Burlington",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 40.825591,
+    "Longitude": -91.163221
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0500100",
+    "AgencyName": "Newton",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.69909,
+    "Longitude": -93.047165
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0520100",
+    "AgencyName": "Coralville",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.676393,
+    "Longitude": -91.580448
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0710300",
+    "AgencyName": "Sheldon",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 43.181537,
+    "Longitude": -95.839172
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0770100",
+    "AgencyName": "Ankeny",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.731544,
+    "Longitude": -93.600128
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0770300",
+    "AgencyName": "Des Moines",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.586835,
+    "Longitude": -93.624959
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0770800",
+    "AgencyName": "Altoona",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.64499,
+    "Longitude": -93.469217
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0780100",
+    "AgencyName": "Council Bluffs",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.261944,
+    "Longitude": -95.860833
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0780400",
+    "AgencyName": "Carter Lake",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.28944,
+    "Longitude": -95.918557
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0820200",
+    "AgencyName": "Davenport",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.523643,
+    "Longitude": -90.577636
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0850100",
+    "AgencyName": "Ames",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 42.030781,
+    "Longitude": -93.631913
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IA0900100",
+    "AgencyName": "Ottumwa",
+    "Type": "City",
+    "State": "IA",
+    "Latitude": 41.0122,
+    "Longitude": -92.414196
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IADCI0000",
+    "AgencyName": "Iowa Division of Criminal Investigation",
+    "Type": "Other State Agency",
+    "State": "IA",
+    "Latitude": 41.591087,
+    "Longitude": -93.603728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ID0010100",
+    "AgencyName": "Boise",
+    "Type": "City",
+    "State": "ID",
+    "Latitude": 43.615019,
+    "Longitude": -116.202316
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ID0010200",
+    "AgencyName": "Garden City",
+    "Type": "City",
+    "State": "ID",
+    "Latitude": 43.642184,
+    "Longitude": -116.273505
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ID0010300",
+    "AgencyName": "Meridian",
+    "Type": "City",
+    "State": "ID",
+    "Latitude": 43.612108,
+    "Longitude": -116.391513
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ID0140200",
+    "AgencyName": "Nampa",
+    "Type": "City",
+    "State": "ID",
+    "Latitude": 43.57468,
+    "Longitude": -116.563462
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ID0140200",
+    "AgencyName": "Nampa",
+    "Type": "City",
+    "State": "ID",
+    "Latitude": 43.57468,
+    "Longitude": -116.563462
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ID0430000",
+    "AgencyName": "Valley",
+    "Type": "County",
+    "State": "ID",
+    "Latitude": 44.952648,
+    "Longitude": -116.044723
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0060600",
+    "AgencyName": "Spring Valley",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.327257,
+    "Longitude": -89.200917
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0150300",
+    "AgencyName": "Mattoon",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 39.48309,
+    "Longitude": -88.372826
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0160100",
+    "AgencyName": "Alsip",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.668367,
+    "Longitude": -87.730061
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0165900",
+    "AgencyName": "Lansing",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.564757,
+    "Longitude": -87.538656
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0450100",
+    "AgencyName": "Aurora",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.760585,
+    "Longitude": -88.320072
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0451400",
+    "AgencyName": "St. Charles",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.914194,
+    "Longitude": -88.308685
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0560200",
+    "AgencyName": "Cary",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 42.211966,
+    "Longitude": -88.238139
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0720700",
+    "AgencyName": "Peoria",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 40.693648,
+    "Longitude": -89.588986
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0810000",
+    "AgencyName": "Rock Island",
+    "Type": "County",
+    "State": "IL",
+    "Latitude": 41.469933,
+    "Longitude": -90.578747
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0810600",
+    "AgencyName": "Moline",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.5067,
+    "Longitude": -90.515134
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0840000",
+    "AgencyName": "Sangamon",
+    "Type": "County",
+    "State": "IL",
+    "Latitude": 39.763947,
+    "Longitude": -89.606098
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0840800",
+    "AgencyName": "Williamsville",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 39.953472,
+    "Longitude": -89.55205
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0849700",
+    "AgencyName": "Illinois State Police",
+    "Type": "State Police",
+    "State": "IL",
+    "Latitude": 39.78325,
+    "Longitude": -89.650373
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IL0991300",
+    "AgencyName": "Romeoville",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.647531,
+    "Longitude": -88.089506
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ILCPD0000",
+    "AgencyName": "Chicago",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.878114,
+    "Longitude": -87.629798
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ILCPD0000",
+    "AgencyName": "Chicago",
+    "Type": "City",
+    "State": "IL",
+    "Latitude": 41.878114,
+    "Longitude": -87.629798
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0010000",
+    "AgencyName": "Adams",
+    "Type": "County",
+    "State": "IN",
+    "Latitude": 40.742915,
+    "Longitude": -84.936645
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0020000",
+    "AgencyName": "Allen",
+    "Type": "County",
+    "State": "IN",
+    "Latitude": 41.093838,
+    "Longitude": -85.070713
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0020100",
+    "AgencyName": "Fort Wayne",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.079273,
+    "Longitude": -85.139351
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0020100",
+    "AgencyName": "Fort Wayne",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.079273,
+    "Longitude": -85.139351
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0100400",
+    "AgencyName": "Sellersburg",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 38.398401,
+    "Longitude": -85.75413
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0170000",
+    "AgencyName": "DeKalb",
+    "Type": "County",
+    "State": "IN",
+    "Latitude": 41.368084,
+    "Longitude": -85.023345
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0200100",
+    "AgencyName": "Elkhart",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.681993,
+    "Longitude": -85.976667
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0200100",
+    "AgencyName": "Elkhart",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.681993,
+    "Longitude": -85.976667
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0200200",
+    "AgencyName": "Goshen",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.582271,
+    "Longitude": -85.834438
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0290200",
+    "AgencyName": "Noblesville",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 40.045591,
+    "Longitude": -86.008595
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0290400",
+    "AgencyName": "Westfield",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 40.04282,
+    "Longitude": -86.127488
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0290700",
+    "AgencyName": "Fishers",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 39.956754,
+    "Longitude": -86.01335
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0340100",
+    "AgencyName": "Kokomo",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 40.486427,
+    "Longitude": -86.133603
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0450300",
+    "AgencyName": "East Chicago",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.639203,
+    "Longitude": -87.449466
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0450500",
+    "AgencyName": "Gary",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.59337,
+    "Longitude": -87.346427
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0450900",
+    "AgencyName": "Hobart",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 41.532261,
+    "Longitude": -87.255035
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0480200",
+    "AgencyName": "Anderson",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 40.105319,
+    "Longitude": -85.680254
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0490200",
+    "AgencyName": "Lawrence",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 39.838651,
+    "Longitude": -86.025262
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0690100",
+    "AgencyName": "Batesville",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 39.30005,
+    "Longitude": -85.222187
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0710000",
+    "AgencyName": "St. Joseph",
+    "Type": "County",
+    "State": "IN",
+    "Latitude": 41.617657,
+    "Longitude": -86.286163
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0790100",
+    "AgencyName": "Lafayette",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 40.416702,
+    "Longitude": -86.875287
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0820100",
+    "AgencyName": "Evansville",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 37.971559,
+    "Longitude": -87.57109
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "IN0900000",
+    "AgencyName": "Wells",
+    "Type": "County",
+    "State": "IN",
+    "Latitude": 40.753883,
+    "Longitude": -85.221283
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "INIPD0000",
+    "AgencyName": "Indianapolis",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 39.768403,
+    "Longitude": -86.158068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "INIPD0000",
+    "AgencyName": "Indianapolis",
+    "Type": "City",
+    "State": "IN",
+    "Latitude": 39.768403,
+    "Longitude": -86.158068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "INISP0000",
+    "AgencyName": "Indiana State Police",
+    "Type": "State Police",
+    "State": "IN",
+    "Latitude": 39.768403,
+    "Longitude": -86.158068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "INISP0000",
+    "AgencyName": "Indiana State Police",
+    "Type": "State Police",
+    "State": "IN",
+    "Latitude": 39.768403,
+    "Longitude": -86.158068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0020100",
+    "AgencyName": "Scottsville",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 36.753921,
+    "Longitude": -86.190817
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0100100",
+    "AgencyName": "Ashland",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.478414,
+    "Longitude": -82.637938
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0150500",
+    "AgencyName": "Hillview",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.069791,
+    "Longitude": -85.683838
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0150600",
+    "AgencyName": "Pioneer Village",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.060598,
+    "Longitude": -85.700279
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0240100",
+    "AgencyName": "Hopkinsville",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 36.8656,
+    "Longitude": -87.488618
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0340200",
+    "AgencyName": "Lexington",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.040584,
+    "Longitude": -84.503716
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0340200",
+    "AgencyName": "Lexington",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.040584,
+    "Longitude": -84.503716
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0370200",
+    "AgencyName": "Motor Vehicle Enforcement",
+    "Type": "Other State Agency",
+    "State": "KY",
+    "Latitude": 38.186646,
+    "Longitude": -84.875238
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0470200",
+    "AgencyName": "Radcliff",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 37.840347,
+    "Longitude": -85.949681
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0561000",
+    "AgencyName": "Jeffersontown",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.194243,
+    "Longitude": -85.558172
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0568000",
+    "AgencyName": "Louisville Metro",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 38.252665,
+    "Longitude": -85.758456
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0570000",
+    "AgencyName": "Jessamine",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 37.881347,
+    "Longitude": -84.578183
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0590200",
+    "AgencyName": "Elsmere",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 39.001449,
+    "Longitude": -84.604109
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0640000",
+    "AgencyName": "Lawrence",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 38.107517,
+    "Longitude": -82.605118
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0710000",
+    "AgencyName": "Logan",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 36.869834,
+    "Longitude": -86.862182
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0710100",
+    "AgencyName": "Russellville",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 36.84532,
+    "Longitude": -86.887773
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0730000",
+    "AgencyName": "McCracken",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 37.026858,
+    "Longitude": -88.689067
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0730100",
+    "AgencyName": "Paducah",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 37.083389,
+    "Longitude": -88.600048
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0760200",
+    "AgencyName": "Richmond",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 37.747857,
+    "Longitude": -84.294653
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0780100",
+    "AgencyName": "Lebanon",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 37.569245,
+    "Longitude": -85.252775
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0790000",
+    "AgencyName": "Marshall",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 36.766741,
+    "Longitude": -88.358102
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0900100",
+    "AgencyName": "Bardstown",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 37.809228,
+    "Longitude": -85.466902
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY0930400",
+    "AgencyName": "Oldham County Police Department",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 38.392442,
+    "Longitude": -85.442692
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY1050000",
+    "AgencyName": "Scott",
+    "Type": "County",
+    "State": "KY",
+    "Latitude": 38.298024,
+    "Longitude": -84.564146
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KY1160100",
+    "AgencyName": "Monticello",
+    "Type": "City",
+    "State": "KY",
+    "Latitude": 36.829407,
+    "Longitude": -84.849396
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP0100",
+    "AgencyName": "State Police:",
+    "Type": "Mayfield",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 36.722563
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP0100",
+    "AgencyName": "State Police:",
+    "Type": "Mayfield",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 36.722563
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP0200",
+    "AgencyName": "State Police:",
+    "Type": "Madisonville",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 37.3281
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP0900",
+    "AgencyName": "State Police:",
+    "Type": "Pikeville",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 37.479267
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP0900",
+    "AgencyName": "State Police:",
+    "Type": "Pikeville",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 37.479267
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP1600",
+    "AgencyName": "State Police:",
+    "Type": "Henderson",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 37.836153
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP3200",
+    "AgencyName": "State Police:",
+    "Type": "West Drug Enforcement Branch",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 38.186646
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "KYKSP3300",
+    "AgencyName": "State Police:",
+    "Type": "East Drug Enforcement Branch",
+    "State": "State Police",
+    "Latitude": "KY",
+    "Longitude": 38.186646
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0010000",
+    "AgencyName": "Acadia",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 30.295131,
+    "Longitude": -92.414196
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0080000",
+    "AgencyName": "Bossier",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 32.690271,
+    "Longitude": -93.662323
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0170000",
+    "AgencyName": "East Baton Rouge",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 30.440154,
+    "Longitude": -91.131372
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0170200",
+    "AgencyName": "Baton Rouge",
+    "Type": "City",
+    "State": "LA",
+    "Latitude": 30.451468,
+    "Longitude": -91.187147
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0170300",
+    "AgencyName": "Zachary",
+    "Type": "City",
+    "State": "LA",
+    "Latitude": 30.648794,
+    "Longitude": -91.156213
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0170400",
+    "AgencyName": "Louisiana State University:",
+    "Type": "Baton Rouge",
+    "State": "University or College",
+    "Latitude": "LA",
+    "Longitude": 30.413257
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0210000",
+    "AgencyName": "Franklin",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 32.148845,
+    "Longitude": -91.691933
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0280000",
+    "AgencyName": "Lafayette",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 30.224091,
+    "Longitude": -92.019843
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0590000",
+    "AgencyName": "Washington",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 30.847835,
+    "Longitude": -89.862827
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "LA0600000",
+    "AgencyName": "Webster",
+    "Type": "County",
+    "State": "LA",
+    "Latitude": 32.706371,
+    "Longitude": -93.330798
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0011200",
+    "AgencyName": "Sandwich",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.758488,
+    "Longitude": -70.500033
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0011500",
+    "AgencyName": "Yarmouth",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.669765,
+    "Longitude": -70.228626
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0011500",
+    "AgencyName": "Yarmouth",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.669765,
+    "Longitude": -70.228626
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0022200",
+    "AgencyName": "Pittsfield",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.450084,
+    "Longitude": -73.245382
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0030700",
+    "AgencyName": "Fairhaven",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.6376,
+    "Longitude": -70.90365
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0030800",
+    "AgencyName": "Fall River",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.701492,
+    "Longitude": -71.155045
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0030900",
+    "AgencyName": "Freetown",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.79371,
+    "Longitude": -70.974766
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0031600",
+    "AgencyName": "Seekonk",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.808722,
+    "Longitude": -71.337356
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0031700",
+    "AgencyName": "Somerset",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.769334,
+    "Longitude": -71.12806
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0072100",
+    "AgencyName": "West Springfield",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.107027,
+    "Longitude": -72.620368
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0080100",
+    "AgencyName": "Amherst",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.373221,
+    "Longitude": -72.519853
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0090400",
+    "AgencyName": "Ashland",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.261201,
+    "Longitude": -71.463399
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0091100",
+    "AgencyName": "Cambridge",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.373616,
+    "Longitude": -71.109733
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0092600",
+    "AgencyName": "Lowell",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.633425,
+    "Longitude": -71.316172
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0092900",
+    "AgencyName": "Maynard",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.433425,
+    "Longitude": -71.450659
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0094100",
+    "AgencyName": "Stow",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.43675,
+    "Longitude": -71.505618
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0095200",
+    "AgencyName": "Wilmington",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.546484,
+    "Longitude": -71.172173
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0110300",
+    "AgencyName": "Braintree",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.207048,
+    "Longitude": -71.003705
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0120200",
+    "AgencyName": "Bridgewater",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.990331,
+    "Longitude": -70.975995
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0120300",
+    "AgencyName": "Brockton",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.083433,
+    "Longitude": -71.018378
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0122000",
+    "AgencyName": "Plymouth",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 41.958445,
+    "Longitude": -70.667262
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0130100",
+    "AgencyName": "Boston",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.360082,
+    "Longitude": -71.05888
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0130100",
+    "AgencyName": "Boston",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.360082,
+    "Longitude": -71.05888
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0130400",
+    "AgencyName": "Revere",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.40843,
+    "Longitude": -71.011994
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0130400",
+    "AgencyName": "Revere",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.40843,
+    "Longitude": -71.011994
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0141500",
+    "AgencyName": "Fitchburg",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.583422,
+    "Longitude": -71.802296
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA0146000",
+    "AgencyName": "Worcester",
+    "Type": "City",
+    "State": "MA",
+    "Latitude": 42.262593,
+    "Longitude": -71.802293
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA313SP00",
+    "AgencyName": "State Police:",
+    "Type": "Suffolk County",
+    "State": "State Police",
+    "Latitude": "MA",
+    "Longitude": 42.35843
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MA313SP00",
+    "AgencyName": "State Police:",
+    "Type": "Suffolk County",
+    "State": "State Police",
+    "Latitude": "MA",
+    "Longitude": 42.35843
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0010200",
+    "AgencyName": "Cumberland",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.652865,
+    "Longitude": -78.762518
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0020200",
+    "AgencyName": "Anne Arundel County Police Department",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 38.978445,
+    "Longitude": -76.492183
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0030100",
+    "AgencyName": "Baltimore County Police Department",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 39.405305,
+    "Longitude": -76.601913
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0080400",
+    "AgencyName": "Elkton",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.606778,
+    "Longitude": -75.833276
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0100000",
+    "AgencyName": "Dorchester",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 38.415281,
+    "Longitude": -76.044373
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0110000",
+    "AgencyName": "Frederick",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 39.478059,
+    "Longitude": -77.396583
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0110300",
+    "AgencyName": "Frederick",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.414269,
+    "Longitude": -77.410541
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0110300",
+    "AgencyName": "Frederick",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.414269,
+    "Longitude": -77.410541
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0130000",
+    "AgencyName": "Harford",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 39.583896,
+    "Longitude": -76.363728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0140100",
+    "AgencyName": "Howard County Police Department",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 39.250663,
+    "Longitude": -76.839262
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0140100",
+    "AgencyName": "Howard County Police Department",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 39.250663,
+    "Longitude": -76.839262
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0160400",
+    "AgencyName": "Montgomery County Police Department",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 39.154742,
+    "Longitude": -77.240515
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0171700",
+    "AgencyName": "Laurel",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.099275,
+    "Longitude": -76.848306
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MD0172100",
+    "AgencyName": "Prince George's County Police Department",
+    "Type": "County",
+    "State": "MD",
+    "Latitude": 38.830703,
+    "Longitude": -76.849822
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDBPD0000",
+    "AgencyName": "Baltimore",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.290385,
+    "Longitude": -76.612189
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDBPD0000",
+    "AgencyName": "Baltimore",
+    "Type": "City",
+    "State": "MD",
+    "Latitude": 39.290385,
+    "Longitude": -76.612189
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDMSP2000",
+    "AgencyName": "State Police:",
+    "Type": "Frederick County",
+    "State": "State Police",
+    "Latitude": "MD",
+    "Longitude": 39.478059
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDMSP2300",
+    "AgencyName": "State Police:",
+    "Type": "Garrett County",
+    "State": "State Police",
+    "Latitude": "MD",
+    "Longitude": 39.56891
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDMSP4200",
+    "AgencyName": "State Police:",
+    "Type": "Queen Annes's County",
+    "State": "State Police",
+    "Latitude": "MD",
+    "Longitude": 39.041717
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDMSP5400",
+    "AgencyName": "State Police:",
+    "Type": "St. Mary's County",
+    "State": "State Police",
+    "Latitude": "MD",
+    "Longitude": 38.291859
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDMSP9800",
+    "AgencyName": "Maryland State Police Statewide",
+    "Type": "State Police",
+    "State": "MD",
+    "Latitude": 38.978445,
+    "Longitude": -76.492183
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MDMSP9800",
+    "AgencyName": "Maryland State Police Statewide",
+    "Type": "State Police",
+    "State": "MD",
+    "Latitude": 38.978445,
+    "Longitude": -76.492183
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ME0010000",
+    "AgencyName": "Androscoggin",
+    "Type": "County",
+    "State": "ME",
+    "Latitude": 44.160376,
+    "Longitude": -70.266145
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ME0150000",
+    "AgencyName": "Washington",
+    "Type": "County",
+    "State": "ME",
+    "Latitude": 44.963016,
+    "Longitude": -67.612202
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ME0161400",
+    "AgencyName": "Wells",
+    "Type": "City",
+    "State": "ME",
+    "Latitude": 43.320144,
+    "Longitude": -70.580376
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI0700700",
+    "AgencyName": "State Police:",
+    "Type": "Baraga County",
+    "State": "State Police",
+    "Latitude": "MI",
+    "Longitude": 46.008326
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI1268800",
+    "AgencyName": "Quincy",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 41.944486,
+    "Longitude": -84.883843
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI1323700",
+    "AgencyName": "Battle Creek",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.321152,
+    "Longitude": -85.179714
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI2512500",
+    "AgencyName": "Genesee",
+    "Type": "County",
+    "State": "MI",
+    "Latitude": 43.024339,
+    "Longitude": -83.705867
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI2512500",
+    "AgencyName": "Genesee",
+    "Type": "County",
+    "State": "MI",
+    "Latitude": 43.024339,
+    "Longitude": -83.705867
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI2565000",
+    "AgencyName": "Metro Police Authority of Genesee County",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 43.016051,
+    "Longitude": -83.705844
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI2878100",
+    "AgencyName": "Traverse City",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 44.763057,
+    "Longitude": -85.620631
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI3103100",
+    "AgencyName": "State Police:",
+    "Type": "Houghton County",
+    "State": "State Police",
+    "Latitude": "MI",
+    "Longitude": 47.121168
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI3313300",
+    "AgencyName": "Ingham",
+    "Type": "County",
+    "State": "MI",
+    "Latitude": 42.60429,
+    "Longitude": -84.44541
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI3351900",
+    "AgencyName": "Lansing",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.732535,
+    "Longitude": -84.555535
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI3392600",
+    "AgencyName": "Meridian Township",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.717938,
+    "Longitude": -84.417236
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI3903900",
+    "AgencyName": "State Police:",
+    "Type": "Kalamazoo County",
+    "State": "State Police",
+    "Latitude": "MI",
+    "Longitude": 42.227834
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI4114100",
+    "AgencyName": "Kent",
+    "Type": "County",
+    "State": "MI",
+    "Latitude": 43.071067,
+    "Longitude": -85.520023
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI4620200",
+    "AgencyName": "Adrian",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 41.897547,
+    "Longitude": -84.037165
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI5080600",
+    "AgencyName": "Warren",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.514456,
+    "Longitude": -83.014653
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI6306300",
+    "AgencyName": "State Police:",
+    "Type": "Oakland County",
+    "State": "State Police",
+    "Latitude": "MI",
+    "Longitude": 42.687532
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI6325900",
+    "AgencyName": "Birmingham",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.546701,
+    "Longitude": -83.211319
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI6378400",
+    "AgencyName": "Troy",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.605589,
+    "Longitude": -83.14993
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI6380800",
+    "AgencyName": "Waterford Township",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.690069,
+    "Longitude": -83.400323
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI7307300",
+    "AgencyName": "State Police:",
+    "Type": "Saginaw County",
+    "State": "State Police",
+    "Latitude": "MI",
+    "Longitude": 43.334341
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI7371700",
+    "AgencyName": "Saginaw",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 43.419469,
+    "Longitude": -83.950806
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI7835800",
+    "AgencyName": "Durand",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.912252,
+    "Longitude": -83.988856
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI7864500",
+    "AgencyName": "Owosso",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.997804,
+    "Longitude": -84.176642
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI8190600",
+    "AgencyName": "Pittsfield Township",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.232536,
+    "Longitude": -83.674259
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI8208200",
+    "AgencyName": "State Police:",
+    "Type": "Wayne County",
+    "State": "State Police",
+    "Latitude": "MI",
+    "Longitude": 42.281231
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI8234900",
+    "AgencyName": "Detroit",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.331427,
+    "Longitude": -83.045754
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI8234900",
+    "AgencyName": "Detroit",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.331427,
+    "Longitude": -83.045754
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MI8249000",
+    "AgencyName": "Inkster",
+    "Type": "City",
+    "State": "MI",
+    "Latitude": 42.294205,
+    "Longitude": -83.31493
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0020000",
+    "AgencyName": "Anoka",
+    "Type": "County",
+    "State": "MN",
+    "Latitude": 45.274358,
+    "Longitude": -93.237145
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0020200",
+    "AgencyName": "Blaine",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.160798,
+    "Longitude": -93.234949
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0020500",
+    "AgencyName": "Coon Rapids",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.173239,
+    "Longitude": -93.303006
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0020600",
+    "AgencyName": "Fridley",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.086193,
+    "Longitude": -93.263841
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0021300",
+    "AgencyName": "Ramsey",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.26024,
+    "Longitude": -93.449523
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0040000",
+    "AgencyName": "Beltrami",
+    "Type": "County",
+    "State": "MN",
+    "Latitude": 47.891933,
+    "Longitude": -95.011289
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0040100",
+    "AgencyName": "Bemidji",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 47.473611,
+    "Longitude": -94.880278
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0100000",
+    "AgencyName": "Carver",
+    "Type": "County",
+    "State": "MN",
+    "Latitude": 44.734041,
+    "Longitude": -93.800531
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0130000",
+    "AgencyName": "Chisago",
+    "Type": "County",
+    "State": "MN",
+    "Latitude": 45.526533,
+    "Longitude": -92.907659
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0190900",
+    "AgencyName": "Inver Grove Heights",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.848021,
+    "Longitude": -93.04201
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0191100",
+    "AgencyName": "Lakeville",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.649689,
+    "Longitude": -93.24272
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0240100",
+    "AgencyName": "Albert Lea",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 43.648028,
+    "Longitude": -93.368278
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0270100",
+    "AgencyName": "Bloomington",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.840798,
+    "Longitude": -93.298279
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0270200",
+    "AgencyName": "Brooklyn Center",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.076073,
+    "Longitude": -93.332732
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0270400",
+    "AgencyName": "Crystal",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.032465,
+    "Longitude": -93.359388
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0271100",
+    "AgencyName": "Minneapolis",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.977753,
+    "Longitude": -93.26501
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0271100",
+    "AgencyName": "Minneapolis",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.977753,
+    "Longitude": -93.26501
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0271500",
+    "AgencyName": "Orono",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.978619,
+    "Longitude": -93.604208
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0271700",
+    "AgencyName": "Plymouth",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.010519,
+    "Longitude": -93.455509
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0272100",
+    "AgencyName": "St. Louis Park",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.948299,
+    "Longitude": -93.34832
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0272700",
+    "AgencyName": "Maple Grove",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.072464,
+    "Longitude": -93.455787
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0274300",
+    "AgencyName": "Metropolitan Transit Commission",
+    "Type": "Other",
+    "State": "MN",
+    "Latitude": 44.979031,
+    "Longitude": -93.264931
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0340100",
+    "AgencyName": "Willmar",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.122274,
+    "Longitude": -95.048659
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0530100",
+    "AgencyName": "Worthington",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 43.622185,
+    "Longitude": -95.596114
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0550100",
+    "AgencyName": "Rochester",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.012122,
+    "Longitude": -92.480198
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0550100",
+    "AgencyName": "Rochester",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.012122,
+    "Longitude": -92.480198
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0620400",
+    "AgencyName": "Maplewood",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.953025,
+    "Longitude": -92.995215
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0620800",
+    "AgencyName": "Roseville",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.006076,
+    "Longitude": -93.15661
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0620900",
+    "AgencyName": "St. Paul",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.953703,
+    "Longitude": -93.089958
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0660200",
+    "AgencyName": "Northfield",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.458298,
+    "Longitude": -93.161604
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0730400",
+    "AgencyName": "St. Cloud",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.557945,
+    "Longitude": -94.16324
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0740100",
+    "AgencyName": "Owatonna",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.085349,
+    "Longitude": -93.225375
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0820000",
+    "AgencyName": "Washington",
+    "Type": "County",
+    "State": "MN",
+    "Latitude": 45.050473,
+    "Longitude": -92.881338
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0820700",
+    "AgencyName": "Cottage Grove",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.827464,
+    "Longitude": -92.943826
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0820800",
+    "AgencyName": "Oakdale",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.963022,
+    "Longitude": -92.96437
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0821100",
+    "AgencyName": "Woodbury",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 44.923855,
+    "Longitude": -92.959379
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0821400",
+    "AgencyName": "Oak Park Heights",
+    "Type": "City",
+    "State": "MN",
+    "Latitude": 45.03791,
+    "Longitude": -92.83104
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MN0860000",
+    "AgencyName": "Wright",
+    "Type": "County",
+    "State": "MN",
+    "Latitude": 45.164306,
+    "Longitude": -94.027832
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0100000",
+    "AgencyName": "Boone",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 38.993435,
+    "Longitude": -92.310225
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0100200",
+    "AgencyName": "Columbia",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 38.951705,
+    "Longitude": -92.334072
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0110100",
+    "AgencyName": "St. Joseph",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 39.767457,
+    "Longitude": -94.846684
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0130300",
+    "AgencyName": "Hamilton",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 39.74446,
+    "Longitude": -93.999941
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0150000",
+    "AgencyName": "Camden",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 38.0062,
+    "Longitude": -92.77138
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0170100",
+    "AgencyName": "Carrollton",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 39.358348,
+    "Longitude": -93.495487
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0730000",
+    "AgencyName": "Newton",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 36.871732,
+    "Longitude": -94.342363
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0770000",
+    "AgencyName": "Ozark",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 36.659584,
+    "Longitude": -92.44917
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0850000",
+    "AgencyName": "Pulaski",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 37.829446,
+    "Longitude": -92.262068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0850400",
+    "AgencyName": "St. Robert",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 37.829263,
+    "Longitude": -92.147385
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0920400",
+    "AgencyName": "St. Peters",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 38.800335,
+    "Longitude": -90.626509
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0950000",
+    "AgencyName": "St. Louis County Police Department",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 38.576232,
+    "Longitude": -90.450794
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0950200",
+    "AgencyName": "Ballwin",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 38.595051,
+    "Longitude": -90.546228
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0953800",
+    "AgencyName": "Hazelwood",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 38.7712,
+    "Longitude": -90.37044
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO0990000",
+    "AgencyName": "Schuyler",
+    "Type": "County",
+    "State": "MO",
+    "Latitude": 40.457465,
+    "Longitude": -92.548113
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MO1070100",
+    "AgencyName": "Branson",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 36.643673,
+    "Longitude": -93.218514
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MOKPD0000",
+    "AgencyName": "Kansas City",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 39.099727,
+    "Longitude": -94.578567
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MOSPD0000",
+    "AgencyName": "St. Louis",
+    "Type": "City",
+    "State": "MO",
+    "Latitude": 38.627003,
+    "Longitude": -90.199404
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MS0300300",
+    "AgencyName": "Pascagoula",
+    "Type": "City",
+    "State": "MS",
+    "Latitude": 30.365757,
+    "Longitude": -88.55613
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MS0480200",
+    "AgencyName": "Amory",
+    "Type": "City",
+    "State": "MS",
+    "Latitude": 33.984268,
+    "Longitude": -88.488657
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MS0510300",
+    "AgencyName": "Union",
+    "Type": "City",
+    "State": "MS",
+    "Latitude": 32.572916,
+    "Longitude": -89.11673
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0070100",
+    "AgencyName": "Great Falls",
+    "Type": "City",
+    "State": "MT",
+    "Latitude": 47.494183,
+    "Longitude": -111.283345
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0160000",
+    "AgencyName": "Gallatin",
+    "Type": "County",
+    "State": "MT",
+    "Latitude": 45.538699,
+    "Longitude": -111.169392
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0160100",
+    "AgencyName": "Bozeman",
+    "Type": "City",
+    "State": "MT",
+    "Latitude": 45.677,
+    "Longitude": -111.042933
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0210100",
+    "AgencyName": "Havre",
+    "Type": "City",
+    "State": "MT",
+    "Latitude": 48.549562,
+    "Longitude": -109.684357
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0320000",
+    "AgencyName": "Missoula",
+    "Type": "County",
+    "State": "MT",
+    "Latitude": 46.916388,
+    "Longitude": -113.941999
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0320100",
+    "AgencyName": "Missoula",
+    "Type": "City",
+    "State": "MT",
+    "Latitude": 46.872146,
+    "Longitude": -113.994034
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0560000",
+    "AgencyName": "Yellowstone",
+    "Type": "County",
+    "State": "MT",
+    "Latitude": 45.828163,
+    "Longitude": -108.393616
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "MT0560100",
+    "AgencyName": "Billings",
+    "Type": "City",
+    "State": "MT",
+    "Latitude": 45.783286,
+    "Longitude": -108.50069
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0010100",
+    "AgencyName": "Hastings",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.586264,
+    "Longitude": -98.389871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0010100",
+    "AgencyName": "Hastings",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.586264,
+    "Longitude": -98.389871
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0100100",
+    "AgencyName": "Kearney",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.699167,
+    "Longitude": -99.081481
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0190100",
+    "AgencyName": "Schuyler",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 41.448627,
+    "Longitude": -97.05948
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0230100",
+    "AgencyName": "Chadron",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 42.829715,
+    "Longitude": -103.003002
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0280200",
+    "AgencyName": "Omaha",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 41.256537,
+    "Longitude": -95.934503
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0280500",
+    "AgencyName": "Valley",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 41.311868,
+    "Longitude": -96.346977
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0400000",
+    "AgencyName": "Hall",
+    "Type": "County",
+    "State": "NB",
+    "Latitude": 40.87796,
+    "Longitude": -98.502129
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0400100",
+    "AgencyName": "Grand Island",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.922199,
+    "Longitude": -98.35838
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0550100",
+    "AgencyName": "Lincoln",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.813616,
+    "Longitude": -96.702595
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0550100",
+    "AgencyName": "Lincoln",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.813616,
+    "Longitude": -96.702595
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0710100",
+    "AgencyName": "Columbus",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 41.429689,
+    "Longitude": -97.35939
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0770200",
+    "AgencyName": "Papillion",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 41.154444,
+    "Longitude": -96.042237
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0800100",
+    "AgencyName": "Seward",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.907227,
+    "Longitude": -97.09865
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NB0930100",
+    "AgencyName": "York",
+    "Type": "City",
+    "State": "NB",
+    "Latitude": 40.867105,
+    "Longitude": -97.592829
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0010100",
+    "AgencyName": "Burlington",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 36.095691,
+    "Longitude": -79.437799
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0070300",
+    "AgencyName": "Belhaven",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.541552,
+    "Longitude": -76.622698
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0100000",
+    "AgencyName": "Brunswick",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 34.059089,
+    "Longitude": -78.22324
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0110100",
+    "AgencyName": "Asheville",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.595058,
+    "Longitude": -82.551487
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0110100",
+    "AgencyName": "Asheville",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.595058,
+    "Longitude": -82.551487
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0130200",
+    "AgencyName": "Kannapolis",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.487361,
+    "Longitude": -80.621734
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0160400",
+    "AgencyName": "Newport",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 34.78664,
+    "Longitude": -76.859657
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0190000",
+    "AgencyName": "Chatham",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 35.722484,
+    "Longitude": -79.178692
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0260100",
+    "AgencyName": "Fayetteville",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.052666,
+    "Longitude": -78.878358
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0260200",
+    "AgencyName": "Hope Mills",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 34.970998,
+    "Longitude": -78.945309
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0310000",
+    "AgencyName": "Duplin",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 34.950284,
+    "Longitude": -77.926709
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0320100",
+    "AgencyName": "Durham",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.994033,
+    "Longitude": -78.898619
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0360600",
+    "AgencyName": "Gastonia",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.262082,
+    "Longitude": -81.1873
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0400000",
+    "AgencyName": "Greene",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 35.482645,
+    "Longitude": -77.677094
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0410000",
+    "AgencyName": "Guilford",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 36.072635,
+    "Longitude": -79.78866
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0410200",
+    "AgencyName": "Greensboro",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 36.072635,
+    "Longitude": -79.791975
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0410200",
+    "AgencyName": "Greensboro",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 36.072635,
+    "Longitude": -79.791975
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0420000",
+    "AgencyName": "Halifax",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 36.255278,
+    "Longitude": -77.654412
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0510200",
+    "AgencyName": "Benson",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.38294,
+    "Longitude": -78.54807
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0600100",
+    "AgencyName": "Charlotte-Mecklenburg",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.227087,
+    "Longitude": -80.843127
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0600100",
+    "AgencyName": "Charlotte-Mecklenburg",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.227087,
+    "Longitude": -80.843127
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0610100",
+    "AgencyName": "Spruce Pine",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.914836,
+    "Longitude": -82.068449
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0650000",
+    "AgencyName": "New Hanover",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 34.157884,
+    "Longitude": -77.972748
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0650200",
+    "AgencyName": "Wilmington",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 34.225726,
+    "Longitude": -77.94471
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0670100",
+    "AgencyName": "Jacksonville",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 34.754053,
+    "Longitude": -77.430241
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0700000",
+    "AgencyName": "Pasquotank",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 36.292739,
+    "Longitude": -76.253387
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0780100",
+    "AgencyName": "Lumberton",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 34.61867,
+    "Longitude": -79.01174
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0820000",
+    "AgencyName": "Sampson",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 34.992009,
+    "Longitude": -78.365957
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0920000",
+    "AgencyName": "Wake",
+    "Type": "County",
+    "State": "NC",
+    "Latitude": 35.80319,
+    "Longitude": -78.566085
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0920300",
+    "AgencyName": "Cary",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.79154,
+    "Longitude": -78.781116
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NC0920300",
+    "AgencyName": "Cary",
+    "Type": "City",
+    "State": "NC",
+    "Latitude": 35.79154,
+    "Longitude": -78.781116
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ND0090000",
+    "AgencyName": "Cass",
+    "Type": "County",
+    "State": "ND",
+    "Latitude": 46.919344,
+    "Longitude": -97.376948
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ND0090200",
+    "AgencyName": "Fargo",
+    "Type": "City",
+    "State": "ND",
+    "Latitude": 46.877186,
+    "Longitude": -96.789803
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ND0230000",
+    "AgencyName": "Lamoure",
+    "Type": "County",
+    "State": "ND",
+    "Latitude": 46.227133,
+    "Longitude": -98.560556
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ND0270100",
+    "AgencyName": "Watford City",
+    "Type": "City",
+    "State": "ND",
+    "Latitude": 47.802969,
+    "Longitude": -103.283243
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ND0300200",
+    "AgencyName": "Mandan",
+    "Type": "City",
+    "State": "ND",
+    "Latitude": 46.826539,
+    "Longitude": -100.889183
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "ND0510200",
+    "AgencyName": "Minot",
+    "Type": "City",
+    "State": "ND",
+    "Latitude": 48.232509,
+    "Longitude": -101.296273
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NDDI00100",
+    "AgencyName": "Turtle Mountain Agency",
+    "Type": "Tribal",
+    "State": "ND",
+    "Latitude": 48.944115,
+    "Longitude": -100.45641
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0031800",
+    "AgencyName": "Keene",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 42.933692,
+    "Longitude": -72.278141
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0051400",
+    "AgencyName": "Bristol",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.591464,
+    "Longitude": -71.736517
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0062400",
+    "AgencyName": "Hillsborough",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.115917,
+    "Longitude": -71.895079
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0062400",
+    "AgencyName": "Hillsborough",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.115917,
+    "Longitude": -71.895079
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0071600",
+    "AgencyName": "Concord",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.208136,
+    "Longitude": -71.537571
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0084600",
+    "AgencyName": "Newmarket",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.07119,
+    "Longitude": -70.935345
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0092400",
+    "AgencyName": "Somersworth",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.261474,
+    "Longitude": -70.865057
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NH0101800",
+    "AgencyName": "Newport",
+    "Type": "City",
+    "State": "NH",
+    "Latitude": 43.365278,
+    "Longitude": -72.172222
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0010200",
+    "AgencyName": "Atlantic City",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 39.364283,
+    "Longitude": -74.422927
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0010800",
+    "AgencyName": "Egg Harbor Township",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 39.404284,
+    "Longitude": -74.575155
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0020500",
+    "AgencyName": "Carlstadt",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 40.825655,
+    "Longitude": -74.093757
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0050600",
+    "AgencyName": "Middle Township",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 39.081839,
+    "Longitude": -74.821019
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0142400",
+    "AgencyName": "Morristown",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 40.796767,
+    "Longitude": -74.481544
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0148900",
+    "AgencyName": "Prosecutor:",
+    "Type": "Morris County",
+    "State": "Other",
+    "Latitude": "NJ",
+    "Longitude": 40.796767
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0160200",
+    "AgencyName": "Clifton",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 40.858433,
+    "Longitude": -74.163755
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0160800",
+    "AgencyName": "Paterson",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 40.916765,
+    "Longitude": -74.171811
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJ0200400",
+    "AgencyName": "Elizabeth",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 40.663991,
+    "Longitude": -74.2107
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NJNPD0000",
+    "AgencyName": "Newark",
+    "Type": "City",
+    "State": "NJ",
+    "Latitude": 40.735657,
+    "Longitude": -74.172367
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NM0010100",
+    "AgencyName": "Albuquerque",
+    "Type": "City",
+    "State": "NM",
+    "Latitude": 35.084385,
+    "Longitude": -106.650422
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NM0010100",
+    "AgencyName": "Albuquerque",
+    "Type": "City",
+    "State": "NM",
+    "Latitude": 35.084385,
+    "Longitude": -106.650422
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NM0030000",
+    "AgencyName": "Chaves",
+    "Type": "County",
+    "State": "NM",
+    "Latitude": 33.364283,
+    "Longitude": -104.457276
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NM0030000",
+    "AgencyName": "Chaves",
+    "Type": "County",
+    "State": "NM",
+    "Latitude": 33.364283,
+    "Longitude": -104.457276
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NM0030100",
+    "AgencyName": "Roswell",
+    "Type": "City",
+    "State": "NM",
+    "Latitude": 33.394266,
+    "Longitude": -104.523024
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NM0070000",
+    "AgencyName": "Dona Ana",
+    "Type": "County",
+    "State": "NM",
+    "Latitude": 32.35126,
+    "Longitude": -106.80034
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NMNSP0000",
+    "AgencyName": "New Mexico State Police",
+    "Type": "State Police",
+    "State": "NM",
+    "Latitude": 35.68224,
+    "Longitude": -105.939728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0020100",
+    "AgencyName": "Las Vegas Metropolitan Police Department",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 36.167255,
+    "Longitude": -115.148516
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0020100",
+    "AgencyName": "Las Vegas Metropolitan Police Department",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 36.167255,
+    "Longitude": -115.148516
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0020200",
+    "AgencyName": "North Las Vegas",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 36.198859,
+    "Longitude": -115.117501
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0020300",
+    "AgencyName": "Henderson",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 36.039525,
+    "Longitude": -114.981721
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0020900",
+    "AgencyName": "Mesquite",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 36.805531,
+    "Longitude": -114.067186
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0160000",
+    "AgencyName": "Washoe",
+    "Type": "County",
+    "State": "NV",
+    "Latitude": 40.560838,
+    "Longitude": -119.603549
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0160100",
+    "AgencyName": "Reno",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 39.529633,
+    "Longitude": -119.813803
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NV0160200",
+    "AgencyName": "Sparks",
+    "Type": "City",
+    "State": "NV",
+    "Latitude": 39.534911,
+    "Longitude": -119.752688
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0060000",
+    "AgencyName": "Chautauqua",
+    "Type": "County",
+    "State": "NY",
+    "Latitude": 42.231282,
+    "Longitude": -79.560344
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0140000",
+    "AgencyName": "Erie",
+    "Type": "County",
+    "State": "NY",
+    "Latitude": 42.902395,
+    "Longitude": -78.866158
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0140000",
+    "AgencyName": "Erie",
+    "Type": "County",
+    "State": "NY",
+    "Latitude": 42.902395,
+    "Longitude": -78.866158
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0303000",
+    "AgencyName": "New York",
+    "Type": "City",
+    "State": "NY",
+    "Latitude": 40.712776,
+    "Longitude": -74.005974
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0303000",
+    "AgencyName": "New York",
+    "Type": "City",
+    "State": "NY",
+    "Latitude": 40.712776,
+    "Longitude": -74.005974
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0350100",
+    "AgencyName": "Middletown",
+    "Type": "City",
+    "State": "NY",
+    "Latitude": 41.445927,
+    "Longitude": -74.422935
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "NY0560000",
+    "AgencyName": "Warren",
+    "Type": "County",
+    "State": "NY",
+    "Latitude": 43.555967,
+    "Longitude": -73.777211
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0020400",
+    "AgencyName": "Lima",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 40.742551,
+    "Longitude": -84.105226
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0182500",
+    "AgencyName": "Independence",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.368103,
+    "Longitude": -81.637345
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0400000",
+    "AgencyName": "Jackson",
+    "Type": "County",
+    "State": "OH",
+    "Latitude": 39.037993,
+    "Longitude": -82.648344
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0490000",
+    "AgencyName": "Madison",
+    "Type": "County",
+    "State": "OH",
+    "Latitude": 39.885663,
+    "Longitude": -83.401619
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0570000",
+    "AgencyName": "Montgomery",
+    "Type": "County",
+    "State": "OH",
+    "Latitude": 39.757073,
+    "Longitude": -84.290091
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0760400",
+    "AgencyName": "Canton",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 40.798948,
+    "Longitude": -81.378447
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0770000",
+    "AgencyName": "Summit",
+    "Type": "County",
+    "State": "OH",
+    "Latitude": 41.09113,
+    "Longitude": -81.519995
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0770000",
+    "AgencyName": "Summit",
+    "Type": "County",
+    "State": "OH",
+    "Latitude": 41.09113,
+    "Longitude": -81.519995
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0770100",
+    "AgencyName": "Akron",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.081445,
+    "Longitude": -81.519005
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0770100",
+    "AgencyName": "Akron",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.081445,
+    "Longitude": -81.519005
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0770600",
+    "AgencyName": "Lakemore",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.021997,
+    "Longitude": -81.444284
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0772500",
+    "AgencyName": "Springfield Township",
+    "Type": "Summit County",
+    "State": "City",
+    "Latitude": "OH",
+    "Longitude": 41.02449
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OH0860200",
+    "AgencyName": "Montpelier",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.584768,
+    "Longitude": -84.608843
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OHCLP0000",
+    "AgencyName": "Cleveland",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.505493,
+    "Longitude": -81.68129
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OHCLP0000",
+    "AgencyName": "Cleveland",
+    "Type": "City",
+    "State": "OH",
+    "Latitude": 41.505493,
+    "Longitude": -81.68129
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OHOHP0000",
+    "AgencyName": "Ohio State Highway Patrol",
+    "Type": "State Police",
+    "State": "OH",
+    "Latitude": 39.961176,
+    "Longitude": -82.998794
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0060000",
+    "AgencyName": "Blaine",
+    "Type": "County",
+    "State": "OK",
+    "Latitude": 35.883554,
+    "Longitude": -98.412996
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0060000",
+    "AgencyName": "Blaine",
+    "Type": "County",
+    "State": "OK",
+    "Latitude": 35.883554,
+    "Longitude": -98.412996
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0140000",
+    "AgencyName": "Cleveland",
+    "Type": "County",
+    "State": "OK",
+    "Latitude": 35.202646,
+    "Longitude": -97.351655
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0211600",
+    "AgencyName": "West Siloam Springs",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 36.182311,
+    "Longitude": -94.568346
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0410000",
+    "AgencyName": "Lincoln",
+    "Type": "County",
+    "State": "OK",
+    "Latitude": 35.702952,
+    "Longitude": -96.888426
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0410300",
+    "AgencyName": "Stroud",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 35.748297,
+    "Longitude": -96.658622
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0500200",
+    "AgencyName": "Davis",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 34.504254,
+    "Longitude": -97.119194
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0550600",
+    "AgencyName": "Oklahoma City",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 35.46756,
+    "Longitude": -97.516428
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0550600",
+    "AgencyName": "Oklahoma City",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 35.46756,
+    "Longitude": -97.516428
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0551500",
+    "AgencyName": "Spencer",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 35.522625,
+    "Longitude": -97.370875
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0552100",
+    "AgencyName": "Valley Brook",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 35.411731,
+    "Longitude": -97.488659
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0552100",
+    "AgencyName": "Valley Brook",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 35.411731,
+    "Longitude": -97.488659
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0580600",
+    "AgencyName": "Fairland",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 36.747307,
+    "Longitude": -94.844117
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0590200",
+    "AgencyName": "Pawnee",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 36.338655,
+    "Longitude": -96.801127
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK070015A",
+    "AgencyName": "District 1 Narcotics Task Force",
+    "Type": "Other",
+    "State": "OK",
+    "Latitude": 35.492207,
+    "Longitude": -97.503342
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OK0720500",
+    "AgencyName": "Tulsa",
+    "Type": "City",
+    "State": "OK",
+    "Latitude": 36.153982,
+    "Longitude": -95.992775
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0030400",
+    "AgencyName": "Lake Oswego",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.420674,
+    "Longitude": -122.670649
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0240200",
+    "AgencyName": "Salem",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 44.942898,
+    "Longitude": -123.035096
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0260000",
+    "AgencyName": "Multnomah",
+    "Type": "County",
+    "State": "OR",
+    "Latitude": 45.547396,
+    "Longitude": -122.4166
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0260100",
+    "AgencyName": "Gresham",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.50592,
+    "Longitude": -122.43296
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0260100",
+    "AgencyName": "Gresham",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.50592,
+    "Longitude": -122.43296
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0260200",
+    "AgencyName": "Portland",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.505106,
+    "Longitude": -122.675026
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0260200",
+    "AgencyName": "Portland",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.505106,
+    "Longitude": -122.675026
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0340000",
+    "AgencyName": "Washington",
+    "Type": "County",
+    "State": "OR",
+    "Latitude": 45.546961,
+    "Longitude": -123.138602
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0340100",
+    "AgencyName": "Beaverton",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.487061,
+    "Longitude": -122.80371
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0340100",
+    "AgencyName": "Beaverton",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.487061,
+    "Longitude": -122.80371
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0340300",
+    "AgencyName": "Hillsboro",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.522894,
+    "Longitude": -122.989827
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "OR0340300",
+    "AgencyName": "Hillsboro",
+    "Type": "City",
+    "State": "OR",
+    "Latitude": 45.522894,
+    "Longitude": -122.989827
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0022800",
+    "AgencyName": "Allegheny County Police Department",
+    "Type": "County",
+    "State": "PA",
+    "Latitude": 40.440625,
+    "Longitude": -79.995886
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0022800",
+    "AgencyName": "Allegheny County Police Department",
+    "Type": "County",
+    "State": "PA",
+    "Latitude": 40.440625,
+    "Longitude": -79.995886
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA002DE0X",
+    "AgencyName": "Office of Attorney General Region 3:",
+    "Type": "Allegheny County",
+    "State": "Other State Agency",
+    "Latitude": "PA",
+    "Longitude": 40.440625
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0042500",
+    "AgencyName": "Patterson Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.754188,
+    "Longitude": -80.32368
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0042500",
+    "AgencyName": "Patterson Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.754188,
+    "Longitude": -80.32368
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0070100",
+    "AgencyName": "Altoona",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.51868,
+    "Longitude": -78.394736
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0070400",
+    "AgencyName": "Tyrone",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.678117,
+    "Longitude": -78.23862
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0070400",
+    "AgencyName": "Tyrone",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.678117,
+    "Longitude": -78.23862
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0070700",
+    "AgencyName": "Allegheny Township",
+    "Type": "Blair County",
+    "State": "City",
+    "Latitude": "PA",
+    "Longitude": 40.522024
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0090100",
+    "AgencyName": "Bensalem Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.108217,
+    "Longitude": -74.951029
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA010SP00",
+    "AgencyName": "State Police:",
+    "Type": "Butler County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 40.861175
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0140900",
+    "AgencyName": "Patton Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.810189,
+    "Longitude": -77.922276
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0150400",
+    "AgencyName": "East Whiteland Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.045549,
+    "Longitude": -75.568779
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA015SP00",
+    "AgencyName": "State Police:",
+    "Type": "Chester County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 39.978221
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA020SP00",
+    "AgencyName": "State Police:",
+    "Type": "Crawford County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 41.683903
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0211700",
+    "AgencyName": "Silver Spring Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.258386,
+    "Longitude": -77.008925
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA021DE0X",
+    "AgencyName": "Office of Attorney General Region 2:",
+    "Type": "Cumberland County",
+    "State": "Other State Agency",
+    "Latitude": "PA",
+    "Longitude": 40.273191
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA021SP00",
+    "AgencyName": "State Police:",
+    "Type": "Cumberland County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 40.273191
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0220400",
+    "AgencyName": "Lower Paxton Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.314486,
+    "Longitude": -76.791201
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0220400",
+    "AgencyName": "Lower Paxton Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.314486,
+    "Longitude": -76.791201
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0220900",
+    "AgencyName": "Swatara Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.273722,
+    "Longitude": -76.833975
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0221300",
+    "AgencyName": "Penbrook",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.281477,
+    "Longitude": -76.851084
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA022SP00",
+    "AgencyName": "State Police:",
+    "Type": "Elizabethville",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 40.548416
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0231800",
+    "AgencyName": "Media",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 39.916778,
+    "Longitude": -75.387692
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0232600",
+    "AgencyName": "Radnor Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.046657,
+    "Longitude": -75.359965
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0250200",
+    "AgencyName": "Erie",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 42.129224,
+    "Longitude": -80.085059
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0250200",
+    "AgencyName": "Erie",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 42.129224,
+    "Longitude": -80.085059
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA025SP00",
+    "AgencyName": "State Police:",
+    "Type": "Erie County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 42.052421
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA032SP00",
+    "AgencyName": "State Police:",
+    "Type": "Indiana County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 40.62154
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0330200",
+    "AgencyName": "Brookville",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 41.159503,
+    "Longitude": -79.081696
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0362500",
+    "AgencyName": "Manor Township",
+    "Type": "Lancaster County",
+    "State": "City",
+    "Latitude": "PA",
+    "Longitude": 39.998186
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA047SP00",
+    "AgencyName": "State Police:",
+    "Type": "Montour County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 41.02791
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0490700",
+    "AgencyName": "Kulpmont",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.794246,
+    "Longitude": -76.475356
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0490700",
+    "AgencyName": "Kulpmont",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.794246,
+    "Longitude": -76.475356
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA055SP00",
+    "AgencyName": "State Police:",
+    "Type": "Snyder County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 40.799565
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0590100",
+    "AgencyName": "Wellsboro",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 41.748141,
+    "Longitude": -77.30024
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA0633300",
+    "AgencyName": "South Strabane Township",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 40.153949,
+    "Longitude": -80.226988
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA064SP00",
+    "AgencyName": "State Police:",
+    "Type": "Wayne County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 41.64935
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PA066SP00",
+    "AgencyName": "State Police:",
+    "Type": "Wyoming County",
+    "State": "State Police",
+    "Latitude": "PA",
+    "Longitude": 41.515279
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PADAA210X",
+    "AgencyName": "Cumberland County District Attorney",
+    "Type": "Other",
+    "State": "PA",
+    "Latitude": 40.273191,
+    "Longitude": -76.886701
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PAPEP0000",
+    "AgencyName": "Philadelphia",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 39.952584,
+    "Longitude": -75.165222
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "PAPEP0000",
+    "AgencyName": "Philadelphia",
+    "Type": "City",
+    "State": "PA",
+    "Latitude": 39.952584,
+    "Longitude": -75.165222
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "RI0020300",
+    "AgencyName": "Warwick",
+    "Type": "City",
+    "State": "RI",
+    "Latitude": 41.7001,
+    "Longitude": -71.416167
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "RI0040800",
+    "AgencyName": "Pawtucket",
+    "Type": "City",
+    "State": "RI",
+    "Latitude": 41.878711,
+    "Longitude": -71.382555
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "RI0040900",
+    "AgencyName": "Providence",
+    "Type": "City",
+    "State": "RI",
+    "Latitude": 41.823989,
+    "Longitude": -71.412834
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "RI0050100",
+    "AgencyName": "Narragansett",
+    "Type": "City",
+    "State": "RI",
+    "Latitude": 41.450084,
+    "Longitude": -71.449502
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "RI0050200",
+    "AgencyName": "North Kingstown",
+    "Type": "City",
+    "State": "RI",
+    "Latitude": 41.561699,
+    "Longitude": -71.465952
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "RIRSP0000",
+    "AgencyName": "Rhode Island State Police Headquarters",
+    "Type": "State Police",
+    "State": "RI",
+    "Latitude": 41.580095,
+    "Longitude": -71.477429
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0020100",
+    "AgencyName": "Aiken",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 33.560416,
+    "Longitude": -81.719553
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0040000",
+    "AgencyName": "Anderson",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 34.522003,
+    "Longitude": -82.648344
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0140000",
+    "AgencyName": "Clarendon",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 33.667171,
+    "Longitude": -80.218814
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0150000",
+    "AgencyName": "Colleton",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 32.873374,
+    "Longitude": -80.6569
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0160100",
+    "AgencyName": "Darlington",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 34.299576,
+    "Longitude": -79.876418
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0210100",
+    "AgencyName": "Florence",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 34.195433,
+    "Longitude": -79.762563
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0230000",
+    "AgencyName": "Greenville",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 34.852618,
+    "Longitude": -82.39401
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0260100",
+    "AgencyName": "Atlantic Beach",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 33.801836,
+    "Longitude": -78.720614
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0260400",
+    "AgencyName": "Horry County Police Department",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 33.909855,
+    "Longitude": -78.734628
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0260600",
+    "AgencyName": "Myrtle Beach",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 33.68906,
+    "Longitude": -78.886694
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0290000",
+    "AgencyName": "Lancaster",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 34.725341,
+    "Longitude": -80.677078
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0300100",
+    "AgencyName": "Laurens",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 34.499258,
+    "Longitude": -82.014235
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0320000",
+    "AgencyName": "Lexington",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 33.930035,
+    "Longitude": -81.251883
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0320000",
+    "AgencyName": "Lexington",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 33.930035,
+    "Longitude": -81.251883
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0350000",
+    "AgencyName": "Marlboro",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 34.613733,
+    "Longitude": -79.657168
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0400000",
+    "AgencyName": "Richland",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 34.041713,
+    "Longitude": -80.942891
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0400100",
+    "AgencyName": "Columbia",
+    "Type": "City",
+    "State": "SC",
+    "Latitude": 34.00071,
+    "Longitude": -81.034814
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SC0460000",
+    "AgencyName": "York",
+    "Type": "County",
+    "State": "SC",
+    "Latitude": 35.014008,
+    "Longitude": -81.143507
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SD0490200",
+    "AgencyName": "Sioux Falls",
+    "Type": "City",
+    "State": "SD",
+    "Latitude": 43.549974,
+    "Longitude": -96.700327
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SD0510000",
+    "AgencyName": "Pennington",
+    "Type": "County",
+    "State": "SD",
+    "Latitude": 44.003997,
+    "Longitude": -103.293734
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SD0510100",
+    "AgencyName": "Rapid City",
+    "Type": "City",
+    "State": "SD",
+    "Latitude": 44.080543,
+    "Longitude": -103.231015
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "SD0660100",
+    "AgencyName": "Yankton",
+    "Type": "City",
+    "State": "SD",
+    "Latitude": 42.87121,
+    "Longitude": -97.397281
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0050000",
+    "AgencyName": "Blount",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.756471,
+    "Longitude": -83.978798
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0050100",
+    "AgencyName": "Alcoa",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.789417,
+    "Longitude": -83.973239
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0100000",
+    "AgencyName": "Carter",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 36.263853,
+    "Longitude": -82.127839
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0160100",
+    "AgencyName": "Manchester",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.48184,
+    "Longitude": -86.088022
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0190100",
+    "AgencyName": "Metropolitan Nashville Police Department",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 36.166667,
+    "Longitude": -86.783333
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0190100",
+    "AgencyName": "Metropolitan Nashville Police Department",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 36.166667,
+    "Longitude": -86.783333
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0280000",
+    "AgencyName": "Giles",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.16799,
+    "Longitude": -87.040348
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0350000",
+    "AgencyName": "Hardeman",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.167459,
+    "Longitude": -88.999847
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0350000",
+    "AgencyName": "Hardeman",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.167459,
+    "Longitude": -88.999847
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0390100",
+    "AgencyName": "Lexington",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.650077,
+    "Longitude": -88.393099
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0470000",
+    "AgencyName": "Knox",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.987462,
+    "Longitude": -83.941978
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0470100",
+    "AgencyName": "Knoxville",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.960638,
+    "Longitude": -83.920739
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0570100",
+    "AgencyName": "Jackson",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.614516,
+    "Longitude": -88.813947
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0590100",
+    "AgencyName": "Lewisburg",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.449239,
+    "Longitude": -86.78833
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0630000",
+    "AgencyName": "Montgomery",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 36.496577,
+    "Longitude": -87.460397
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0660100",
+    "AgencyName": "Union City",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 36.424625,
+    "Longitude": -89.057851
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0680000",
+    "AgencyName": "Perry",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.646102,
+    "Longitude": -87.858913
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0730000",
+    "AgencyName": "Roane",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.857092,
+    "Longitude": -84.524061
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0730400",
+    "AgencyName": "Rockwood",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.869519,
+    "Longitude": -84.684661
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0740000",
+    "AgencyName": "Robertson",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 36.524487,
+    "Longitude": -86.889164
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0740100",
+    "AgencyName": "Springfield",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 36.509487,
+    "Longitude": -86.884166
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0750100",
+    "AgencyName": "Murfreesboro",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.845621,
+    "Longitude": -86.39027
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0790600",
+    "AgencyName": "Bartlett",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.204532,
+    "Longitude": -89.873979
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0810000",
+    "AgencyName": "Stewart",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 36.481016,
+    "Longitude": -87.835178
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0820100",
+    "AgencyName": "Bristol",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 36.595106,
+    "Longitude": -82.188744
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0830000",
+    "AgencyName": "Sumner",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 36.471366,
+    "Longitude": -86.454491
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0880000",
+    "AgencyName": "Van Buren",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.68739,
+    "Longitude": -85.407077
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TN0940000",
+    "AgencyName": "Williamson",
+    "Type": "County",
+    "State": "TN",
+    "Latitude": 35.917927,
+    "Longitude": -86.862182
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TNMPD0000",
+    "AgencyName": "Memphis",
+    "Type": "City",
+    "State": "TN",
+    "Latitude": 35.149534,
+    "Longitude": -90.04898
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0010100",
+    "AgencyName": "Palestine",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.762115,
+    "Longitude": -95.630789
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0030400",
+    "AgencyName": "Lufkin",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.33824,
+    "Longitude": -94.7291
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0040000",
+    "AgencyName": "Aransas",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 28.124053,
+    "Longitude": -97.041162
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0070000",
+    "AgencyName": "Atascosa",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 28.893391,
+    "Longitude": -98.538161
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0110000",
+    "AgencyName": "Bastrop",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 30.106455,
+    "Longitude": -97.30805
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0140700",
+    "AgencyName": "Temple",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.098234,
+    "Longitude": -97.342782
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0140700",
+    "AgencyName": "Temple",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.098234,
+    "Longitude": -97.342782
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0190500",
+    "AgencyName": "Texarkana",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.425125,
+    "Longitude": -94.047688
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0200000",
+    "AgencyName": "Brazoria",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.162729,
+    "Longitude": -95.43253
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0210000",
+    "AgencyName": "Brazos",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 30.661009,
+    "Longitude": -96.311363
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0210200",
+    "AgencyName": "College Station",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.627977,
+    "Longitude": -96.334407
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0260100",
+    "AgencyName": "Caldwell",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.531867,
+    "Longitude": -96.710529
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0310100",
+    "AgencyName": "Brownsville",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 25.901747,
+    "Longitude": -97.497484
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0310300",
+    "AgencyName": "Harlingen",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.190631,
+    "Longitude": -97.696103
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0310300",
+    "AgencyName": "Harlingen",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.190631,
+    "Longitude": -97.696103
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0310900",
+    "AgencyName": "San Benito",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.132575,
+    "Longitude": -97.630102
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0310900",
+    "AgencyName": "San Benito",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.132575,
+    "Longitude": -97.630102
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0360000",
+    "AgencyName": "Chambers",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.713475,
+    "Longitude": -94.686923
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0430100",
+    "AgencyName": "Allen",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.103174,
+    "Longitude": -96.67055
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0430100",
+    "AgencyName": "Allen",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.103174,
+    "Longitude": -96.67055
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0430900",
+    "AgencyName": "Princeton",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.178728,
+    "Longitude": -96.498324
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0460000",
+    "AgencyName": "Comal",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.730957,
+    "Longitude": -98.21548
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0460000",
+    "AgencyName": "Comal",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.730957,
+    "Longitude": -98.21548
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0500100",
+    "AgencyName": "Copperas Cove",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.124062,
+    "Longitude": -97.903078
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0570100",
+    "AgencyName": "Addison",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.961793,
+    "Longitude": -96.829168
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0570200",
+    "AgencyName": "Balch Springs",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.728996,
+    "Longitude": -96.622488
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0571500",
+    "AgencyName": "Irving",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.814018,
+    "Longitude": -96.948894
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0571500",
+    "AgencyName": "Irving",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.814018,
+    "Longitude": -96.948894
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0573300",
+    "AgencyName": "Rowlett",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.902901,
+    "Longitude": -96.56388
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0580000",
+    "AgencyName": "Dawson",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 32.741109,
+    "Longitude": -101.952304
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0610000",
+    "AgencyName": "Denton",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 33.205175,
+    "Longitude": -97.116934
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0610200",
+    "AgencyName": "Denton",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.214841,
+    "Longitude": -97.133068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0610600",
+    "AgencyName": "Lewisville",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.046233,
+    "Longitude": -96.994174
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0611300",
+    "AgencyName": "Little Elm",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.162619,
+    "Longitude": -96.937224
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0680200",
+    "AgencyName": "Odessa",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.845682,
+    "Longitude": -102.367643
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0710200",
+    "AgencyName": "El Paso",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.761878,
+    "Longitude": -106.485022
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0790000",
+    "AgencyName": "Fort Bend",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.569717,
+    "Longitude": -95.814288
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0840400",
+    "AgencyName": "Galveston",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.301348,
+    "Longitude": -94.797695
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0850000",
+    "AgencyName": "Garza",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 33.179784,
+    "Longitude": -101.354654
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0940300",
+    "AgencyName": "Seguin",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.568841,
+    "Longitude": -97.964728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX0940300",
+    "AgencyName": "Seguin",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.568841,
+    "Longitude": -97.964728
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1000900",
+    "AgencyName": "Lumberton",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.26104,
+    "Longitude": -94.199621
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1010000",
+    "AgencyName": "Harris",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.857363,
+    "Longitude": -95.393463
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1010000",
+    "AgencyName": "Harris",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 29.857363,
+    "Longitude": -95.393463
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1010100",
+    "AgencyName": "Baytown",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.735504,
+    "Longitude": -94.977427
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1010100",
+    "AgencyName": "Baytown",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.735504,
+    "Longitude": -94.977427
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1012700",
+    "AgencyName": "Katy",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.785786,
+    "Longitude": -95.824395
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1020000",
+    "AgencyName": "Harrison",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 32.556146,
+    "Longitude": -94.365503
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1020000",
+    "AgencyName": "Harrison",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 32.556146,
+    "Longitude": -94.365503
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1050100",
+    "AgencyName": "San Marcos",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.883275,
+    "Longitude": -97.941394
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1080200",
+    "AgencyName": "Donna",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.170242,
+    "Longitude": -98.051118
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1080800",
+    "AgencyName": "McAllen",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.203407,
+    "Longitude": -98.230012
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1081300",
+    "AgencyName": "San Juan",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 26.18923,
+    "Longitude": -98.153015
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1230100",
+    "AgencyName": "Beaumont",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.080174,
+    "Longitude": -94.126556
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1250000",
+    "AgencyName": "Jim Wells",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 27.728966,
+    "Longitude": -98.112539
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1330100",
+    "AgencyName": "Kerrville",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.047434,
+    "Longitude": -99.140318
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1490000",
+    "AgencyName": "Live Oak",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 28.333775,
+    "Longitude": -98.123384
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1520200",
+    "AgencyName": "Lubbock",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 33.577863,
+    "Longitude": -101.855166
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1550100",
+    "AgencyName": "Bellmead",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.594612,
+    "Longitude": -97.108888
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1551200",
+    "AgencyName": "Waco",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 31.549333,
+    "Longitude": -97.14667
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1700000",
+    "AgencyName": "Montgomery",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 30.321348,
+    "Longitude": -95.477781
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1700000",
+    "AgencyName": "Montgomery",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 30.321348,
+    "Longitude": -95.477781
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1700500",
+    "AgencyName": "Montgomery County Constable:",
+    "Type": "Precinct 3",
+    "State": "Other",
+    "Latitude": "TX",
+    "Longitude": 30.321348
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1780200",
+    "AgencyName": "Corpus Christi",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 27.800583,
+    "Longitude": -97.396381
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1780200",
+    "AgencyName": "Corpus Christi",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 27.800583,
+    "Longitude": -97.396381
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1820000",
+    "AgencyName": "Palo Pinto",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 32.773702,
+    "Longitude": -98.300295
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1910000",
+    "AgencyName": "Randall",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 34.984452,
+    "Longitude": -101.893323
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX1990200",
+    "AgencyName": "Royse City",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.97512,
+    "Longitude": -96.332479
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2100000",
+    "AgencyName": "Shelby",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 31.792372,
+    "Longitude": -94.178627
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2120500",
+    "AgencyName": "Whitehouse",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.226269,
+    "Longitude": -95.225502
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2200000",
+    "AgencyName": "Tarrant",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 32.77142,
+    "Longitude": -97.291484
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2200100",
+    "AgencyName": "Arlington",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.735687,
+    "Longitude": -97.108066
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2200100",
+    "AgencyName": "Arlington",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.735687,
+    "Longitude": -97.108066
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2200300",
+    "AgencyName": "Bedford",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.844017,
+    "Longitude": -97.143067
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2201200",
+    "AgencyName": "Fort Worth",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.768799,
+    "Longitude": -97.309341
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2201200",
+    "AgencyName": "Fort Worth",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.768799,
+    "Longitude": -97.309341
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2201400",
+    "AgencyName": "Haltom City",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.799573,
+    "Longitude": -97.269181
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2203200",
+    "AgencyName": "Southlake",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.941236,
+    "Longitude": -97.134178
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2204000",
+    "AgencyName": "Colleyville",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.88096,
+    "Longitude": -97.155012
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2240000",
+    "AgencyName": "Throckmorton",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 33.177292,
+    "Longitude": -99.178952
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2270000",
+    "AgencyName": "Travis",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 30.287153,
+    "Longitude": -97.763851
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2270100",
+    "AgencyName": "Austin",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.267153,
+    "Longitude": -97.743057
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2270100",
+    "AgencyName": "Austin",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.267153,
+    "Longitude": -97.743057
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2300200",
+    "AgencyName": "Gilmer",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.728764,
+    "Longitude": -94.942996
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2300200",
+    "AgencyName": "Gilmer",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.728764,
+    "Longitude": -94.942996
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2360100",
+    "AgencyName": "Huntsville",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.723526,
+    "Longitude": -95.550777
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2370700",
+    "AgencyName": "Hempstead",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.097737,
+    "Longitude": -96.078296
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2400000",
+    "AgencyName": "Webb",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 27.694728,
+    "Longitude": -99.376154
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2400000",
+    "AgencyName": "Webb",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 27.694728,
+    "Longitude": -99.376154
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2400100",
+    "AgencyName": "Laredo",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 27.506407,
+    "Longitude": -99.507542
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2460600",
+    "AgencyName": "Taylor",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 30.570756,
+    "Longitude": -97.409828
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TX2490000",
+    "AgencyName": "Wise",
+    "Type": "County",
+    "State": "TX",
+    "Latitude": 33.207082,
+    "Longitude": -97.653912
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TXDPD0000",
+    "AgencyName": "Dallas",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.776664,
+    "Longitude": -96.796988
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TXDPD0000",
+    "AgencyName": "Dallas",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 32.776664,
+    "Longitude": -96.796988
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TXHPD0000",
+    "AgencyName": "Houston",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.760427,
+    "Longitude": -95.369803
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TXHPD0000",
+    "AgencyName": "Houston",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.760427,
+    "Longitude": -95.369803
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TXSPD0000",
+    "AgencyName": "San Antonio",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.424122,
+    "Longitude": -98.493628
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "TXSPD0000",
+    "AgencyName": "San Antonio",
+    "Type": "City",
+    "State": "TX",
+    "Latitude": 29.424122,
+    "Longitude": -98.493628
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0020100",
+    "AgencyName": "Brigham City",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.510291,
+    "Longitude": -112.015501
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0020800",
+    "AgencyName": "Willard",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.409369,
+    "Longitude": -112.039679
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0021200",
+    "AgencyName": "Perry",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.467436,
+    "Longitude": -112.040226
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0021700",
+    "AgencyName": "Tremonton Garland",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.711316,
+    "Longitude": -112.165806
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0060000",
+    "AgencyName": "Davis",
+    "Type": "County",
+    "State": "UT",
+    "Latitude": 40.96245,
+    "Longitude": -111.900064
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0060300",
+    "AgencyName": "Layton",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.060221,
+    "Longitude": -111.971052
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0060400",
+    "AgencyName": "Centerville",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 40.917161,
+    "Longitude": -111.872999
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0060700",
+    "AgencyName": "North Salt Lake",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 40.845228,
+    "Longitude": -111.906891
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0061200",
+    "AgencyName": "Syracuse",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.089418,
+    "Longitude": -112.064384
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0180300",
+    "AgencyName": "Salt Lake City",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 40.760779,
+    "Longitude": -111.891047
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0180300",
+    "AgencyName": "Salt Lake City",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 40.760779,
+    "Longitude": -111.891047
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0180700",
+    "AgencyName": "University of Utah",
+    "Type": "University or College",
+    "State": "UT",
+    "Latitude": 40.764936,
+    "Longitude": -111.842102
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0230200",
+    "AgencyName": "Grantsville",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 40.599114,
+    "Longitude": -112.464109
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "UT0290100",
+    "AgencyName": "Ogden",
+    "Type": "City",
+    "State": "UT",
+    "Latitude": 41.223,
+    "Longitude": -111.97383
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA002SP00",
+    "AgencyName": "State Police:",
+    "Type": "Albemarle County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 38.029306
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0030000",
+    "AgencyName": "Alleghany",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.746426,
+    "Longitude": -80.00012
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA003SP00",
+    "AgencyName": "State Police:",
+    "Type": "Alleghany County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.746426
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0050000",
+    "AgencyName": "Amherst",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.558507,
+    "Longitude": -79.10969
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA007SP00",
+    "AgencyName": "State Police:",
+    "Type": "Arlington County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 38.878337
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0140000",
+    "AgencyName": "Buchanan",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.268824,
+    "Longitude": -82.050482
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0210100",
+    "AgencyName": "Chesterfield County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.377209,
+    "Longitude": -77.504143
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0210100",
+    "AgencyName": "Chesterfield County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.377209,
+    "Longitude": -77.504143
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0290100",
+    "AgencyName": "Fairfax County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.908547,
+    "Longitude": -77.240515
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0290100",
+    "AgencyName": "Fairfax County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.908547,
+    "Longitude": -77.240515
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA029SP00",
+    "AgencyName": "State Police:",
+    "Type": "Fairfax County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 38.908547
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0350000",
+    "AgencyName": "Giles",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.291161,
+    "Longitude": -80.709121
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA037SP00",
+    "AgencyName": "State Police:",
+    "Type": "Goochland County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.684946
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0420000",
+    "AgencyName": "Hanover",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.755268,
+    "Longitude": -77.516439
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0430100",
+    "AgencyName": "Henrico County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.505896,
+    "Longitude": -77.332054
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0430100",
+    "AgencyName": "Henrico County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.505896,
+    "Longitude": -77.332054
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA043SP00",
+    "AgencyName": "State Police:",
+    "Type": "Henrico County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.505896
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA043SP00",
+    "AgencyName": "State Police:",
+    "Type": "Henrico County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.505896
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0480000",
+    "AgencyName": "King and Queen",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 37.678192,
+    "Longitude": -76.877281
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0490000",
+    "AgencyName": "King George",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.268103,
+    "Longitude": -77.148516
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA057SP00",
+    "AgencyName": "State Police:",
+    "Type": "Mathews County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.433917
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA073SP00",
+    "AgencyName": "State Police:",
+    "Type": "Prince Edward County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.263065
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0750300",
+    "AgencyName": "Prince William County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.700844,
+    "Longitude": -77.430567
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0750300",
+    "AgencyName": "Prince William County Police Department",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.700844,
+    "Longitude": -77.430567
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA077SP00",
+    "AgencyName": "State Police:",
+    "Type": "Pulaski County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.067439
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA077SP00",
+    "AgencyName": "State Police:",
+    "Type": "Pulaski County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.067439
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0780000",
+    "AgencyName": "Rappahannock",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.676819,
+    "Longitude": -78.156443
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0820100",
+    "AgencyName": "Bridgewater",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 38.385123,
+    "Longitude": -78.97447
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA082SP00",
+    "AgencyName": "State Police:",
+    "Type": "Rockingham County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 38.436425
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA086SP00",
+    "AgencyName": "State Police:",
+    "Type": "Smyth County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 36.835824
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0890000",
+    "AgencyName": "Stafford",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 38.422068,
+    "Longitude": -77.408308
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA089SP00",
+    "AgencyName": "State Police:",
+    "Type": "Stafford County",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 38.422068
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0910000",
+    "AgencyName": "Sussex",
+    "Type": "County",
+    "State": "VA",
+    "Latitude": 36.917512,
+    "Longitude": -77.281198
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA0980100",
+    "AgencyName": "Poquoson",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 37.122366,
+    "Longitude": -76.345223
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA099SP00",
+    "AgencyName": "State Police:",
+    "Type": "Alexandria",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 38.804836
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1030000",
+    "AgencyName": "Chesapeake",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 36.768208,
+    "Longitude": -76.287492
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1030000",
+    "AgencyName": "Chesapeake",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 36.768208,
+    "Longitude": -76.287492
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1110000",
+    "AgencyName": "Hampton",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 37.029869,
+    "Longitude": -76.345222
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1150000",
+    "AgencyName": "Martinsville",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 36.683719,
+    "Longitude": -79.864709
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1160000",
+    "AgencyName": "Newport News",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 37.087082,
+    "Longitude": -76.473012
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA122SP00",
+    "AgencyName": "State Police:",
+    "Type": "Richmond",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.540725
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA123SP00",
+    "AgencyName": "State Police:",
+    "Type": "Roanoke",
+    "State": "State Police",
+    "Latitude": "VA",
+    "Longitude": 37.27097
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1280000",
+    "AgencyName": "Virginia Beach",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 36.852926,
+    "Longitude": -75.977985
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VA1310000",
+    "AgencyName": "Winchester",
+    "Type": "City",
+    "State": "VA",
+    "Latitude": 39.185659,
+    "Longitude": -78.163334
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VAMWA0000",
+    "AgencyName": "Reagan National Airport",
+    "Type": "Other",
+    "State": "VA",
+    "Latitude": 38.851242,
+    "Longitude": -77.040231
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VT0040200",
+    "AgencyName": "Essex",
+    "Type": "City",
+    "State": "VT",
+    "Latitude": 44.490863,
+    "Longitude": -73.111144
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VT0040300",
+    "AgencyName": "South Burlington",
+    "Type": "City",
+    "State": "VT",
+    "Latitude": 44.466994,
+    "Longitude": -73.17096
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VT0040500",
+    "AgencyName": "Colchester",
+    "Type": "City",
+    "State": "VT",
+    "Latitude": 44.543813,
+    "Longitude": -73.149667
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "VT0120100",
+    "AgencyName": "Barre",
+    "Type": "City",
+    "State": "VT",
+    "Latitude": 44.197008,
+    "Longitude": -72.502712
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0030100",
+    "AgencyName": "Kennewick",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 46.211246,
+    "Longitude": -119.137233
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0060000",
+    "AgencyName": "Clark",
+    "Type": "County",
+    "State": "WA",
+    "Latitude": 45.775676,
+    "Longitude": -122.524175
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0060300",
+    "AgencyName": "Vancouver",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 45.638728,
+    "Longitude": -122.661486
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0170000",
+    "AgencyName": "King",
+    "Type": "County",
+    "State": "WA",
+    "Latitude": 47.548033,
+    "Longitude": -121.983602
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0170700",
+    "AgencyName": "Kent",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.380934,
+    "Longitude": -122.234843
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0171300",
+    "AgencyName": "Renton",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.482877,
+    "Longitude": -122.217066
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0173700",
+    "AgencyName": "SeaTac",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.443546,
+    "Longitude": -122.301661
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0173700",
+    "AgencyName": "SeaTac",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.443546,
+    "Longitude": -122.301661
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0175000",
+    "AgencyName": "Sammamish",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.616268,
+    "Longitude": -122.035573
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0180000",
+    "AgencyName": "Kitsap",
+    "Type": "County",
+    "State": "WA",
+    "Latitude": 47.622339,
+    "Longitude": -122.602833
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0270000",
+    "AgencyName": "Pierce",
+    "Type": "County",
+    "State": "WA",
+    "Latitude": 47.038145,
+    "Longitude": -122.129526
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0270000",
+    "AgencyName": "Pierce",
+    "Type": "County",
+    "State": "WA",
+    "Latitude": 47.038145,
+    "Longitude": -122.129526
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0270300",
+    "AgencyName": "Tacoma",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.252877,
+    "Longitude": -122.444291
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0270300",
+    "AgencyName": "Tacoma",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.252877,
+    "Longitude": -122.444291
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0270700",
+    "AgencyName": "Fife",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.23926,
+    "Longitude": -122.357629
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0290400",
+    "AgencyName": "Burlington",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 48.475547,
+    "Longitude": -122.325177
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0310500",
+    "AgencyName": "Marysville",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 48.051763,
+    "Longitude": -122.177082
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WA0320400",
+    "AgencyName": "Spokane",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.65878,
+    "Longitude": -117.426047
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WADI06100",
+    "AgencyName": "Kalispel Tribal",
+    "Type": "Tribal",
+    "State": "WA",
+    "Latitude": 48.20821,
+    "Longitude": -117.174969
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WASPD0000",
+    "AgencyName": "Seattle",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.606209,
+    "Longitude": -122.332071
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WASPD0000",
+    "AgencyName": "Seattle",
+    "Type": "City",
+    "State": "WA",
+    "Latitude": 47.606209,
+    "Longitude": -122.332071
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0050000",
+    "AgencyName": "Brown",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 44.50731,
+    "Longitude": -88.007452
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0050200",
+    "AgencyName": "Green Bay",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.519159,
+    "Longitude": -88.019826
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0100000",
+    "AgencyName": "Clark",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 44.560357,
+    "Longitude": -90.605125
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0110700",
+    "AgencyName": "Poynette",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.392478,
+    "Longitude": -89.402623
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0130100",
+    "AgencyName": "Madison",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.073052,
+    "Longitude": -89.40123
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0137000",
+    "AgencyName": "Fitchburg",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 42.985547,
+    "Longitude": -89.430957
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0180100",
+    "AgencyName": "Eau Claire",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.811349,
+    "Longitude": -91.498494
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0200000",
+    "AgencyName": "Fond du Lac",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 43.773121,
+    "Longitude": -88.447166
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0200100",
+    "AgencyName": "Fond du Lac",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.775001,
+    "Longitude": -88.4473
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0200400",
+    "AgencyName": "North Fond du Lac",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.807747,
+    "Longitude": -88.483535
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0220400",
+    "AgencyName": "Lancaster",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 42.847486,
+    "Longitude": -90.710409
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0340000",
+    "AgencyName": "Langlade",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 45.199383,
+    "Longitude": -88.550084
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0340100",
+    "AgencyName": "Antigo",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 45.140238,
+    "Longitude": -89.152344
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0340100",
+    "AgencyName": "Antigo",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 45.140238,
+    "Longitude": -89.152344
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0360000",
+    "AgencyName": "Manitowoc",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 44.097353,
+    "Longitude": -87.662427
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0370000",
+    "AgencyName": "Marathon",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 44.898656,
+    "Longitude": -89.652692
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0410600",
+    "AgencyName": "Glendale",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.127722,
+    "Longitude": -87.923149
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0411700",
+    "AgencyName": "West Milwaukee",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.013902,
+    "Longitude": -87.973192
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0440000",
+    "AgencyName": "Oneida",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 45.690195,
+    "Longitude": -89.52839
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0440000",
+    "AgencyName": "Oneida",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 45.690195,
+    "Longitude": -89.52839
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0450100",
+    "AgencyName": "Appleton",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.261935,
+    "Longitude": -88.415384
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0450200",
+    "AgencyName": "Kaukauna",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.278032,
+    "Longitude": -88.271211
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0450400",
+    "AgencyName": "Fox Valley Metro",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.276123,
+    "Longitude": -88.319015
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0450900",
+    "AgencyName": "Grand Chute",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.276341,
+    "Longitude": -88.46487
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0500000",
+    "AgencyName": "Portage",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 44.473596,
+    "Longitude": -89.474217
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0500100",
+    "AgencyName": "Stevens Point",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.523579,
+    "Longitude": -89.574563
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0500200",
+    "AgencyName": "Plover",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.456915,
+    "Longitude": -89.544005
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0510100",
+    "AgencyName": "Park Falls",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 45.93496,
+    "Longitude": -90.441263
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0540100",
+    "AgencyName": "Beloit",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 42.508348,
+    "Longitude": -89.031776
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0680000",
+    "AgencyName": "Waukesha",
+    "Type": "County",
+    "State": "WI",
+    "Latitude": 43.007625,
+    "Longitude": -88.32393
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0680100",
+    "AgencyName": "Brookfield",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.060567,
+    "Longitude": -88.106478
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0680400",
+    "AgencyName": "New Berlin",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 42.976402,
+    "Longitude": -88.108422
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0680500",
+    "AgencyName": "Waukesha",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.011678,
+    "Longitude": -88.231481
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0680500",
+    "AgencyName": "Waukesha",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.011678,
+    "Longitude": -88.231481
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WI0710300",
+    "AgencyName": "Oshkosh",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 44.024706,
+    "Longitude": -88.542614
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WIDI01100",
+    "AgencyName": "Lac Courte Oreilles Tribal",
+    "Type": "Tribal",
+    "State": "WI",
+    "Latitude": 45.915667,
+    "Longitude": -91.448656
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WIMPD0000",
+    "AgencyName": "Milwaukee",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.038902,
+    "Longitude": -87.906474
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WIMPD0000",
+    "AgencyName": "Milwaukee",
+    "Type": "City",
+    "State": "WI",
+    "Latitude": 43.038902,
+    "Longitude": -87.906474
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WIWSP0000",
+    "AgencyName": "Wisconsin State Patrol",
+    "Type": "State Police",
+    "State": "WI",
+    "Latitude": 43.073052,
+    "Longitude": -89.40123
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WIWSP0000",
+    "AgencyName": "Wisconsin State Patrol",
+    "Type": "State Police",
+    "State": "WI",
+    "Latitude": 43.073052,
+    "Longitude": -89.40123
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0020000",
+    "AgencyName": "Berkeley",
+    "Type": "County",
+    "State": "WV",
+    "Latitude": 39.457947,
+    "Longitude": -78.026735
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0170000",
+    "AgencyName": "Harrison",
+    "Type": "County",
+    "State": "WV",
+    "Latitude": 39.284271,
+    "Longitude": -80.37422
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0170100",
+    "AgencyName": "Bridgeport",
+    "Type": "City",
+    "State": "WV",
+    "Latitude": 39.286197,
+    "Longitude": -80.25619
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0170200",
+    "AgencyName": "Clarksburg",
+    "Type": "City",
+    "State": "WV",
+    "Latitude": 39.280645,
+    "Longitude": -80.344534
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0200000",
+    "AgencyName": "Kanawha",
+    "Type": "County",
+    "State": "WV",
+    "Latitude": 38.335785,
+    "Longitude": -81.528359
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0280000",
+    "AgencyName": "Mercer",
+    "Type": "County",
+    "State": "WV",
+    "Latitude": 37.413676,
+    "Longitude": -81.119607
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WV0440100",
+    "AgencyName": "Spencer",
+    "Type": "City",
+    "State": "WV",
+    "Latitude": 38.800639,
+    "Longitude": -81.346511
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0010100",
+    "AgencyName": "Laramie",
+    "Type": "City",
+    "State": "WY",
+    "Latitude": 41.311367,
+    "Longitude": -105.591101
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0100000",
+    "AgencyName": "Johnson",
+    "Type": "County",
+    "State": "WY",
+    "Latitude": 44.100523,
+    "Longitude": -106.583231
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0110100",
+    "AgencyName": "Cheyenne",
+    "Type": "City",
+    "State": "WY",
+    "Latitude": 41.139981,
+    "Longitude": -104.820246
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0110400",
+    "AgencyName": "Wyoming Division of Criminal Investigation",
+    "Type": "Other State Agency",
+    "State": "WY",
+    "Latitude": 41.139981,
+    "Longitude": -104.820246
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0110400",
+    "AgencyName": "Wyoming Division of Criminal Investigation",
+    "Type": "Other State Agency",
+    "State": "WY",
+    "Latitude": 41.139981,
+    "Longitude": -104.820246
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0150000",
+    "AgencyName": "Park",
+    "Type": "County",
+    "State": "WY",
+    "Latitude": 44.52389,
+    "Longitude": -109.574598
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0150100",
+    "AgencyName": "Cody",
+    "Type": "City",
+    "State": "WY",
+    "Latitude": 44.526342,
+    "Longitude": -109.056531
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WY0200100",
+    "AgencyName": "Jackson",
+    "Type": "City",
+    "State": "WY",
+    "Latitude": 43.47993,
+    "Longitude": -110.762428
+  },
+  {
+    "Year": 2023,
+    "AgencyCode": "WYWHP0000",
+    "AgencyName": "Wyoming Highway Patrol",
+    "Type": "State Police",
+    "State": "WY",
+    "Latitude": 41.139981,
+    "Longitude": -104.820246
+  }
+]

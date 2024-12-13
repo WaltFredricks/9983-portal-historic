@@ -25,6 +25,37 @@ function initializeMap() {
     fetchLocations(map);
 }
 
+async function fetchCrimeData(map) {
+    try {
+        const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json'); // Replace with actual file URL or path
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+        const crimeData = await response.json();
+        crimeData.forEach(crime => {
+            const lat = parseFloat(crime.Latitude); // Use correct key names
+            const lon = parseFloat(crime.Longitude); // Use correct key names
+
+            if (!isNaN(lat) && !isNaN(lon)) {
+                L.circleMarker([lat, lon], {
+                    color: 'red',
+                    radius: 3, // Very small circles
+                }).addTo(map).bindPopup(`
+                    <div style="font-size: 14px;">
+                        <strong>Agency:</strong> ${crime.AgencyName || 'Unknown'}<br>
+                        <strong>Year:</strong> ${crime.Year || 'N/A'}<br>
+                        <strong>Type:</strong> ${crime.Type || 'N/A'}<br>
+                        <strong>State:</strong> ${crime.State || 'N/A'}
+                    </div>
+                `);
+            }
+        });
+    } catch (error) {
+        console.error('Error fetching crime data:', error);
+        alert('Failed to load crime data. Please try again later.');
+    }
+}
+
+// Call the functions to fetch both locations and crime data
 async function fetchLocations(map) {
     try {
         const response = await fetch('https://waltfredricks.github.io/locs.json');
@@ -64,11 +95,16 @@ async function fetchLocations(map) {
         if (bounds.length) {
             map.fitBounds(bounds);
         }
+
+        // Fetch and add crime data after regular locations
+        await fetchCrimeData(map);
+
     } catch (error) {
         console.error('Error fetching locations:', error);
         alert('Failed to load map locations. Please try again later.');
     }
 }
+
 
 // Create an icon with optional className for styling
 function createIcon(iconUrl, className = '') {
