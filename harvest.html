@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Silent Harvest</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: "Segoe UI", sans-serif;
+            color: limegreen;
+            margin: 20px;
+        }
+
+        input, textarea, select, button, label {
+            background: black;
+            color: limegreen;
+            border: 1px solid limegreen;
+            font-family: "Segoe UI", sans-serif;
+            font-size: 14px;
+            margin-bottom: 10px;
+            padding: 3px;
+        }
+
+        .region-btn, .action-btn {
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .checkbox-list {
+            max-height: 150px;
+            overflow-y: auto;
+            border: 1px solid limegreen;
+            padding: 3px;
+        }
+
+            .checkbox-list label {
+                display: block;
+                margin-bottom: 2px;
+            }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .preview-img {
+            max-width: 600px;
+            max-height: 400px;
+            margin-top: 10px;
+            border: 1px solid limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Operation Silent Harvest - Stealth Mode</h1>
+
+    <div class="section">
+        <label for="txtService">Service:</label><br>
+        <input type="text" id="txtService" value="scored">
+    </div>
+    <div class="section">
+        <label for="txtUsername">Username:</label><br>
+        <input type="text" id="txtUsername" value="YourUsername">
+    </div>
+    <div class="section">
+        <label for="txtPassword">Password:</label><br>
+        <input type="password" id="txtPassword" value="YourPassword">
+    </div>
+    <div class="section">
+        <label for="txtImagePath">Image File:</label><br>
+        <input type="file" id="txtImagePath" accept="image/*">
+    </div>
+    <div class="section">
+        <label for="txtFileName">File Name:</label><br>
+        <input type="text" id="txtFileName" value="image.jpg">
+    </div>
+    <div class="section">
+        <label for="txtSubject">Subject:</label><br>
+        <textarea id="txtSubject" rows="3" cols="60"></textarea>
+    </div>
+    <div class="section">
+        <label>Subreddits / Channels:</label><br>
+        <div class="checkbox-list" id="subredditList"></div>
+    </div>
+    <div class="section">
+        <button class="region-btn" id="btnAddAllStates">Add All States</button>
+        <button class="region-btn" id="btnNortheast">Northeast</button>
+        <button class="region-btn" id="btnSoutheast">Southeast</button>
+        <button class="region-btn" id="btnMidwest">Midwest</button>
+        <button class="region-btn" id="btnWest">West</button>
+        <button class="region-btn" id="btnSelectAll">Select All</button>
+        <button class="region-btn" id="btnClearSelection">Clear Selections</button>
+        <button class="region-btn" id="btnUploadSelected">Upload Selected</button>
+        <button class="region-btn" id="btnAddSpooks">Add Spooks</button>
+    </div>
+
+    <div class="section">
+        <label>Results:</label><br>
+        <textarea id="txtResult" rows="10" cols="60" readonly></textarea>
+    </div>
+
+    <img id="previewImg" class="preview-img" style="display:none;" />
+
+    <script>
+(function() {
+    const txtService = document.getElementById('txtService');
+    const txtUsername = document.getElementById('txtUsername');
+    const txtPassword = document.getElementById('txtPassword');
+    const txtImagePath = document.getElementById('txtImagePath');
+    const txtFileName = document.getElementById('txtFileName');
+    const txtSubject = document.getElementById('txtSubject');
+    const txtResult = document.getElementById('txtResult');
+    const subredditList = document.getElementById('subredditList');
+    const previewImg = document.getElementById('previewImg');
+
+    const btnAddAllStates = document.getElementById('btnAddAllStates');
+    const btnNortheast = document.getElementById('btnNortheast');
+    const btnSoutheast = document.getElementById('btnSoutheast');
+    const btnMidwest = document.getElementById('btnMidwest');
+    const btnWest = document.getElementById('btnWest');
+    const btnSelectAll = document.getElementById('btnSelectAll');
+    const btnClearSelection = document.getElementById('btnClearSelection');
+    const btnUploadSelected = document.getElementById('btnUploadSelected');
+    const btnAddSpooks = document.getElementById('btnAddSpooks');
+
+    const regions = {
+        "Northeast": ["Maine","NewHampshire","Vermont","Massachusetts","RhodeIsland","Connecticut","NewYork","Pennsylvania","NewJersey"],
+        "Southeast": ["Delaware","Maryland","DistrictOfColumbia","Virginia","WestVirginia","NorthCarolina","SouthCarolina","Georgia","Florida","Kentucky","Tennessee","Mississippi","Alabama","Arkansas","Louisiana"],
+        "Midwest": ["Ohio","Michigan","Indiana","Wisconsin","Illinois","Minnesota","Iowa","Missouri","NorthDakota","SouthDakota","Nebraska","Kansas"],
+        "West": ["NewMexico","Colorado","Wyoming","Montana","Idaho","Utah","Arizona","Nevada","Washington","Oregon","California","Alaska","Hawaii","Oklahoma","Texas"]
+    };
+
+    const allStates = [
+        "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia",
+        "Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts",
+        "Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","NewHampshire","NewJersey","NewMexico",
+        "NewYork","NorthCarolina","NorthDakota","Ohio","Oklahoma","Oregon","Pennsylvania","RhodeIsland","SouthCarolina","SouthDakota",
+        "Tennessee","Texas","Utah","Vermont","Virginia","Washington","WestVirginia","Wisconsin","Wyoming"
+    ];
+
+    const spooks = ["CIA","NSA","FBI","DHS","NRO","DIA","ATF","DEA","USSS","IRS","NGIA","NGA","NCTC","ONI"];
+
+    function logMessage(msg) {
+        txtResult.value += msg + "\n";
+        console.log(msg);
+    }
+
+    function clearSubredditList() {
+        subredditList.innerHTML = '';
+    }
+
+    function addAllStates() {
+        clearSubredditList();
+        allStates.forEach(state => {
+            addSubredditItem("c/" + state);
+        });
+        logMessage("All 50 states added.");
+    }
+
+    function addSpooksFn() {
+        spooks.forEach(agency => {
+            if (!hasSubreddit(agency)) addSubredditItem(agency);
+        });
+        logMessage("Spooks added.");
+    }
+
+    function hasSubreddit(name) {
+        return Array.from(subredditList.querySelectorAll('input[type=checkbox]')).some(chk => chk.value === name);
+    }
+
+    function addSubredditItem(name) {
+        const lbl = document.createElement('label');
+        const chk = document.createElement('input');
+        chk.type = 'checkbox';
+        chk.value = name;
+        lbl.appendChild(chk);
+        lbl.appendChild(document.createTextNode(" " + name));
+        subredditList.appendChild(lbl);
+    }
+
+    function preSelectRegion(regionName) {
+        if (!regions[regionName]) {
+            logMessage("Unknown region: " + regionName);
+            return;
+        }
+
+        if (subredditList.querySelectorAll('label').length === 0) {
+            addAllStates();
+        }
+
+        const needed = regions[regionName].map(s => "c/" + s);
+        Array.from(subredditList.querySelectorAll('input[type=checkbox]')).forEach(chk => {
+            if (needed.includes(chk.value)) chk.checked = true;
+        });
+        logMessage(regionName + " region selected.");
+    }
+
+    function selectAllItems() {
+        Array.from(subredditList.querySelectorAll('input[type=checkbox]')).forEach(chk => chk.checked = true);
+        logMessage("All items selected.");
+    }
+
+    function clearAllSelections() {
+        Array.from(subredditList.querySelectorAll('input[type=checkbox]')).forEach(chk => chk.checked = false);
+        logMessage("All selections cleared.");
+    }
+
+    function showImagePreview(file) {
+        const reader = new FileReader();
+        reader.onload = e => {
+            previewImg.src = e.target.result;
+            previewImg.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+    }
+
+    async function getTokenAsync(service, username, password) {
+        if (service !== "scored") {
+            logMessage("Unknown service in GetTokenAsync.");
+            return null;
+        }
+        try {
+            const formData = new URLSearchParams();
+            formData.append("username", username);
+            formData.append("password", password);
+
+            const loginResp = await fetch("https://api.scored.co/api/v2/user/login", {
+                method: "POST",
+                headers: { "User-Agent": "SilentHarvest" },
+                body: formData
+            });
+            const loginRespStr = await loginResp.text();
+
+            if (!loginResp.ok) {
+                logMessage("Login failed: " + loginRespStr);
+                return null;
+            }
+
+            const doc = JSON.parse(loginRespStr);
+            if (doc.sso_token) {
+                logMessage(service + " token obtained successfully.");
+                return doc.sso_token;
+            } else {
+                logMessage("Failed to parse " + service + " token. Response: " + loginRespStr);
+            }
+        } catch (ex) {
+            logMessage("GetTokenAsync error: " + ex.message);
+        }
+        return null;
+    }
+
+    async function uploadSelectedAsync() {
+        const service = txtService.value.trim().toLowerCase();
+        const token = await getTokenAsync(service, txtUsername.value, txtPassword.value);
+        if (!token) {
+            logMessage("Failed to get authentication token.");
+            return;
+        }
+
+        const fileInput = txtImagePath.files[0];
+        if (!fileInput) {
+            logMessage("No image selected.");
+            return;
+        }
+
+        let imageBytes;
+        try {
+            imageBytes = await fileToArrayBuffer(fileInput);
+            showImagePreview(fileInput);
+        } catch (ex) {
+            logMessage("Invalid image: " + ex.message);
+            return;
+        }
+
+        if (service !== "scored") {
+            logMessage("Unknown service.");
+            return;
+        }
+
+        const checkedItems = Array.from(subredditList.querySelectorAll('input[type=checkbox]'))
+                                  .filter(chk => chk.checked)
+                                  .map(chk => chk.value);
+
+        const results = [];
+        for (const subOrig of checkedItems) {
+            let sub = subOrig;
+            if (service === "scored" && sub.startsWith("c/")) sub = sub.substr(2);
+
+            let imageName = "";
+            let respStr = "";
+            let error = "";
+
+            try {
+                const formData = new FormData();
+                formData.append("title", txtSubject.value);
+                formData.append("api_type", "json");
+                formData.append("sr", sub);
+                formData.append("file", fileInput, txtFileName.value);
+
+                const postResponse = await fetch("https://api.scored.co/api/actions/create-post", {
+                    method: "POST",
+                    headers: {
+                        "Authorization": "Bearer " + token,
+                        "User-Agent": "SilentHarvest"
+                    },
+                    body: formData
+                });
+
+                respStr = await postResponse.text();
+
+                if (!postResponse.ok) {
+                    error = `Failed to create post: ${postResponse.status} - ${respStr}`;
+                    logMessage(error);
+                    results.push([sub, imageName, error, sanitizeCsv(respStr)]);
+                    continue;
+                }
+
+                try {
+                    const doc = JSON.parse(respStr);
+                    imageName = doc.json?.data?.name || "";
+                    logMessage("Uploaded to c/" + sub + ": " + imageName);
+                } catch (ex) {
+                    error = "Failed parsing response: " + ex.message;
+                    logMessage("Failed parsing c/" + sub + ": " + ex.message + " | Response: " + respStr);
+                }
+            } catch (ex) {
+                error = ex.message;
+                logMessage("Error uploading to c/" + sub + ": " + ex.message);
+            }
+
+            results.push([sub, imageName, error, sanitizeCsv(respStr)]);
+        }
+
+        // We can't directly write CSV to a file on client, but we can provide a download
+        const csvLines = ["Subreddit,ImageName,Error,Response"];
+        results.forEach(r => {
+            csvLines.push(r.join(","));
+        });
+        const csvBlob = new Blob([csvLines.join("\n")], {type: "text/csv"});
+        const csvUrl = URL.createObjectURL(csvBlob);
+        logMessage("Results CSV ready: " + csvUrl);
+        logMessage("You can open this URL to download the CSV.");
+    }
+
+    function sanitizeCsv(str) {
+        return str.replace(/\r/g, "").replace(/\n/g, "").replace(/,/g, ";");
+    }
+
+    function fileToArrayBuffer(file) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = () => reject(reader.error);
+            reader.readAsArrayBuffer(file);
+        });
+    }
+
+    // Event handlers
+    btnAddAllStates.addEventListener('click', () => safeAction(addAllStates));
+    btnNortheast.addEventListener('click', () => safeAction(() => preSelectRegion("Northeast")));
+    btnSoutheast.addEventListener('click', () => safeAction(() => preSelectRegion("Southeast")));
+    btnMidwest.addEventListener('click', () => safeAction(() => preSelectRegion("Midwest")));
+    btnWest.addEventListener('click', () => safeAction(() => preSelectRegion("West")));
+    btnSelectAll.addEventListener('click', () => safeAction(selectAllItems));
+    btnClearSelection.addEventListener('click', () => safeAction(clearAllSelections));
+    btnUploadSelected.addEventListener('click', () => safeActionAsync(uploadSelectedAsync));
+    btnAddSpooks.addEventListener('click', () => safeAction(addSpooksFn));
+
+    function safeAction(action) {
+        try {
+            action();
+        } catch (ex) {
+            logMessage("Error: " + ex.message);
+        }
+    }
+
+    async function safeActionAsync(action) {
+        try {
+            await action();
+        } catch (ex) {
+            logMessage("Error: " + ex.message);
+        }
+    }
+
+})();
+    </script>
+</body>
+</html>
