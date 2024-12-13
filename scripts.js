@@ -93,6 +93,8 @@ function toggleModal(modalId, imageUrl = null) {
     }
 }
 
+
+
 // Splash screen dismissal
 function dismissSplash() {
     const splash = document.getElementById('splash');
@@ -120,6 +122,8 @@ function setupUIEvents() {
     document.getElementById('ai-report-button').addEventListener('click', () => toggleModal('ai-report-modal'));
     document.getElementById('cad-button').addEventListener('click', () => toggleModal('cad-modal'));
     document.getElementById('sdr-button').addEventListener('click', () => toggleModal('modal', './sdr.png'));
+    document.getElementById('post-button').addEventListener('click', () => toggleModal('post-modal'));
+
 
     // Close modals on close button
     document.querySelectorAll('.modal-close').forEach(button => {
@@ -345,7 +349,6 @@ function decryptMessage() {
             }
         };
     };
-
 
 
 
