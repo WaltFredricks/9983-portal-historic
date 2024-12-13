@@ -1,11 +1,28 @@
-/* General styles */
-body, html {
+/* Base and Layout */
+html, body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #ddd;
+    height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+/* Map */
 #map {
     width: 100%;
     height: 100vh;
@@ -19,8 +36,11 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.85);
+    background: linear-gradient(to bottom, #0f0f0f, #191919);
     background-image: url('./patriotic.webp');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +49,21 @@ body, html {
 
 .splash-content {
     text-align: center;
-    color: #fff;
-    background: #333;
+    background: rgba(30, 30, 30, 0.9);
+    border: 1px solid #333;
     border-radius: 5px;
     padding: 20px;
 }
+
+    .splash-content h1 {
+        margin-bottom: 15px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .splash-content p {
+        color: #aaa;
+    }
 
 .splash-button {
     background: #007bff;
@@ -43,64 +73,72 @@ body, html {
     cursor: pointer;
     font-size: 1rem;
     border-radius: 5px;
-    z-index: 2001;
+    transition: background 0.3s ease;
 }
+
+    .splash-button:hover {
+        background: #0056b3;
+    }
 
 /* Status Window */
 #status-window {
     position: fixed;
     left: 30px;
     top: 60px;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #1e1e1e;
+    border: 1px solid #333;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     width: 300px;
-    z-index: 1500; /* Ensure it is above other panels */
+    z-index: 1500;
 }
 
     #status-window h3 {
         margin: 0;
-        font-size: 1.2rem;
-        color: #333;
+        font-size: 1.1rem;
+        color: #f0f0f0;
     }
 
-/* Problem Details Form */
+/* Problem Details */
 #problem-details {
     position: fixed;
     left: 30px;
     bottom: 60px;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #1e1e1e;
+    border: 1px solid #333;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     width: 300px;
-    z-index: 1200; /* Ensure it is below the status panel */
+    z-index: 1200;
 }
 
     #problem-details h3 {
         margin: 0 0 10px 0;
-        font-size: 1.2rem;
-        color: #333;
+        font-size: 1.1rem;
+        color: #f0f0f0;
     }
 
 #problem-description {
     width: 100%;
     height: 60px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     border-radius: 5px;
     padding: 5px;
+    background: #2a2a2a;
+    color: #ddd;
 }
 
 .coordinates input {
     width: 48%;
     margin: 0 1% 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     border-radius: 5px;
     padding: 5px;
+    background: #2a2a2a;
+    color: #ddd;
 }
 
 #submit-problem {
@@ -111,25 +149,26 @@ body, html {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease;
 }
 
     #submit-problem:hover {
         background: #0056b3;
     }
 
-/* Big Red Floating Button (DEPLOY 44) */
+/* Deploy Button */
 #deploy-button {
     position: fixed;
     bottom: 30px;
     left: 30px;
     background-color: #e53935;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    padding: 20px 40px;
-    border-radius: 10px;
+    padding: 15px 25px;
+    border-radius: 8px;
     border: none;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
     cursor: pointer;
     z-index: 1500;
     transition: all 0.3s ease;
@@ -138,104 +177,158 @@ body, html {
     #deploy-button:hover {
         background-color: #d32f2f;
         transform: scale(1.05);
-        box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 15px 45px rgba(0,0,0,0.6);
     }
 
-    #deploy-button:active {
-        transform: scale(1.1);
-    }
-
-/* Shake Animation for the button */
-@keyframes shake {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-5px);
-    }
-
-    50% {
-        transform: translateX(5px);
-    }
-
-    75% {
-        transform: translateX(-5px);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-/* Modal */
+/* Modal (Sliding Panel from the Right) */
 .modal {
-    display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
-    right: 33%;
-    width: 33%;  /* Constrained to the right third of the screen */
+    right: 0;
+    width: 30%;
     height: 100%;
-    /*background: rgba(0, 0, 0, 0.8);*/
-    justify-content: center;
+    background: linear-gradient(to bottom, #171717, #2c2c2c);
+    box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    padding-top: 60px;
     z-index: 1100;
 }
 
+    .modal.show {
+        transform: translateX(0);
+    }
+
 .modal-content {
-    background: #fff;
-    padding: 20px;
+    width: 90%;
+    background: #242424;
     border-radius: 8px;
-    text-align: center;
-    /*width: 80%;  Within the modal's right constraint */
-    max-width: 400px;
+    padding: 60px 20px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+    color: #ddd;
+    position: relative;
 }
 
 .modal-close {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     font-size: 1.5rem;
-    color: #333;
+    color: #aaa;
     cursor: pointer;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 1;
 }
 
-/* Modal Image Resizing */
+    .modal-close:hover {
+        color: #fff;
+    }
+
+.modal h4 {
+    margin-bottom: 15px;
+    color: #f0f0f0;
+    font-weight: 500;
+}
+
 .modal img {
     max-width: 100%;
     max-height: 70vh;
-    display: block;
-    margin: 0 auto;
     object-fit: contain;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Modal Inputs and Buttons */
+.modal-content input,
+.modal-content select,
+.modal-content textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #1e1e1e;
+    color: #f0f0f0;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    .modal-content button:hover {
+        background: #0056b3;
+    }
+
+/* Bottom Controls Container */
+.bottom-controls {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    z-index: 1200;
 }
 
 /* Floating Buttons */
 .floating-button {
-    position: fixed;
-    right: 30px; /* Ensure they are on the right */
-    background: #007bff;
+    background: #333;
     color: #fff;
     border: none;
-    padding: 10px 15px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
-    font-size: 1rem;
-    border-radius: 7%;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-    z-index: 1200;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    transition: background 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
     .floating-button:hover {
-        background: #0056b3;
+        background: #444;
+        transform: scale(1.05);
     }
 
-#flowchart-button {
-    bottom: 180px;
+/* Custom Icon Highlights */
+.army-icon img {
+    filter: drop-shadow(0 0 3px #3cb371);
 }
 
-#backstory-button {
-    bottom: 120px;
+.police-icon img {
+    filter: drop-shadow(0 0 3px #1e90ff);
 }
 
-#stego-button {
-    bottom: 60px;
+/* Scrollbars (Optional) */
+::-webkit-scrollbar {
+    width: 8px;
 }
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }

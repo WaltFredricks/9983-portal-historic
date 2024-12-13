@@ -1,167 +1,201 @@
-// Initialize map
-document.addEventListener("DOMContentLoaded", () => {
-    const map = L.map('map').setView([39.8283, -98.5795], 5); // Default view
+// Since we are using 'defer', the DOM is guaranteed to be parsed before this executes.
+// We can safely call our setup functions immediately.
+
+initializeMap();
+populateStatusWindow();
+setupUIEvents();
+
+// Create a map and handle location markers
+function initializeMap() {
+    const map = L.map('map', { attributionControl: true }).setView([39.8283, -98.5795], 5);
 
     // Add OpenStreetMap tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        maxZoom: 19
     }).addTo(map);
 
-    // Add click event to capture coordinates
+    // Capture coordinates on click
     map.on('click', (e) => {
         const { lat, lng } = e.latlng;
         document.getElementById('latitude').value = lat.toFixed(6);
         document.getElementById('longitude').value = lng.toFixed(6);
     });
 
-    // Fetch locations from locs.json and add to map
-    fetch('https://waltfredricks.github.io/locs.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(locations => {
-            const bounds = [];
-            locations.forEach(loc => {
-                let icon;
-                switch (loc.type?.toLowerCase()) {
-                    case 'army':
-                        icon = createIcon('https://home.army.mil/imcom/cache/thumbnails/42c949ce277ff0c3b6b24416935b117c.png'); // Army icon
-                        break;
-                    case 'police':
-                        icon = createIcon('https://home.army.mil/imcom/cache/thumbnails/c90d3b2ec235df2ab47e9c5d6a01e069.png'); // Police icon
-                        break;
-                    case 'native':
-                        icon = createIcon('https://home.army.mil/imcom/cache/thumbnails/4da4933bf240621a4ccc60fde8faf75c.png'); // Native icon
-                        break;
-                    default:
-                        icon = createIcon('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png'); // Default icon
-                }
+    // Fetch and place locations
+    fetchLocations(map);
+}
 
-                const marker = L.marker([loc.lat, loc.lon], { icon: icon }).addTo(map);
-                marker.bindPopup(`
-                    <div style="font-size: 14px;">
-                        <strong>${loc.name || 'Unknown'}</strong><br>
-                        ${loc.address || ''}
-                    </div>
-                `);
-                bounds.push([loc.lat, loc.lon]);
-            });
-            if (bounds.length) {
-                map.fitBounds(bounds);
+async function fetchLocations(map) {
+    try {
+        const response = await fetch('https://waltfredricks.github.io/locs.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+        const locations = await response.json();
+        const bounds = [];
+
+        locations.forEach(loc => {
+            let iconUrl, className = '';
+            switch (loc.type?.toLowerCase()) {
+                case 'army':
+                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/42c949ce277ff0c3b6b24416935b117c.png';
+                    className = 'army-icon';
+                    break;
+                case 'police':
+                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/c90d3b2ec235df2ab47e9c5d6a01e069.png';
+                    className = 'police-icon';
+                    break;
+                case 'native':
+                    iconUrl = 'https://home.army.mil/imcom/cache/thumbnails/4da4933bf240621a4ccc60fde8faf75c.png';
+                    break;
+                default:
+                    iconUrl = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png';
             }
-        })
-        .catch(error => {
-            console.error('Error fetching locations:', error);
-            alert('Failed to load map locations. Please try again later.');
+
+            const marker = L.marker([loc.lat, loc.lon], { icon: createIcon(iconUrl, className) }).addTo(map);
+            marker.bindPopup(`
+                <div style="font-size: 14px;">
+                    <strong>${loc.name || 'Unknown'}</strong><br>
+                    ${loc.address || ''}
+                </div>
+            `);
+            bounds.push([loc.lat, loc.lon]);
         });
-});
 
-// Create custom icons
-function createIcon(iconUrl) {
+        if (bounds.length) {
+            map.fitBounds(bounds);
+        }
+    } catch (error) {
+        console.error('Error fetching locations:', error);
+        alert('Failed to load map locations. Please try again later.');
+    }
+}
+
+// Create an icon with optional className for styling
+function createIcon(iconUrl, className = '') {
     return L.icon({
         iconUrl: iconUrl,
         iconSize: [16, 16],
         iconAnchor: [8, 8],
         popupAnchor: [1, -34],
-        shadowSize: [41, 41]
+        shadowSize: [41, 41],
+        className: className
     });
 }
 
-// General modal toggling function
+// Modal toggling
 function toggleModal(modalId, imageUrl = null) {
     const modal = document.getElementById(modalId);
-    if (modal.style.display === 'flex') {
-        modal.style.display = 'none';
+    if (modal.classList.contains('show')) {
+        modal.classList.remove('show');
     } else {
-        modal.style.display = 'flex';
         if (imageUrl) document.getElementById('modal-image').src = imageUrl;
+        modal.classList.add('show');
     }
 }
 
-// Event Listeners for buttons
-document.getElementById('enter-button').addEventListener('click', () => {
-    dismissSplash();
-    document.getElementById('deploy-button').style.display = 'block';
-});
-document.getElementById('flowchart-button').addEventListener('click', () => toggleModal('modal', './org.png'));
-document.getElementById('backstory-button').addEventListener('click', () => toggleModal('modal', './backstory.png'));
-document.getElementById('stego-button').addEventListener('click', () => toggleModal('stego-modal'));
-
-// Close modals on close button click
-document.querySelectorAll('.modal-close').forEach(closeButton => {
-    closeButton.addEventListener('click', function () {
-        const modal = closeButton.closest('.modal');
-        if (modal) {
-            modal.style.display = 'none';
-        }
-    });
-});
-
-// Dismiss splash screen
+// Splash screen dismissal
 function dismissSplash() {
     const splash = document.getElementById('splash');
     if (splash) splash.style.display = 'none';
 }
 
-// Deployment button action
-const deployButton = document.getElementById('deploy-button');
-if (deployButton) {
-    deployButton.addEventListener('click', () => {
-        alert("Deploying 44te... SLA 2 hour. Current ETA 33min!");
-        // Add additional deployment logic here
+// Setup UI Events
+function setupUIEvents() {
+    document.getElementById('enter-button').addEventListener('click', () => {
+        dismissSplash();
+        document.getElementById('deploy-button').style.display = 'block';
+    });
+
+    const deployButton = document.getElementById('deploy-button');
+    if (deployButton) {
+        deployButton.addEventListener('click', () => {
+            alert("Deploying 44te... SLA 2 hour. Current ETA 33min!");
+        });
+    }
+
+    document.getElementById('flowchart-button').addEventListener('click', () => toggleModal('modal', './org.png'));
+    document.getElementById('backstory-button').addEventListener('click', () => toggleModal('modal', './backstory.png'));
+    document.getElementById('stego-button').addEventListener('click', () => toggleModal('stego-modal'));
+    document.getElementById('chat-button').addEventListener('click', () => toggleModal('chat-modal'));
+    document.getElementById('ai-report-button').addEventListener('click', () => toggleModal('ai-report-modal'));
+    document.getElementById('cad-button').addEventListener('click', () => toggleModal('cad-modal'));
+
+    // Close modals on close button
+    document.querySelectorAll('.modal-close').forEach(button => {
+        button.addEventListener('click', () => {
+            const modal = button.closest('.modal');
+            if (modal) modal.classList.remove('show');
+        });
+    });
+
+    // CAD form submission
+    document.getElementById('cad-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const call = document.getElementById('cad-call').value;
+        const unit = document.getElementById('cad-unit').value;
+        const status = document.getElementById('cad-status').value;
+
+        const logEntry = document.createElement('div');
+        logEntry.innerHTML = `<strong>Call:</strong> ${call}<br><strong>Unit:</strong> ${unit}<br><strong>Status:</strong> ${status}`;
+        document.getElementById('cad-incident-log').appendChild(logEntry);
+
+        document.getElementById('cad-call').value = '';
+        document.getElementById('cad-unit').value = '';
+        document.getElementById('cad-status').value = '';
+    });
+
+    // CAD filter/export buttons
+    document.getElementById('filter-incidents').addEventListener('click', () => {
+        alert('Filter functionality coming soon!');
+    });
+
+    document.getElementById('export-log').addEventListener('click', () => {
+        const log = document.getElementById('cad-incident-log').innerText;
+        const blob = new Blob([log], { type: 'text/plain' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'CAD_Log.txt';
+        link.click();
+    });
+
+    // Steganography Buttons (Encrypt/Decrypt)
+    document.getElementById("encrypt-button").addEventListener("click", encryptMessage);
+    document.getElementById("decrypt-button").addEventListener("click", decryptMessage);
+
+    // AI Report Form Submission (Mock)
+    document.getElementById('ai-report-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Report generated successfully (Mock)!');
+        e.target.reset();
+        document.getElementById('ai-report-modal').classList.remove('show');
+    });
+
+    // IRC Send
+    document.getElementById('irc-send').addEventListener('click', () => {
+        const input = document.getElementById('irc-input');
+        const ircWindow = document.getElementById('irc-window');
+        if (input.value.trim()) {
+            const msg = document.createElement('div');
+            msg.textContent = input.value;
+            ircWindow.appendChild(msg);
+            input.value = '';
+            ircWindow.scrollTop = ircWindow.scrollHeight;
+        }
     });
 }
 
-// Helper function to fetch user details
-async function fetchUserIP() {
-    try {
-        const response = await fetch('https://api.ipify.org?format=json');
-        const data = await response.json();
-        return data.ip;
-    } catch (error) {
-        console.error('Error fetching IP:', error);
-        return 'Unavailable';
-    }
-}
-
-// Helper function to fetch geolocation details using IP
-async function fetchUserLocation(ip) {
-    try {
-        const response = await fetch(`https://ipapi.co/${ip}/json/`);
-        const data = await response.json();
-        return data.city ? `${data.city}, ${data.region}, ${data.country_name}` : 'Location Unavailable';
-    } catch (error) {
-        console.error('Error fetching location:', error);
-        return 'Unavailable';
-    }
-}
-
-// Function to get browser details
-function getBrowserDetails() {
-    return `${navigator.userAgent}`;
-}
-
-// Function to fetch other metrics (Example: Screen resolution)
-function getUserMetrics() {
-    return `Resolution: ${window.screen.width}x${window.screen.height}`;
-}
-
-// Main function to populate the Status Window
+// Fetch user details and populate status
 async function populateStatusWindow() {
     const userIPElement = document.getElementById('user-ip');
     const userLocationElement = document.getElementById('user-location');
     const userBrowserElement = document.getElementById('user-browser');
     const userMetricsElement = document.getElementById('user-metrics');
 
-    // Fetch and populate data
     const ip = await fetchUserIP();
-    userIPElement.textContent = ip;
+    userIPElement.textContent = ip || 'Unavailable';
 
     const location = await fetchUserLocation(ip);
-    userLocationElement.textContent = location;
+    userLocationElement.textContent = location || 'Unavailable';
 
     const browserDetails = getBrowserDetails();
     userBrowserElement.textContent = browserDetails;
@@ -170,11 +204,39 @@ async function populateStatusWindow() {
     userMetricsElement.textContent = metrics;
 }
 
-// Initialize Status Window
-window.addEventListener('DOMContentLoaded', populateStatusWindow);
+async function fetchUserIP() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip;
+    } catch (error) {
+        console.error('Error fetching IP:', error);
+        return null;
+    }
+}
+
+async function fetchUserLocation(ip) {
+    if (!ip) return null;
+    try {
+        const response = await fetch(`https://ipapi.co/${ip}/json/`);
+        const data = await response.json();
+        return data.city ? `${data.city}, ${data.region}, ${data.country_name}` : 'Unknown Location';
+    } catch (error) {
+        console.error('Error fetching location:', error);
+        return null;
+    }
+}
+
+function getBrowserDetails() {
+    return `${navigator.userAgent}`;
+}
+
+function getUserMetrics() {
+    return `Resolution: ${window.screen.width}x${window.screen.height}`;
+}
 
 // Encrypt Function
-document.getElementById("encrypt-button").addEventListener("click", () => {
+function encryptMessage() {
     const password = document.getElementById("stego-password").value;
     const message = document.getElementById("stego-message").value;
     const fileInput = document.getElementById("stego-upload");
@@ -198,21 +260,20 @@ document.getElementById("encrypt-button").addEventListener("click", () => {
             const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             const pixels = imageData.data;
 
-            // Combine password and message, with a delimiter and null-termination
+            // Combine password and message
             const fullMessage = password + ":" + message + "\0";
 
-            // Convert message to binary and store in the LSB of pixel data
             let binaryIndex = 0;
             for (let i = 0; i < fullMessage.length; i++) {
                 const charCode = fullMessage.charCodeAt(i);
                 for (let bit = 7; bit >= 0; bit--) {
                     const bitValue = (charCode >> bit) & 1;
-                    pixels[binaryIndex] = (pixels[binaryIndex] & ~1) | bitValue;
-                    binaryIndex++;
                     if (binaryIndex >= pixels.length) {
                         alert("Message is too large for this image.");
                         return;
                     }
+                    pixels[binaryIndex] = (pixels[binaryIndex] & ~1) | bitValue;
+                    binaryIndex++;
                 }
             }
 
@@ -222,15 +283,16 @@ document.getElementById("encrypt-button").addEventListener("click", () => {
             link.href = encodedImage;
             link.download = "stego-image.png";
             link.textContent = "Download Encrypted Image";
-            document.getElementById("stego-output").innerHTML = "";
-            document.getElementById("stego-output").appendChild(link);
+            const output = document.getElementById("stego-output");
+            output.innerHTML = "";
+            output.appendChild(link);
         };
     };
     reader.readAsDataURL(fileInput.files[0]);
-});
+}
 
 // Decrypt Function
-document.getElementById("decrypt-button").addEventListener("click", () => {
+function decryptMessage() {
     const password = document.getElementById("stego-password").value;
     const fileInput = document.getElementById("stego-upload");
 
@@ -255,19 +317,17 @@ document.getElementById("decrypt-button").addEventListener("click", () => {
 
             let binaryMessage = "";
             for (let i = 0; i < pixels.length; i++) {
-                binaryMessage += pixels[i] & 1;
+                binaryMessage += (pixels[i] & 1);
             }
 
-            // Convert binary data to a string
             let decodedMessage = "";
             for (let i = 0; i < binaryMessage.length; i += 8) {
                 const byte = binaryMessage.slice(i, i + 8);
                 const charCode = parseInt(byte, 2);
-                if (charCode === 0) break; // Stop at null terminator
+                if (charCode === 0) break;
                 decodedMessage += String.fromCharCode(charCode);
             }
 
-            // Extract password and message
             const separatorIndex = decodedMessage.indexOf(":");
             if (separatorIndex === -1) {
                 alert("Failed to decrypt the message.");
@@ -275,17 +335,14 @@ document.getElementById("decrypt-button").addEventListener("click", () => {
             }
 
             const decodedPassword = decodedMessage.slice(0, separatorIndex);
-            const message = decodedMessage.slice(separatorIndex + 1);
+            const hiddenMessage = decodedMessage.slice(separatorIndex + 1);
 
             if (decodedPassword !== password) {
                 alert("Incorrect password.");
             } else {
-                document.getElementById("stego-output").textContent = `Decrypted Message: ${message}`;
+                document.getElementById("stego-output").textContent = `Decrypted Message: ${hiddenMessage}`;
             }
         };
     };
     reader.readAsDataURL(fileInput.files[0]);
-
-
-});
-
+}
