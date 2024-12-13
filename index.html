@@ -21,13 +21,32 @@
         </div>
     </div>
 
+    <!-- Stealthy Login Screen -->
+    <div id="login-container" class="login-container" style="display:none;" role="dialog" aria-modal="true" aria-label="Login Screen">
+        <div class="login-content">
+            <h2>Secure Login</h2>
+            <label for="login-username" class="visually-hidden">Username</label>
+            <input type="text" id="login-username" placeholder="Username" aria-label="Username" />
+
+            <label for="login-password" class="visually-hidden">Password</label>
+            <input type="password" id="login-password" placeholder="Password" aria-label="Password" />
+
+            <button id="login-button" aria-label="Login">Login</button>
+
+            <div class="oauth-buttons">
+                <button id="google-auth" aria-label="Sign in with Google">Google</button>
+                <button id="microsoft-auth" aria-label="Sign in with Microsoft">Microsoft</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Big Red Deploy Button -->
     <button id="deploy-button" style="display: none;" class="deploy-button" aria-label="Deploy 44te">
         <span>DEPLOY 44te</span>
     </button>
 
     <!-- Status Window -->
-    <div id="status-window" role="region" aria-label="User Status and Metrics">
+    <div id="status-window" role="region" aria-label="User Status and Metrics" style="display:none;">
         <h3>Status</h3>
         <div id="user-details">
             <p>IP: <span id="user-ip">Loading...</span></p>
@@ -38,14 +57,13 @@
     </div>
 
     <!-- Problem Details Form -->
-    <div id="problem-details" style="bottom: 180px;" role="region" aria-label="Report a Problem">
+    <div id="problem-details" style="display:none; bottom: 180px;" role="region" aria-label="Report a Problem">
         <h3>Problem Details</h3>
         <label for="problem-description" class="visually-hidden">Describe the problem</label>
         <textarea id="problem-description" placeholder="Describe the problem here..." aria-label="Problem Description"></textarea>
         <div class="coordinates">
             <label for="latitude" class="visually-hidden">Latitude</label>
             <input type="text" id="latitude" placeholder="Latitude" aria-label="Latitude">
-
             <label for="longitude" class="visually-hidden">Longitude</label>
             <input type="text" id="longitude" placeholder="Longitude" aria-label="Longitude">
         </div>
@@ -53,7 +71,7 @@
     </div>
 
     <!-- Map Container -->
-    <div id="map" role="application" aria-label="Map Interface"></div>
+    <div id="map" role="application" aria-label="Map Interface" style="display:none;"></div>
 
     <!-- Modals -->
     <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Information Modal">
@@ -163,7 +181,7 @@
     </div>
 
     <!-- Bottom Controls Container -->
-    <div class="bottom-controls">
+    <div class="bottom-controls" style="display:none;">
         <button class="floating-button" id="cad-button" aria-label="Open CAD">CAD</button>
         <button class="floating-button" id="ai-report-button" aria-label="Open AI Report Builder">AI</button>
         <button class="floating-button" id="sdr-button" aria-label="Open Redhawk SDR">SDR</button>

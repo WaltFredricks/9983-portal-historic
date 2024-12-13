@@ -332,3 +332,118 @@ html, body {
     ::-webkit-scrollbar-thumb:hover {
         background: #555;
     }
+
+.login-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5,5,5,0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-content {
+    background: #111;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ccc;
+    width: 300px;
+}
+
+    .login-content h2 {
+        margin-bottom: 15px;
+        color: #0f0;
+    }
+
+    .login-content input {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+        padding: 8px;
+        background: #222;
+        border: 1px solid #666;
+        color: #ccc;
+        border-radius: 4px;
+    }
+
+    .login-content button {
+        width: 45%;
+        margin: 10px 5px;
+        padding: 8px;
+        background: #222;
+        border: 1px solid #666;
+        color: #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .login-content button:hover {
+            background: #444;
+        }
+
+.auth-buttons {
+    margin-top: 10px;
+}
+
+.login-container {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 23, 51, 0.85); /* semi-transparent deep blue overlay */
+    align-items: center;
+    justify-content: center;
+}
+
+.login-content {
+    background: #0a1733; /* deep blue background */
+    color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-width: 400px;
+    width: 90%;
+}
+
+    .login-content h2 {
+        margin-bottom: 1em;
+        color: #aad4ff;
+    }
+
+    .login-content input {
+        display: block;
+        margin: 0.5em auto;
+        padding: 0.5em;
+        width: 80%;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .login-content button {
+        margin: 0.5em;
+        padding: 0.6em 1em;
+        border: none;
+        border-radius: 4px;
+        background-color: #25517d; /* darker shade of blue */
+        color: #fff;
+        cursor: pointer;
+    }
+
+        .login-content button:hover {
+            background-color: #2c65a1;
+        }
+
+.oauth-buttons button {
+    background-color: #25517d;
+}

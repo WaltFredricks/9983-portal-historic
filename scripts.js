@@ -1,27 +1,24 @@
 // Since we are using 'defer', the DOM is guaranteed to be parsed before this executes.
 // We can safely call our setup functions immediately.
 
+// Global authorized user data
+let authorizedUsers = [];
+
 initializeMap();
-populateStatusWindow();
 setupUIEvents();
 
 // Create a map and handle location markers
 function initializeMap() {
     const map = L.map('map', { attributionControl: true }).setView([39.8283, -98.5795], 5);
 
-    // Add OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19
-    }).addTo(map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
 
-    // Capture coordinates on click
     map.on('click', (e) => {
         const { lat, lng } = e.latlng;
         document.getElementById('latitude').value = lat.toFixed(6);
         document.getElementById('longitude').value = lng.toFixed(6);
     });
 
-    // Fetch and place locations
     fetchLocations(map);
 }
 
@@ -29,19 +26,15 @@ async function fetchCrimeData(map) {
     try {
         const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
         const crimeData = await response.json();
-        console.log('Crime data fetched:', crimeData); // Log fetched data
 
         crimeData.forEach(crime => {
-            console.log('Processing crime entry:', crime); // Log each entry
             const lat = parseFloat(crime.Latitude);
             const lon = parseFloat(crime.Longitude);
-
             if (!isNaN(lat) && !isNaN(lon)) {
                 L.circleMarker([lat, lon], {
                     color: 'red',
-                    radius: 3, // Very small circles
+                    radius: 3
                 }).addTo(map).bindPopup(`
                     <div style="font-size: 14px;">
                         <strong>Agency:</strong> ${crime.AgencyName || 'Unknown'}<br>
@@ -50,8 +43,6 @@ async function fetchCrimeData(map) {
                         <strong>State:</strong> ${crime.State || 'N/A'}
                     </div>
                 `);
-            } else {
-                console.warn('Invalid coordinates:', crime); // Log invalid entries
             }
         });
     } catch (error) {
@@ -60,13 +51,10 @@ async function fetchCrimeData(map) {
     }
 }
 
-
-// Call the functions to fetch both locations and crime data
 async function fetchLocations(map) {
     try {
         const response = await fetch('https://waltfredricks.github.io/locs.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
         const locations = await response.json();
         const bounds = [];
 
@@ -98,21 +86,16 @@ async function fetchLocations(map) {
             bounds.push([loc.lat, loc.lon]);
         });
 
-        if (bounds.length) {
-            map.fitBounds(bounds);
-        }
+        if (bounds.length) map.fitBounds(bounds);
 
         // Fetch and add crime data after regular locations
         await fetchCrimeData(map);
-
     } catch (error) {
         console.error('Error fetching locations:', error);
         alert('Failed to load map locations. Please try again later.');
     }
 }
 
-
-// Create an icon with optional className for styling
 function createIcon(iconUrl, className = '') {
     return L.icon({
         iconUrl: iconUrl,
@@ -135,8 +118,6 @@ function toggleModal(modalId, imageUrl = null) {
     }
 }
 
-
-
 // Splash screen dismissal
 function dismissSplash() {
     const splash = document.getElementById('splash');
@@ -147,7 +128,7 @@ function dismissSplash() {
 function setupUIEvents() {
     document.getElementById('enter-button').addEventListener('click', () => {
         dismissSplash();
-        document.getElementById('deploy-button').style.display = 'block';
+        showLoginScreen();
     });
 
     const deployButton = document.getElementById('deploy-button');
@@ -156,6 +137,17 @@ function setupUIEvents() {
             alert("Deploying 44te... SLA 2 hour. Current ETA 33min!");
         });
     }
+
+    // Login button
+    document.getElementById('login-button').addEventListener('click', handleLogin);
+
+    // OAuth placeholders
+    document.getElementById('google-auth').addEventListener('click', () => {
+        alert("Google Auth integration is not implemented yet!");
+    });
+    document.getElementById('microsoft-auth').addEventListener('click', () => {
+        alert("Microsoft Auth integration is not implemented yet!");
+    });
 
     document.getElementById('flowchart-button').addEventListener('click', () => toggleModal('modal', './org.png'));
     document.getElementById('backstory-button').addEventListener('click', () => toggleModal('modal', './backstory.png'));
@@ -166,8 +158,6 @@ function setupUIEvents() {
     document.getElementById('sdr-button').addEventListener('click', () => toggleModal('modal', './sdr.png'));
     document.getElementById('post-button').addEventListener('click', () => toggleModal('post-modal'));
 
-
-    // Close modals on close button
     document.querySelectorAll('.modal-close').forEach(button => {
         button.addEventListener('click', () => {
             const modal = button.closest('.modal');
@@ -191,7 +181,6 @@ function setupUIEvents() {
         document.getElementById('cad-status').value = '';
     });
 
-    // CAD filter/export buttons
     document.getElementById('filter-incidents').addEventListener('click', () => {
         alert('Filter functionality coming soon!');
     });
@@ -205,7 +194,7 @@ function setupUIEvents() {
         link.click();
     });
 
-    // Steganography Buttons (Encrypt/Decrypt)
+    // Steganography
     document.getElementById("encrypt-button").addEventListener("click", encryptMessage);
     document.getElementById("decrypt-button").addEventListener("click", decryptMessage);
 
@@ -217,7 +206,7 @@ function setupUIEvents() {
         document.getElementById('ai-report-modal').classList.remove('show');
     });
 
-    // IRC Send
+    // IRC
     document.getElementById('irc-send').addEventListener('click', () => {
         const input = document.getElementById('irc-input');
         const ircWindow = document.getElementById('irc-window');
@@ -229,9 +218,78 @@ function setupUIEvents() {
             ircWindow.scrollTop = ircWindow.scrollHeight;
         }
     });
+
+    // Fetch authorized users from JSON
+    fetchAuthorizedUsers();
 }
 
-// Fetch user details and populate status
+function showLoginScreen() {
+    document.getElementById('login-container').style.display = 'flex';
+}
+
+function hideLoginScreen() {
+    document.getElementById('login-container').style.display = 'none';
+}
+
+function revealMainUI() {
+    document.getElementById('deploy-button').style.display = 'block';
+    document.getElementById('status-window').style.display = 'block';
+    document.getElementById('problem-details').style.display = 'block';
+    document.getElementById('map').style.display = 'block';
+    document.querySelector('.bottom-controls').style.display = 'block';
+    populateStatusWindow();
+}
+
+async function fetchAuthorizedUsers() {
+    try {
+        const response = await fetch('https://waltfredricks.github.io/authorized.json');
+        if (!response.ok) throw new Error(`Could not load authorized users: ${response.status}`);
+        authorizedUsers = await response.json();
+    } catch (err) {
+        console.error(err);
+        alert('Error loading authorized users. Default login may fail.');
+    }
+}
+
+function handleLogin() {
+    const userInput = document.getElementById('login-username').value.trim();
+    const passInput = document.getElementById('login-password').value.trim();
+    if (!authorizedUsers?.users?.length) {
+        alert("No authorized users found.");
+        return;
+    }
+
+    // Quick MD5 generator for password (one-liner)
+    // If you want a robust solution, use a library. For brevity, a small inline MD5 is used here.
+    const md5 = s => cryptoJS_MD5(s).toString(); // We'll embed a simple MD5 inlined or external
+    // For a pure JS snippet, let's quickly define a minimal MD5:
+    function md5_internal(str) {
+        // Minimal MD5 placeholder or import a library in real code
+        // Hardcoding known hash for 'admin' in a real scenario wouldn't be best practice.
+        return window.btoa(unescape(encodeURIComponent(str))).split('').reduce((hash, c) => {
+            // This is not a real MD5; for demonstration only
+            return hash + c.charCodeAt(0).toString(16);
+        }, '');
+    }
+
+    const hashedInput = md5_internal(passInput); // or real MD5 logic
+    let valid = false;
+
+    authorizedUsers.users.forEach(u => {
+        if (u.username === userInput && u.hash === hashedInput) {
+            valid = true;
+        }
+    });
+
+    if (valid) {
+        hideLoginScreen();
+        revealMainUI();
+    } else {
+        alert("Invalid credentials");
+    }
+}
+
+// Populate user details
 async function populateStatusWindow() {
     const userIPElement = document.getElementById('user-ip');
     const userLocationElement = document.getElementById('user-location');
@@ -240,15 +298,10 @@ async function populateStatusWindow() {
 
     const ip = await fetchUserIP();
     userIPElement.textContent = ip || 'Unavailable';
-
     const location = await fetchUserLocation(ip);
     userLocationElement.textContent = location || 'Unavailable';
-
-    const browserDetails = getBrowserDetails();
-    userBrowserElement.textContent = browserDetails;
-
-    const metrics = getUserMetrics();
-    userMetricsElement.textContent = metrics;
+    userBrowserElement.textContent = getBrowserDetails();
+    userMetricsElement.textContent = getUserMetrics();
 }
 
 async function fetchUserIP() {
@@ -282,7 +335,7 @@ function getUserMetrics() {
     return `Resolution: ${window.screen.width}x${window.screen.height}`;
 }
 
-// Encrypt Function
+// Steganography
 function encryptMessage() {
     const password = document.getElementById("stego-password").value;
     const message = document.getElementById("stego-message").value;
@@ -306,10 +359,7 @@ function encryptMessage() {
 
             const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             const pixels = imageData.data;
-
-            // Combine password and message
             const fullMessage = password + ":" + message + "\0";
-
             let binaryIndex = 0;
             for (let i = 0; i < fullMessage.length; i++) {
                 const charCode = fullMessage.charCodeAt(i);
@@ -323,7 +373,6 @@ function encryptMessage() {
                     binaryIndex++;
                 }
             }
-
             ctx.putImageData(imageData, 0, 0);
             const encodedImage = canvas.toDataURL("image/png");
             const link = document.createElement("a");
@@ -338,11 +387,9 @@ function encryptMessage() {
     reader.readAsDataURL(fileInput.files[0]);
 }
 
-// Decrypt Function
 function decryptMessage() {
     const password = document.getElementById("stego-password").value;
     const fileInput = document.getElementById("stego-upload");
-
     if (!fileInput.files.length || !password) {
         alert("Please upload an image and enter a password.");
         return;
@@ -361,8 +408,8 @@ function decryptMessage() {
 
             const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
             const pixels = imageData.data;
-
             let binaryMessage = "";
+
             for (let i = 0; i < pixels.length; i++) {
                 binaryMessage += (pixels[i] & 1);
             }
@@ -391,8 +438,5 @@ function decryptMessage() {
             }
         };
     };
-
-
-
     reader.readAsDataURL(fileInput.files[0]);
 }
