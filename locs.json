@@ -1,409 +1,2819 @@
-[{
-  "name": "Fort Novosel",
-  "address": "6000 Novosel Street, Fort Novosel, AL",
-  "lat": 31.3595,
-  "lon": -85.6779,
-  "type": "army"
-},
-            { "name": "Fort Wainwright", "address": "1060 Gaffney Road, Fort Wainwright, AK", "lat": 64.845, "lon": -147.727, "type": "army" },
-            { "name": "Fort Huachuca", "address": "2837 Boyd Avenue, Fort Huachuca, AZ", "lat": 31.6022, "lon": -110.3433, "type": "army" },
-            { "name": "Fort Chaffee", "address": "Building 1370, Fort Chaffee, AR 72905", "lat": 35.4136, "lon": -94.0938, "type": "army" },
-            { "name": "Fort Irwin", "address": "Inner Loop Road, Fort Irwin, CA 92310", "lat": 35.2973, "lon": -116.6634, "type": "army" },
-            { "name": "Fort Carson", "address": "6303 Wetzel Avenue, Fort Carson, CO 80913", "lat": 38.7613, "lon": -104.8017, "type": "army" },
-            { "name": "Fort Devens", "address": "30 Quebec Street, Devens, MA 01434", "lat": 42.5495, "lon": -71.5651, "type": "army" },
-            { "name": "Fort George G. Meade", "address": "4409 Llewellyn Avenue, Fort Meade, MD 20755", "lat": 39.0843, "lon": -76.7459, "type": "army" },
-            { "name": "Camp Blanding", "address": "5629 State Road 16 West, Starke, FL", "lat": 29.9889, "lon": -81.9722, "type": "army" },
-            { "name": "Fort Moore", "address": "1 Karker Street, Fort Moore, GA 31905", "lat": 32.3577, "lon": -84.9454, "type": "army" },
-            { "name": "Schofield Barracks", "address": "694 McCornack Road, Schofield Barracks, HI 96857", "lat": 21.4982, "lon": -158.0356, "type": "army" },
-            { "name": "Gowen Field", "address": "4474 S. DeHaviland Street, Boise, ID 83705", "lat": 43.5645, "lon": -116.2207, "type": "army" },
-            { "name": "Rock Island Arsenal", "address": "1 Rock Island Arsenal, Rock Island, IL 61299", "lat": 41.4993, "lon": -90.5771, "type": "army" },
-            { "name": "Camp Atterbury", "address": "3008 Old Hospital Road, Edinburgh, IN 46124", "lat": 39.3589, "lon": -85.7719, "type": "army" },
-            { "name": "Fort Riley", "address": "500 Huebner Road, Fort Riley, KS 66442", "lat": 39.4096, "lon": -96.8084, "type": "army" },
-            { "name": "Fort Campbell", "address": "101st Airborne Division Road, Fort Campbell, KY 42223", "lat": 36.6690, "lon": -87.4871, "type": "army" },
-            { "name": "Fort Johnson", "address": "7073 Radio Road, Fort Johnson, LA 71459", "lat": 31.1294, "lon": -92.6362, "type": "army" },
-            { "name": "Camp Ethan Allen", "address": "113 Ethan Allen Road, Jericho, VT 05465", "lat": 44.4877, "lon": -72.9542, "type": "army" },
-            { "name": "Detroit Arsenal", "address": "6501 E. 11 Mile Road, Warren, MI 48397", "lat": 42.4732, "lon": -83.0298, "type": "army" },
-            { "name": "Camp Ripley", "address": "15000 Highway 115, Little Falls, MN 56345", "lat": 45.9797, "lon": -94.4393, "type": "army" },
-            { "name": "Camp Shelby", "address": "2500 Jackson Avenue, Camp Shelby, MS 39407", "lat": 31.4470, "lon": -89.1485, "type": "army" },
-            { "name": "Fort Leonard Wood", "address": "14000 MSCoE Loop, Fort Leonard Wood, MO 65473", "lat": 37.7670, "lon": -92.1492, "type": "army" },
-            { "name": "Camp Ashland", "address": "220 County Road A, Ashland, NE 68003", "lat": 41.1467, "lon": -96.0805, "type": "army" },
-            { "name": "Hawthorne Army Depot", "address": "1 South Maine Avenue, Hawthorne, NV 89415", "lat": 38.5361, "lon": -118.6100, "type": "army" },
-            { "name": "Fort Drum", "address": "10000 10th Mountain Division Drive, Fort Drum, NY 13602", "lat": 44.0442, "lon": -75.5774, "type": "army" },
-            { "name": "Fort Liberty", "address": "2175 Reilly Road, Fort Liberty, NC 28310", "lat": 35.0805, "lon": -78.9793, "type": "army" },
-            { "name": "Camp Grafton", "address": "4417 Highway 20, Devils Lake, ND 58301", "lat": 47.9423, "lon": -98.9241, "type": "army" },
-            { "name": "Camp James A. Garfield", "address": "8451 State Route 5, Ravenna, OH 44266", "lat": 41.2302, "lon": -81.1963, "type": "army" },
-            { "name": "Fort Sill", "address": "4700 Mow-Way Road, Fort Sill, OK 73503", "lat": 34.6394, "lon": -98.3961, "type": "army" },
-            { "name": "Camp Umatilla", "address": "78798 Ordnance Road, Hermiston, OR 97838", "lat": 45.8878, "lon": -119.1652, "type": "army" },
-            { "name": "Carlisle Barracks", "address": "22 Ashburn Drive, Carlisle, PA 17013", "lat": 40.2010, "lon": -77.2005, "type": "army" },
-            { "name": "Fort Jackson", "address": "5450 Strom Thurmond Boulevard, Fort Jackson, SC 29207", "lat": 34.0435, "lon": -80.9467, "type": "army" },
-            { "name": "Fort Meade", "address": "11 Sheridan Street, Fort Meade, SD 57741", "lat": 44.0190, "lon": -103.7116, "type": "army" },
-            { "name": "Fort Cavazos", "address": "1001 761st Tank Battalion Avenue, Fort Cavazos, TX 76544", "lat": 31.1381, "lon": -97.8006, "type": "army" },
-            { "name": "Dugway Proving Ground", "address": "5464 Dugway Proving Ground, Dugway, UT 84022", "lat": 40.2525, "lon": -113.0321, "type": "army" },
-            { "name": "Fort Gregg-Adams", "address": "1401 Mahone Avenue, Fort Gregg-Adams, VA 23801", "lat": 37.0426, "lon": -77.4071, "type": "army" },
-            { "name": "Joint Base Lewis-McChord", "address": "41st Division Drive, Joint Base Lewis-McChord, WA 98433", "lat": 47.1213, "lon": -122.5593, "type": "army" },
-            { "name": "Camp Dawson", "address": "1001 Army Road, Kingwood, WV 26537", "lat": 39.5151, "lon": -79.6786, "type": "army" },
-            { "name": "Fort McCoy", "address": "100 E Headquarters Road, Fort McCoy, WI 54656", "lat": 43.9464, "lon": -90.7484, "type": "army" },
-            { "name": "Camp Guernsey", "address": "473 Soldier Drive, Guernsey, WY 82214", "lat": 41.8040, "lon": -104.8795, "type": "army" },
+[
+  {
+    "name": "Fort Novosel",
+    "address": "6000 Novosel Street, Fort Novosel, AL",
+    "lat": 31.3595,
+    "lon": -85.6779,
+    "type": "army"
+  },
+  {
+    "name": "Fort Wainwright",
+    "address": "1060 Gaffney Road, Fort Wainwright, AK",
+    "lat": 64.845,
+    "lon": -147.727,
+    "type": "army"
+  },
+  {
+    "name": "Fort Huachuca",
+    "address": "2837 Boyd Avenue, Fort Huachuca, AZ",
+    "lat": 31.6022,
+    "lon": -110.3433,
+    "type": "army"
+  },
+  {
+    "name": "Fort Chaffee",
+    "address": "Building 1370, Fort Chaffee, AR 72905",
+    "lat": 35.4136,
+    "lon": -94.0938,
+    "type": "army"
+  },
+  {
+    "name": "Fort Irwin",
+    "address": "Inner Loop Road, Fort Irwin, CA 92310",
+    "lat": 35.2973,
+    "lon": -116.6634,
+    "type": "army"
+  },
+  {
+    "name": "Fort Carson",
+    "address": "6303 Wetzel Avenue, Fort Carson, CO 80913",
+    "lat": 38.7613,
+    "lon": -104.8017,
+    "type": "army"
+  },
+  {
+    "name": "Fort Devens",
+    "address": "30 Quebec Street, Devens, MA 01434",
+    "lat": 42.5495,
+    "lon": -71.5651,
+    "type": "army"
+  },
+  {
+    "name": "Fort George G. Meade",
+    "address": "4409 Llewellyn Avenue, Fort Meade, MD 20755",
+    "lat": 39.0843,
+    "lon": -76.7459,
+    "type": "army"
+  },
+  {
+    "name": "Camp Blanding",
+    "address": "5629 State Road 16 West, Starke, FL",
+    "lat": 29.9889,
+    "lon": -81.9722,
+    "type": "army"
+  },
+  {
+    "name": "Fort Moore",
+    "address": "1 Karker Street, Fort Moore, GA 31905",
+    "lat": 32.3577,
+    "lon": -84.9454,
+    "type": "army"
+  },
+  {
+    "name": "Schofield Barracks",
+    "address": "694 McCornack Road, Schofield Barracks, HI 96857",
+    "lat": 21.4982,
+    "lon": -158.0356,
+    "type": "army"
+  },
+  {
+    "name": "Gowen Field",
+    "address": "4474 S. DeHaviland Street, Boise, ID 83705",
+    "lat": 43.5645,
+    "lon": -116.2207,
+    "type": "army"
+  },
+  {
+    "name": "Rock Island Arsenal",
+    "address": "1 Rock Island Arsenal, Rock Island, IL 61299",
+    "lat": 41.4993,
+    "lon": -90.5771,
+    "type": "army"
+  },
+  {
+    "name": "Camp Atterbury",
+    "address": "3008 Old Hospital Road, Edinburgh, IN 46124",
+    "lat": 39.3589,
+    "lon": -85.7719,
+    "type": "army"
+  },
+  {
+    "name": "Fort Riley",
+    "address": "500 Huebner Road, Fort Riley, KS 66442",
+    "lat": 39.4096,
+    "lon": -96.8084,
+    "type": "army"
+  },
+  {
+    "name": "Fort Campbell",
+    "address": "101st Airborne Division Road, Fort Campbell, KY 42223",
+    "lat": 36.6690,
+    "lon": -87.4871,
+    "type": "army"
+  },
+  {
+    "name": "Fort Johnson",
+    "address": "7073 Radio Road, Fort Johnson, LA 71459",
+    "lat": 31.1294,
+    "lon": -92.6362,
+    "type": "army"
+  },
+  {
+    "name": "Camp Ethan Allen",
+    "address": "113 Ethan Allen Road, Jericho, VT 05465",
+    "lat": 44.4877,
+    "lon": -72.9542,
+    "type": "army"
+  },
+  {
+    "name": "Detroit Arsenal",
+    "address": "6501 E. 11 Mile Road, Warren, MI 48397",
+    "lat": 42.4732,
+    "lon": -83.0298,
+    "type": "army"
+  },
+  {
+    "name": "Camp Ripley",
+    "address": "15000 Highway 115, Little Falls, MN 56345",
+    "lat": 45.9797,
+    "lon": -94.4393,
+    "type": "army"
+  },
+  {
+    "name": "Camp Shelby",
+    "address": "2500 Jackson Avenue, Camp Shelby, MS 39407",
+    "lat": 31.4470,
+    "lon": -89.1485,
+    "type": "army"
+  },
+  {
+    "name": "Fort Leonard Wood",
+    "address": "14000 MSCoE Loop, Fort Leonard Wood, MO 65473",
+    "lat": 37.7670,
+    "lon": -92.1492,
+    "type": "army"
+  },
+  {
+    "name": "Camp Ashland",
+    "address": "220 County Road A, Ashland, NE 68003",
+    "lat": 41.1467,
+    "lon": -96.0805,
+    "type": "army"
+  },
+  {
+    "name": "Hawthorne Army Depot",
+    "address": "1 South Maine Avenue, Hawthorne, NV 89415",
+    "lat": 38.5361,
+    "lon": -118.6100,
+    "type": "army"
+  },
+  {
+    "name": "Fort Drum",
+    "address": "10000 10th Mountain Division Drive, Fort Drum, NY 13602",
+    "lat": 44.0442,
+    "lon": -75.5774,
+    "type": "army"
+  },
+  {
+    "name": "Fort Liberty",
+    "address": "2175 Reilly Road, Fort Liberty, NC 28310",
+    "lat": 35.0805,
+    "lon": -78.9793,
+    "type": "army"
+  },
+  {
+    "name": "Camp Grafton",
+    "address": "4417 Highway 20, Devils Lake, ND 58301",
+    "lat": 47.9423,
+    "lon": -98.9241,
+    "type": "army"
+  },
+  {
+    "name": "Camp James A. Garfield",
+    "address": "8451 State Route 5, Ravenna, OH 44266",
+    "lat": 41.2302,
+    "lon": -81.1963,
+    "type": "army"
+  },
+  {
+    "name": "Fort Sill",
+    "address": "4700 Mow-Way Road, Fort Sill, OK 73503",
+    "lat": 34.6394,
+    "lon": -98.3961,
+    "type": "army"
+  },
+  {
+    "name": "Camp Umatilla",
+    "address": "78798 Ordnance Road, Hermiston, OR 97838",
+    "lat": 45.8878,
+    "lon": -119.1652,
+    "type": "army"
+  },
+  {
+    "name": "Carlisle Barracks",
+    "address": "22 Ashburn Drive, Carlisle, PA 17013",
+    "lat": 40.2010,
+    "lon": -77.2005,
+    "type": "army"
+  },
+  {
+    "name": "Fort Jackson",
+    "address": "5450 Strom Thurmond Boulevard, Fort Jackson, SC 29207",
+    "lat": 34.0435,
+    "lon": -80.9467,
+    "type": "army"
+  },
+  {
+    "name": "Fort Meade",
+    "address": "11 Sheridan Street, Fort Meade, SD 57741",
+    "lat": 44.0190,
+    "lon": -103.7116,
+    "type": "army"
+  },
+  {
+    "name": "Fort Cavazos",
+    "address": "1001 761st Tank Battalion Avenue, Fort Cavazos, TX 76544",
+    "lat": 31.1381,
+    "lon": -97.8006,
+    "type": "army"
+  },
+  {
+    "name": "Dugway Proving Ground",
+    "address": "5464 Dugway Proving Ground, Dugway, UT 84022",
+    "lat": 40.2525,
+    "lon": -113.0321,
+    "type": "army"
+  },
+  {
+    "name": "Fort Gregg-Adams",
+    "address": "1401 Mahone Avenue, Fort Gregg-Adams, VA 23801",
+    "lat": 37.0426,
+    "lon": -77.4071,
+    "type": "army"
+  },
+  {
+    "name": "Joint Base Lewis-McChord",
+    "address": "41st Division Drive, Joint Base Lewis-McChord, WA 98433",
+    "lat": 47.1213,
+    "lon": -122.5593,
+    "type": "army"
+  },
+  {
+    "name": "Camp Dawson",
+    "address": "1001 Army Road, Kingwood, WV 26537",
+    "lat": 39.5151,
+    "lon": -79.6786,
+    "type": "army"
+  },
+  {
+    "name": "Fort McCoy",
+    "address": "100 E Headquarters Road, Fort McCoy, WI 54656",
+    "lat": 43.9464,
+    "lon": -90.7484,
+    "type": "army"
+  },
+  {
+    "name": "Camp Guernsey",
+    "address": "473 Soldier Drive, Guernsey, WY 82214",
+    "lat": 41.8040,
+    "lon": -104.8795,
+    "type": "army"
+  },
 
-            { "name": "Alabama State Police Headquarters", "address": "301 S. Ripley St., Montgomery, AL", "lat": 32.3668, "lon": -86.3000, "type": "police" },
-            { "name": "Alaska State Troopers Headquarters", "address": "5700 E Tudor Rd, Anchorage, AK", "lat": 61.1860, "lon": -149.7395, "type": "police" },
-            { "name": "Arizona Department of Public Safety Headquarters", "address": "2102 W Encanto Blvd, Phoenix, AZ", "lat": 33.4702, "lon": -112.1045, "type": "police" },
-            { "name": "Arkansas State Police Headquarters", "address": "One State Police Plaza Dr, Little Rock, AR", "lat": 34.7465, "lon": -92.2896, "type": "police" },
-            { "name": "California Highway Patrol Headquarters", "address": "601 North 7th St, Sacramento, CA", "lat": 38.5841, "lon": -121.4934, "type": "police" },
-            { "name": "Colorado State Patrol Headquarters", "address": "700 Kipling St, Lakewood, CO", "lat": 39.7272, "lon": -105.1085, "type": "police" },
-            { "name": "Connecticut State Police Headquarters", "address": "1111 Country Club Rd, Middletown, CT", "lat": 41.5623, "lon": -72.6801, "type": "police" },
-            { "name": "Delaware State Police Headquarters", "address": "1441 N DuPont Hwy, Dover, DE", "lat": 39.1616, "lon": -75.5229, "type": "police" },
-            { "name": "Florida Highway Patrol Headquarters", "address": "2900 Apalachee Pkwy, Tallahassee, FL", "lat": 30.4383, "lon": -84.2807, "type": "police" },
-            { "name": "Georgia State Patrol Headquarters", "address": "959 E Confederate Ave SE, Atlanta, GA", "lat": 33.7323, "lon": -84.3622, "type": "police" },
-            { "name": "Hawaii State Police Headquarters", "address": "801 S Beretania St, Honolulu, HI", "lat": 21.3069, "lon": -157.8583, "type": "police" },
-            { "name": "Idaho State Police Headquarters", "address": "700 S Stratford Dr, Meridian, ID", "lat": 43.6097, "lon": -116.3928, "type": "police" },
-            { "name": "Illinois State Police Headquarters", "address": "801 S 7th St, Springfield, IL", "lat": 39.7817, "lon": -89.6501, "type": "police" },
-            { "name": "Indiana State Police Headquarters", "address": "100 N Senate Ave, Indianapolis, IN", "lat": 39.7684, "lon": -86.1581, "type": "police" },
-            { "name": "Iowa State Patrol Headquarters", "address": "215 E 7th St, Des Moines, IA", "lat": 41.5911, "lon": -93.6037, "type": "police" },
-            { "name": "Kansas Highway Patrol Headquarters", "address": "122 SW 7th St, Topeka, KS", "lat": 39.0473, "lon": -95.6752, "type": "police" },
-            { "name": "Kentucky State Police Headquarters", "address": "919 Versailles Rd, Frankfort, KY", "lat": 38.2009, "lon": -84.8733, "type": "police" },
-            { "name": "Louisiana State Police Headquarters", "address": "7919 Independence Blvd, Baton Rouge, LA", "lat": 30.4515, "lon": -91.1871, "type": "police" },
-            { "name": "Maine State Police Headquarters", "address": "42 State House Station, Augusta, ME", "lat": 44.3106, "lon": -69.7795, "type": "police" },
-            { "name": "Maryland State Police Headquarters", "address": "1201 Reisterstown Rd, Pikesville, MD", "lat": 39.3743, "lon": -76.7225, "type": "police" },
-            { "name": "Massachusetts State Police Headquarters", "address": "470 Worcester Rd, Framingham, MA", "lat": 42.2768, "lon": -71.4181, "type": "police" },
-            { "name": "Michigan State Police Headquarters", "address": "7150 Harris Dr, Dimondale, MI", "lat": 42.6450, "lon": -84.6414, "type": "police" },
-            { "name": "Minnesota State Patrol Headquarters", "address": "445 Minnesota St, St Paul, MN", "lat": 44.9444, "lon": -93.0936, "type": "police" },
-            { "name": "Mississippi Highway Patrol Headquarters", "address": "1900 E Woodrow Wilson Ave, Jackson, MS", "lat": 32.2988, "lon": -90.1848, "type": "police" },
-            { "name": "Missouri State Highway Patrol Headquarters", "address": "1510 E Elm St, Jefferson City, MO", "lat": 38.5767, "lon": -92.1735, "type": "police" },
-            { "name": "Montana Highway Patrol Headquarters", "address": "2550 Prospect Ave, Helena, MT", "lat": 46.5884, "lon": -112.0212, "type": "police" },
-            { "name": "Nebraska State Patrol Headquarters", "address": "1600 Nebraska Hwy 2, Lincoln, NE", "lat": 40.8136, "lon": -96.7026, "type": "police" },
-            { "name": "Nevada Highway Patrol Headquarters", "address": "555 Wright Way, Carson City, NV", "lat": 39.1670, "lon": -119.7674, "type": "police" },
-            { "name": "New Hampshire State Police Headquarters", "address": "33 Hazen Dr, Concord, NH", "lat": 43.2070, "lon": -71.5376, "type": "police" },
-            { "name": "New Jersey State Police Headquarters", "address": "7068 River Rd, West Trenton, NJ", "lat": 40.2666, "lon": -74.8366, "type": "police" },
-            { "name": "New Mexico State Police Headquarters", "address": "4491 Cerrillos Rd, Santa Fe, NM", "lat": 35.6869, "lon": -105.9378, "type": "police" },
-            { "name": "New York State Police Headquarters", "address": "1220 Washington Ave, Albany, NY", "lat": 42.6526, "lon": -73.7562, "type": "police" },
-            { "name": "North Carolina State Highway Patrol Headquarters", "address": "512 N Salisbury St, Raleigh, NC", "lat": 35.7796, "lon": -78.6382, "type": "police" },
-            { "name": "North Dakota Highway Patrol Headquarters", "address": "600 E Boulevard Ave, Bismarck, ND", "lat": 46.8083, "lon": -100.7837, "type": "police" },
-            { "name": "Ohio State Highway Patrol Headquarters", "address": "1970 W Broad St, Columbus, OH", "lat": 39.9612, "lon": -82.9988, "type": "police" },
-            { "name": "Oklahoma Highway Patrol Headquarters", "address": "3600 N Martin Luther King Ave, Oklahoma City, OK", "lat": 35.4676, "lon": -97.5164, "type": "police" },
-            { "name": "Oregon State Police Headquarters", "address": "3565 Trelstad Ave SE, Salem, OR", "lat": 44.9429, "lon": -123.0351, "type": "police" },
-            { "name": "Pennsylvania State Police Headquarters", "address": "1800 Elmerton Ave, Harrisburg, PA", "lat": 40.2732, "lon": -76.8867, "type": "police" },
-            { "name": "Rhode Island State Police Headquarters", "address": "311 Danielson Pike, North Scituate, RI", "lat": 41.8487, "lon": -71.6206, "type": "police" },
-            { "name": "South Carolina Highway Patrol Headquarters", "address": "10311 Wilson Blvd, Blythewood, SC", "lat": 34.2146, "lon": -80.9734, "type": "police" },
-            { "name": "South Dakota Highway Patrol Headquarters", "address": "118 W Capitol Ave, Pierre, SD", "lat": 44.3683, "lon": -100.3509, "type": "police" },
-            { "name": "Tennessee Highway Patrol Headquarters", "address": "1150 Foster Ave, Nashville, TN", "lat": 36.1627, "lon": -86.7816, "type": "police" },
-            { "name": "Texas Department of Public Safety Headquarters", "address": "5805 N Lamar Blvd, Austin, TX", "lat": 30.2672, "lon": -97.7431, "type": "police" },
-            { "name": "Utah Highway Patrol Headquarters", "address": "4501 S 2700 W, Taylorsville, UT", "lat": 40.6677, "lon": -111.9381, "type": "police" },
-            { "name": "Vermont State Police Headquarters", "address": "103 S Main St, Waterbury, VT", "lat": 44.3370, "lon": -72.7560, "type": "police" },
-            { "name": "Virginia State Police Headquarters", "address": "7700 Midlothian Turnpike, Richmond, VA", "lat": 37.5538, "lon": -77.4603, "type": "police" },
-            { "name": "Washington State Patrol Headquarters", "address": "210 11th Ave SW, Olympia, WA", "lat": 47.0379, "lon": -122.9007, "type": "police" },
-            { "name": "West Virginia State Police Headquarters", "address": "725 Jefferson Rd, South Charleston, WV", "lat": 38.3689, "lon": -81.6941, "type": "police" },
-            { "name": "Wisconsin State Patrol Headquarters", "address": "4802 Sheboygan Ave, Madison, WI", "lat": 43.0731, "lon": -89.4012, "type": "police" },
-            { "name": "Wyoming Highway Patrol Headquarters", "address": "5300 Bishop Blvd, Cheyenne, WY", "lat": 41.1400, "lon": -104.8202, "type": "police" },
+  {
+    "name": "Alabama State Police Headquarters",
+    "address": "301 S. Ripley St., Montgomery, AL",
+    "lat": 32.3668,
+    "lon": -86.3000,
+    "type": "police"
+  },
+  {
+    "name": "Alaska State Troopers Headquarters",
+    "address": "5700 E Tudor Rd, Anchorage, AK",
+    "lat": 61.1860,
+    "lon": -149.7395,
+    "type": "police"
+  },
+  {
+    "name": "Arizona Department of Public Safety Headquarters",
+    "address": "2102 W Encanto Blvd, Phoenix, AZ",
+    "lat": 33.4702,
+    "lon": -112.1045,
+    "type": "police"
+  },
+  {
+    "name": "Arkansas State Police Headquarters",
+    "address": "One State Police Plaza Dr, Little Rock, AR",
+    "lat": 34.7465,
+    "lon": -92.2896,
+    "type": "police"
+  },
+  {
+    "name": "California Highway Patrol Headquarters",
+    "address": "601 North 7th St, Sacramento, CA",
+    "lat": 38.5841,
+    "lon": -121.4934,
+    "type": "police"
+  },
+  {
+    "name": "Colorado State Patrol Headquarters",
+    "address": "700 Kipling St, Lakewood, CO",
+    "lat": 39.7272,
+    "lon": -105.1085,
+    "type": "police"
+  },
+  {
+    "name": "Connecticut State Police Headquarters",
+    "address": "1111 Country Club Rd, Middletown, CT",
+    "lat": 41.5623,
+    "lon": -72.6801,
+    "type": "police"
+  },
+  {
+    "name": "Delaware State Police Headquarters",
+    "address": "1441 N DuPont Hwy, Dover, DE",
+    "lat": 39.1616,
+    "lon": -75.5229,
+    "type": "police"
+  },
+  {
+    "name": "Florida Highway Patrol Headquarters",
+    "address": "2900 Apalachee Pkwy, Tallahassee, FL",
+    "lat": 30.4383,
+    "lon": -84.2807,
+    "type": "police"
+  },
+  {
+    "name": "Georgia State Patrol Headquarters",
+    "address": "959 E Confederate Ave SE, Atlanta, GA",
+    "lat": 33.7323,
+    "lon": -84.3622,
+    "type": "police"
+  },
+  {
+    "name": "Hawaii State Police Headquarters",
+    "address": "801 S Beretania St, Honolulu, HI",
+    "lat": 21.3069,
+    "lon": -157.8583,
+    "type": "police"
+  },
+  {
+    "name": "Idaho State Police Headquarters",
+    "address": "700 S Stratford Dr, Meridian, ID",
+    "lat": 43.6097,
+    "lon": -116.3928,
+    "type": "police"
+  },
+  {
+    "name": "Illinois State Police Headquarters",
+    "address": "801 S 7th St, Springfield, IL",
+    "lat": 39.7817,
+    "lon": -89.6501,
+    "type": "police"
+  },
+  {
+    "name": "Indiana State Police Headquarters",
+    "address": "100 N Senate Ave, Indianapolis, IN",
+    "lat": 39.7684,
+    "lon": -86.1581,
+    "type": "police"
+  },
+  {
+    "name": "Iowa State Patrol Headquarters",
+    "address": "215 E 7th St, Des Moines, IA",
+    "lat": 41.5911,
+    "lon": -93.6037,
+    "type": "police"
+  },
+  {
+    "name": "Kansas Highway Patrol Headquarters",
+    "address": "122 SW 7th St, Topeka, KS",
+    "lat": 39.0473,
+    "lon": -95.6752,
+    "type": "police"
+  },
+  {
+    "name": "Kentucky State Police Headquarters",
+    "address": "919 Versailles Rd, Frankfort, KY",
+    "lat": 38.2009,
+    "lon": -84.8733,
+    "type": "police"
+  },
+  {
+    "name": "Louisiana State Police Headquarters",
+    "address": "7919 Independence Blvd, Baton Rouge, LA",
+    "lat": 30.4515,
+    "lon": -91.1871,
+    "type": "police"
+  },
+  {
+    "name": "Maine State Police Headquarters",
+    "address": "42 State House Station, Augusta, ME",
+    "lat": 44.3106,
+    "lon": -69.7795,
+    "type": "police"
+  },
+  {
+    "name": "Maryland State Police Headquarters",
+    "address": "1201 Reisterstown Rd, Pikesville, MD",
+    "lat": 39.3743,
+    "lon": -76.7225,
+    "type": "police"
+  },
+  {
+    "name": "Massachusetts State Police Headquarters",
+    "address": "470 Worcester Rd, Framingham, MA",
+    "lat": 42.2768,
+    "lon": -71.4181,
+    "type": "police"
+  },
+  {
+    "name": "Michigan State Police Headquarters",
+    "address": "7150 Harris Dr, Dimondale, MI",
+    "lat": 42.6450,
+    "lon": -84.6414,
+    "type": "police"
+  },
+  {
+    "name": "Minnesota State Patrol Headquarters",
+    "address": "445 Minnesota St, St Paul, MN",
+    "lat": 44.9444,
+    "lon": -93.0936,
+    "type": "police"
+  },
+  {
+    "name": "Mississippi Highway Patrol Headquarters",
+    "address": "1900 E Woodrow Wilson Ave, Jackson, MS",
+    "lat": 32.2988,
+    "lon": -90.1848,
+    "type": "police"
+  },
+  {
+    "name": "Missouri State Highway Patrol Headquarters",
+    "address": "1510 E Elm St, Jefferson City, MO",
+    "lat": 38.5767,
+    "lon": -92.1735,
+    "type": "police"
+  },
+  {
+    "name": "Montana Highway Patrol Headquarters",
+    "address": "2550 Prospect Ave, Helena, MT",
+    "lat": 46.5884,
+    "lon": -112.0212,
+    "type": "police"
+  },
+  {
+    "name": "Nebraska State Patrol Headquarters",
+    "address": "1600 Nebraska Hwy 2, Lincoln, NE",
+    "lat": 40.8136,
+    "lon": -96.7026,
+    "type": "police"
+  },
+  {
+    "name": "Nevada Highway Patrol Headquarters",
+    "address": "555 Wright Way, Carson City, NV",
+    "lat": 39.1670,
+    "lon": -119.7674,
+    "type": "police"
+  },
+  {
+    "name": "New Hampshire State Police Headquarters",
+    "address": "33 Hazen Dr, Concord, NH",
+    "lat": 43.2070,
+    "lon": -71.5376,
+    "type": "police"
+  },
+  {
+    "name": "New Jersey State Police Headquarters",
+    "address": "7068 River Rd, West Trenton, NJ",
+    "lat": 40.2666,
+    "lon": -74.8366,
+    "type": "police"
+  },
+  {
+    "name": "New Mexico State Police Headquarters",
+    "address": "4491 Cerrillos Rd, Santa Fe, NM",
+    "lat": 35.6869,
+    "lon": -105.9378,
+    "type": "police"
+  },
+  {
+    "name": "New York State Police Headquarters",
+    "address": "1220 Washington Ave, Albany, NY",
+    "lat": 42.6526,
+    "lon": -73.7562,
+    "type": "police"
+  },
+  {
+    "name": "North Carolina State Highway Patrol Headquarters",
+    "address": "512 N Salisbury St, Raleigh, NC",
+    "lat": 35.7796,
+    "lon": -78.6382,
+    "type": "police"
+  },
+  {
+    "name": "North Dakota Highway Patrol Headquarters",
+    "address": "600 E Boulevard Ave, Bismarck, ND",
+    "lat": 46.8083,
+    "lon": -100.7837,
+    "type": "police"
+  },
+  {
+    "name": "Ohio State Highway Patrol Headquarters",
+    "address": "1970 W Broad St, Columbus, OH",
+    "lat": 39.9612,
+    "lon": -82.9988,
+    "type": "police"
+  },
+  {
+    "name": "Oklahoma Highway Patrol Headquarters",
+    "address": "3600 N Martin Luther King Ave, Oklahoma City, OK",
+    "lat": 35.4676,
+    "lon": -97.5164,
+    "type": "police"
+  },
+  {
+    "name": "Oregon State Police Headquarters",
+    "address": "3565 Trelstad Ave SE, Salem, OR",
+    "lat": 44.9429,
+    "lon": -123.0351,
+    "type": "police"
+  },
+  {
+    "name": "Pennsylvania State Police Headquarters",
+    "address": "1800 Elmerton Ave, Harrisburg, PA",
+    "lat": 40.2732,
+    "lon": -76.8867,
+    "type": "police"
+  },
+  {
+    "name": "Rhode Island State Police Headquarters",
+    "address": "311 Danielson Pike, North Scituate, RI",
+    "lat": 41.8487,
+    "lon": -71.6206,
+    "type": "police"
+  },
+  {
+    "name": "South Carolina Highway Patrol Headquarters",
+    "address": "10311 Wilson Blvd, Blythewood, SC",
+    "lat": 34.2146,
+    "lon": -80.9734,
+    "type": "police"
+  },
+  {
+    "name": "South Dakota Highway Patrol Headquarters",
+    "address": "118 W Capitol Ave, Pierre, SD",
+    "lat": 44.3683,
+    "lon": -100.3509,
+    "type": "police"
+  },
+  {
+    "name": "Tennessee Highway Patrol Headquarters",
+    "address": "1150 Foster Ave, Nashville, TN",
+    "lat": 36.1627,
+    "lon": -86.7816,
+    "type": "police"
+  },
+  {
+    "name": "Texas Department of Public Safety Headquarters",
+    "address": "5805 N Lamar Blvd, Austin, TX",
+    "lat": 30.2672,
+    "lon": -97.7431,
+    "type": "police"
+  },
+  {
+    "name": "Texas Dallas HQ",
+    "address": "TBD",
+    "lat": 32.7503,
+    "lon": -96.8170,
+    "type": "police"
+  },
 
-            { "name": "Acoma Pueblo Reservation", "address": "Acoma, New Mexico", "lat": 35.0472, "lon": -106.6144, "type": "native" },
-            { "name": "Agua Caliente Indian Reservation", "address": "Cahuilla, California", "lat": 33.6720, "lon": -116.3650, "type": "native" },
-            { "name": "Alabama–Coushatta Reservation", "address": "Alabama, Coushatta, Texas", "lat": 31.2730, "lon": -93.6070, "type": "native" },
-            { "name": "Allegany Reservation", "address": "Seneca, New York", "lat": 42.0060, "lon": -78.7160, "type": "native" },
-            { "name": "Alturas Indian Rancheria", "address": "Achomawi, California", "lat": 40.5578, "lon": -122.3361, "type": "native" },
-            { "name": "Annette Island Reserve", "address": "Tsimshian, Alaska", "lat": 55.5550, "lon": -132.6650, "type": "native" },
-            { "name": "Auburn Rancheria", "address": "Miwok, California", "lat": 39.7500, "lon": -121.2630, "type": "native" },
-            { "name": "Augustine Reservation", "address": "Cahuilla, California", "lat": 34.1790, "lon": -116.3170, "type": "native" },
-            { "name": "Bad River Reservation", "address": "Ojibwe, Wisconsin", "lat": 44.2473, "lon": -88.6281, "type": "native" },
-            { "name": "Barona Reservation", "address": "Kumeyaay, California", "lat": 33.2080, "lon": -117.0990, "type": "native" },
-            { "name": "Battle Mountain Reservation", "address": "Western Shoshone, Nevada", "lat": 40.6460, "lon": -117.0750, "type": "native" },
-            { "name": "Bay Mills Reservation", "address": "Ojibwe, Michigan", "lat": 46.1903, "lon": -84.8632, "type": "native" },
-            { "name": "Benton Paiute Reservation", "address": "Mono, California", "lat": 37.6950, "lon": -118.7460, "type": "native" },
-            { "name": "Berry Creek Rancheria", "address": "Maidu, California", "lat": 40.2810, "lon": -120.2340, "type": "native" },
-            { "name": "Big Cypress Reservation", "address": "Seminole, Florida", "lat": 26.3170, "lon": -81.8450, "type": "native" },
-            { "name": "Blackfeet Indian Reservation", "address": "Blackfeet, Montana", "lat": 48.6230, "lon": -112.6610, "type": "native" },
-            { "name": "Bois Forte Reservation", "address": "Ojibwe, Minnesota", "lat": 47.4860, "lon": -91.8790, "type": "native" },
-            { "name": "Bridgeport Reservation", "address": "Northern Paiute, California", "lat": 39.1210, "lon": -120.5100, "type": "native" },
-            { "name": "Brighton Reservation", "address": "Seminole, Florida", "lat": 27.9020, "lon": -82.4640, "type": "native" },
-            { "name": "Burns Paiute Indian Colony", "address": "Northern Paiute, Oregon", "lat": 42.2570, "lon": -117.8140, "type": "native" },
-            { "name": "Cabazon Reservation", "address": "Cahuilla, California", "lat": 33.9300, "lon": -116.5700, "type": "native" },
-            { "name": "Cahuilla Reservation", "address": "Cahuilla, California", "lat": 33.9600, "lon": -116.3900, "type": "native" },
-            { "name": "Campbell Ranch", "address": "Northern Paiute, Nevada", "lat": 38.9070, "lon": -117.5820, "type": "native" },
-            { "name": "Campo Indian Reservation", "address": "Kumeyaay, California", "lat": 32.6410, "lon": -116.9520, "type": "native" },
-            { "name": "Capitan Grande Reservation", "address": "Kumeyaay, California", "lat": 32.5770, "lon": -116.9950, "type": "native" },
-            { "name": "Carson Colony", "address": "Washoe, Nevada", "lat": 40.9570, "lon": -119.8580, "type": "native" },
-            { "name": "Catawba Reservation", "address": "Catawba, South Carolina", "lat": 35.2240, "lon": -81.1730, "type": "native" },
-            { "name": "Cattaraugus Reservation", "address": "Seneca, New York", "lat": 42.1430, "lon": -78.7060, "type": "native" },
-            { "name": "Cedarville Rancheria", "address": "Northern Paiute, California", "lat": 40.4610, "lon": -122.6450, "type": "native" },
-            { "name": "Chehalis Reservation", "address": "Lower Chehalis, Washington", "lat": 47.1210, "lon": -123.8880, "type": "native" },
-            { "name": "Chemehuevi Reservation", "address": "Southern Paiute, California", "lat": 34.6480, "lon": -115.3450, "type": "native" },
-            { "name": "Cheyenne River Reservation", "address": "Lakota, South Dakota", "lat": 45.5570, "lon": -101.1650, "type": "native" },
-            { "name": "Chicken Ranch Rancheria", "address": "Miwok, California", "lat": 38.5740, "lon": -121.4660, "type": "native" },
-            { "name": "Chitimacha Reservation", "address": "Chitimacha, Louisiana", "lat": 30.5130, "lon": -91.1360, "type": "native" },
-            { "name": "Cocopah Reservation", "address": "Cocopah, Arizona", "lat": 32.5320, "lon": -114.8690, "type": "native" },
-            { "name": "Coeur d'Alene Reservation", "address": "Coeur d'Alene, Idaho", "lat": 47.6780, "lon": -116.9160, "type": "native" },
-            { "name": "Cold Springs Rancheria", "address": "Mono, California", "lat": 37.1160, "lon": -119.3360, "type": "native" },
-            { "name": "Colorado River Indian Reservation", "address": "Arizona, California", "lat": 34.0810, "lon": -114.8800, "type": "native" },
-            { "name": "Colusa Rancheria", "address": "Wintun, California", "lat": 39.2060, "lon": -122.0210, "type": "native" },
-            { "name": "Colville Reservation", "address": "Washington", "lat": 48.5000, "lon": -118.0000, "type": "native" },
-            { "name": "Coos, Lower Umpqua, and Siuslaw Reservation", "address": "Oregon", "lat": 43.1900, "lon": -124.1600, "type": "native" },
-            { "name": "Coquille Reservation", "address": "Coquille, Oregon", "lat": 43.1840, "lon": -124.0350, "type": "native" },
-            { "name": "Cortina Indian Rancheria", "address": "Wintu, California", "lat": 39.7520, "lon": -122.4690, "type": "native" },
-            { "name": "Coushatta Reservation", "address": "Coushatta, Louisiana", "lat": 30.0420, "lon": -92.2170, "type": "native" },
-            { "name": "Cow Creek Reservation", "address": "Umpqua, Oregon", "lat": 43.2290, "lon": -123.5740, "type": "native" },
-            { "name": "Cowlitz Reservation", "address": "Cowlitz, Washington", "lat": 46.1450, "lon": -122.8530, "type": "native" },
-            { "name": "Coyote Valley Reservation", "address": "Pomo, California", "lat": 39.2040, "lon": -123.0750, "type": "native" },
-            { "name": "Crow Creek Reservation", "address": "Dakota, South Dakota", "lat": 45.6000, "lon": -100.3100, "type": "native" },
-            { "name": "Crow Reservation", "address": "Crow, Montana", "lat": 45.4530, "lon": -107.7910, "type": "native" },
-            { "name": "Dresslerville Colony", "address": "Washoe, Nevada", "lat": 39.3330, "lon": -119.0200, "type": "native" },
-            { "name": "Dry Creek Rancheria", "address": "Pomo, California", "lat": 39.2000, "lon": -123.0000, "type": "native" },
-            { "name": "Duck Valley Reservation", "address": "Idaho, Nevada", "lat": 42.4650, "lon": -116.4990, "type": "native" },
-            { "name": "Duckwater Reservation", "address": "Western Shoshone, Nevada", "lat": 39.2660, "lon": -117.8340, "type": "native" },
-            { "name": "Elk Valley Rancheria", "address": "Tolowa, Yurok, California", "lat": 41.3550, "lon": -123.0230, "type": "native" },
-            { "name": "Elko Colony", "address": "Western Shoshone, Nevada", "lat": 40.8320, "lon": -115.7630, "type": "native" },
-            { "name": "Ely Reservation", "address": "Western Shoshone, Nevada", "lat": 40.5820, "lon": -114.5140, "type": "native" },
-            { "name": "Enterprise Rancheria", "address": "Maidu, California", "lat": 39.0260, "lon": -121.2880, "type": "native" },
-            { "name": "Ewiiaapaayp Reservation", "address": "Kumeyaay, California", "lat": 32.5740, "lon": -116.9550, "type": "native" },
-            { "name": "Fallon Paiute-Shoshone Reservation", "address": "Western Shoshone, Nevada", "lat": 39.4670, "lon": -118.7890, "type": "native" },
-            { "name": "Flandreau Reservation", "address": "Dakota, South Dakota", "lat": 44.6860, "lon": -97.1370, "type": "native" },
-            { "name": "Flathead Reservation", "address": "Montana", "lat": 48.3400, "lon": -114.3000, "type": "native" },
-            { "name": "Fond du Lac Reservation", "address": "Ojibwe, Wisconsin", "lat": 46.7350, "lon": -92.1800, "type": "native" },
-            { "name": "Forest County Potawatomi Community", "address": "Wisconsin", "lat": 44.5560, "lon": -90.2380, "type": "native" },
-            { "name": "Fort Apache Reservation", "address": "Apache, Arizona", "lat": 34.1140, "lon": -109.0680, "type": "native" },
-            { "name": "Fort Belknap Reservation", "address": "Montana", "lat": 48.0580, "lon": -106.5950, "type": "native" },
-            { "name": "Fort Berthold Reservation", "address": "North Dakota", "lat": 46.2160, "lon": -102.3200, "type": "native" },
-            { "name": "Fort Bidwell Reservation", "address": "California", "lat": 40.8430, "lon": -120.9590, "type": "native" },
-            { "name": "Fort Hall Reservation", "address": "Idaho", "lat": 43.4750, "lon": -111.3260, "type": "native" },
-            { "name": "Fort Independence Reservation", "address": "California", "lat": 37.8480, "lon": -118.1650, "type": "native" },
-            { "name": "Fort McDermitt Indian Reservation", "address": "Nevada", "lat": 41.0340, "lon": -118.4040, "type": "native" },
-            { "name": "Fort McDowell Yavapai Nation Reservation", "address": "Arizona", "lat": 33.0830, "lon": -111.5500, "type": "native" },
-            { "name": "Fort Mojave Reservation", "address": "Nevada", "lat": 35.1330, "lon": -114.0200, "type": "native" },
-            { "name": "Fort Peck Indian Reservation", "address": "Montana", "lat": 48.1420, "lon": -106.7800, "type": "native" },
-            { "name": "Fort Pierce Reservation", "address": "Florida", "lat": 27.4500, "lon": -80.5000, "type": "native" },
-            { "name": "Fort Sill Apache Indian Reservation", "address": "New Mexico", "lat": 34.7150, "lon": -104.5700, "type": "native" },
-            { "name": "Fort Yuma Indian Reservation", "address": "California", "lat": 32.6850, "lon": -114.6150, "type": "native" },
-            { "name": "Gila River Indian Reservation", "address": "Arizona", "lat": 32.7890, "lon": -111.7430, "type": "native" },
-            { "name": "Goshute Reservation", "address": "Nevada", "lat": 40.7460, "lon": -113.8600, "type": "native" },
-            { "name": "Grand Portage Reservation", "address": "Minnesota", "lat": 47.9800, "lon": -90.2380, "type": "native" },
-            { "name": "Grand Ronde Community", "address": "Oregon", "lat": 44.0090, "lon": -123.0870, "type": "native" },
-            { "name": "Grand Traverse Reservation", "address": "Michigan", "lat": 44.7120, "lon": -85.6440, "type": "native" },
-            { "name": "Greenville Rancheria", "address": "California", "lat": 38.8750, "lon": -121.2890, "type": "native" },
-            { "name": "Grindstone Indian Rancheria", "address": "California", "lat": 40.3410, "lon": -122.1380, "type": "native" },
-            { "name": "Guidiville Rancheria", "address": "California", "lat": 39.5020, "lon": -123.0070, "type": "native" },
-            { "name": "Hannahville Indian Community", "address": "Michigan", "lat": 45.0450, "lon": -86.1290, "type": "native" },
-            { "name": "Havasupai Reservation", "address": "Arizona", "lat": 36.4550, "lon": -112.8050, "type": "native" },
-            { "name": "Ho-Chunk Nation Reservation", "address": "Wisconsin", "lat": 43.9260, "lon": -90.4430, "type": "native" },
-            { "name": "Hoh Indian Reservation", "address": "Washington", "lat": 47.1050, "lon": -123.6950, "type": "native" },
-            { "name": "Hollywood Reservation", "address": "Florida", "lat": 27.6890, "lon": -80.3770, "type": "native" },
-            { "name": "Hoopa Valley Reservation", "address": "California", "lat": 40.7460, "lon": -123.2310, "type": "native" },
-            { "name": "Hopi Reservation", "address": "Arizona", "lat": 35.0670, "lon": -110.5230, "type": "native" },
-            { "name": "Hopland Rancheria", "address": "California", "lat": 39.5660, "lon": -123.2040, "type": "native" },
-            { "name": "Houlton Maliseet Reservation", "address": "Maine", "lat": 46.0810, "lon": -67.7980, "type": "native" },
-            { "name": "Hualapai Indian Reservation", "address": "Arizona", "lat": 35.3350, "lon": -114.5800, "type": "native" },
-            { "name": "Huron Potawatomi Reservation", "address": "Michigan", "lat": 45.0500, "lon": -85.4000, "type": "native" },
-            { "name": "Immokalee Reservation", "address": "Florida", "lat": 26.4630, "lon": -80.2280, "type": "native" },
-            { "name": "Inaja and Cosmit Reservation", "address": "California", "lat": 32.7050, "lon": -116.9230, "type": "native" },
-            { "name": "Indian Township Reservation", "address": "Maine", "lat": 45.1490, "lon": -67.4020, "type": "native" },
-            { "name": "Iowa Reservation", "address": "Iowa", "lat": 41.2910, "lon": -95.8450, "type": "native" },
-            { "name": "Isabella Reservation", "address": "Michigan", "lat": 45.4430, "lon": -84.8760, "type": "native" },
-            { "name": "Isleta Pueblo", "address": "New Mexico", "lat": 34.2710, "lon": -106.7670, "type": "native" },
-            { "name": "Jackson Rancheria", "address": "California", "lat": 37.0110, "lon": -120.7520, "type": "native" },
-            { "name": "Jamestown S'Klallam Reservation", "address": "Washington", "lat": 48.1780, "lon": -123.4510, "type": "native" },
-            { "name": "Jamul Indian Village", "address": "California", "lat": 32.5630, "lon": -116.9720, "type": "native" },
-            { "name": "Jemez Pueblo", "address": "New Mexico", "lat": 35.5890, "lon": -106.0880, "type": "native" },
-            { "name": "Jena Band of Choctaw Reservation", "address": "Louisiana", "lat": 30.1300, "lon": -92.0250, "type": "native" },
-            { "name": "Jicarilla Apache Nation Reservation", "address": "New Mexico", "lat": 36.2510, "lon": -106.7920, "type": "native" },
-            { "name": "Kaibab Indian Reservation", "address": "Arizona", "lat": 36.0660, "lon": -111.2100, "type": "native" },
-            { "name": "Kalispel Reservation", "address": "Washington", "lat": 48.5790, "lon": -117.0390, "type": "native" },
-            { "name": "Karuk Reservation", "address": "California", "lat": 41.1520, "lon": -123.0760, "type": "native" },
-            { "name": "Kickapoo Reservation", "address": "Kansas", "lat": 37.8780, "lon": -95.6000, "type": "native" },
-            { "name": "Kickapoo Reservation", "address": "Texas", "lat": 29.9150, "lon": -95.4020, "type": "native" },
-            { "name": "Klamath Reservation", "address": "Oregon", "lat": 42.1910, "lon": -124.1380, "type": "native" },
-            { "name": "Kootenai Reservation", "address": "Idaho", "lat": 48.5620, "lon": -116.3670, "type": "native" },
-            { "name": "La Jolla Reservation", "address": "California", "lat": 32.8380, "lon": -117.2710, "type": "native" },
-            { "name": "La Posta Indian Reservation", "address": "California", "lat": 32.7430, "lon": -116.9630, "type": "native" },
-            { "name": "Lac Courte Oreilles Reservation", "address": "Wisconsin", "lat": 45.6150, "lon": -91.5040, "type": "native" },
-            { "name": "Lac du Flambeau Reservation", "address": "Wisconsin", "lat": 45.8470, "lon": -89.6080, "type": "native" },
-            { "name": "Lac Vieux Desert Reservation", "address": "Michigan", "lat": 46.9210, "lon": -86.0030, "type": "native" },
-            { "name": "Laguna Pueblo", "address": "New Mexico", "lat": 35.5000, "lon": -106.0670, "type": "native" },
-            { "name": "Lake Traverse Reservation", "address": "South Dakota", "lat": 46.9090, "lon": -96.8090, "type": "native" },
-            { "name": "L'Anse Reservation", "address": "Michigan", "lat": 47.4400, "lon": -88.6300, "type": "native" },
-            { "name": "Las Vegas Indian Colony", "address": "Nevada", "lat": 36.1730, "lon": -115.1370, "type": "native" },
-            { "name": "Laytonville Rancheria", "address": "California", "lat": 39.2000, "lon": -123.1500, "type": "native" },
-            { "name": "Leech Lake Reservation", "address": "Minnesota", "lat": 47.0000, "lon": -94.6000, "type": "native" },
-            { "name": "Likely Rancheria", "address": "California", "lat": 40.6500, "lon": -122.3640, "type": "native" },
-            { "name": "Little River Reservation", "address": "Michigan", "lat": 45.4290, "lon": -84.7680, "type": "native" },
-            { "name": "Little Traverse Bay Reservation", "address": "Michigan", "lat": 45.0370, "lon": -85.4550, "type": "native" },
-            { "name": "Lone Pine Reservation", "address": "California", "lat": 36.6090, "lon": -118.0630, "type": "native" },
-            { "name": "Lookout Rancheria", "address": "California", "lat": 40.6000, "lon": -122.3500, "type": "native" },
-            { "name": "Los Coyotes Reservation", "address": "California", "lat": 33.5860, "lon": -116.3730, "type": "native" },
-            { "name": "Lovelock Indian Colony", "address": "Nevada", "lat": 40.8770, "lon": -117.7320, "type": "native" },
-            { "name": "Lower Brule Reservation", "address": "South Dakota", "lat": 43.5710, "lon": -98.4410, "type": "native" },
-            { "name": "Lower Elwha Reservation", "address": "Washington", "lat": 47.6300, "lon": -123.7900, "type": "native" },
-            { "name": "Lower Sioux Indian Community", "address": "Minnesota", "lat": 44.9990, "lon": -95.7000, "type": "native" },
-            { "name": "Lummi Reservation", "address": "Washington", "lat": 48.6210, "lon": -123.1330, "type": "native" },
-            { "name": "Lytton Rancheria", "address": "California", "lat": 39.1000, "lon": -123.2000, "type": "native" },
-            { "name": "Makah Indian Reservation", "address": "Washington", "lat": 46.8720, "lon": -124.0850, "type": "native" },
-            { "name": "Manchester-Point Arena Rancheria", "address": "California", "lat": 38.0010, "lon": -123.2280, "type": "native" },
-            { "name": "Manzanita Reservation", "address": "California", "lat": 39.1130, "lon": -123.5240, "type": "native" },
-            { "name": "Maricopa Ak Chin Indian Reservation", "address": "Arizona", "lat": 33.2890, "lon": -112.0360, "type": "native" },
-            { "name": "Mashantucket Pequot Reservation", "address": "Connecticut", "lat": 41.3590, "lon": -71.8140, "type": "native" },
-            { "name": "Mashpee Wampanoag Reservation", "address": "Massachusetts", "lat": 41.8020, "lon": -70.6060, "type": "native" },
-            { "name": "Match-e-be-nash-she-wish Band of Pottawatomi Reservation", "address": "Michigan", "lat": 42.4100, "lon": -85.2820, "type": "native" },
-            { "name": "Mattaponi Reservation", "address": "Virginia", "lat": 37.6310, "lon": -76.4500, "type": "native" },
-            { "name": "Menominee Reservation", "address": "Wisconsin", "lat": 44.8670, "lon": -88.4670, "type": "native" },
-            { "name": "Mesa Grande Reservation", "address": "California", "lat": 32.6390, "lon": -114.6150, "type": "native" },
-            { "name": "Mescalero Reservation", "address": "New Mexico", "lat": 33.0880, "lon": -105.2020, "type": "native" },
-            { "name": "Miccosukee Reservation", "address": "Florida", "lat": 25.8360, "lon": -80.3790, "type": "native" },
-            { "name": "Middletown Rancheria", "address": "California", "lat": 38.3660, "lon": -121.4230, "type": "native" },
-            { "name": "Mille Lacs Reservation", "address": "Minnesota", "lat": 46.8590, "lon": -93.2280, "type": "native" },
-            { "name": "Mississippi Choctaw Reservation", "address": "Mississippi", "lat": 31.0270, "lon": -90.3860, "type": "native" },
-            { "name": "Moapa River Indian Reservation", "address": "Nevada", "lat": 36.1210, "lon": -114.9080, "type": "native" },
-            { "name": "Mohegan Reservation", "address": "Connecticut", "lat": 41.5130, "lon": -71.8480, "type": "native" },
-            { "name": "Montgomery Creek Rancheria", "address": "California", "lat": 38.4500, "lon": -122.5000, "type": "native" },
-            { "name": "Mooretown Rancheria", "address": "California", "lat": 38.5300, "lon": -122.6360, "type": "native" },
-            { "name": "Morongo Reservation", "address": "California", "lat": 34.1270, "lon": -116.2390, "type": "native" },
-            { "name": "Muckleshoot Reservation", "address": "Washington", "lat": 47.4610, "lon": -122.2520, "type": "native" },
-            { "name": "Nambe Pueblo", "address": "New Mexico", "lat": 35.6520, "lon": -106.3320, "type": "native" },
-            { "name": "Narragansett Reservation", "address": "Rhode Island", "lat": 41.4480, "lon": -71.4740, "type": "native" },
-            { "name": "Navajo Nation", "address": "Arizona, New Mexico, Utah", "lat": 35.0840, "lon": -111.7500, "type": "native" },
-            { "name": "Nez Perce Reservation", "address": "Idaho", "lat": 46.2430, "lon": -116.9370, "type": "native" },
-            { "name": "Nisqually Reservation", "address": "Washington", "lat": 47.1380, "lon": -122.5430, "type": "native" },
-            { "name": "Nooksack Reservation", "address": "Washington", "lat": 48.5020, "lon": -122.5020, "type": "native" },
-            { "name": "North Fork Rancheria", "address": "California", "lat": 36.7000, "lon": -119.7000, "type": "native" },
-            { "name": "Northern Cheyenne Indian Reservation", "address": "Montana", "lat": 45.5450, "lon": -108.2680, "type": "native" },
-            { "name": "Northwestern Shoshone Reservation", "address": "Utah", "lat": 40.5030, "lon": -112.0340, "type": "native" },
-            { "name": "Ohkay Owingeh", "address": "New Mexico", "lat": 35.6840, "lon": -106.1880, "type": "native" },
-            { "name": "Oil Springs Reservation", "address": "New York", "lat": 43.2100, "lon": -76.1510, "type": "native" },
-            { "name": "Omaha Reservation", "address": "Iowa, Nebraska", "lat": 41.3370, "lon": -95.9840, "type": "native" },
-            { "name": "Oneida Reservation", "address": "Wisconsin", "lat": 43.0700, "lon": -88.0610, "type": "native" },
-            { "name": "Oneida Nation Reservation", "address": "New York", "lat": 43.1280, "lon": -75.2010, "type": "native" },
-            { "name": "Onondaga Nation Reservation", "address": "New York", "lat": 43.0120, "lon": -76.3730, "type": "native" },
-            { "name": "Ontonagon Reservation", "address": "Michigan", "lat": 46.3770, "lon": -89.7960, "type": "native" },
-            { "name": "Osage Reservation", "address": "Oklahoma", "lat": 36.1440, "lon": -96.2790, "type": "native" },
-            { "name": "Paiute Reservation", "address": "Utah", "lat": 38.5830, "lon": -112.1830, "type": "native" },
-            { "name": "Pala Reservation", "address": "California", "lat": 32.8360, "lon": -116.8350, "type": "native" },
-            { "name": "Pamunkey Reservation", "address": "Virginia", "lat": 37.4060, "lon": -76.8370, "type": "native" },
-            { "name": "Pascua Pueblo Yaqui Reservation", "address": "Arizona", "lat": 31.3330, "lon": -110.3500, "type": "native" },
-            { "name": "Paskenta Rancheria", "address": "California", "lat": 38.5040, "lon": -123.0710, "type": "native" },
-            { "name": "Pauma and Yuima Reservation", "address": "California", "lat": 33.2800, "lon": -116.4930, "type": "native" },
-            { "name": "Pechanga Reservation", "address": "California", "lat": 33.5010, "lon": -117.2430, "type": "native" },
-            { "name": "Penobscot Reservation", "address": "Maine", "lat": 45.2660, "lon": -68.8800, "type": "native" },
-            { "name": "Picayune Rancheria", "address": "California", "lat": 38.3500, "lon": -121.9790, "type": "native" },
-            { "name": "Picuris Pueblo", "address": "New Mexico", "lat": 36.0200, "lon": -105.4130, "type": "native" },
-            { "name": "Pine Ridge Reservation", "address": "South Dakota", "lat": 43.1510, "lon": -103.5830, "type": "native" },
-            { "name": "Pinoleville Rancheria", "address": "California", "lat": 38.0170, "lon": -122.2740, "type": "native" },
-            { "name": "Pleasant Point Reservation", "address": "Maine", "lat": 43.8210, "lon": -69.7780, "type": "native" },
-            { "name": "Poarch Creek Reservation", "address": "Alabama", "lat": 31.2160, "lon": -85.8020, "type": "native" },
-            { "name": "Pokagon Reservation", "address": "Michigan", "lat": 41.9040, "lon": -85.2560, "type": "native" },
-            { "name": "Port Gamble Reservation", "address": "Washington", "lat": 48.0310, "lon": -122.6150, "type": "native" },
-            { "name": "Port Madison Reservation", "address": "Washington", "lat": 47.8130, "lon": -122.5140, "type": "native" },
-            { "name": "Prairie Band of Potawatomi Nation Reservation", "address": "Kansas", "lat": 38.3410, "lon": -94.8060, "type": "native" },
-            { "name": "Prairie Island Indian Community", "address": "Minnesota", "lat": 44.9030, "lon": -93.0230, "type": "native" },
-            { "name": "Pueblo de Cochiti", "address": "New Mexico", "lat": 35.1880, "lon": -106.0140, "type": "native" },
-            { "name": "Pueblo of Pojoaque", "address": "New Mexico", "lat": 35.7270, "lon": -106.1220, "type": "native" },
-            { "name": "Puyallup Reservation", "address": "Washington", "lat": 47.2110, "lon": -122.2620, "type": "native" },
-            { "name": "Pyramid Lake Paiute Reservation", "address": "Nevada", "lat": 40.7920, "lon": -119.5800, "type": "native" },
-            { "name": "Qualla Boundary", "address": "North Carolina", "lat": 35.4100, "lon": -83.5070, "type": "native" },
-            { "name": "Quartz Valley Reservation", "address": "California", "lat": 40.5560, "lon": -124.0250, "type": "native" },
-            { "name": "Quileute Reservation", "address": "Washington", "lat": 46.9430, "lon": -124.0920, "type": "native" },
-            { "name": "Quinault Reservation", "address": "Washington", "lat": 46.9410, "lon": -124.1660, "type": "native" },
-            { "name": "Ramona Village", "address": "California", "lat": 33.0320, "lon": -116.9640, "type": "native" },
-            { "name": "Red Cliff Reservation", "address": "Wisconsin", "lat": 45.5520, "lon": -91.8360, "type": "native" },
-            { "name": "Red Lake Reservation", "address": "Minnesota", "lat": 47.7200, "lon": -95.1300, "type": "native" },
-            { "name": "Redding Rancheria", "address": "California", "lat": 40.5800, "lon": -122.3920, "type": "native" },
-            { "name": "Redwood Valley Rancheria", "address": "California", "lat": 39.5110, "lon": -123.1310, "type": "native" },
-            { "name": "Reno-Sparks Indian Colony", "address": "Nevada", "lat": 39.5290, "lon": -119.8130, "type": "native" },
-            { "name": "Resighini Rancheria", "address": "California", "lat": 38.4660, "lon": -122.3490, "type": "native" },
-            { "name": "Rincon Reservation", "address": "California", "lat": 34.0730, "lon": -118.2710, "type": "native" },
-            { "name": "Roaring Creek Rancheria", "address": "California", "lat": 40.6120, "lon": -123.1490, "type": "native" },
-            { "name": "Robinson Rancheria", "address": "California", "lat": 38.5000, "lon": -121.8500, "type": "native" },
-            { "name": "Rocky Boy's Reservation", "address": "Montana", "lat": 48.3410, "lon": -112.3200, "type": "native" },
-            { "name": "Rohnerville Rancheria", "address": "California", "lat": 40.8030, "lon": -124.1420, "type": "native" },
-            { "name": "Rosebud Indian Reservation", "address": "South Dakota", "lat": 43.3240, "lon": -101.0480, "type": "native" },
-            { "name": "Round Valley Reservation", "address": "California", "lat": 38.2780, "lon": -123.0160, "type": "native" },
-            { "name": "Rumsey Indian Rancheria", "address": "California", "lat": 38.3500, "lon": -122.4850, "type": "native" },
-            { "name": "Sac and Fox Nation Reservation", "address": "Kansas, Nebraska", "lat": 39.1200, "lon": -96.5650, "type": "native" },
-            { "name": "Sac and Fox/Meskwaki Settlement", "address": "Iowa", "lat": 42.0700, "lon": -91.5040, "type": "native" },
-            { "name": "Salt River Reservation", "address": "Arizona", "lat": 33.2700, "lon": -111.7400, "type": "native" },
-            { "name": "San Carlos Reservation", "address": "Arizona", "lat": 32.9190, "lon": -111.9550, "type": "native" },
-            { "name": "San Felipe Pueblo", "address": "New Mexico", "lat": 35.4970, "lon": -106.5220, "type": "native" },
-            { "name": "San Felipe Pueblo/Santa Ana Pueblo joint-use area", "address": "New Mexico", "lat": 35.5070, "lon": -106.5350, "type": "native" },
-            { "name": "San Felipe Pueblo/Santo Domingo Pueblo joint-use area", "address": "New Mexico", "lat": 35.5080, "lon": -106.5390, "type": "native" },
-            { "name": "San Ildefonso Pueblo", "address": "New Mexico", "lat": 35.6720, "lon": -106.4210, "type": "native" },
-            { "name": "San Manuel Reservation", "address": "California", "lat": 33.1810, "lon": -116.5630, "type": "native" },
-            { "name": "San Pasqual Reservation", "address": "California", "lat": 33.1000, "lon": -117.0990, "type": "native" },
-            { "name": "Sandia Pueblo", "address": "New Mexico", "lat": 35.3770, "lon": -106.2460, "type": "native" },
-            { "name": "Santa Ana Pueblo", "address": "New Mexico", "lat": 35.1910, "lon": -106.2590, "type": "native" },
-            { "name": "Santa Clara Pueblo", "address": "New Mexico", "lat": 35.0900, "lon": -106.1200, "type": "native" },
-            { "name": "Santa Rosa Rancheria", "address": "California", "lat": 38.4400, "lon": -121.7300, "type": "native" },
-            { "name": "Santa Rosa Reservation", "address": "California", "lat": 38.4400, "lon": -121.7300, "type": "native" },
-            { "name": "Santa Ynez Reservation", "address": "California", "lat": 34.5720, "lon": -120.4440, "type": "native" },
-            { "name": "Santa Ysabel Reservation", "address": "California", "lat": 33.0830, "lon": -116.8750, "type": "native" },
-            { "name": "Santee Reservation", "address": "Nebraska", "lat": 40.4250, "lon": -96.7100, "type": "native" },
-            { "name": "Santo Domingo Pueblo", "address": "New Mexico", "lat": 35.1790, "lon": -106.4210, "type": "native" },
-            { "name": "Sauk-Suiattle Reservation", "address": "Washington", "lat": 48.3040, "lon": -121.5540, "type": "native" },
-            { "name": "Sault Ste. Marie Reservation", "address": "Michigan", "lat": 46.4870, "lon": -84.4210, "type": "native" },
-            { "name": "Shakopee Mdewakanton Sioux Community", "address": "Minnesota", "lat": 44.9110, "lon": -93.4220, "type": "native" },
-            { "name": "Sherwood Valley Rancheria", "address": "California", "lat": 38.4980, "lon": -122.4760, "type": "native" },
-            { "name": "Shingle Springs Rancheria", "address": "California", "lat": 38.6350, "lon": -120.9860, "type": "native" },
-            { "name": "Shinnecock Reservation", "address": "New York", "lat": 40.8860, "lon": -72.7500, "type": "native" },
-            { "name": "Shoalwater Bay Indian Reservation", "address": "Washington", "lat": 47.4280, "lon": -124.1840, "type": "native" },
-            { "name": "Siletz Reservation", "address": "Oregon", "lat": 44.3600, "lon": -124.0000, "type": "native" },
-            { "name": "Skokomish Reservation", "address": "Washington", "lat": 47.5490, "lon": -123.6870, "type": "native" },
-            { "name": "Skull Valley Reservation", "address": "Utah", "lat": 40.2520, "lon": -112.0900, "type": "native" },
-            { "name": "Smith River Rancheria", "address": "California", "lat": 41.1950, "lon": -124.0430, "type": "native" },
-            { "name": "Snoqualmie Reservation", "address": "Washington", "lat": 47.5320, "lon": -121.8500, "type": "native" },
-            { "name": "Soboba Reservation", "address": "California", "lat": 33.5600, "lon": -117.1400, "type": "native" },
-            { "name": "Sokaogon Chippewa Community", "address": "Wisconsin", "lat": 45.2240, "lon": -91.8720, "type": "native" },
-            { "name": "South Fork Reservation", "address": "Nevada", "lat": 38.8500, "lon": -119.2500, "type": "native" },
-            { "name": "Southern Ute Reservation", "address": "Colorado", "lat": 37.4020, "lon": -108.5080, "type": "native" },
-            { "name": "Spirit Lake Reservation", "address": "North Dakota", "lat": 48.0170, "lon": -99.3300, "type": "native" },
-            { "name": "Spokane Reservation", "address": "Washington", "lat": 47.6640, "lon": -117.4280, "type": "native" },
-            { "name": "Squaxin Island Reservation", "address": "Washington", "lat": 46.7600, "lon": -124.0040, "type": "native" },
-            { "name": "St. Croix Reservation", "address": "Wisconsin", "lat": 45.0490, "lon": -92.0480, "type": "native" },
-            { "name": "St. Regis Mohawk Reservation", "address": "New York", "lat": 44.6850, "lon": -74.7440, "type": "native" },
-            { "name": "Standing Rock Reservation", "address": "North Dakota", "lat": 46.7310, "lon": -102.2370, "type": "native" },
-            { "name": "Stewart Community", "address": "Nevada", "lat": 40.6420, "lon": -117.1660, "type": "native" },
-            { "name": "Stewarts Point Rancheria", "address": "California", "lat": 38.8560, "lon": -123.1480, "type": "native" },
-            { "name": "Stillaguamish Reservation", "address": "Washington", "lat": 47.9000, "lon": -122.2600, "type": "native" },
-            { "name": "Stockbridge Munsee Community", "address": "Wisconsin", "lat": 43.0730, "lon": -89.3990, "type": "native" },
-            { "name": "Sulphur Bank Rancheria", "address": "California", "lat": 38.5850, "lon": -122.1600, "type": "native" },
-            { "name": "Summit Lake Reservation", "address": "Nevada", "lat": 39.4680, "lon": -120.7100, "type": "native" },
-            { "name": "Susanville Indian Rancheria", "address": "California", "lat": 40.5020, "lon": -120.7280, "type": "native" },
-            { "name": "Swinomish Reservation", "address": "Washington", "lat": 48.4140, "lon": -122.6160, "type": "native" },
-            { "name": "Sycuan Reservation", "address": "California", "lat": 32.8120, "lon": -116.9230, "type": "native" },
-            { "name": "Table Bluff Reservation", "address": "California", "lat": 39.3180, "lon": -123.1880, "type": "native" },
-            { "name": "Table Mountain Rancheria", "address": "California", "lat": 38.8430, "lon": -123.0710, "type": "native" },
-            { "name": "Tampa Reservation", "address": "Florida", "lat": 27.9500, "lon": -82.4570, "type": "native" },
-            { "name": "Taos Pueblo", "address": "New Mexico", "lat": 36.4070, "lon": -105.5730, "type": "native" },
-            { "name": "Tesuque Pueblo", "address": "New Mexico", "lat": 35.7680, "lon": -105.9450, "type": "native" },
-            { "name": "Timbi-Sha Shoshone Reservation", "address": "California", "lat": 39.3290, "lon": -117.5810, "type": "native" },
-            { "name": "Tohono Oʼodham Indian Reservation", "address": "Arizona", "lat": 32.2390, "lon": -112.9900, "type": "native" },
-            { "name": "Tonawanda Reservation", "address": "New York", "lat": 43.0530, "lon": -78.9820, "type": "native" },
-            { "name": "Tonto Apache Reservation", "address": "Arizona", "lat": 34.1610, "lon": -111.2970, "type": "native" },
-            { "name": "Torres-Martinez Reservation", "address": "California", "lat": 38.5100, "lon": -122.2460, "type": "native" },
-            { "name": "Trinidad Rancheria", "address": "California", "lat": 40.8960, "lon": -124.0820, "type": "native" },
-            { "name": "Tulalip Reservation", "address": "Washington", "lat": 48.2030, "lon": -122.4000, "type": "native" },
-            { "name": "Tule River Reservation", "address": "California", "lat": 36.0080, "lon": -120.4580, "type": "native" },
-            { "name": "Tunica-Biloxi Reservation", "address": "Louisiana", "lat": 32.8080, "lon": -93.6040, "type": "native" },
-            { "name": "Tuolumne Rancheria", "address": "California", "lat": 37.9120, "lon": -120.1570, "type": "native" },
-            { "name": "Turtle Mountain Reservation", "address": "Montana, North Dakota, South Dakota", "lat": 48.0810, "lon": -101.4500, "type": "native" },
-            { "name": "Tuscarora Nation Reservation", "address": "New York", "lat": 43.0580, "lon": -76.2210, "type": "native" },
-            { "name": "Twenty-Nine Palms Reservation", "address": "California", "lat": 34.1970, "lon": -116.0990, "type": "native" },
-            { "name": "Uintah and Ouray Reservation", "address": "Utah", "lat": 40.4490, "lon": -109.5030, "type": "native" },
-            { "name": "Umatilla Reservation", "address": "Oregon", "lat": 45.6670, "lon": -119.1910, "type": "native" },
-            { "name": "Upper Lake Rancheria", "address": "California", "lat": 39.2430, "lon": -123.0700, "type": "native" },
-            { "name": "Upper Sioux Community", "address": "Minnesota", "lat": 44.7500, "lon": -96.4500, "type": "native" },
-            { "name": "Upper Skagit Reservation", "address": "Washington", "lat": 48.3330, "lon": -122.2000, "type": "native" },
-            { "name": "Ute Mountain Reservation", "address": "Colorado", "lat": 37.2440, "lon": -109.0560, "type": "native" },
-            { "name": "Viejas Reservation", "address": "California", "lat": 33.2360, "lon": -116.6090, "type": "native" },
-            { "name": "Walker River Reservation", "address": "Nevada", "lat": 39.3070, "lon": -118.2010, "type": "native" },
-            { "name": "Warm Springs Reservation", "address": "Oregon", "lat": 44.4530, "lon": -120.5250, "type": "native" },
-            { "name": "Wells Colony", "address": "Nevada", "lat": 39.5510, "lon": -117.1420, "type": "native" },
-            { "name": "White Earth Reservation", "address": "Minnesota", "lat": 46.6890, "lon": -94.3240, "type": "native" },
-            { "name": "Wind River Reservation", "address": "Wyoming", "lat": 43.0000, "lon": -108.5000, "type": "native" },
-            { "name": "Winnebago Reservation", "address": "Iowa, Nebraska", "lat": 41.2990, "lon": -95.8600, "type": "native" },
-            { "name": "Winnemucca Indian Colony", "address": "Nevada", "lat": 40.5620, "lon": -117.7670, "type": "native" },
-            { "name": "Woodfords Community", "address": "California", "lat": 38.5550, "lon": -121.4550, "type": "native" },
-            { "name": "XL Ranch Rancheria", "address": "California", "lat": 38.2500, "lon": -122.1500, "type": "native" },
-            { "name": "Yakama Nation Reservation", "address": "Washington", "lat": 46.5870, "lon": -120.5050, "type": "native" },
-            { "name": "Yankton Reservation", "address": "South Dakota", "lat": 42.8780, "lon": -97.3970, "type": "native" },
-            { "name": "Yavapai-Apache Nation Reservation", "address": "Arizona", "lat": 34.5110, "lon": -112.1970, "type": "native" },
-            { "name": "Yavapai-Prescott Reservation", "address": "Arizona", "lat": 34.5510, "lon": -112.4670, "type": "native" },
-            { "name": "Yerington Colony", "address": "Nevada", "lat": 38.8830, "lon": -119.2800, "type": "native" },
-            { "name": "Yomba Reservation", "address": "Nevada", "lat": 38.8000, "lon": -117.1160, "type": "native" },
-            { "name": "Ysleta del Sur Pueblo", "address": "Texas", "lat": 29.5230, "lon": -98.1750, "type": "native" },
-            { "name": "Yurok Reservation", "address": "California", "lat": 41.7390, "lon": -124.0170, "type": "native" },
-            { "name": "Zia Pueblo", "address": "New Mexico", "lat": 35.1400, "lon": -106.3060, "type": "native" },
-            { "name": "Zuni Reservation", "address": "Arizona, New Mexico", "lat": 35.2300, "lon": -108.57, "type": "native" }]
+  {
+    "name": "Utah Highway Patrol Headquarters",
+    "address": "4501 S 2700 W, Taylorsville, UT",
+    "lat": 40.6677,
+    "lon": -111.9381,
+    "type": "police"
+  },
+  {
+    "name": "Vermont State Police Headquarters",
+    "address": "103 S Main St, Waterbury, VT",
+    "lat": 44.3370,
+    "lon": -72.7560,
+    "type": "police"
+  },
+  {
+    "name": "Virginia State Police Headquarters",
+    "address": "7700 Midlothian Turnpike, Richmond, VA",
+    "lat": 37.5538,
+    "lon": -77.4603,
+    "type": "police"
+  },
+  {
+    "name": "Washington State Patrol Headquarters",
+    "address": "210 11th Ave SW, Olympia, WA",
+    "lat": 47.0379,
+    "lon": -122.9007,
+    "type": "police"
+  },
+  {
+    "name": "West Virginia State Police Headquarters",
+    "address": "725 Jefferson Rd, South Charleston, WV",
+    "lat": 38.3689,
+    "lon": -81.6941,
+    "type": "police"
+  },
+  {
+    "name": "Wisconsin State Patrol Headquarters",
+    "address": "4802 Sheboygan Ave, Madison, WI",
+    "lat": 43.0731,
+    "lon": -89.4012,
+    "type": "police"
+  },
+  {
+    "name": "Wyoming Highway Patrol Headquarters",
+    "address": "5300 Bishop Blvd, Cheyenne, WY",
+    "lat": 41.1400,
+    "lon": -104.8202,
+    "type": "police"
+  },
+
+  {
+    "name": "Acoma Pueblo Reservation",
+    "address": "Acoma, New Mexico",
+    "lat": 35.0472,
+    "lon": -106.6144,
+    "type": "native"
+  },
+  {
+    "name": "Agua Caliente Indian Reservation",
+    "address": "Cahuilla, California",
+    "lat": 33.6720,
+    "lon": -116.3650,
+    "type": "native"
+  },
+  {
+    "name": "Alabama–Coushatta Reservation",
+    "address": "Alabama, Coushatta, Texas",
+    "lat": 31.2730,
+    "lon": -93.6070,
+    "type": "native"
+  },
+  {
+    "name": "Allegany Reservation",
+    "address": "Seneca, New York",
+    "lat": 42.0060,
+    "lon": -78.7160,
+    "type": "native"
+  },
+  {
+    "name": "Alturas Indian Rancheria",
+    "address": "Achomawi, California",
+    "lat": 40.5578,
+    "lon": -122.3361,
+    "type": "native"
+  },
+  {
+    "name": "Annette Island Reserve",
+    "address": "Tsimshian, Alaska",
+    "lat": 55.5550,
+    "lon": -132.6650,
+    "type": "native"
+  },
+  {
+    "name": "Auburn Rancheria",
+    "address": "Miwok, California",
+    "lat": 39.7500,
+    "lon": -121.2630,
+    "type": "native"
+  },
+  {
+    "name": "Augustine Reservation",
+    "address": "Cahuilla, California",
+    "lat": 34.1790,
+    "lon": -116.3170,
+    "type": "native"
+  },
+  {
+    "name": "Bad River Reservation",
+    "address": "Ojibwe, Wisconsin",
+    "lat": 44.2473,
+    "lon": -88.6281,
+    "type": "native"
+  },
+  {
+    "name": "Barona Reservation",
+    "address": "Kumeyaay, California",
+    "lat": 33.2080,
+    "lon": -117.0990,
+    "type": "native"
+  },
+  {
+    "name": "Battle Mountain Reservation",
+    "address": "Western Shoshone, Nevada",
+    "lat": 40.6460,
+    "lon": -117.0750,
+    "type": "native"
+  },
+  {
+    "name": "Bay Mills Reservation",
+    "address": "Ojibwe, Michigan",
+    "lat": 46.1903,
+    "lon": -84.8632,
+    "type": "native"
+  },
+  {
+    "name": "Benton Paiute Reservation",
+    "address": "Mono, California",
+    "lat": 37.6950,
+    "lon": -118.7460,
+    "type": "native"
+  },
+  {
+    "name": "Berry Creek Rancheria",
+    "address": "Maidu, California",
+    "lat": 40.2810,
+    "lon": -120.2340,
+    "type": "native"
+  },
+  {
+    "name": "Big Cypress Reservation",
+    "address": "Seminole, Florida",
+    "lat": 26.3170,
+    "lon": -81.8450,
+    "type": "native"
+  },
+  {
+    "name": "Blackfeet Indian Reservation",
+    "address": "Blackfeet, Montana",
+    "lat": 48.6230,
+    "lon": -112.6610,
+    "type": "native"
+  },
+  {
+    "name": "Bois Forte Reservation",
+    "address": "Ojibwe, Minnesota",
+    "lat": 47.4860,
+    "lon": -91.8790,
+    "type": "native"
+  },
+  {
+    "name": "Bridgeport Reservation",
+    "address": "Northern Paiute, California",
+    "lat": 39.1210,
+    "lon": -120.5100,
+    "type": "native"
+  },
+  {
+    "name": "Brighton Reservation",
+    "address": "Seminole, Florida",
+    "lat": 27.9020,
+    "lon": -82.4640,
+    "type": "native"
+  },
+  {
+    "name": "Burns Paiute Indian Colony",
+    "address": "Northern Paiute, Oregon",
+    "lat": 42.2570,
+    "lon": -117.8140,
+    "type": "native"
+  },
+  {
+    "name": "Cabazon Reservation",
+    "address": "Cahuilla, California",
+    "lat": 33.9300,
+    "lon": -116.5700,
+    "type": "native"
+  },
+  {
+    "name": "Cahuilla Reservation",
+    "address": "Cahuilla, California",
+    "lat": 33.9600,
+    "lon": -116.3900,
+    "type": "native"
+  },
+  {
+    "name": "Campbell Ranch",
+    "address": "Northern Paiute, Nevada",
+    "lat": 38.9070,
+    "lon": -117.5820,
+    "type": "native"
+  },
+  {
+    "name": "Campo Indian Reservation",
+    "address": "Kumeyaay, California",
+    "lat": 32.6410,
+    "lon": -116.9520,
+    "type": "native"
+  },
+  {
+    "name": "Capitan Grande Reservation",
+    "address": "Kumeyaay, California",
+    "lat": 32.5770,
+    "lon": -116.9950,
+    "type": "native"
+  },
+  {
+    "name": "Carson Colony",
+    "address": "Washoe, Nevada",
+    "lat": 40.9570,
+    "lon": -119.8580,
+    "type": "native"
+  },
+  {
+    "name": "Catawba Reservation",
+    "address": "Catawba, South Carolina",
+    "lat": 35.2240,
+    "lon": -81.1730,
+    "type": "native"
+  },
+  {
+    "name": "Cattaraugus Reservation",
+    "address": "Seneca, New York",
+    "lat": 42.1430,
+    "lon": -78.7060,
+    "type": "native"
+  },
+  {
+    "name": "Cedarville Rancheria",
+    "address": "Northern Paiute, California",
+    "lat": 40.4610,
+    "lon": -122.6450,
+    "type": "native"
+  },
+  {
+    "name": "Chehalis Reservation",
+    "address": "Lower Chehalis, Washington",
+    "lat": 47.1210,
+    "lon": -123.8880,
+    "type": "native"
+  },
+  {
+    "name": "Chemehuevi Reservation",
+    "address": "Southern Paiute, California",
+    "lat": 34.6480,
+    "lon": -115.3450,
+    "type": "native"
+  },
+  {
+    "name": "Cheyenne River Reservation",
+    "address": "Lakota, South Dakota",
+    "lat": 45.5570,
+    "lon": -101.1650,
+    "type": "native"
+  },
+  {
+    "name": "Chicken Ranch Rancheria",
+    "address": "Miwok, California",
+    "lat": 38.5740,
+    "lon": -121.4660,
+    "type": "native"
+  },
+  {
+    "name": "Chitimacha Reservation",
+    "address": "Chitimacha, Louisiana",
+    "lat": 30.5130,
+    "lon": -91.1360,
+    "type": "native"
+  },
+  {
+    "name": "Cocopah Reservation",
+    "address": "Cocopah, Arizona",
+    "lat": 32.5320,
+    "lon": -114.8690,
+    "type": "native"
+  },
+  {
+    "name": "Coeur d'Alene Reservation",
+    "address": "Coeur d'Alene, Idaho",
+    "lat": 47.6780,
+    "lon": -116.9160,
+    "type": "native"
+  },
+  {
+    "name": "Cold Springs Rancheria",
+    "address": "Mono, California",
+    "lat": 37.1160,
+    "lon": -119.3360,
+    "type": "native"
+  },
+  {
+    "name": "Colorado River Indian Reservation",
+    "address": "Arizona, California",
+    "lat": 34.0810,
+    "lon": -114.8800,
+    "type": "native"
+  },
+  {
+    "name": "Colusa Rancheria",
+    "address": "Wintun, California",
+    "lat": 39.2060,
+    "lon": -122.0210,
+    "type": "native"
+  },
+  {
+    "name": "Colville Reservation",
+    "address": "Washington",
+    "lat": 48.5000,
+    "lon": -118.0000,
+    "type": "native"
+  },
+  {
+    "name": "Coos, Lower Umpqua, and Siuslaw Reservation",
+    "address": "Oregon",
+    "lat": 43.1900,
+    "lon": -124.1600,
+    "type": "native"
+  },
+  {
+    "name": "Coquille Reservation",
+    "address": "Coquille, Oregon",
+    "lat": 43.1840,
+    "lon": -124.0350,
+    "type": "native"
+  },
+  {
+    "name": "Cortina Indian Rancheria",
+    "address": "Wintu, California",
+    "lat": 39.7520,
+    "lon": -122.4690,
+    "type": "native"
+  },
+  {
+    "name": "Coushatta Reservation",
+    "address": "Coushatta, Louisiana",
+    "lat": 30.0420,
+    "lon": -92.2170,
+    "type": "native"
+  },
+  {
+    "name": "Cow Creek Reservation",
+    "address": "Umpqua, Oregon",
+    "lat": 43.2290,
+    "lon": -123.5740,
+    "type": "native"
+  },
+  {
+    "name": "Cowlitz Reservation",
+    "address": "Cowlitz, Washington",
+    "lat": 46.1450,
+    "lon": -122.8530,
+    "type": "native"
+  },
+  {
+    "name": "Coyote Valley Reservation",
+    "address": "Pomo, California",
+    "lat": 39.2040,
+    "lon": -123.0750,
+    "type": "native"
+  },
+  {
+    "name": "Crow Creek Reservation",
+    "address": "Dakota, South Dakota",
+    "lat": 45.6000,
+    "lon": -100.3100,
+    "type": "native"
+  },
+  {
+    "name": "Crow Reservation",
+    "address": "Crow, Montana",
+    "lat": 45.4530,
+    "lon": -107.7910,
+    "type": "native"
+  },
+  {
+    "name": "Dresslerville Colony",
+    "address": "Washoe, Nevada",
+    "lat": 39.3330,
+    "lon": -119.0200,
+    "type": "native"
+  },
+  {
+    "name": "Dry Creek Rancheria",
+    "address": "Pomo, California",
+    "lat": 39.2000,
+    "lon": -123.0000,
+    "type": "native"
+  },
+  {
+    "name": "Duck Valley Reservation",
+    "address": "Idaho, Nevada",
+    "lat": 42.4650,
+    "lon": -116.4990,
+    "type": "native"
+  },
+  {
+    "name": "Duckwater Reservation",
+    "address": "Western Shoshone, Nevada",
+    "lat": 39.2660,
+    "lon": -117.8340,
+    "type": "native"
+  },
+  {
+    "name": "Elk Valley Rancheria",
+    "address": "Tolowa, Yurok, California",
+    "lat": 41.3550,
+    "lon": -123.0230,
+    "type": "native"
+  },
+  {
+    "name": "Elko Colony",
+    "address": "Western Shoshone, Nevada",
+    "lat": 40.8320,
+    "lon": -115.7630,
+    "type": "native"
+  },
+  {
+    "name": "Ely Reservation",
+    "address": "Western Shoshone, Nevada",
+    "lat": 40.5820,
+    "lon": -114.5140,
+    "type": "native"
+  },
+  {
+    "name": "Enterprise Rancheria",
+    "address": "Maidu, California",
+    "lat": 39.0260,
+    "lon": -121.2880,
+    "type": "native"
+  },
+  {
+    "name": "Ewiiaapaayp Reservation",
+    "address": "Kumeyaay, California",
+    "lat": 32.5740,
+    "lon": -116.9550,
+    "type": "native"
+  },
+  {
+    "name": "Fallon Paiute-Shoshone Reservation",
+    "address": "Western Shoshone, Nevada",
+    "lat": 39.4670,
+    "lon": -118.7890,
+    "type": "native"
+  },
+  {
+    "name": "Flandreau Reservation",
+    "address": "Dakota, South Dakota",
+    "lat": 44.6860,
+    "lon": -97.1370,
+    "type": "native"
+  },
+  {
+    "name": "Flathead Reservation",
+    "address": "Montana",
+    "lat": 48.3400,
+    "lon": -114.3000,
+    "type": "native"
+  },
+  {
+    "name": "Fond du Lac Reservation",
+    "address": "Ojibwe, Wisconsin",
+    "lat": 46.7350,
+    "lon": -92.1800,
+    "type": "native"
+  },
+  {
+    "name": "Forest County Potawatomi Community",
+    "address": "Wisconsin",
+    "lat": 44.5560,
+    "lon": -90.2380,
+    "type": "native"
+  },
+  {
+    "name": "Fort Apache Reservation",
+    "address": "Apache, Arizona",
+    "lat": 34.1140,
+    "lon": -109.0680,
+    "type": "native"
+  },
+  {
+    "name": "Fort Belknap Reservation",
+    "address": "Montana",
+    "lat": 48.0580,
+    "lon": -106.5950,
+    "type": "native"
+  },
+  {
+    "name": "Fort Berthold Reservation",
+    "address": "North Dakota",
+    "lat": 46.2160,
+    "lon": -102.3200,
+    "type": "native"
+  },
+  {
+    "name": "Fort Bidwell Reservation",
+    "address": "California",
+    "lat": 40.8430,
+    "lon": -120.9590,
+    "type": "native"
+  },
+  {
+    "name": "Fort Hall Reservation",
+    "address": "Idaho",
+    "lat": 43.4750,
+    "lon": -111.3260,
+    "type": "native"
+  },
+  {
+    "name": "Fort Independence Reservation",
+    "address": "California",
+    "lat": 37.8480,
+    "lon": -118.1650,
+    "type": "native"
+  },
+  {
+    "name": "Fort McDermitt Indian Reservation",
+    "address": "Nevada",
+    "lat": 41.0340,
+    "lon": -118.4040,
+    "type": "native"
+  },
+  {
+    "name": "Fort McDowell Yavapai Nation Reservation",
+    "address": "Arizona",
+    "lat": 33.0830,
+    "lon": -111.5500,
+    "type": "native"
+  },
+  {
+    "name": "Fort Mojave Reservation",
+    "address": "Nevada",
+    "lat": 35.1330,
+    "lon": -114.0200,
+    "type": "native"
+  },
+  {
+    "name": "Fort Peck Indian Reservation",
+    "address": "Montana",
+    "lat": 48.1420,
+    "lon": -106.7800,
+    "type": "native"
+  },
+  {
+    "name": "Fort Pierce Reservation",
+    "address": "Florida",
+    "lat": 27.4500,
+    "lon": -80.5000,
+    "type": "native"
+  },
+  {
+    "name": "Fort Sill Apache Indian Reservation",
+    "address": "New Mexico",
+    "lat": 34.7150,
+    "lon": -104.5700,
+    "type": "native"
+  },
+  {
+    "name": "Fort Yuma Indian Reservation",
+    "address": "California",
+    "lat": 32.6850,
+    "lon": -114.6150,
+    "type": "native"
+  },
+  {
+    "name": "Gila River Indian Reservation",
+    "address": "Arizona",
+    "lat": 32.7890,
+    "lon": -111.7430,
+    "type": "native"
+  },
+  {
+    "name": "Goshute Reservation",
+    "address": "Nevada",
+    "lat": 40.7460,
+    "lon": -113.8600,
+    "type": "native"
+  },
+  {
+    "name": "Grand Portage Reservation",
+    "address": "Minnesota",
+    "lat": 47.9800,
+    "lon": -90.2380,
+    "type": "native"
+  },
+  {
+    "name": "Grand Ronde Community",
+    "address": "Oregon",
+    "lat": 44.0090,
+    "lon": -123.0870,
+    "type": "native"
+  },
+  {
+    "name": "Grand Traverse Reservation",
+    "address": "Michigan",
+    "lat": 44.7120,
+    "lon": -85.6440,
+    "type": "native"
+  },
+  {
+    "name": "Greenville Rancheria",
+    "address": "California",
+    "lat": 38.8750,
+    "lon": -121.2890,
+    "type": "native"
+  },
+  {
+    "name": "Grindstone Indian Rancheria",
+    "address": "California",
+    "lat": 40.3410,
+    "lon": -122.1380,
+    "type": "native"
+  },
+  {
+    "name": "Guidiville Rancheria",
+    "address": "California",
+    "lat": 39.5020,
+    "lon": -123.0070,
+    "type": "native"
+  },
+  {
+    "name": "Hannahville Indian Community",
+    "address": "Michigan",
+    "lat": 45.0450,
+    "lon": -86.1290,
+    "type": "native"
+  },
+  {
+    "name": "Havasupai Reservation",
+    "address": "Arizona",
+    "lat": 36.4550,
+    "lon": -112.8050,
+    "type": "native"
+  },
+  {
+    "name": "Ho-Chunk Nation Reservation",
+    "address": "Wisconsin",
+    "lat": 43.9260,
+    "lon": -90.4430,
+    "type": "native"
+  },
+  {
+    "name": "Hoh Indian Reservation",
+    "address": "Washington",
+    "lat": 47.1050,
+    "lon": -123.6950,
+    "type": "native"
+  },
+  {
+    "name": "Hollywood Reservation",
+    "address": "Florida",
+    "lat": 27.6890,
+    "lon": -80.3770,
+    "type": "native"
+  },
+  {
+    "name": "Hoopa Valley Reservation",
+    "address": "California",
+    "lat": 40.7460,
+    "lon": -123.2310,
+    "type": "native"
+  },
+  {
+    "name": "Hopi Reservation",
+    "address": "Arizona",
+    "lat": 35.0670,
+    "lon": -110.5230,
+    "type": "native"
+  },
+  {
+    "name": "Hopland Rancheria",
+    "address": "California",
+    "lat": 39.5660,
+    "lon": -123.2040,
+    "type": "native"
+  },
+  {
+    "name": "Houlton Maliseet Reservation",
+    "address": "Maine",
+    "lat": 46.0810,
+    "lon": -67.7980,
+    "type": "native"
+  },
+  {
+    "name": "Hualapai Indian Reservation",
+    "address": "Arizona",
+    "lat": 35.3350,
+    "lon": -114.5800,
+    "type": "native"
+  },
+  {
+    "name": "Huron Potawatomi Reservation",
+    "address": "Michigan",
+    "lat": 45.0500,
+    "lon": -85.4000,
+    "type": "native"
+  },
+  {
+    "name": "Immokalee Reservation",
+    "address": "Florida",
+    "lat": 26.4630,
+    "lon": -80.2280,
+    "type": "native"
+  },
+  {
+    "name": "Inaja and Cosmit Reservation",
+    "address": "California",
+    "lat": 32.7050,
+    "lon": -116.9230,
+    "type": "native"
+  },
+  {
+    "name": "Indian Township Reservation",
+    "address": "Maine",
+    "lat": 45.1490,
+    "lon": -67.4020,
+    "type": "native"
+  },
+  {
+    "name": "Iowa Reservation",
+    "address": "Iowa",
+    "lat": 41.2910,
+    "lon": -95.8450,
+    "type": "native"
+  },
+  {
+    "name": "Isabella Reservation",
+    "address": "Michigan",
+    "lat": 45.4430,
+    "lon": -84.8760,
+    "type": "native"
+  },
+  {
+    "name": "Isleta Pueblo",
+    "address": "New Mexico",
+    "lat": 34.2710,
+    "lon": -106.7670,
+    "type": "native"
+  },
+  {
+    "name": "Jackson Rancheria",
+    "address": "California",
+    "lat": 37.0110,
+    "lon": -120.7520,
+    "type": "native"
+  },
+  {
+    "name": "Jamestown S'Klallam Reservation",
+    "address": "Washington",
+    "lat": 48.1780,
+    "lon": -123.4510,
+    "type": "native"
+  },
+  {
+    "name": "Jamul Indian Village",
+    "address": "California",
+    "lat": 32.5630,
+    "lon": -116.9720,
+    "type": "native"
+  },
+  {
+    "name": "Jemez Pueblo",
+    "address": "New Mexico",
+    "lat": 35.5890,
+    "lon": -106.0880,
+    "type": "native"
+  },
+  {
+    "name": "Jena Band of Choctaw Reservation",
+    "address": "Louisiana",
+    "lat": 30.1300,
+    "lon": -92.0250,
+    "type": "native"
+  },
+  {
+    "name": "Jicarilla Apache Nation Reservation",
+    "address": "New Mexico",
+    "lat": 36.2510,
+    "lon": -106.7920,
+    "type": "native"
+  },
+  {
+    "name": "Kaibab Indian Reservation",
+    "address": "Arizona",
+    "lat": 36.0660,
+    "lon": -111.2100,
+    "type": "native"
+  },
+  {
+    "name": "Kalispel Reservation",
+    "address": "Washington",
+    "lat": 48.5790,
+    "lon": -117.0390,
+    "type": "native"
+  },
+  {
+    "name": "Karuk Reservation",
+    "address": "California",
+    "lat": 41.1520,
+    "lon": -123.0760,
+    "type": "native"
+  },
+  {
+    "name": "Kickapoo Reservation",
+    "address": "Kansas",
+    "lat": 37.8780,
+    "lon": -95.6000,
+    "type": "native"
+  },
+  {
+    "name": "Kickapoo Reservation",
+    "address": "Texas",
+    "lat": 29.9150,
+    "lon": -95.4020,
+    "type": "native"
+  },
+  {
+    "name": "Klamath Reservation",
+    "address": "Oregon",
+    "lat": 42.1910,
+    "lon": -124.1380,
+    "type": "native"
+  },
+  {
+    "name": "Kootenai Reservation",
+    "address": "Idaho",
+    "lat": 48.5620,
+    "lon": -116.3670,
+    "type": "native"
+  },
+  {
+    "name": "La Jolla Reservation",
+    "address": "California",
+    "lat": 32.8380,
+    "lon": -117.2710,
+    "type": "native"
+  },
+  {
+    "name": "La Posta Indian Reservation",
+    "address": "California",
+    "lat": 32.7430,
+    "lon": -116.9630,
+    "type": "native"
+  },
+  {
+    "name": "Lac Courte Oreilles Reservation",
+    "address": "Wisconsin",
+    "lat": 45.6150,
+    "lon": -91.5040,
+    "type": "native"
+  },
+  {
+    "name": "Lac du Flambeau Reservation",
+    "address": "Wisconsin",
+    "lat": 45.8470,
+    "lon": -89.6080,
+    "type": "native"
+  },
+  {
+    "name": "Lac Vieux Desert Reservation",
+    "address": "Michigan",
+    "lat": 46.9210,
+    "lon": -86.0030,
+    "type": "native"
+  },
+  {
+    "name": "Laguna Pueblo",
+    "address": "New Mexico",
+    "lat": 35.5000,
+    "lon": -106.0670,
+    "type": "native"
+  },
+  {
+    "name": "Lake Traverse Reservation",
+    "address": "South Dakota",
+    "lat": 46.9090,
+    "lon": -96.8090,
+    "type": "native"
+  },
+  {
+    "name": "L'Anse Reservation",
+    "address": "Michigan",
+    "lat": 47.4400,
+    "lon": -88.6300,
+    "type": "native"
+  },
+  {
+    "name": "Las Vegas Indian Colony",
+    "address": "Nevada",
+    "lat": 36.1730,
+    "lon": -115.1370,
+    "type": "native"
+  },
+  {
+    "name": "Laytonville Rancheria",
+    "address": "California",
+    "lat": 39.2000,
+    "lon": -123.1500,
+    "type": "native"
+  },
+  {
+    "name": "Leech Lake Reservation",
+    "address": "Minnesota",
+    "lat": 47.0000,
+    "lon": -94.6000,
+    "type": "native"
+  },
+  {
+    "name": "Likely Rancheria",
+    "address": "California",
+    "lat": 40.6500,
+    "lon": -122.3640,
+    "type": "native"
+  },
+  {
+    "name": "Little River Reservation",
+    "address": "Michigan",
+    "lat": 45.4290,
+    "lon": -84.7680,
+    "type": "native"
+  },
+  {
+    "name": "Little Traverse Bay Reservation",
+    "address": "Michigan",
+    "lat": 45.0370,
+    "lon": -85.4550,
+    "type": "native"
+  },
+  {
+    "name": "Lone Pine Reservation",
+    "address": "California",
+    "lat": 36.6090,
+    "lon": -118.0630,
+    "type": "native"
+  },
+  {
+    "name": "Lookout Rancheria",
+    "address": "California",
+    "lat": 40.6000,
+    "lon": -122.3500,
+    "type": "native"
+  },
+  {
+    "name": "Los Coyotes Reservation",
+    "address": "California",
+    "lat": 33.5860,
+    "lon": -116.3730,
+    "type": "native"
+  },
+  {
+    "name": "Lovelock Indian Colony",
+    "address": "Nevada",
+    "lat": 40.8770,
+    "lon": -117.7320,
+    "type": "native"
+  },
+  {
+    "name": "Lower Brule Reservation",
+    "address": "South Dakota",
+    "lat": 43.5710,
+    "lon": -98.4410,
+    "type": "native"
+  },
+  {
+    "name": "Lower Elwha Reservation",
+    "address": "Washington",
+    "lat": 47.6300,
+    "lon": -123.7900,
+    "type": "native"
+  },
+  {
+    "name": "Lower Sioux Indian Community",
+    "address": "Minnesota",
+    "lat": 44.9990,
+    "lon": -95.7000,
+    "type": "native"
+  },
+  {
+    "name": "Lummi Reservation",
+    "address": "Washington",
+    "lat": 48.6210,
+    "lon": -123.1330,
+    "type": "native"
+  },
+  {
+    "name": "Lytton Rancheria",
+    "address": "California",
+    "lat": 39.1000,
+    "lon": -123.2000,
+    "type": "native"
+  },
+  {
+    "name": "Makah Indian Reservation",
+    "address": "Washington",
+    "lat": 46.8720,
+    "lon": -124.0850,
+    "type": "native"
+  },
+  {
+    "name": "Manchester-Point Arena Rancheria",
+    "address": "California",
+    "lat": 38.0010,
+    "lon": -123.2280,
+    "type": "native"
+  },
+  {
+    "name": "Manzanita Reservation",
+    "address": "California",
+    "lat": 39.1130,
+    "lon": -123.5240,
+    "type": "native"
+  },
+  {
+    "name": "Maricopa Ak Chin Indian Reservation",
+    "address": "Arizona",
+    "lat": 33.2890,
+    "lon": -112.0360,
+    "type": "native"
+  },
+  {
+    "name": "Mashantucket Pequot Reservation",
+    "address": "Connecticut",
+    "lat": 41.3590,
+    "lon": -71.8140,
+    "type": "native"
+  },
+  {
+    "name": "Mashpee Wampanoag Reservation",
+    "address": "Massachusetts",
+    "lat": 41.8020,
+    "lon": -70.6060,
+    "type": "native"
+  },
+  {
+    "name": "Match-e-be-nash-she-wish Band of Pottawatomi Reservation",
+    "address": "Michigan",
+    "lat": 42.4100,
+    "lon": -85.2820,
+    "type": "native"
+  },
+  {
+    "name": "Mattaponi Reservation",
+    "address": "Virginia",
+    "lat": 37.6310,
+    "lon": -76.4500,
+    "type": "native"
+  },
+  {
+    "name": "Menominee Reservation",
+    "address": "Wisconsin",
+    "lat": 44.8670,
+    "lon": -88.4670,
+    "type": "native"
+  },
+  {
+    "name": "Mesa Grande Reservation",
+    "address": "California",
+    "lat": 32.6390,
+    "lon": -114.6150,
+    "type": "native"
+  },
+  {
+    "name": "Mescalero Reservation",
+    "address": "New Mexico",
+    "lat": 33.0880,
+    "lon": -105.2020,
+    "type": "native"
+  },
+  {
+    "name": "Miccosukee Reservation",
+    "address": "Florida",
+    "lat": 25.8360,
+    "lon": -80.3790,
+    "type": "native"
+  },
+  {
+    "name": "Middletown Rancheria",
+    "address": "California",
+    "lat": 38.3660,
+    "lon": -121.4230,
+    "type": "native"
+  },
+  {
+    "name": "Mille Lacs Reservation",
+    "address": "Minnesota",
+    "lat": 46.8590,
+    "lon": -93.2280,
+    "type": "native"
+  },
+  {
+    "name": "Mississippi Choctaw Reservation",
+    "address": "Mississippi",
+    "lat": 31.0270,
+    "lon": -90.3860,
+    "type": "native"
+  },
+  {
+    "name": "Moapa River Indian Reservation",
+    "address": "Nevada",
+    "lat": 36.1210,
+    "lon": -114.9080,
+    "type": "native"
+  },
+  {
+    "name": "Mohegan Reservation",
+    "address": "Connecticut",
+    "lat": 41.5130,
+    "lon": -71.8480,
+    "type": "native"
+  },
+  {
+    "name": "Montgomery Creek Rancheria",
+    "address": "California",
+    "lat": 38.4500,
+    "lon": -122.5000,
+    "type": "native"
+  },
+  {
+    "name": "Mooretown Rancheria",
+    "address": "California",
+    "lat": 38.5300,
+    "lon": -122.6360,
+    "type": "native"
+  },
+  {
+    "name": "Morongo Reservation",
+    "address": "California",
+    "lat": 34.1270,
+    "lon": -116.2390,
+    "type": "native"
+  },
+  {
+    "name": "Muckleshoot Reservation",
+    "address": "Washington",
+    "lat": 47.4610,
+    "lon": -122.2520,
+    "type": "native"
+  },
+  {
+    "name": "Nambe Pueblo",
+    "address": "New Mexico",
+    "lat": 35.6520,
+    "lon": -106.3320,
+    "type": "native"
+  },
+  {
+    "name": "Narragansett Reservation",
+    "address": "Rhode Island",
+    "lat": 41.4480,
+    "lon": -71.4740,
+    "type": "native"
+  },
+  {
+    "name": "Navajo Nation",
+    "address": "Arizona, New Mexico, Utah",
+    "lat": 35.0840,
+    "lon": -111.7500,
+    "type": "native"
+  },
+  {
+    "name": "Nez Perce Reservation",
+    "address": "Idaho",
+    "lat": 46.2430,
+    "lon": -116.9370,
+    "type": "native"
+  },
+  {
+    "name": "Nisqually Reservation",
+    "address": "Washington",
+    "lat": 47.1380,
+    "lon": -122.5430,
+    "type": "native"
+  },
+  {
+    "name": "Nooksack Reservation",
+    "address": "Washington",
+    "lat": 48.5020,
+    "lon": -122.5020,
+    "type": "native"
+  },
+  {
+    "name": "North Fork Rancheria",
+    "address": "California",
+    "lat": 36.7000,
+    "lon": -119.7000,
+    "type": "native"
+  },
+  {
+    "name": "Northern Cheyenne Indian Reservation",
+    "address": "Montana",
+    "lat": 45.5450,
+    "lon": -108.2680,
+    "type": "native"
+  },
+  {
+    "name": "Northwestern Shoshone Reservation",
+    "address": "Utah",
+    "lat": 40.5030,
+    "lon": -112.0340,
+    "type": "native"
+  },
+  {
+    "name": "Ohkay Owingeh",
+    "address": "New Mexico",
+    "lat": 35.6840,
+    "lon": -106.1880,
+    "type": "native"
+  },
+  {
+    "name": "Oil Springs Reservation",
+    "address": "New York",
+    "lat": 43.2100,
+    "lon": -76.1510,
+    "type": "native"
+  },
+  {
+    "name": "Omaha Reservation",
+    "address": "Iowa, Nebraska",
+    "lat": 41.3370,
+    "lon": -95.9840,
+    "type": "native"
+  },
+  {
+    "name": "Oneida Reservation",
+    "address": "Wisconsin",
+    "lat": 43.0700,
+    "lon": -88.0610,
+    "type": "native"
+  },
+  {
+    "name": "Oneida Nation Reservation",
+    "address": "New York",
+    "lat": 43.1280,
+    "lon": -75.2010,
+    "type": "native"
+  },
+  {
+    "name": "Onondaga Nation Reservation",
+    "address": "New York",
+    "lat": 43.0120,
+    "lon": -76.3730,
+    "type": "native"
+  },
+  {
+    "name": "Ontonagon Reservation",
+    "address": "Michigan",
+    "lat": 46.3770,
+    "lon": -89.7960,
+    "type": "native"
+  },
+  {
+    "name": "Osage Reservation",
+    "address": "Oklahoma",
+    "lat": 36.1440,
+    "lon": -96.2790,
+    "type": "native"
+  },
+  {
+    "name": "Paiute Reservation",
+    "address": "Utah",
+    "lat": 38.5830,
+    "lon": -112.1830,
+    "type": "native"
+  },
+  {
+    "name": "Pala Reservation",
+    "address": "California",
+    "lat": 32.8360,
+    "lon": -116.8350,
+    "type": "native"
+  },
+  {
+    "name": "Pamunkey Reservation",
+    "address": "Virginia",
+    "lat": 37.4060,
+    "lon": -76.8370,
+    "type": "native"
+  },
+  {
+    "name": "Pascua Pueblo Yaqui Reservation",
+    "address": "Arizona",
+    "lat": 31.3330,
+    "lon": -110.3500,
+    "type": "native"
+  },
+  {
+    "name": "Paskenta Rancheria",
+    "address": "California",
+    "lat": 38.5040,
+    "lon": -123.0710,
+    "type": "native"
+  },
+  {
+    "name": "Pauma and Yuima Reservation",
+    "address": "California",
+    "lat": 33.2800,
+    "lon": -116.4930,
+    "type": "native"
+  },
+  {
+    "name": "Pechanga Reservation",
+    "address": "California",
+    "lat": 33.5010,
+    "lon": -117.2430,
+    "type": "native"
+  },
+  {
+    "name": "Penobscot Reservation",
+    "address": "Maine",
+    "lat": 45.2660,
+    "lon": -68.8800,
+    "type": "native"
+  },
+  {
+    "name": "Picayune Rancheria",
+    "address": "California",
+    "lat": 38.3500,
+    "lon": -121.9790,
+    "type": "native"
+  },
+  {
+    "name": "Picuris Pueblo",
+    "address": "New Mexico",
+    "lat": 36.0200,
+    "lon": -105.4130,
+    "type": "native"
+  },
+  {
+    "name": "Pine Ridge Reservation",
+    "address": "South Dakota",
+    "lat": 43.1510,
+    "lon": -103.5830,
+    "type": "native"
+  },
+  {
+    "name": "Pinoleville Rancheria",
+    "address": "California",
+    "lat": 38.0170,
+    "lon": -122.2740,
+    "type": "native"
+  },
+  {
+    "name": "Pleasant Point Reservation",
+    "address": "Maine",
+    "lat": 43.8210,
+    "lon": -69.7780,
+    "type": "native"
+  },
+  {
+    "name": "Poarch Creek Reservation",
+    "address": "Alabama",
+    "lat": 31.2160,
+    "lon": -85.8020,
+    "type": "native"
+  },
+  {
+    "name": "Pokagon Reservation",
+    "address": "Michigan",
+    "lat": 41.9040,
+    "lon": -85.2560,
+    "type": "native"
+  },
+  {
+    "name": "Port Gamble Reservation",
+    "address": "Washington",
+    "lat": 48.0310,
+    "lon": -122.6150,
+    "type": "native"
+  },
+  {
+    "name": "Port Madison Reservation",
+    "address": "Washington",
+    "lat": 47.8130,
+    "lon": -122.5140,
+    "type": "native"
+  },
+  {
+    "name": "Prairie Band of Potawatomi Nation Reservation",
+    "address": "Kansas",
+    "lat": 38.3410,
+    "lon": -94.8060,
+    "type": "native"
+  },
+  {
+    "name": "Prairie Island Indian Community",
+    "address": "Minnesota",
+    "lat": 44.9030,
+    "lon": -93.0230,
+    "type": "native"
+  },
+  {
+    "name": "Pueblo de Cochiti",
+    "address": "New Mexico",
+    "lat": 35.1880,
+    "lon": -106.0140,
+    "type": "native"
+  },
+  {
+    "name": "Pueblo of Pojoaque",
+    "address": "New Mexico",
+    "lat": 35.7270,
+    "lon": -106.1220,
+    "type": "native"
+  },
+  {
+    "name": "Puyallup Reservation",
+    "address": "Washington",
+    "lat": 47.2110,
+    "lon": -122.2620,
+    "type": "native"
+  },
+  {
+    "name": "Pyramid Lake Paiute Reservation",
+    "address": "Nevada",
+    "lat": 40.7920,
+    "lon": -119.5800,
+    "type": "native"
+  },
+  {
+    "name": "Qualla Boundary",
+    "address": "North Carolina",
+    "lat": 35.4100,
+    "lon": -83.5070,
+    "type": "native"
+  },
+  {
+    "name": "Quartz Valley Reservation",
+    "address": "California",
+    "lat": 40.5560,
+    "lon": -124.0250,
+    "type": "native"
+  },
+  {
+    "name": "Quileute Reservation",
+    "address": "Washington",
+    "lat": 46.9430,
+    "lon": -124.0920,
+    "type": "native"
+  },
+  {
+    "name": "Quinault Reservation",
+    "address": "Washington",
+    "lat": 46.9410,
+    "lon": -124.1660,
+    "type": "native"
+  },
+  {
+    "name": "Ramona Village",
+    "address": "California",
+    "lat": 33.0320,
+    "lon": -116.9640,
+    "type": "native"
+  },
+  {
+    "name": "Red Cliff Reservation",
+    "address": "Wisconsin",
+    "lat": 45.5520,
+    "lon": -91.8360,
+    "type": "native"
+  },
+  {
+    "name": "Red Lake Reservation",
+    "address": "Minnesota",
+    "lat": 47.7200,
+    "lon": -95.1300,
+    "type": "native"
+  },
+  {
+    "name": "Redding Rancheria",
+    "address": "California",
+    "lat": 40.5800,
+    "lon": -122.3920,
+    "type": "native"
+  },
+  {
+    "name": "Redwood Valley Rancheria",
+    "address": "California",
+    "lat": 39.5110,
+    "lon": -123.1310,
+    "type": "native"
+  },
+  {
+    "name": "Reno-Sparks Indian Colony",
+    "address": "Nevada",
+    "lat": 39.5290,
+    "lon": -119.8130,
+    "type": "native"
+  },
+  {
+    "name": "Resighini Rancheria",
+    "address": "California",
+    "lat": 38.4660,
+    "lon": -122.3490,
+    "type": "native"
+  },
+  {
+    "name": "Rincon Reservation",
+    "address": "California",
+    "lat": 34.0730,
+    "lon": -118.2710,
+    "type": "native"
+  },
+  {
+    "name": "Roaring Creek Rancheria",
+    "address": "California",
+    "lat": 40.6120,
+    "lon": -123.1490,
+    "type": "native"
+  },
+  {
+    "name": "Robinson Rancheria",
+    "address": "California",
+    "lat": 38.5000,
+    "lon": -121.8500,
+    "type": "native"
+  },
+  {
+    "name": "Rocky Boy's Reservation",
+    "address": "Montana",
+    "lat": 48.3410,
+    "lon": -112.3200,
+    "type": "native"
+  },
+  {
+    "name": "Rohnerville Rancheria",
+    "address": "California",
+    "lat": 40.8030,
+    "lon": -124.1420,
+    "type": "native"
+  },
+  {
+    "name": "Rosebud Indian Reservation",
+    "address": "South Dakota",
+    "lat": 43.3240,
+    "lon": -101.0480,
+    "type": "native"
+  },
+  {
+    "name": "Round Valley Reservation",
+    "address": "California",
+    "lat": 38.2780,
+    "lon": -123.0160,
+    "type": "native"
+  },
+  {
+    "name": "Rumsey Indian Rancheria",
+    "address": "California",
+    "lat": 38.3500,
+    "lon": -122.4850,
+    "type": "native"
+  },
+  {
+    "name": "Sac and Fox Nation Reservation",
+    "address": "Kansas, Nebraska",
+    "lat": 39.1200,
+    "lon": -96.5650,
+    "type": "native"
+  },
+  {
+    "name": "Sac and Fox/Meskwaki Settlement",
+    "address": "Iowa",
+    "lat": 42.0700,
+    "lon": -91.5040,
+    "type": "native"
+  },
+  {
+    "name": "Salt River Reservation",
+    "address": "Arizona",
+    "lat": 33.2700,
+    "lon": -111.7400,
+    "type": "native"
+  },
+  {
+    "name": "San Carlos Reservation",
+    "address": "Arizona",
+    "lat": 32.9190,
+    "lon": -111.9550,
+    "type": "native"
+  },
+  {
+    "name": "San Felipe Pueblo",
+    "address": "New Mexico",
+    "lat": 35.4970,
+    "lon": -106.5220,
+    "type": "native"
+  },
+  {
+    "name": "San Felipe Pueblo/Santa Ana Pueblo joint-use area",
+    "address": "New Mexico",
+    "lat": 35.5070,
+    "lon": -106.5350,
+    "type": "native"
+  },
+  {
+    "name": "San Felipe Pueblo/Santo Domingo Pueblo joint-use area",
+    "address": "New Mexico",
+    "lat": 35.5080,
+    "lon": -106.5390,
+    "type": "native"
+  },
+  {
+    "name": "San Ildefonso Pueblo",
+    "address": "New Mexico",
+    "lat": 35.6720,
+    "lon": -106.4210,
+    "type": "native"
+  },
+  {
+    "name": "San Manuel Reservation",
+    "address": "California",
+    "lat": 33.1810,
+    "lon": -116.5630,
+    "type": "native"
+  },
+  {
+    "name": "San Pasqual Reservation",
+    "address": "California",
+    "lat": 33.1000,
+    "lon": -117.0990,
+    "type": "native"
+  },
+  {
+    "name": "Sandia Pueblo",
+    "address": "New Mexico",
+    "lat": 35.3770,
+    "lon": -106.2460,
+    "type": "native"
+  },
+  {
+    "name": "Santa Ana Pueblo",
+    "address": "New Mexico",
+    "lat": 35.1910,
+    "lon": -106.2590,
+    "type": "native"
+  },
+  {
+    "name": "Santa Clara Pueblo",
+    "address": "New Mexico",
+    "lat": 35.0900,
+    "lon": -106.1200,
+    "type": "native"
+  },
+  {
+    "name": "Santa Rosa Rancheria",
+    "address": "California",
+    "lat": 38.4400,
+    "lon": -121.7300,
+    "type": "native"
+  },
+  {
+    "name": "Santa Rosa Reservation",
+    "address": "California",
+    "lat": 38.4400,
+    "lon": -121.7300,
+    "type": "native"
+  },
+  {
+    "name": "Santa Ynez Reservation",
+    "address": "California",
+    "lat": 34.5720,
+    "lon": -120.4440,
+    "type": "native"
+  },
+  {
+    "name": "Santa Ysabel Reservation",
+    "address": "California",
+    "lat": 33.0830,
+    "lon": -116.8750,
+    "type": "native"
+  },
+  {
+    "name": "Santee Reservation",
+    "address": "Nebraska",
+    "lat": 40.4250,
+    "lon": -96.7100,
+    "type": "native"
+  },
+  {
+    "name": "Santo Domingo Pueblo",
+    "address": "New Mexico",
+    "lat": 35.1790,
+    "lon": -106.4210,
+    "type": "native"
+  },
+  {
+    "name": "Sauk-Suiattle Reservation",
+    "address": "Washington",
+    "lat": 48.3040,
+    "lon": -121.5540,
+    "type": "native"
+  },
+  {
+    "name": "Sault Ste. Marie Reservation",
+    "address": "Michigan",
+    "lat": 46.4870,
+    "lon": -84.4210,
+    "type": "native"
+  },
+  {
+    "name": "Shakopee Mdewakanton Sioux Community",
+    "address": "Minnesota",
+    "lat": 44.9110,
+    "lon": -93.4220,
+    "type": "native"
+  },
+  {
+    "name": "Sherwood Valley Rancheria",
+    "address": "California",
+    "lat": 38.4980,
+    "lon": -122.4760,
+    "type": "native"
+  },
+  {
+    "name": "Shingle Springs Rancheria",
+    "address": "California",
+    "lat": 38.6350,
+    "lon": -120.9860,
+    "type": "native"
+  },
+  {
+    "name": "Shinnecock Reservation",
+    "address": "New York",
+    "lat": 40.8860,
+    "lon": -72.7500,
+    "type": "native"
+  },
+  {
+    "name": "Shoalwater Bay Indian Reservation",
+    "address": "Washington",
+    "lat": 47.4280,
+    "lon": -124.1840,
+    "type": "native"
+  },
+  {
+    "name": "Siletz Reservation",
+    "address": "Oregon",
+    "lat": 44.3600,
+    "lon": -124.0000,
+    "type": "native"
+  },
+  {
+    "name": "Skokomish Reservation",
+    "address": "Washington",
+    "lat": 47.5490,
+    "lon": -123.6870,
+    "type": "native"
+  },
+  {
+    "name": "Skull Valley Reservation",
+    "address": "Utah",
+    "lat": 40.2520,
+    "lon": -112.0900,
+    "type": "native"
+  },
+  {
+    "name": "Smith River Rancheria",
+    "address": "California",
+    "lat": 41.1950,
+    "lon": -124.0430,
+    "type": "native"
+  },
+  {
+    "name": "Snoqualmie Reservation",
+    "address": "Washington",
+    "lat": 47.5320,
+    "lon": -121.8500,
+    "type": "native"
+  },
+  {
+    "name": "Soboba Reservation",
+    "address": "California",
+    "lat": 33.5600,
+    "lon": -117.1400,
+    "type": "native"
+  },
+  {
+    "name": "Sokaogon Chippewa Community",
+    "address": "Wisconsin",
+    "lat": 45.2240,
+    "lon": -91.8720,
+    "type": "native"
+  },
+  {
+    "name": "South Fork Reservation",
+    "address": "Nevada",
+    "lat": 38.8500,
+    "lon": -119.2500,
+    "type": "native"
+  },
+  {
+    "name": "Southern Ute Reservation",
+    "address": "Colorado",
+    "lat": 37.4020,
+    "lon": -108.5080,
+    "type": "native"
+  },
+  {
+    "name": "Spirit Lake Reservation",
+    "address": "North Dakota",
+    "lat": 48.0170,
+    "lon": -99.3300,
+    "type": "native"
+  },
+  {
+    "name": "Spokane Reservation",
+    "address": "Washington",
+    "lat": 47.6640,
+    "lon": -117.4280,
+    "type": "native"
+  },
+  {
+    "name": "Squaxin Island Reservation",
+    "address": "Washington",
+    "lat": 46.7600,
+    "lon": -124.0040,
+    "type": "native"
+  },
+  {
+    "name": "St. Croix Reservation",
+    "address": "Wisconsin",
+    "lat": 45.0490,
+    "lon": -92.0480,
+    "type": "native"
+  },
+  {
+    "name": "St. Regis Mohawk Reservation",
+    "address": "New York",
+    "lat": 44.6850,
+    "lon": -74.7440,
+    "type": "native"
+  },
+  {
+    "name": "Standing Rock Reservation",
+    "address": "North Dakota",
+    "lat": 46.7310,
+    "lon": -102.2370,
+    "type": "native"
+  },
+  {
+    "name": "Stewart Community",
+    "address": "Nevada",
+    "lat": 40.6420,
+    "lon": -117.1660,
+    "type": "native"
+  },
+  {
+    "name": "Stewarts Point Rancheria",
+    "address": "California",
+    "lat": 38.8560,
+    "lon": -123.1480,
+    "type": "native"
+  },
+  {
+    "name": "Stillaguamish Reservation",
+    "address": "Washington",
+    "lat": 47.9000,
+    "lon": -122.2600,
+    "type": "native"
+  },
+  {
+    "name": "Stockbridge Munsee Community",
+    "address": "Wisconsin",
+    "lat": 43.0730,
+    "lon": -89.3990,
+    "type": "native"
+  },
+  {
+    "name": "Sulphur Bank Rancheria",
+    "address": "California",
+    "lat": 38.5850,
+    "lon": -122.1600,
+    "type": "native"
+  },
+  {
+    "name": "Summit Lake Reservation",
+    "address": "Nevada",
+    "lat": 39.4680,
+    "lon": -120.7100,
+    "type": "native"
+  },
+  {
+    "name": "Susanville Indian Rancheria",
+    "address": "California",
+    "lat": 40.5020,
+    "lon": -120.7280,
+    "type": "native"
+  },
+  {
+    "name": "Swinomish Reservation",
+    "address": "Washington",
+    "lat": 48.4140,
+    "lon": -122.6160,
+    "type": "native"
+  },
+  {
+    "name": "Sycuan Reservation",
+    "address": "California",
+    "lat": 32.8120,
+    "lon": -116.9230,
+    "type": "native"
+  },
+  {
+    "name": "Table Bluff Reservation",
+    "address": "California",
+    "lat": 39.3180,
+    "lon": -123.1880,
+    "type": "native"
+  },
+  {
+    "name": "Table Mountain Rancheria",
+    "address": "California",
+    "lat": 38.8430,
+    "lon": -123.0710,
+    "type": "native"
+  },
+  {
+    "name": "Tampa Reservation",
+    "address": "Florida",
+    "lat": 27.9500,
+    "lon": -82.4570,
+    "type": "native"
+  },
+  {
+    "name": "Taos Pueblo",
+    "address": "New Mexico",
+    "lat": 36.4070,
+    "lon": -105.5730,
+    "type": "native"
+  },
+  {
+    "name": "Tesuque Pueblo",
+    "address": "New Mexico",
+    "lat": 35.7680,
+    "lon": -105.9450,
+    "type": "native"
+  },
+  {
+    "name": "Timbi-Sha Shoshone Reservation",
+    "address": "California",
+    "lat": 39.3290,
+    "lon": -117.5810,
+    "type": "native"
+  },
+  {
+    "name": "Tohono Oʼodham Indian Reservation",
+    "address": "Arizona",
+    "lat": 32.2390,
+    "lon": -112.9900,
+    "type": "native"
+  },
+  {
+    "name": "Tonawanda Reservation",
+    "address": "New York",
+    "lat": 43.0530,
+    "lon": -78.9820,
+    "type": "native"
+  },
+  {
+    "name": "Tonto Apache Reservation",
+    "address": "Arizona",
+    "lat": 34.1610,
+    "lon": -111.2970,
+    "type": "native"
+  },
+  {
+    "name": "Torres-Martinez Reservation",
+    "address": "California",
+    "lat": 38.5100,
+    "lon": -122.2460,
+    "type": "native"
+  },
+  {
+    "name": "Trinidad Rancheria",
+    "address": "California",
+    "lat": 40.8960,
+    "lon": -124.0820,
+    "type": "native"
+  },
+  {
+    "name": "Tulalip Reservation",
+    "address": "Washington",
+    "lat": 48.2030,
+    "lon": -122.4000,
+    "type": "native"
+  },
+  {
+    "name": "Tule River Reservation",
+    "address": "California",
+    "lat": 36.0080,
+    "lon": -120.4580,
+    "type": "native"
+  },
+  {
+    "name": "Tunica-Biloxi Reservation",
+    "address": "Louisiana",
+    "lat": 32.8080,
+    "lon": -93.6040,
+    "type": "native"
+  },
+  {
+    "name": "Tuolumne Rancheria",
+    "address": "California",
+    "lat": 37.9120,
+    "lon": -120.1570,
+    "type": "native"
+  },
+  {
+    "name": "Turtle Mountain Reservation",
+    "address": "Montana, North Dakota, South Dakota",
+    "lat": 48.0810,
+    "lon": -101.4500,
+    "type": "native"
+  },
+  {
+    "name": "Tuscarora Nation Reservation",
+    "address": "New York",
+    "lat": 43.0580,
+    "lon": -76.2210,
+    "type": "native"
+  },
+  {
+    "name": "Twenty-Nine Palms Reservation",
+    "address": "California",
+    "lat": 34.1970,
+    "lon": -116.0990,
+    "type": "native"
+  },
+  {
+    "name": "Uintah and Ouray Reservation",
+    "address": "Utah",
+    "lat": 40.4490,
+    "lon": -109.5030,
+    "type": "native"
+  },
+  {
+    "name": "Umatilla Reservation",
+    "address": "Oregon",
+    "lat": 45.6670,
+    "lon": -119.1910,
+    "type": "native"
+  },
+  {
+    "name": "Upper Lake Rancheria",
+    "address": "California",
+    "lat": 39.2430,
+    "lon": -123.0700,
+    "type": "native"
+  },
+  {
+    "name": "Upper Sioux Community",
+    "address": "Minnesota",
+    "lat": 44.7500,
+    "lon": -96.4500,
+    "type": "native"
+  },
+  {
+    "name": "Upper Skagit Reservation",
+    "address": "Washington",
+    "lat": 48.3330,
+    "lon": -122.2000,
+    "type": "native"
+  },
+  {
+    "name": "Ute Mountain Reservation",
+    "address": "Colorado",
+    "lat": 37.2440,
+    "lon": -109.0560,
+    "type": "native"
+  },
+  {
+    "name": "Viejas Reservation",
+    "address": "California",
+    "lat": 33.2360,
+    "lon": -116.6090,
+    "type": "native"
+  },
+  {
+    "name": "Walker River Reservation",
+    "address": "Nevada",
+    "lat": 39.3070,
+    "lon": -118.2010,
+    "type": "native"
+  },
+  {
+    "name": "Warm Springs Reservation",
+    "address": "Oregon",
+    "lat": 44.4530,
+    "lon": -120.5250,
+    "type": "native"
+  },
+  {
+    "name": "Wells Colony",
+    "address": "Nevada",
+    "lat": 39.5510,
+    "lon": -117.1420,
+    "type": "native"
+  },
+  {
+    "name": "White Earth Reservation",
+    "address": "Minnesota",
+    "lat": 46.6890,
+    "lon": -94.3240,
+    "type": "native"
+  },
+  {
+    "name": "Wind River Reservation",
+    "address": "Wyoming",
+    "lat": 43.0000,
+    "lon": -108.5000,
+    "type": "native"
+  },
+  {
+    "name": "Winnebago Reservation",
+    "address": "Iowa, Nebraska",
+    "lat": 41.2990,
+    "lon": -95.8600,
+    "type": "native"
+  },
+  {
+    "name": "Winnemucca Indian Colony",
+    "address": "Nevada",
+    "lat": 40.5620,
+    "lon": -117.7670,
+    "type": "native"
+  },
+  {
+    "name": "Woodfords Community",
+    "address": "California",
+    "lat": 38.5550,
+    "lon": -121.4550,
+    "type": "native"
+  },
+  {
+    "name": "XL Ranch Rancheria",
+    "address": "California",
+    "lat": 38.2500,
+    "lon": -122.1500,
+    "type": "native"
+  },
+  {
+    "name": "Yakama Nation Reservation",
+    "address": "Washington",
+    "lat": 46.5870,
+    "lon": -120.5050,
+    "type": "native"
+  },
+  {
+    "name": "Yankton Reservation",
+    "address": "South Dakota",
+    "lat": 42.8780,
+    "lon": -97.3970,
+    "type": "native"
+  },
+  {
+    "name": "Yavapai-Apache Nation Reservation",
+    "address": "Arizona",
+    "lat": 34.5110,
+    "lon": -112.1970,
+    "type": "native"
+  },
+  {
+    "name": "Yavapai-Prescott Reservation",
+    "address": "Arizona",
+    "lat": 34.5510,
+    "lon": -112.4670,
+    "type": "native"
+  },
+  {
+    "name": "Yerington Colony",
+    "address": "Nevada",
+    "lat": 38.8830,
+    "lon": -119.2800,
+    "type": "native"
+  },
+  {
+    "name": "Yomba Reservation",
+    "address": "Nevada",
+    "lat": 38.8000,
+    "lon": -117.1160,
+    "type": "native"
+  },
+  {
+    "name": "Ysleta del Sur Pueblo",
+    "address": "Texas",
+    "lat": 29.5230,
+    "lon": -98.1750,
+    "type": "native"
+  },
+  {
+    "name": "Yurok Reservation",
+    "address": "California",
+    "lat": 41.7390,
+    "lon": -124.0170,
+    "type": "native"
+  },
+  {
+    "name": "Zia Pueblo",
+    "address": "New Mexico",
+    "lat": 35.1400,
+    "lon": -106.3060,
+    "type": "native"
+  },
+  {
+    "name": "Zuni Reservation",
+    "address": "Arizona, New Mexico",
+    "lat": 35.2300,
+    "lon": -108.57,
+    "type": "native"
+  }
+]
