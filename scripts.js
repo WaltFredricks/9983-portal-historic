@@ -27,7 +27,7 @@ function initializeMap() {
 
 async function fetchCrimeData(map) {
     try {
-        const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json'); // Replace with actual URL
+        const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
         const crimeData = await response.json();
