@@ -278,8 +278,6 @@ function handleLogin() {
         revealMainUI();
     } else {
         alert("Invalid credentials");
-        hideLoginScreen();
-        revealMainUI();
     }
 }
 
