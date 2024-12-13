@@ -290,8 +290,8 @@
   {
     "name": "Alabama-Birmingham Police Department Central Headquarters",
     "address": "1710 1st Avenue North, Birmingham, AL 35203",
-    "latitude": 33.5147,
-    "longitude": -86.8086,
+    "lat": 33.5147,
+    "lon": -86.8086,
     "type": "police"
   },
   {
