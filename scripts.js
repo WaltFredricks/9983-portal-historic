@@ -285,5 +285,7 @@ document.getElementById("decrypt-button").addEventListener("click", () => {
         };
     };
     reader.readAsDataURL(fileInput.files[0]);
+
+
 });
 
