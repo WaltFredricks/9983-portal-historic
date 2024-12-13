@@ -27,13 +27,16 @@ function initializeMap() {
 
 async function fetchCrimeData(map) {
     try {
-        const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json'); // Replace with actual file URL or path
+        const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json'); // Replace with actual URL
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
         const crimeData = await response.json();
+        console.log('Crime data fetched:', crimeData); // Log fetched data
+
         crimeData.forEach(crime => {
-            const lat = parseFloat(crime.Latitude); // Use correct key names
-            const lon = parseFloat(crime.Longitude); // Use correct key names
+            console.log('Processing crime entry:', crime); // Log each entry
+            const lat = parseFloat(crime.Latitude);
+            const lon = parseFloat(crime.Longitude);
 
             if (!isNaN(lat) && !isNaN(lon)) {
                 L.circleMarker([lat, lon], {
@@ -47,6 +50,8 @@ async function fetchCrimeData(map) {
                         <strong>State:</strong> ${crime.State || 'N/A'}
                     </div>
                 `);
+            } else {
+                console.warn('Invalid coordinates:', crime); // Log invalid entries
             }
         });
     } catch (error) {
@@ -54,6 +59,7 @@ async function fetchCrimeData(map) {
         alert('Failed to load crime data. Please try again later.');
     }
 }
+
 
 // Call the functions to fetch both locations and crime data
 async function fetchLocations(map) {
