@@ -119,6 +119,7 @@ function setupUIEvents() {
     document.getElementById('chat-button').addEventListener('click', () => toggleModal('chat-modal'));
     document.getElementById('ai-report-button').addEventListener('click', () => toggleModal('ai-report-modal'));
     document.getElementById('cad-button').addEventListener('click', () => toggleModal('cad-modal'));
+    document.getElementById('sdr-button').addEventListener('click', () => toggleModal('modal', './sdr.png'));
 
     // Close modals on close button
     document.querySelectorAll('.modal-close').forEach(button => {
@@ -344,5 +345,9 @@ function decryptMessage() {
             }
         };
     };
+
+
+
+
     reader.readAsDataURL(fileInput.files[0]);
 }
