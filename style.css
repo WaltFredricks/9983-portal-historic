@@ -156,11 +156,11 @@ html, body {
         background: #0056b3;
     }
 
-/* Deploy Button */
+/* Deploy Button Position on Desktop */
 #deploy-button {
     position: fixed;
     bottom: 30px;
-    left: 30px;
+    right: 30px; /* Move to the right */
     background-color: #e53935;
     color: #fff;
     font-size: 1.5rem;
@@ -170,7 +170,7 @@ html, body {
     border: none;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
     cursor: pointer;
-    z-index: 1500;
+    z-index: 100; /* Set z-index lower than modals */
     transition: all 0.3s ease;
 }
 
@@ -179,6 +179,16 @@ html, body {
         transform: scale(1.05);
         box-shadow: 0px 15px 45px rgba(0,0,0,0.6);
     }
+
+/* Adjustments for Desktop Modals */
+.modal {
+    z-index: 1100; /* Ensure modals have higher z-index than deploy button */
+}
+
+.modal-content {
+    z-index: 1110; /* Content inside modals also stays above */
+}
+
 
 /* Modal (Sliding Panel from the Right) */
 .modal {
@@ -439,16 +449,15 @@ html, body {
 /* REMOVED the .menu-button code and #menu-drawer references */
 
 /* Mobile View Adjustments (Reimagined) */
-/* Mobile View Adjustments (Reimagined) */
 @media (max-width: 768px) {
     /* Hide the status window on mobile */
     #status-window {
         display: none;
     }
 
-    /* Make the map shorter so other elements fit comfortably */
+    /* Make the map take up more space since status is hidden */
     #map {
-        height: 60vh; /* Adjusted to take more space since status window is hidden */
+        height: 60vh;
     }
 
     /* Stack the problem details at the top in mobile */
@@ -466,26 +475,39 @@ html, body {
         display: block;
     }
 
-    /* Bottom controls remain at bottom, but wrap if needed */
-    .bottom-controls {
-        position: static;
-        margin-bottom: 10px;
-        flex-wrap: wrap;
-    }
-
-    .floating-button {
+    /* Floating button to open modal menus */
+    #menu-floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
         width: 60px;
         height: 60px;
-        margin: 5px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+        z-index: 2000;
+        transition: background 0.3s ease, transform 0.3s ease;
     }
 
-    /* Modals become bottom-drawer style on mobile for better usage */
+        #menu-floating-button:hover {
+            background: #0056b3;
+            transform: scale(1.1);
+        }
+
+    /* Modals take full screen on mobile */
     .modal {
         width: 100%;
-        height: 70%;
-        right: 0;
-        top: auto;
+        height: 100%;
+        top: 0;
         bottom: 0;
+        right: 0;
+        left: 0;
         transform: translateY(100%);
         transition: transform 0.3s ease-in-out;
     }
@@ -497,9 +519,10 @@ html, body {
     .modal-content {
         width: 100%;
         height: 100%;
-        border-radius: 8px 8px 0 0;
+        border-radius: 0; /* Full screen modals don't need rounded corners */
         padding: 20px;
         box-sizing: border-box;
     }
 }
+
 

@@ -489,5 +489,8 @@ function decryptMessage() {
     window.addEventListener('resize', updateResponsiveUI);
     updateResponsiveUI();
 
+    document.getElementById('menu-floating-button').addEventListener('click', () => {
+        toggleModal('menu-drawer');
+    });
 
 }
