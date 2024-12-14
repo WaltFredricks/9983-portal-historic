@@ -448,9 +448,46 @@ function decryptMessage() {
                 modal.classList.remove('drawer-mode');
             }
         });
+
+        if (isMobile) {
+            const deployButton = document.getElementById('deploy-button');
+            const statusWindow = document.getElementById('status-window');
+            const menuButton = document.getElementById('menu-button');
+
+            deployButton.style.position = 'fixed';
+            deployButton.style.bottom = '120px';
+            deployButton.style.left = '50%';
+            deployButton.style.transform = 'translateX(-50%)';
+
+            statusWindow.style.position = 'fixed';
+            statusWindow.style.bottom = '200px';
+            statusWindow.style.left = '5%';
+            statusWindow.style.width = '90%';
+            statusWindow.style.height = '150px';
+
+            menuButton.style.position = 'fixed';
+            menuButton.style.bottom = '30px';
+            menuButton.style.left = '50%';
+            menuButton.style.transform = 'translateX(-50%)';
+        }
     }
+
+    function toggleModal(modalId, imageUrl = null) {
+        const modal = document.getElementById(modalId);
+        if (modal.classList.contains('show')) {
+            modal.classList.remove('show');
+        } else {
+            if (imageUrl) document.getElementById('modal-image').src = imageUrl;
+            modal.classList.add('show');
+        }
+    }
+
+    document.getElementById('menu-button').addEventListener('click', () => {
+        toggleModal('menu-drawer');
+    });
 
     window.addEventListener('resize', updateResponsiveUI);
     updateResponsiveUI();
+
 
 }
