@@ -432,4 +432,25 @@ function decryptMessage() {
         };
     };
     reader.readAsDataURL(fileInput.files[0]);
+
+    function updateResponsiveUI() {
+        const isMobile = window.innerWidth <= 768;
+        const isPortrait = window.innerHeight > window.innerWidth;
+
+        document.body.classList.toggle('mobile-view', isMobile);
+        document.body.classList.toggle('portrait-mode', isPortrait);
+
+        const modals = document.querySelectorAll('.modal');
+        modals.forEach(modal => {
+            if (isMobile) {
+                modal.classList.add('drawer-mode');
+            } else {
+                modal.classList.remove('drawer-mode');
+            }
+        });
+    }
+
+    window.addEventListener('resize', updateResponsiveUI);
+    updateResponsiveUI();
+
 }
