@@ -72,15 +72,33 @@
         <button id="submit-problem" aria-label="Submit Problem Details">Submit</button>
     </div>
 
-    <!-- REMOVED the old menu-button and #menu-drawer markup -->
     <!-- Map Container -->
     <div id="map" role="application" aria-label="Map Interface"></div>
 
     <!-- Existing Modals -->
-    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Information Modal">
+    <div class="modal" id="info-modal" role="dialog" aria-modal="true" aria-label="Information Modal">
         <div class="modal-content">
             <button class="modal-close" role="button" aria-label="Close Modal">&times;</button>
             <img id="modal-image" src="" alt="Organizational Flowchart or Backstory">
+        </div>
+    </div>
+
+    <div class="modal" id="tak-modal" role="dialog" aria-modal="true" aria-label="Configure TAK Server">
+        <div class="modal-content">
+            <button class="modal-close" role="button" aria-label="Close Modal">&times;</button>
+            <h4>Configure TAK Server</h4>
+            <form id="tak-config-form" aria-label="TAK Server Configuration">
+                <label for="tak-server-name">Server Name:</label>
+                <input type="text" id="tak-server-name" placeholder="Enter server name" required aria-label="Server Name">
+
+                <label for="tak-server-ip">Server IP:</label>
+                <input type="text" id="tak-server-ip" placeholder="Enter server IP" required aria-label="Server IP">
+
+                <label for="tak-server-port">Server Port:</label>
+                <input type="number" id="tak-server-port" placeholder="Enter server port" required aria-label="Server Port">
+
+                <button type="submit" id="tak-config-submit" aria-label="Save Configuration">Save</button>
+            </form>
         </div>
     </div>
 
@@ -187,7 +205,7 @@
         <button class="floating-button" id="chat-button" aria-label="Open Chat Interface">Chat</button>
         <button class="floating-button stego-button" id="stego-button" aria-label="Open Image Steganography">Stego</button>
         <button class="floating-button" id="flowchart-button" aria-label="View Organizational Flowchart">Flow</button>
-        <button class="floating-button backstory-button" id="backstory-button" aria-label="View Operational Backstory">Back</button>
+        <button class="floating-button backstory-button" id="backstory-button" aria-label="Configure TAK Server">TAK</button>
         <button class="floating-button" id="post-button" aria-label="Open Harvest Tool">POST</button>
     </div>
 
@@ -197,8 +215,6 @@
             <iframe id="post-iframe" src="harvest.html" style="width:100%; height:80vh; border:none;"></iframe>
         </div>
     </div>
-
-    <button id="menu-floating-button" aria-label="Open Menu">+</button>
 
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js" defer></script>
     <script src="./scripts.js" defer></script>

@@ -150,13 +150,13 @@ function setupUIEvents() {
         alert("Microsoft Auth integration is not implemented yet!");
     });
 
-    document.getElementById('flowchart-button').addEventListener('click', () => toggleModal('modal', './org.png'));
-    document.getElementById('backstory-button').addEventListener('click', () => toggleModal('modal', './backstory.png'));
+    document.getElementById('flowchart-button').addEventListener('click', () => toggleModal('info-modal', './org.png'));
+    document.getElementById('backstory-button').addEventListener('click', () => toggleModal('tak-modal'));
     document.getElementById('stego-button').addEventListener('click', () => toggleModal('stego-modal'));
     document.getElementById('chat-button').addEventListener('click', () => toggleModal('chat-modal'));
     document.getElementById('ai-report-button').addEventListener('click', () => toggleModal('ai-report-modal'));
     document.getElementById('cad-button').addEventListener('click', () => toggleModal('cad-modal'));
-    document.getElementById('sdr-button').addEventListener('click', () => toggleModal('modal', './sdr.png'));
+    document.getElementById('sdr-button').addEventListener('click', () => toggleModal('info-modal', './sdr.png'));
     document.getElementById('post-button').addEventListener('click', () => toggleModal('post-modal'));
 
     document.querySelectorAll('.modal-close').forEach(button => {
