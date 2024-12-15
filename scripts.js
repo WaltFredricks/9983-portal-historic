@@ -1,8 +1,14 @@
-// Since we are using 'defer', the DOM is guaranteed to be parsed before this executes.
-// We can safely call our setup functions immediately.
-
 // Global authorized user data
 let authorizedUsers = [];
+
+// Store TAK Server Config in a global object (demo purposes)
+let takServerConfig = {
+    serverName: "FTS Demo",
+    serverIP: "204.48.30.216",
+    serverPort: 8087,
+    protocol: "TCP",
+    description: "FreeTAKServer (FTS) Demonstration Server by @corvo"
+};
 
 initializeMap();
 setupUIEvents();
@@ -20,7 +26,7 @@ function initializeMap() {
     });
 
     fetchLocations(map);
-    fetchCrimeData(map);
+    // Crime data fetch is also called within fetchLocations -> await fetchCrimeData(map)
 }
 
 async function fetchCrimeData(map) {
@@ -114,7 +120,10 @@ function toggleModal(modalId, imageUrl = null) {
     if (modal.classList.contains('show')) {
         modal.classList.remove('show');
     } else {
-        if (imageUrl) document.getElementById('modal-image').src = imageUrl;
+        if (imageUrl) {
+            const modalImg = document.getElementById('modal-image');
+            if (modalImg) modalImg.src = imageUrl;
+        }
         modal.classList.add('show');
     }
 }
@@ -151,7 +160,11 @@ function setupUIEvents() {
     });
 
     document.getElementById('flowchart-button').addEventListener('click', () => toggleModal('info-modal', './org.png'));
-    document.getElementById('backstory-button').addEventListener('click', () => toggleModal('tak-modal'));
+    document.getElementById('backstory-button').addEventListener('click', () => {
+        // When user opens the TAK modal, let's populate the defaults first
+        loadTakDefaults();
+        toggleModal('tak-modal');
+    });
     document.getElementById('stego-button').addEventListener('click', () => toggleModal('stego-modal'));
     document.getElementById('chat-button').addEventListener('click', () => toggleModal('chat-modal'));
     document.getElementById('ai-report-button').addEventListener('click', () => toggleModal('ai-report-modal'));
@@ -220,8 +233,52 @@ function setupUIEvents() {
         }
     });
 
+    // TAK form submission
+    document.getElementById('tak-config-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        const serverNameField = document.getElementById('tak-server-name');
+        const serverIPField = document.getElementById('tak-server-ip');
+        const serverPortField = document.getElementById('tak-server-port');
+        const protocolField = document.getElementById('tak-server-protocol');
+        const descField = document.getElementById('tak-server-description');
+
+        takServerConfig.serverName = serverNameField.value;
+        takServerConfig.serverIP = serverIPField.value;
+        takServerConfig.serverPort = parseInt(serverPortField.value, 10);
+        takServerConfig.protocol = protocolField.value;
+        takServerConfig.description = descField.value;
+
+        alert(`TAK server config saved:
+Name: ${takServerConfig.serverName}
+IP: ${takServerConfig.serverIP}
+Port: ${takServerConfig.serverPort}
+Protocol: ${takServerConfig.protocol}
+Description: ${takServerConfig.description}`);
+
+        document.getElementById('tak-modal').classList.remove('show');
+    });
+
     // Fetch authorized users from JSON
     fetchAuthorizedUsers();
+
+    // Responsive UI event
+    window.addEventListener('resize', updateResponsiveUI);
+    updateResponsiveUI();
+
+    // If you have menu buttons in your HTML, attach events here
+    const menuButton = document.getElementById('menu-button');
+    if (menuButton) {
+        menuButton.addEventListener('click', () => {
+            toggleModal('menu-drawer');
+        });
+    }
+
+    const menuFloatingButton = document.getElementById('menu-floating-button');
+    if (menuFloatingButton) {
+        menuFloatingButton.addEventListener('click', () => {
+            toggleModal('menu-drawer');
+        });
+    }
 }
 
 function showLoginScreen() {
@@ -233,12 +290,16 @@ function hideLoginScreen() {
 }
 
 function revealMainUI() {
-    /*document.getElementById('deploy-button').style.display = 'block';
-    document.getElementById('status-window').style.display = 'block';
-    document.getElementById('problem-details').style.display = 'block';
-    document.getElementById('map').style.display = 'block';
-    document.querySelector('.bottom-controls').style.display = 'block';*/
     populateStatusWindow();
+}
+
+// Load default TAK server values into form
+function loadTakDefaults() {
+    document.getElementById('tak-server-name').value = takServerConfig.serverName;
+    document.getElementById('tak-server-ip').value = takServerConfig.serverIP;
+    document.getElementById('tak-server-port').value = takServerConfig.serverPort;
+    document.getElementById('tak-server-protocol').value = takServerConfig.protocol;
+    document.getElementById('tak-server-description').value = takServerConfig.description;
 }
 
 async function fetchAuthorizedUsers() {
@@ -262,8 +323,7 @@ function handleLogin() {
 
     // Compute the MD5 hash of the password using crypto-js
     const hashedInput = CryptoJS.MD5(passInput).toString();
-
-    console.log("Hashed password:", hashedInput); // Debugging: Ensure this matches 21232f297a57a5a743894a0e4a801fc3 for 'admin'
+    console.log("Hashed password:", hashedInput); // For debugging
 
     let valid = false;
     authorizedUsers.users.forEach(u => {
@@ -280,7 +340,6 @@ function handleLogin() {
         alert("Invalid credentials");
     }
 }
-
 
 // Populate user details
 async function populateStatusWindow() {
@@ -432,65 +491,81 @@ function decryptMessage() {
         };
     };
     reader.readAsDataURL(fileInput.files[0]);
+}
 
-    function updateResponsiveUI() {
-        const isMobile = window.innerWidth <= 768;
-        const isPortrait = window.innerHeight > window.innerWidth;
+/**
+ * RESPONSIVE UI
+ * Adapts the layout for mobile and portrait modes.
+ * If your HTML does not have certain elements (e.g. #menu-button), you can remove or adapt those references.
+ */
+function updateResponsiveUI() {
+    const isMobile = window.innerWidth <= 768;
+    const isPortrait = window.innerHeight > window.innerWidth;
 
-        document.body.classList.toggle('mobile-view', isMobile);
-        document.body.classList.toggle('portrait-mode', isPortrait);
+    document.body.classList.toggle('mobile-view', isMobile);
+    document.body.classList.toggle('portrait-mode', isPortrait);
 
-        const modals = document.querySelectorAll('.modal');
-        modals.forEach(modal => {
-            if (isMobile) {
-                modal.classList.add('drawer-mode');
-            } else {
-                modal.classList.remove('drawer-mode');
-            }
-        });
-
+    const modals = document.querySelectorAll('.modal');
+    modals.forEach(modal => {
         if (isMobile) {
-            const deployButton = document.getElementById('deploy-button');
-            const statusWindow = document.getElementById('status-window');
-            const menuButton = document.getElementById('menu-button');
+            modal.classList.add('drawer-mode');
+        } else {
+            modal.classList.remove('drawer-mode');
+        }
+    });
 
+    if (isMobile) {
+        const deployButton = document.getElementById('deploy-button');
+        const statusWindow = document.getElementById('status-window');
+        const menuButton = document.getElementById('menu-button');
+
+        if (deployButton) {
             deployButton.style.position = 'fixed';
             deployButton.style.bottom = '120px';
             deployButton.style.left = '50%';
             deployButton.style.transform = 'translateX(-50%)';
+        }
 
+        if (statusWindow) {
             statusWindow.style.position = 'fixed';
             statusWindow.style.bottom = '200px';
             statusWindow.style.left = '5%';
             statusWindow.style.width = '90%';
             statusWindow.style.height = '150px';
+        }
 
+        if (menuButton) {
             menuButton.style.position = 'fixed';
             menuButton.style.bottom = '30px';
             menuButton.style.left = '50%';
             menuButton.style.transform = 'translateX(-50%)';
         }
-    }
+    } else {
+        // Restore any overridden styles if desired
+        const deployButton = document.getElementById('deploy-button');
+        const statusWindow = document.getElementById('status-window');
+        const menuButton = document.getElementById('menu-button');
 
-    function toggleModal(modalId, imageUrl = null) {
-        const modal = document.getElementById(modalId);
-        if (modal.classList.contains('show')) {
-            modal.classList.remove('show');
-        } else {
-            if (imageUrl) document.getElementById('modal-image').src = imageUrl;
-            modal.classList.add('show');
+        if (deployButton) {
+            deployButton.style.position = '';
+            deployButton.style.bottom = '';
+            deployButton.style.left = '';
+            deployButton.style.transform = '';
+        }
+
+        if (statusWindow) {
+            statusWindow.style.position = '';
+            statusWindow.style.bottom = '';
+            statusWindow.style.left = '';
+            statusWindow.style.width = '';
+            statusWindow.style.height = '';
+        }
+
+        if (menuButton) {
+            menuButton.style.position = '';
+            menuButton.style.bottom = '';
+            menuButton.style.left = '';
+            menuButton.style.transform = '';
         }
     }
-
-    document.getElementById('menu-button').addEventListener('click', () => {
-        toggleModal('menu-drawer');
-    });
-
-    window.addEventListener('resize', updateResponsiveUI);
-    updateResponsiveUI();
-
-    document.getElementById('menu-floating-button').addEventListener('click', () => {
-        toggleModal('menu-drawer');
-    });
-
 }

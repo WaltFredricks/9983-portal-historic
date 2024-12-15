@@ -83,6 +83,7 @@
         </div>
     </div>
 
+    <!-- FIXED TAK Server Modal -->
     <div class="modal" id="tak-modal" role="dialog" aria-modal="true" aria-label="Configure TAK Server">
         <div class="modal-content">
             <button class="modal-close" role="button" aria-label="Close Modal">&times;</button>
@@ -96,6 +97,13 @@
 
                 <label for="tak-server-port">Server Port:</label>
                 <input type="number" id="tak-server-port" placeholder="Enter server port" required aria-label="Server Port">
+
+                <!-- Added fields for Protocol & Description -->
+                <label for="tak-server-protocol">Streaming Protocol:</label>
+                <input type="text" id="tak-server-protocol" placeholder="Protocol (e.g., TCP)" required aria-label="Streaming Protocol">
+
+                <label for="tak-server-description">Description:</label>
+                <textarea id="tak-server-description" placeholder="Describe the server here" rows="3" required aria-label="Server Description"></textarea>
 
                 <button type="submit" id="tak-config-submit" aria-label="Save Configuration">Save</button>
             </form>
