@@ -135,4 +135,6 @@ async function populateStatusWindow() {
 }
 
 // Initialize the application once the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', main);
+document.addEventListener('DOMContentLoaded', () => {
+    main();
+});
