@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="./main.js" type="module" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 </head>
 <body>
@@ -106,6 +107,19 @@
                 <textarea id="tak-server-description" placeholder="Describe the server here" rows="3" required aria-label="Server Description"></textarea>
 
                 <button type="submit" id="tak-config-submit" aria-label="Save Configuration">Save</button>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="kraken-config-modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close Modal">&times;</button>
+            <h4>KrakenSDR Configuration</h4>
+            <form id="kraken-config-form">
+                <label for="kraken-ip">KrakenSDR IP:</label>
+                <input type="text" id="kraken-ip" placeholder="Enter IP Address" required>
+                <label for="kraken-frequency">Frequency:</label>
+                <input type="number" id="kraken-frequency" placeholder="Enter Frequency (Hz)" required>
+                <button type="submit">Save Configuration</button>
             </form>
         </div>
     </div>
@@ -209,7 +223,7 @@
     <div class="bottom-controls" style="gap: 10px; justify-content: center;">
         <button class="floating-button" id="cad-button" aria-label="Open CAD">CAD</button>
         <button class="floating-button" id="ai-report-button" aria-label="Open AI Report Builder">AI</button>
-        <button class="floating-button" id="sdr-button" aria-label="Open Redhawk SDR">SDR</button>
+        <button class="floating-button" id="kraken-config-modal" aria-label="Open Kraken SDR">SDR</button>
         <button class="floating-button" id="chat-button" aria-label="Open Chat Interface">Chat</button>
         <button class="floating-button stego-button" id="stego-button" aria-label="Open Image Steganography">Stego</button>
         <button class="floating-button" id="flowchart-button" aria-label="View Organizational Flowchart">Flow</button>
@@ -225,6 +239,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js" defer></script>
-    <script src="./scripts.js" defer></script>
+    
 </body>
 </html>

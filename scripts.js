@@ -1,4 +1,4 @@
-// Global authorized user data
+﻿// Global authorized user data
 let authorizedUsers = [];
 
 // Store TAK Server Config in a global object (demo purposes)
@@ -14,7 +14,7 @@ initializeMap();
 setupUIEvents();
 
 // Create a map and handle location markers
-function initializeMap() {
+async function initializeMap() {
     const map = L.map('map', { attributionControl: true }).setView([39.8283, -98.5795], 5);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
@@ -25,9 +25,39 @@ function initializeMap() {
         document.getElementById('longitude').value = lng.toFixed(6);
     });
 
-    fetchLocations(map);
-    // Crime data fetch is also called within fetchLocations -> await fetchCrimeData(map)
+    // Fetch and display KrakenSDR data
+    const krakenData = await fetchKrakenSDRData();
+    krakenData.forEach(signal => {
+        if (signal.latitude && signal.longitude) {
+            const marker = L.marker([signal.latitude, signal.longitude], {
+                icon: L.divIcon({ className: 'kraken-marker', html: `<div>⟶</div>` })
+            }).addTo(map);
+
+            marker.bindPopup(`
+                <div>
+                    <strong>Frequency:</strong> ${signal.frequency} Hz<br>
+                    <strong>Max DOA:</strong> ${signal.maxDOA}°<br>
+                    <strong>Confidence:</strong> ${signal.confidence}<br>
+                </div>
+            `);
+        }
+    });
 }
+
+document.getElementById('kraken-config-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const ip = document.getElementById('kraken-ip').value;
+    const frequency = document.getElementById('kraken-frequency').value;
+
+    localStorage.setItem('kraken-ip', ip);
+    localStorage.setItem('kraken-frequency', frequency);
+
+    alert(`Configuration saved. IP: ${ip}, Frequency: ${frequency}`);
+    toggleModal('kraken-config-modal');
+});
+
+
+
 
 async function fetchCrimeData(map) {
     try {
@@ -492,6 +522,37 @@ function decryptMessage() {
     };
     reader.readAsDataURL(fileInput.files[0]);
 }
+
+async function fetchKrakenSDRData() {
+    try {
+        const response = await fetch('http://<KRKN_IP>:8081/DOA_value.html'); // Replace <KRKN_IP> with the actual IP
+        if (!response.ok) throw new Error(`Failed to fetch KrakenSDR data: ${response.statusText}`);
+        const csvText = await response.text();
+
+        // Parse CSV data
+        const rows = csvText.split('\n').filter(row => row.trim().length > 0);
+        const data = rows.map(row => {
+            const fields = row.split(',');
+            return {
+                epochTime: fields[0],
+                maxDOA: parseFloat(fields[1]),
+                confidence: parseFloat(fields[2]),
+                rssi: parseFloat(fields[3]),
+                frequency: parseInt(fields[4], 10),
+                latitude: parseFloat(fields[8]),
+                longitude: parseFloat(fields[9]),
+                gpsHeading: parseFloat(fields[10]),
+                compassHeading: parseFloat(fields[11])
+            };
+        });
+
+        return data;
+    } catch (error) {
+        console.error('Error fetching KrakenSDR data:', error);
+        return [];
+    }
+}
+
 
 /**
  * RESPONSIVE UI
