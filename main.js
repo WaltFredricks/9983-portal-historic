@@ -105,7 +105,9 @@ function setupUIEvents() {
     document.getElementById('chat-button').addEventListener('click', () => toggleModal('chat-modal'));
     document.getElementById('ai-report-button').addEventListener('click', () => toggleModal('ai-report-modal'));
     document.getElementById('cad-button').addEventListener('click', () => toggleModal('cad-modal'));
-    document.getElementById('sdr-button').addEventListener('click', () => toggleModal('info-modal', './sdr.png'));
+    document.getElementById('sdr-button').addEventListener('click', () => {
+        toggleModal('kraken-config-modal');
+    });
     document.getElementById('post-button').addEventListener('click', () => toggleModal('post-modal'));
 
     document.querySelectorAll('.modal-close').forEach(button => {
