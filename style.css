@@ -1,3 +1,7 @@
+/* ================================================================= */
+/*                             BASE STYLES                           */
+/* ================================================================= */
+
 /* Base and Layout */
 html, body {
     margin: 0;
@@ -22,14 +26,45 @@ html, body {
     overflow: hidden;
 }
 
-/* Map */
+/* ================================================================= */
+/*                              Z-INDEX SCALE                        */
+/* ================================================================= */
+
+/* Base Layers */
 #map {
     width: 100%;
     height: 100vh;
     z-index: 1;
 }
 
-/* Splash Screen */
+/* UI Components */
+#status-window,
+#problem-details {
+    z-index: 1000;
+}
+
+/* Modals and Overlays */
+.modal {
+    z-index: 2000;
+}
+
+.modal-content {
+    z-index: 2100;
+}
+
+.splash-screen {
+    z-index: 3000;
+}
+
+.login-screen,
+.login-container {
+    z-index: 4000;
+}
+
+/* ================================================================= */
+/*                          SPLASH SCREEN                            */
+/* ================================================================= */
+
 .splash-screen {
     position: fixed;
     top: 0;
@@ -44,7 +79,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2000;
+    animation: fadeIn 1s ease-out forwards;
 }
 
 .splash-content {
@@ -53,6 +88,7 @@ html, body {
     border: 1px solid #333;
     border-radius: 5px;
     padding: 20px;
+    animation: slideUp 0.5s ease-out forwards;
 }
 
     .splash-content h1 {
@@ -80,7 +116,10 @@ html, body {
         background: #0056b3;
     }
 
-/* Status Window */
+/* ================================================================= */
+/*                          STATUS WINDOW                            */
+/* ================================================================= */
+
 #status-window {
     position: fixed;
     left: 30px;
@@ -91,7 +130,7 @@ html, body {
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     width: 300px;
-    z-index: 1500;
+    /* z-index: 1000; defined in Z-INDEX SCALE */
 }
 
     #status-window h3 {
@@ -100,7 +139,10 @@ html, body {
         color: #f0f0f0;
     }
 
-/* Problem Details */
+/* ================================================================= */
+/*                          PROBLEM DETAILS                          */
+/* ================================================================= */
+
 #problem-details {
     position: fixed;
     left: 30px;
@@ -111,7 +153,7 @@ html, body {
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     width: 300px;
-    z-index: 1200;
+    /* z-index: 1000; defined in Z-INDEX SCALE */
 }
 
     #problem-details h3 {
@@ -156,11 +198,15 @@ html, body {
         background: #0056b3;
     }
 
+/* ================================================================= */
+/*                          DEPLOY BUTTON                            */
+/* ================================================================= */
+
 /* Deploy Button Position on Desktop */
 #deploy-button {
     position: fixed;
     bottom: 30px;
-    right: 30px; /* Move to the right */
+    right: 30px; /* Positioned to the right */
     background-color: #e53935;
     color: #fff;
     font-size: 1.5rem;
@@ -170,7 +216,7 @@ html, body {
     border: none;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
     cursor: pointer;
-    z-index: 100; /* Set z-index lower than modals */
+    /* z-index: 100; adjusted in Z-INDEX SCALE */
     transition: all 0.3s ease;
 }
 
@@ -180,17 +226,11 @@ html, body {
         box-shadow: 0px 15px 45px rgba(0,0,0,0.6);
     }
 
-/* Adjustments for Desktop Modals */
-.modal {
-    z-index: 1100; /* Ensure modals have higher z-index than deploy button */
-}
+/* ================================================================= */
+/*                              MODALS                               */
+/* ================================================================= */
 
-.modal-content {
-    z-index: 1110; /* Content inside modals also stays above */
-}
-
-
-/* Modal (Sliding Panel from the Right) */
+/* Modal (Sliding Panel from the Right on Desktop) */
 .modal {
     position: fixed;
     top: 0;
@@ -200,17 +240,19 @@ html, body {
     background: linear-gradient(to bottom, #171717, #2c2c2c);
     box-shadow: -5px 0 15px rgba(0,0,0,0.5);
     transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding-top: 60px;
-    z-index: 1100;
+    /* z-index: 2000; defined in Z-INDEX SCALE */
+    opacity: 0;
 }
 
     .modal.show {
         transform: translateX(0);
+        opacity: 1;
     }
 
 .modal-content {
@@ -221,6 +263,7 @@ html, body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.7);
     color: #ddd;
     position: relative;
+    /* z-index: 2100; defined in Z-INDEX SCALE */
 }
 
 .modal-close {
@@ -284,6 +327,10 @@ html, body {
         background: #0056b3;
     }
 
+/* ================================================================= */
+/*                        BOTTOM CONTROLS                           */
+/* ================================================================= */
+
 /* Bottom Controls Container */
 .bottom-controls {
     position: fixed;
@@ -292,7 +339,7 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    z-index: 1200;
+    z-index: 1000;
 }
 
 /* Floating Buttons */
@@ -317,6 +364,10 @@ html, body {
         transform: scale(1.05);
     }
 
+/* ================================================================= */
+/*                           SCROLLBARS                             */
+/* ================================================================= */
+
 /* Scrollbars (Optional) */
 ::-webkit-scrollbar {
     width: 8px;
@@ -334,6 +385,10 @@ html, body {
         background: #555;
     }
 
+/* ================================================================= */
+/*                           LOGIN SCREEN                           */
+/* ================================================================= */
+
 /* Login Screen */
 .login-screen {
     position: fixed;
@@ -345,59 +400,15 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    /* z-index: 4000; defined in Z-INDEX SCALE */
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.login-content {
-    background: #111;
-    border: 1px solid #333;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    color: #ccc;
-    width: 300px;
-}
-
-    .login-content h2 {
-        margin-bottom: 15px;
-        color: #0f0;
-    }
-
-    .login-content input {
-        display: block;
-        width: 90%;
-        margin: 10px auto;
-        padding: 8px;
-        background: #222;
-        border: 1px solid #666;
-        color: #ccc;
-        border-radius: 4px;
-    }
-
-    .login-content button {
-        width: 45%;
-        margin: 10px 5px;
-        padding: 8px;
-        background: #222;
-        border: 1px solid #666;
-        color: #ccc;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-        .login-content button:hover {
-            background: #444;
-        }
-
-.auth-buttons {
-    margin-top: 10px;
+    animation: fadeIn 0.5s ease-out forwards;
 }
 
 .login-container {
-    display: none;
+    display: none; /* Hidden by default */
     position: fixed;
-    z-index: 9999;
+    z-index: 4000;
     top: 0;
     left: 0;
     width: 100%;
@@ -405,10 +416,12 @@ html, body {
     background: rgba(10, 23, 51, 0.85);
     align-items: center;
     justify-content: center;
+    /* Flex properties inherited from .login-screen */
 }
 
 .login-content {
-    background: #0a1733;
+    background: #0a1733; /* Merged styles */
+    border: 1px solid #333;
     color: #fff;
     padding: 2em;
     border-radius: 8px;
@@ -416,6 +429,7 @@ html, body {
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     max-width: 400px;
     width: 90%;
+    /* Removed duplicate properties */
 }
 
     .login-content h2 {
@@ -430,6 +444,8 @@ html, body {
         width: 80%;
         border: none;
         border-radius: 4px;
+        background: #222;
+        color: #ccc;
     }
 
     .login-content button {
@@ -440,13 +456,17 @@ html, body {
         background-color: #25517d;
         color: #fff;
         cursor: pointer;
+        transition: background-color 0.3s ease;
     }
 
         .login-content button:hover {
             background-color: #2c65a1;
         }
 
-/* REMOVED the .menu-button code and #menu-drawer references */
+/* ================================================================= */
+/*                           KRACKEN MARKER                         */
+/* ================================================================= */
+
 .kraken-marker {
     transform: rotate(var(--angle));
     font-size: 1.5rem;
@@ -454,8 +474,11 @@ html, body {
     text-shadow: 1px 1px 2px black;
 }
 
+/* ================================================================= */
+/*                    MOBILE VIEW ADJUSTMENTS                       */
+/* ================================================================= */
 
-/* Mobile View Adjustments (Reimagined) */
+/* Mobile View Adjustments */
 @media (max-width: 768px) {
     /* Hide the status window on mobile */
     #status-window {
@@ -516,11 +539,12 @@ html, body {
         right: 0;
         left: 0;
         transform: translateY(100%);
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     }
 
         .modal.show {
             transform: translateY(0);
+            opacity: 1;
         }
 
     .modal-content {
@@ -530,6 +554,155 @@ html, body {
         padding: 20px;
         box-sizing: border-box;
     }
+
+    /* Adjust floating button size for smaller screens */
+    @media (max-width: 480px) {
+        .floating-button {
+            width: 70px;
+            height: 70px;
+            font-size: 1.75rem;
+        }
+
+        #menu-floating-button {
+            width: 70px;
+            height: 70px;
+            font-size: 1.75rem;
+            line-height: 70px;
+        }
+    }
 }
 
+/* ================================================================= */
+/*                          DARK MODE TOGGLE                        */
+/* ================================================================= */
 
+/* Dark Mode Styles */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+    body.light-mode .splash-screen {
+        background-image: url('./patriotic-light.webp');
+        background-blend-mode: normal;
+    }
+
+    body.light-mode #status-window,
+    body.light-mode #problem-details,
+    body.light-mode .modal-content,
+    body.light-mode .login-content {
+        background: #f0f0f0;
+        color: #000;
+        border: 1px solid #ccc;
+    }
+
+    body.light-mode .splash-content {
+        background: rgba(255, 255, 255, 0.9);
+        color: #000;
+    }
+
+        body.light-mode .splash-content p,
+        body.light-mode #status-window h3,
+        body.light-mode #problem-details h3,
+        body.light-mode .modal h4,
+        body.light-mode .login-content h2 {
+            color: #333;
+        }
+
+    body.light-mode .splash-button,
+    body.light-mode .modal-content button,
+    body.light-mode #submit-problem,
+    body.light-mode #deploy-button,
+    body.light-mode .login-content button {
+        background: #007bff;
+        color: #fff;
+    }
+
+        body.light-mode .splash-button:hover,
+        body.light-mode .modal-content button:hover,
+        body.light-mode #submit-problem:hover,
+        body.light-mode #deploy-button:hover,
+        body.light-mode .login-content button:hover {
+            background: #0056b3;
+        }
+
+    body.light-mode .floating-button {
+        background: #ccc;
+        color: #000;
+    }
+
+        body.light-mode .floating-button:hover {
+            background: #bbb;
+        }
+
+/* ================================================================= */
+/*                          ANIMATIONS                              */
+/* ================================================================= */
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slide Up Animation */
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* ================================================================= */
+/*                          RESPONSIVE UNITS                         */
+/* ================================================================= */
+
+/* Example of using relative units */
+.modal-content {
+    padding: 2rem 1.25rem 1.25rem; /* 2em -> 2rem for scalability */
+}
+
+    .splash-button,
+    #submit-problem,
+    #deploy-button,
+    .modal-content button,
+    .login-content button {
+        padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+        font-size: 1rem;
+    }
+
+@media (max-width: 768px) {
+    .modal-content input,
+    .modal-content select,
+    .modal-content textarea,
+    .login-content input {
+        padding: 0.5rem; /* 8px */
+    }
+}
+
+/* ================================================================= */
+/*                      ACCESSIBILITY FOCUS OUTLINES                 */
+/* ================================================================= */
+
+/* Ensure focus outlines are visible */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+/* ================================================================= */
+/*                          END OF STYLES                            */
+/* ================================================================= */
