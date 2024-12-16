@@ -578,182 +578,187 @@ html, body {
             line-height: 40px;
         }
     }
-}
 
-/* ================================================================= */
-/*                          DARK MODE TOGGLE                        */
-/* ================================================================= */
+    /* ================================================================= */
+    /*                          SPECIFIC BUTTON FIXES                   */
+    /* ================================================================= */
 
-/* Dark Mode Styles */
-body.light-mode {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-    body.light-mode .splash-screen {
-        background-image: url('./patriotic-light.webp');
-        background-blend-mode: normal;
-    }
-
-    body.light-mode #status-window,
-    body.light-mode #problem-details,
-    body.light-mode .modal-content,
-    body.light-mode .login-content {
-        background: #f0f0f0;
-        color: #000;
-        border: 1px solid #ccc;
-    }
-
-    body.light-mode .splash-content {
-        background: rgba(255, 255, 255, 0.9);
-        color: #000;
-    }
-
-        body.light-mode .splash-content p,
-        body.light-mode #status-window h3,
-        body.light-mode #problem-details h3,
-        body.light-mode .modal h4,
-        body.light-mode .login-content h2 {
-            color: #333;
-        }
-
-    body.light-mode .splash-button,
-    body.light-mode .modal-content button,
-    body.light-mode #submit-problem,
-    body.light-mode #deploy-button,
-    body.light-mode .login-content button {
-        background: #007bff;
+    /* Ensure #button-44te is visible and properly styled */
+    #button-44te {
+        position: fixed;
+        bottom: 20px;
+        right: 90px; /* Adjust based on other buttons */
+        background: #ff5722; /* Distinct color for visibility */
         color: #fff;
-    }
-
-        body.light-mode .splash-button:hover,
-        body.light-mode .modal-content button:hover,
-        body.light-mode #submit-problem:hover,
-        body.light-mode #deploy-button:hover,
-        body.light-mode .login-content button:hover {
-            background: #0056b3;
-        }
-
-    body.light-mode .floating-button {
-        background: #ccc;
-        color: #000;
-    }
-
-        body.light-mode .floating-button:hover {
-            background: #bbb;
-        }
-
-/* ================================================================= */
-/*                          ANIMATIONS                              */
-/* ================================================================= */
-
-/* Fade In Animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-/* Slide Up Animation */
-@keyframes slideUp {
-    from {
-        transform: translateY(20px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-/* ================================================================= */
-/*                          RESPONSIVE UNITS                         */
-/* ================================================================= */
-
-/* Example of using relative units */
-.modal-content {
-    padding: 2rem 1.25rem 1.25rem; /* 2em -> 2rem for scalability */
-}
-
-    .splash-button,
-    #submit-problem,
-    #deploy-button,
-    .modal-content button,
-    .login-content button {
-        padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+        border: none;
+        width: 50px; /* Initial size */
+        height: 50px; /* Initial size */
+        border-radius: 50%;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
         font-size: 1rem;
+        cursor: pointer;
+        z-index: 2500; /* Higher than other elements */
+        transition: background 0.3s ease, transform 0.3s ease;
     }
 
-@media (max-width: 768px) {
-    .modal-content input,
-    .modal-content select,
-    .modal-content textarea,
-    .login-content input {
-        padding: 0.5rem; /* 8px */
-    }
-}
+        #button-44te:hover {
+            background: #e64a19;
+            transform: scale(1.05);
+        }
 
-/* ================================================================= */
-/*                      ACCESSIBILITY FOCUS OUTLINES                 */
-/* ================================================================= */
-
-/* Ensure focus outlines are visible */
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-    outline: 2px solid #007bff;
-    outline-offset: 2px;
-}
-
-/* ================================================================= */
-/*                          END OF STYLES                            */
-/* ================================================================= */
-
-/* ================================================================= */
-/*                          SPECIFIC BUTTON FIXES                   */
-/* ================================================================= */
-
-/* Ensure #button-44te is visible and properly styled */
-#button-44te {
-    position: fixed;
-    bottom: 20px;
-    right: 90px; /* Adjust based on other buttons */
-    background: #ff5722; /* Distinct color */
-    color: #fff;
-    border: none;
-    width: 50px; /* Adjusted size */
-    height: 50px; /* Adjusted size */
-    border-radius: 50%;
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
-    font-size: 1rem;
-    cursor: pointer;
-    z-index: 2500; /* Higher than other elements */
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-
-    #button-44te:hover {
-        background: #e64a19;
-        transform: scale(1.05);
+    /* Adjustments for Mobile Screens */
+    @media (max-width: 768px) {
+        #button-44te {
+            position: static; /* Remove fixed positioning */
+            margin-top: 10px; /* Place below submit button */
+            right: auto; /* Remove right positioning */
+            bottom: auto; /* Remove bottom positioning */
+            z-index: 1900; /* Lower than modal */
+            display: block; /* Ensure it's displayed */
+        }
     }
 
-/* Adjustments for mobile screens */
-@media (max-width: 768px) {
-    #button-44te {
-        right: 70px; /* Adjust to prevent overlap */
+    @media (max-width: 480px) {
+        #button-44te {
+            width: 40px; /* Further reduced size */
+            height: 40px; /* Further reduced size */
+            font-size: 0.9rem;
+            line-height: 40px; /* Adjusted to match height */
+            margin-top: 10px; /* Ensure spacing */
+        }
     }
-}
 
-@media (max-width: 480px) {
-    #button-44te {
-        width: 40px; /* Further reduced size */
-        height: 40px; /* Further reduced size */
-        font-size: 0.9rem;
-        right: 60px; /* Further adjust to prevent overlap */
+    /* ================================================================= */
+    /*                          DARK MODE TOGGLE                        */
+    /* ================================================================= */
+
+    /* Dark Mode Styles */
+    body.light-mode {
+        background-color: #ffffff;
+        color: #000000;
     }
-}
+
+        body.light-mode .splash-screen {
+            background-image: url('./patriotic-light.webp');
+            background-blend-mode: normal;
+        }
+
+        body.light-mode #status-window,
+        body.light-mode #problem-details,
+        body.light-mode .modal-content,
+        body.light-mode .login-content {
+            background: #f0f0f0;
+            color: #000;
+            border: 1px solid #ccc;
+        }
+
+        body.light-mode .splash-content {
+            background: rgba(255, 255, 255, 0.9);
+            color: #000;
+        }
+
+            body.light-mode .splash-content p,
+            body.light-mode #status-window h3,
+            body.light-mode #problem-details h3,
+            body.light-mode .modal h4,
+            body.light-mode .login-content h2 {
+                color: #333;
+            }
+
+        body.light-mode .splash-button,
+        body.light-mode .modal-content button,
+        body.light-mode #submit-problem,
+        body.light-mode #deploy-button,
+        body.light-mode .login-content button {
+            background: #007bff;
+            color: #fff;
+        }
+
+            body.light-mode .splash-button:hover,
+            body.light-mode .modal-content button:hover,
+            body.light-mode #submit-problem:hover,
+            body.light-mode #deploy-button:hover,
+            body.light-mode .login-content button:hover {
+                background: #0056b3;
+            }
+
+        body.light-mode .floating-button {
+            background: #ccc;
+            color: #000;
+        }
+
+            body.light-mode .floating-button:hover {
+                background: #bbb;
+            }
+
+    /* ================================================================= */
+    /*                          ANIMATIONS                              */
+    /* ================================================================= */
+
+    /* Fade In Animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Slide Up Animation */
+    @keyframes slideUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    /* ================================================================= */
+    /*                          RESPONSIVE UNITS                         */
+    /* ================================================================= */
+
+    /* Example of using relative units */
+    .modal-content {
+        padding: 2rem 1.25rem 1.25rem; /* 2em -> 2rem for scalability */
+    }
+
+        .splash-button,
+        #submit-problem,
+        #deploy-button,
+        .modal-content button,
+        .login-content button {
+            padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+            font-size: 1rem;
+        }
+
+    @media (max-width: 768px) {
+        .modal-content input,
+        .modal-content select,
+        .modal-content textarea,
+        .login-content input {
+            padding: 0.5rem; /* 8px */
+        }
+    }
+
+    /* ================================================================= */
+    /*                      ACCESSIBILITY FOCUS OUTLINES                 */
+    /* ================================================================= */
+
+    /* Ensure focus outlines are visible */
+    button:focus,
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: 2px solid #007bff;
+        outline-offset: 2px;
+    }
+
+    /* ================================================================= */
+    /*                          END OF STYLES                            */
+    /* ================================================================= */
