@@ -248,7 +248,25 @@ html, body {
     padding-top: 60px;
     /* z-index: 2000; defined in Z-INDEX SCALE */
     opacity: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
 }
+
+    /* Ensure smooth scrolling behavior */
+    .modal::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .modal::-webkit-scrollbar-track {
+        background: #1e1e1e;
+    }
+
+    .modal::-webkit-scrollbar-thumb {
+        background: #444;
+    }
+
+        .modal::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
 
     .modal.show {
         transform: translateX(0);
@@ -264,68 +282,17 @@ html, body {
     color: #ddd;
     position: relative;
     /* z-index: 2100; defined in Z-INDEX SCALE */
+    max-height: 90vh; /* Prevent content from exceeding viewport height */
+    overflow-y: auto; /* Enable scrolling within modal content if needed */
 }
 
-.modal-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 1.5rem;
-    color: #aaa;
-    cursor: pointer;
-    background: none;
-    border: none;
-    padding: 0;
-    line-height: 1;
-    transition: color 0.3s ease;
-}
-
-    .modal-close:hover {
-        color: #fff;
+/* Optional: Adjust padding for better responsiveness */
+@media (max-width: 1200px) {
+    .modal-content {
+        padding: 40px 15px 15px;
     }
-
-.modal h4 {
-    margin-bottom: 15px;
-    color: #f0f0f0;
-    font-weight: 500;
 }
 
-.modal img {
-    max-width: 100%;
-    max-height: 70vh;
-    object-fit: contain;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-/* Modal Inputs and Buttons */
-.modal-content input,
-.modal-content select,
-.modal-content textarea {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    background: #1e1e1e;
-    color: #f0f0f0;
-}
-
-.modal-content button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #007bff;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-    .modal-content button:hover {
-        background: #0056b3;
-    }
 
 /* ================================================================= */
 /*                        BOTTOM CONTROLS                           */
