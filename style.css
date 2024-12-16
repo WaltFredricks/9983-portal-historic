@@ -510,16 +510,16 @@ html, body {
         position: fixed;
         bottom: 20px;
         right: 20px;
-        width: 60px;
-        height: 60px;
+        width: 50px; /* Reduced size */
+        height: 50px; /* Reduced size */
         background: #007bff;
         color: white;
         border: none;
         border-radius: 50%;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-        font-size: 1.5rem;
+        font-size: 1.2rem; /* Adjusted font size */
         text-align: center;
-        line-height: 60px;
+        line-height: 50px; /* Adjusted to match height */
         cursor: pointer;
         z-index: 2000;
         transition: background 0.3s ease, transform 0.3s ease;
@@ -558,16 +558,24 @@ html, body {
     /* Adjust floating button size for smaller screens */
     @media (max-width: 480px) {
         .floating-button {
-            width: 70px;
-            height: 70px;
-            font-size: 1.75rem;
+            width: 40px; /* Further reduced size */
+            height: 40px; /* Further reduced size */
+            font-size: 1rem; /* Adjusted font size */
         }
 
         #menu-floating-button {
-            width: 70px;
-            height: 70px;
-            font-size: 1.75rem;
-            line-height: 70px;
+            width: 40px; /* Further reduced size */
+            height: 40px; /* Further reduced size */
+            font-size: 1rem; /* Adjusted font size */
+            line-height: 40px; /* Adjusted to match height */
+        }
+
+        /* Adjust #button-44te if it exists */
+        #button-44te {
+            width: 40px; /* Ensuring it's not too large */
+            height: 40px;
+            font-size: 0.9rem;
+            line-height: 40px;
         }
     }
 }
@@ -706,3 +714,46 @@ textarea:focus {
 /* ================================================================= */
 /*                          END OF STYLES                            */
 /* ================================================================= */
+
+/* ================================================================= */
+/*                          SPECIFIC BUTTON FIXES                   */
+/* ================================================================= */
+
+/* Ensure #button-44te is visible and properly styled */
+#button-44te {
+    position: fixed;
+    bottom: 20px;
+    right: 90px; /* Adjust based on other buttons */
+    background: #ff5722; /* Distinct color */
+    color: #fff;
+    border: none;
+    width: 50px; /* Adjusted size */
+    height: 50px; /* Adjusted size */
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 2500; /* Higher than other elements */
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+    #button-44te:hover {
+        background: #e64a19;
+        transform: scale(1.05);
+    }
+
+/* Adjustments for mobile screens */
+@media (max-width: 768px) {
+    #button-44te {
+        right: 70px; /* Adjust to prevent overlap */
+    }
+}
+
+@media (max-width: 480px) {
+    #button-44te {
+        width: 40px; /* Further reduced size */
+        height: 40px; /* Further reduced size */
+        font-size: 0.9rem;
+        right: 60px; /* Further adjust to prevent overlap */
+    }
+}
