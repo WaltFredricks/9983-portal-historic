@@ -216,7 +216,7 @@ html, body {
     border: none;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
     cursor: pointer;
-    /* z-index: 100; adjusted in Z-INDEX SCALE */
+    z-index: 3500;
     transition: all 0.3s ease;
 }
 
