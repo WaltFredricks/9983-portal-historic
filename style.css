@@ -7,11 +7,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0e0e10;
-    color: #e0e0e0;
+    background-color: #121212;
+    color: #ddd;
     height: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 * {
@@ -73,11 +71,11 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, #0b0b0c, #1a1a1a);
+    background: linear-gradient(to bottom, #0f0f0f, #191919);
     background-image: url('./patriotic.webp');
     background-size: cover;
     background-position: center;
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,42 +84,36 @@ html, body {
 
 .splash-content {
     text-align: center;
-    background: rgba(20, 20, 20, 0.85);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    background: rgba(30, 30, 30, 0.9);
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
     animation: slideUp 0.5s ease-out forwards;
 }
 
     .splash-content h1 {
         margin-bottom: 15px;
         color: #fff;
-        font-weight: 700;
-        font-size: 2rem;
-        letter-spacing: 1px;
+        font-weight: 600;
     }
 
     .splash-content p {
-        color: #bbb;
-        font-size: 1rem;
+        color: #aaa;
     }
 
 .splash-button {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: #007bff;
     color: #fff;
     border: none;
-    padding: 12px 25px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 8px;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: transform 0.3s ease, background 0.3s ease;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
     .splash-button:hover {
-        background: linear-gradient(135deg, #0056b3, #003f7f);
-        transform: scale(1.05);
+        background: #0056b3;
     }
 
 /* ================================================================= */
@@ -130,20 +122,21 @@ html, body {
 
 #status-window {
     position: fixed;
-    left: 20px;
+    left: 30px;
     top: 60px;
-    background: rgba(30, 30, 30, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    background: #1e1e1e;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     width: 300px;
+    /* z-index: 1000; defined in Z-INDEX SCALE */
 }
 
     #status-window h3 {
-        margin: 0 0 10px;
-        font-size: 1.2rem;
-        color: #f5f5f5;
+        margin: 0;
+        font-size: 1.1rem;
+        color: #f0f0f0;
     }
 
 /* ================================================================= */
@@ -152,29 +145,30 @@ html, body {
 
 #problem-details {
     position: fixed;
-    left: 20px;
-    bottom: 20px;
-    background: rgba(30, 30, 30, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    left: 30px;
+    bottom: 60px;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     width: 300px;
+    /* z-index: 1000; defined in Z-INDEX SCALE */
 }
 
     #problem-details h3 {
-        margin: 0 0 10px;
-        font-size: 1.2rem;
-        color: #f5f5f5;
+        margin: 0 0 10px 0;
+        font-size: 1.1rem;
+        color: #f0f0f0;
     }
 
 #problem-description {
     width: 100%;
     height: 60px;
     margin-bottom: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 6px;
-    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
     background: #2a2a2a;
     color: #ddd;
 }
@@ -182,79 +176,556 @@ html, body {
 .coordinates input {
     width: 48%;
     margin: 0 1% 10px 0;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 6px;
-    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
     background: #2a2a2a;
     color: #ddd;
 }
 
 #submit-problem {
     width: 100%;
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: #007bff;
     color: #fff;
     border: none;
-    padding: 12px;
-    font-size: 1rem;
-    font-weight: 600;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
+    transition: background 0.3s ease;
 }
 
     #submit-problem:hover {
-        background: linear-gradient(135deg, #0056b3, #003f7f);
-        transform: scale(1.05);
+        background: #0056b3;
     }
 
 /* ================================================================= */
 /*                          DEPLOY BUTTON                            */
 /* ================================================================= */
 
+/* Deploy Button Position on Desktop */
 #deploy-button {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: linear-gradient(135deg, #e53935, #b71c1c);
+    bottom: 30px;
+    right: 30px; /* Positioned to the right */
+    background-color: #e53935;
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 15px 30px;
-    border-radius: 10px;
+    padding: 15px 25px;
+    border-radius: 8px;
     border: none;
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.6);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
     cursor: pointer;
+    /* z-index: 100; adjusted in Z-INDEX SCALE */
     transition: all 0.3s ease;
 }
 
     #deploy-button:hover {
-        background: linear-gradient(135deg, #b71c1c, #8e1515);
-        transform: scale(1.1);
-        box-shadow: 0px 15px 40px rgba(0,0,0,0.8);
+        background-color: #d32f2f;
+        transform: scale(1.05);
+        box-shadow: 0px 15px 45px rgba(0,0,0,0.6);
     }
 
-/* Responsive Adjustments */
+/* ================================================================= */
+/*                              MODALS                               */
+/* ================================================================= */
+
+/* Modal (Sliding Panel from the Right on Desktop) */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(to bottom, #171717, #2c2c2c);
+    box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+    /* z-index: 2000; defined in Z-INDEX SCALE */
+    opacity: 0;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+    /* Ensure smooth scrolling behavior */
+    .modal::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .modal::-webkit-scrollbar-track {
+        background: #1e1e1e;
+    }
+
+    .modal::-webkit-scrollbar-thumb {
+        background: #444;
+    }
+
+        .modal::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+    .modal.show {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+.modal-content {
+    width: 90%;
+    background: #242424;
+    border-radius: 8px;
+    padding: 60px 20px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+    color: #ddd;
+    position: relative;
+    /* z-index: 2100; defined in Z-INDEX SCALE */
+    max-height: 90vh; /* Prevent content from exceeding viewport height */
+    overflow-y: auto; /* Enable scrolling within modal content if needed */
+}
+
+/* Optional: Adjust padding for better responsiveness */
+@media (max-width: 1200px) {
+    .modal-content {
+        padding: 40px 15px 15px;
+    }
+}
+
+
+/* ================================================================= */
+/*                        BOTTOM CONTROLS                           */
+/* ================================================================= */
+
+/* Bottom Controls Container */
+.bottom-controls {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    z-index: 1000;
+}
+
+/* Floating Buttons */
+.floating-button {
+    background: #333;
+    color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    transition: background 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .floating-button:hover {
+        background: #444;
+        transform: scale(1.05);
+    }
+
+/* ================================================================= */
+/*                           SCROLLBARS                             */
+/* ================================================================= */
+
+/* Scrollbars (Optional) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+/* ================================================================= */
+/*                           LOGIN SCREEN                           */
+/* ================================================================= */
+
+/* Login Screen */
+.login-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5,5,5,0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 4000; defined in Z-INDEX SCALE */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.login-container {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 4000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 23, 51, 0.85);
+    align-items: center;
+    justify-content: center;
+    /* Flex properties inherited from .login-screen */
+}
+
+.login-content {
+    background: #0a1733; /* Merged styles */
+    border: 1px solid #333;
+    color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    max-width: 400px;
+    width: 90%;
+    /* Removed duplicate properties */
+}
+
+    .login-content h2 {
+        margin-bottom: 1em;
+        color: #aad4ff;
+    }
+
+    .login-content input {
+        display: block;
+        margin: 0.5em auto;
+        padding: 0.5em;
+        width: 80%;
+        border: none;
+        border-radius: 4px;
+        background: #222;
+        color: #ccc;
+    }
+
+    .login-content button {
+        margin: 0.5em;
+        padding: 0.6em 1em;
+        border: none;
+        border-radius: 4px;
+        background-color: #25517d;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .login-content button:hover {
+            background-color: #2c65a1;
+        }
+
+/* ================================================================= */
+/*                           KRACKEN MARKER                         */
+/* ================================================================= */
+
+.kraken-marker {
+    transform: rotate(var(--angle));
+    font-size: 1.5rem;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* ================================================================= */
+/*                    MOBILE VIEW ADJUSTMENTS                       */
+/* ================================================================= */
+
+/* Mobile View Adjustments */
 @media (max-width: 768px) {
-    #status-window, #problem-details {
-        left: 10px;
-        right: 10px;
-        width: calc(100% - 20px);
-        bottom: 10px;
+    /* Hide the status window on mobile */
+    #status-window {
+        display: none;
+    }
+
+    /* Make the map take up more space since status is hidden */
+    #map {
+        height: 60vh;
+    }
+
+    /* Stack the problem details at the top in mobile */
+    #problem-details {
+        position: static;
+        width: 100%;
+        margin: 0 auto 10px auto;
+        left: auto;
+        bottom: auto;
     }
 
     #deploy-button {
-        bottom: 10px;
-        right: 10px;
-        font-size: 1.2rem;
-        padding: 12px 20px;
+        position: static;
+        margin: 0 auto 10px auto;
+        display: block;
     }
 
-    .splash-content h1 {
-        font-size: 1.5rem;
+    /* Floating button to open modal menus */
+    #menu-floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px; /* Reduced size */
+        height: 50px; /* Reduced size */
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        font-size: 1.2rem; /* Adjusted font size */
+        text-align: center;
+        line-height: 50px; /* Adjusted to match height */
+        cursor: pointer;
+        z-index: 2000;
+        transition: background 0.3s ease, transform 0.3s ease;
     }
 
-    .splash-button {
-        font-size: 0.9rem;
-        padding: 10px 20px;
+        #menu-floating-button:hover {
+            background: #0056b3;
+            transform: scale(1.1);
+        }
+
+    /* Modals take full screen on mobile */
+    .modal {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     }
-}
+
+        .modal.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+    .modal-content {
+        width: 100%;
+        height: 100%;
+        border-radius: 0; /* Full screen modals don't need rounded corners */
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Adjust floating button size for smaller screens */
+    @media (max-width: 480px) {
+        .floating-button {
+            width: 40px; /* Further reduced size */
+            height: 40px; /* Further reduced size */
+            font-size: 1rem; /* Adjusted font size */
+        }
+
+        #menu-floating-button {
+            width: 40px; /* Further reduced size */
+            height: 40px; /* Further reduced size */
+            font-size: 1rem; /* Adjusted font size */
+            line-height: 40px; /* Adjusted to match height */
+        }
+
+        /* Adjust #button-44te if it exists */
+        #button-44te {
+            width: 40px; /* Ensuring it's not too large */
+            height: 40px;
+            font-size: 0.9rem;
+            line-height: 40px;
+        }
+    }
+
+    /* ================================================================= */
+    /*                          SPECIFIC BUTTON FIXES                   */
+    /* ================================================================= */
+
+    /* Ensure #button-44te is visible and properly styled */
+    #button-44te {
+        position: fixed;
+        bottom: 20px;
+        right: 90px; /* Adjust based on other buttons */
+        background: #ff5722; /* Distinct color for visibility */
+        color: #fff;
+        border: none;
+        width: 50px; /* Initial size */
+        height: 50px; /* Initial size */
+        border-radius: 50%;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+        font-size: 1rem;
+        cursor: pointer;
+        z-index: 2500; /* Higher than other elements */
+        transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+        #button-44te:hover {
+            background: #e64a19;
+            transform: scale(1.05);
+        }
+
+    /* Adjustments for Mobile Screens */
+    @media (max-width: 768px) {
+        #button-44te {
+            position: static; /* Remove fixed positioning */
+            margin-top: 10px; /* Place below submit button */
+            right: auto; /* Remove right positioning */
+            bottom: auto; /* Remove bottom positioning */
+            z-index: 1900; /* Lower than modal */
+            display: block; /* Ensure it's displayed */
+        }
+    }
+
+    @media (max-width: 480px) {
+        #button-44te {
+            width: 40px; /* Further reduced size */
+            height: 40px; /* Further reduced size */
+            font-size: 0.9rem;
+            line-height: 40px; /* Adjusted to match height */
+            margin-top: 10px; /* Ensure spacing */
+        }
+    }
+
+    /* ================================================================= */
+    /*                          DARK MODE TOGGLE                        */
+    /* ================================================================= */
+
+    /* Dark Mode Styles */
+    body.light-mode {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+        body.light-mode .splash-screen {
+            background-image: url('./patriotic-light.webp');
+            background-blend-mode: normal;
+        }
+
+        body.light-mode #status-window,
+        body.light-mode #problem-details,
+        body.light-mode .modal-content,
+        body.light-mode .login-content {
+            background: #f0f0f0;
+            color: #000;
+            border: 1px solid #ccc;
+        }
+
+        body.light-mode .splash-content {
+            background: rgba(255, 255, 255, 0.9);
+            color: #000;
+        }
+
+            body.light-mode .splash-content p,
+            body.light-mode #status-window h3,
+            body.light-mode #problem-details h3,
+            body.light-mode .modal h4,
+            body.light-mode .login-content h2 {
+                color: #333;
+            }
+
+        body.light-mode .splash-button,
+        body.light-mode .modal-content button,
+        body.light-mode #submit-problem,
+        body.light-mode #deploy-button,
+        body.light-mode .login-content button {
+            background: #007bff;
+            color: #fff;
+        }
+
+            body.light-mode .splash-button:hover,
+            body.light-mode .modal-content button:hover,
+            body.light-mode #submit-problem:hover,
+            body.light-mode #deploy-button:hover,
+            body.light-mode .login-content button:hover {
+                background: #0056b3;
+            }
+
+        body.light-mode .floating-button {
+            background: #ccc;
+            color: #000;
+        }
+
+            body.light-mode .floating-button:hover {
+                background: #bbb;
+            }
+
+    /* ================================================================= */
+    /*                          ANIMATIONS                              */
+    /* ================================================================= */
+
+    /* Fade In Animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* Slide Up Animation */
+    @keyframes slideUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    /* ================================================================= */
+    /*                          RESPONSIVE UNITS                         */
+    /* ================================================================= */
+
+    /* Example of using relative units */
+    .modal-content {
+        padding: 2rem 1.25rem 1.25rem; /* 2em -> 2rem for scalability */
+    }
+
+        .splash-button,
+        #submit-problem,
+        #deploy-button,
+        .modal-content button,
+        .login-content button {
+            padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+            font-size: 1rem;
+        }
+
+    @media (max-width: 768px) {
+        .modal-content input,
+        .modal-content select,
+        .modal-content textarea,
+        .login-content input {
+            padding: 0.5rem; /* 8px */
+        }
+    }
+
+    /* ================================================================= */
+    /*                      ACCESSIBILITY FOCUS OUTLINES                 */
+    /* ================================================================= */
+
+    /* Ensure focus outlines are visible */
+    button:focus,
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: 2px solid #007bff;
+        outline-offset: 2px;
+    }
+
+    /* ================================================================= */
+    /*                          END OF STYLES                            */
+    /* ================================================================= */
