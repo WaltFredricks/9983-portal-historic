@@ -208,9 +208,30 @@
 
 
     <div class="modal" id="cad-modal" role="dialog" aria-modal="true" aria-label="Computer Aided Dispatch">
+        
+        
         <div class="modal-content">
             <button class="modal-close" role="button" aria-label="Close Modal">&times;</button>
-            <iframe id="post-iframe" src="harvest.html" style="width:100%; height:80vh; border:none;"></iframe>
+            <h4>Computer-Aided Dispatch (CAD)</h4>
+            <div class="cad-controls" style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <button id="filter-incidents" aria-label="Filter Incidents">Filter Incidents</button>
+                <button id="export-log" aria-label="Export Log">Export Log</button>
+            </div>
+            <div id="cad-incident-log" style="height: 200px; overflow-y: auto; border: 1px solid #333; background-color: #2a2a2a; padding: 10px;" aria-live="polite">
+                <p>No incidents currently logged.</p>
+            </div>
+            <form id="cad-form" aria-label="CAD Form">
+                <label for="cad-call">Call for Service:</label>
+                <input type="text" id="cad-call" placeholder="Enter service call details..." required aria-label="Call for Service"><br>
+
+                <label for="cad-unit">Assign Unit:</label>
+                <input type="text" id="cad-unit" placeholder="Enter unit details..." required aria-label="Assign Unit"><br>
+
+                <label for="cad-status">Status Update:</label>
+                <textarea id="cad-status" placeholder="Enter status update..." rows="3" aria-label="Status Update"></textarea><br>
+
+                <button type="submit" id="submit-cad" aria-label="Log Incident">Log Incident</button>
+            </form>
         </div>
     </div>
 
