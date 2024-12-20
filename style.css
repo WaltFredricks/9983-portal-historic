@@ -736,7 +736,7 @@ textarea:focus {
     box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
     font-size: 1rem;
     cursor: pointer;
-    z-index: 2500; /* Higher than other elements */
+    z-index: 1000; /* Higher than the map */
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
