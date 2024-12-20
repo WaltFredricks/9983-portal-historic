@@ -54,3 +54,4 @@ export async function fetchFileFromHelia(fs, cid) {
         console.error('Error fetching file from Helia:', error);
     }
 }
+
