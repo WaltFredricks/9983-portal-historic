@@ -119,18 +119,28 @@
     </div>
     <div class="section">
         <label>Subreddits / Channels:</label>
-        <div class="checkbox-list" id="subredditList"></div>
+        <div class="checkbox-list" id="subredditList">
+            <label><input type="checkbox" value="9983CentralEuropeanStrikeGroup">9983 Central European Strike Group</label>
+            <label><input type="checkbox" value="9983GreatLakesStrikeGroup">9983 Great Lakes Strike Group</label>
+            <label><input type="checkbox" value="9983WestCoastStrikeGroup">9983 West Coast Strike Group</label>
+            <label><input type="checkbox" value="9983NativeAmericanTribalCouncil">9983 Native American Tribal Council</label>
+            <label><input type="checkbox" value="9983GulfStrikeGroup">9983 Gulf Strike Group</label>
+            <label><input type="checkbox" value="9983SouthernBorderStrikeGroup">9983 Southern Border Strike Group</label>
+            <label><input type="checkbox" value="9983DeepSouthStrikeGroup">9983 Deep South Strike Group</label>
+            <label><input type="checkbox" value="9983BigSkyStrikeGroup">9983 Big Sky Strike Group</label>
+            <label><input type="checkbox" value="9983AppalachianStrikeGroup">9983 Appalachian Strike Group</label>
+            <label><input type="checkbox" value="9983NortheasternStrikeGroup">9983 Northeastern Strike Group</label>
+            <label><input type="checkbox" value="9983EasternStrikeGroup">9983 Eastern Strike Group</label>
+            <label><input type="checkbox" value="9983HeartlandStrikeGroup">9983 Heartland Strike Group</label>
+            <label><input type="checkbox" value="9983NorthernBorderStrikeGroup">9983 Northern Border Strike Group</label>
+        </div>
     </div>
     <div class="section">
-        <button class="region-btn" id="btnAddAllStates">Add All States</button>
-        <button class="region-btn" id="btnNortheast">Northeast</button>
-        <button class="region-btn" id="btnSoutheast">Southeast</button>
-        <button class="region-btn" id="btnMidwest">Midwest</button>
-        <button class="region-btn" id="btnWest">West</button>
         <button class="region-btn" id="btnSelectAll">Select All</button>
         <button class="region-btn" id="btnClearSelection">Clear</button>
         <button class="region-btn" id="btnUploadSelected">Upload</button>
         <button class="region-btn" id="btnAddSpooks">Add Spooks</button>
+        <button class="region-btn" id="btnUploadIPFS">Upload to IPFS</button>
     </div>
     <div class="section">
         <label>Results:</label>
@@ -138,6 +148,24 @@
     </div>
     <img id="previewImg" />
 
-    <script src="./harvest.js"></script>
+    <script src="./heliaIntegration.js" type="module"></script>
+    <script>
+        import { initHelia, uploadFileToHelia } from './heliaIntegration.js';
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            const { fs } = await initHelia();
+
+            document.getElementById('btnUploadIPFS').addEventListener('click', async () => {
+                const fileInput = document.getElementById('txtImagePath');
+                const file = fileInput.files[0];
+
+                if (file) {
+                    await uploadFileToHelia(fs, file);
+                } else {
+                    alert('Please select a file to upload.');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
