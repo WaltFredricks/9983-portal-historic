@@ -3,7 +3,7 @@
 // Fetches crime data and displays it on the map
 async function fetchCrimeData(map) {
     try {
-        const response = await fetch('https://waltfredricks.github.io/crime_ht_2023.json');
+        const response = await fetch('http://portal.9983.xo.je/crime_ht_2023.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const crimeData = await response.json();
 
@@ -33,7 +33,7 @@ async function fetchCrimeData(map) {
 // Fetches location data and displays it on the map
 async function fetchLocations(map) {
     try {
-        const response = await fetch('https://waltfredricks.github.io/locs.json');
+        const response = await fetch('https://portal.9983.xo.je/locs.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const locations = await response.json();
         const bounds = [];
